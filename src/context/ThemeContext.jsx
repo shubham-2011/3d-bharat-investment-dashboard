@@ -13,12 +13,21 @@ export function ThemeProvider({ children }) {
 
   useEffect(() => {
     const saved = localStorage.getItem("3db_theme");
+    let activeTheme = "dark";
     if (saved) {
-      setTheme(saved);
-    } else {
-      setTheme("dark");
+      activeTheme = saved;
+    } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches) {
+      activeTheme = "light";
     }
+    setTheme(activeTheme);
     setMounted(true);
+
+    const root = document.documentElement;
+    if (activeTheme === "dark") {
+      root.classList.add("dark");
+    } else {
+      root.classList.remove("dark");
+    }
   }, []);
 
   useEffect(() => {
