@@ -1,114 +1,74 @@
 [
   {
-    "industry": "Fintech",
-    "dealCount": 5,
-    "totalValue": 10022,
-    "avgROI": 17.2,
-    "avgRisk": 1.8
-  },
-  {
-    "industry": "HealthTech",
-    "dealCount": 5,
-    "totalValue": 30664,
-    "avgROI": 18.8,
-    "avgRisk": 2
-  },
-  {
-    "industry": "AgriTech",
-    "dealCount": 5,
-    "totalValue": 12075,
-    "avgROI": 21.8,
-    "avgRisk": 2.2
-  },
-  {
-    "industry": "EV/CleanEnergy",
-    "dealCount": 5,
-    "totalValue": 12940,
-    "avgROI": 19.2,
-    "avgRisk": 1.8
-  },
-  {
-    "industry": "SaaS",
-    "dealCount": 5,
-    "totalValue": 13805,
-    "avgROI": 21.1,
-    "avgRisk": 2
-  },
-  {
-    "industry": "E-commerce",
-    "dealCount": 5,
-    "totalValue": 14670,
-    "avgROI": 24.4,
-    "avgRisk": 2.2
-  },
-  {
-    "industry": "Manufacturing",
-    "dealCount": 5,
-    "totalValue": 15535,
-    "avgROI": 19.9,
-    "avgRisk": 1.8
-  },
-  {
-    "industry": "EdTech",
-    "dealCount": 5,
-    "totalValue": 11600,
-    "avgROI": 22.2,
-    "avgRisk": 2
-  },
-  {
-    "industry": "Logistics",
-    "dealCount": 5,
-    "totalValue": 12465,
-    "avgROI": 22.7,
-    "avgRisk": 2.2
-  },
-  {
-    "industry": "DeepTech",
-    "dealCount": 5,
-    "totalValue": 13330,
-    "avgROI": 17.8,
-    "avgRisk": 1.8
-  },
-  {
     "industry": "Roads",
-    "dealCount": 5,
-    "totalValue": 14195,
-    "avgROI": 20.5,
-    "avgRisk": 2
-  },
-  {
-    "industry": "Bridges",
-    "dealCount": 5,
-    "totalValue": 10260,
-    "avgROI": 22.4,
-    "avgRisk": 2.2
-  },
-  {
-    "industry": "Railway",
-    "dealCount": 5,
-    "totalValue": 11125,
-    "avgROI": 19.8,
-    "avgRisk": 1.8
+    "value": 236.9,
+    "dealCount": 9,
+    "totalValue": 236.9,
+    "avgROI": 11,
+    "avgRisk": 1
   },
   {
     "industry": "Metro",
-    "dealCount": 5,
-    "totalValue": 11990,
-    "avgROI": 22.8,
+    "value": 418,
+    "dealCount": 9,
+    "totalValue": 418,
+    "avgROI": 19.2,
     "avgRisk": 2
   },
   {
+    "industry": "Railway",
+    "value": 212.7,
+    "dealCount": 9,
+    "totalValue": 212.7,
+    "avgROI": 33.3,
+    "avgRisk": 3
+  },
+  {
     "industry": "Solar",
-    "dealCount": 5,
-    "totalValue": 12855,
-    "avgROI": 23.6,
-    "avgRisk": 2.2
+    "value": 198,
+    "dealCount": 9,
+    "totalValue": 198,
+    "avgROI": 12.1,
+    "avgRisk": 1
+  },
+  {
+    "industry": "Bridges",
+    "value": 231.3,
+    "dealCount": 9,
+    "totalValue": 231.3,
+    "avgROI": 19.5,
+    "avgRisk": 2
   },
   {
     "industry": "Smart City",
-    "dealCount": 5,
-    "totalValue": 13720,
-    "avgROI": 19.1,
-    "avgRisk": 1.8
+    "value": 216.6,
+    "dealCount": 9,
+    "totalValue": 216.6,
+    "avgROI": 34.4,
+    "avgRisk": 3
+  },
+  {
+    "industry": "Water",
+    "value": 201.9,
+    "dealCount": 9,
+    "totalValue": 201.9,
+    "avgROI": 10.9,
+    "avgRisk": 1
+  },
+  {
+    "industry": "Ports",
+    "value": 187.2,
+    "dealCount": 9,
+    "totalValue": 187.2,
+    "avgROI": 19,
+    "avgRisk": 2
+  },
+  {
+    "industry": "Airports",
+    "value": 206.8,
+    "dealCount": 8,
+    "totalValue": 206.8,
+    "avgROI": 35.4,
+    "avgRisk": 3
   }
 ]
