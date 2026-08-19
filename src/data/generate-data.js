@@ -102,7 +102,7 @@ const investors = Array.from({ length: 15 }, (_, i) => {
   const preferred = [...INDUSTRIES].sort(() => 0.5 - Math.random()).slice(0, randInt(2, 3));
   return {
     id: `inv-${String(i + 1).padStart(3, "0")}`,
-    name: i === 0 ? "Meera Nair" : `${rand(FIRST)} ${rand(LAST)}`,
+    name: i === 0 ? "Shubham Kumar" : `${rand(FIRST)} ${rand(LAST)}`,
     budget: i === 0 ? 950 : randInt(20, 400) * 5,
     preferredIndustries: i === 0 ? ["Solar", "Roads", "Bridges"] : preferred,
     riskAppetite: i === 0 ? "Low" : rand(RISKS),

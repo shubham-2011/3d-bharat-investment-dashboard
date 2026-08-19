@@ -2,12 +2,18 @@
   "name": "3d-bharat-dashboard",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "test": "node --test src/utils/*.test.js",
-    "audit:data": "node scripts/audit-data.mjs"
+    "audit:data": "node scripts/audit-data.mjs",
+    "audit:deals": "node scripts/audit-deals-data.mjs",
+    "audit:overview": "node scripts/audit-overview-data.mjs",
+    "audit:remaining": "node scripts/audit-remaining-features.mjs",
+    "audit:interviewer": "node scripts/audit-interviewer-scenarios.mjs",
+    "audit:all": "node scripts/audit-data.mjs && node scripts/audit-overview-data.mjs && node scripts/audit-deals-data.mjs && node scripts/audit-remaining-features.mjs && node scripts/audit-interviewer-scenarios.mjs"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.12.0",

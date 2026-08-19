@@ -1,8 +1,8 @@
 // services/dealService.js
 // Standalone simulated service layer — zero external HTTP calls, 100% in-memory simulation.
 
-import deals from "@/data/deals.json";
-import { simulateRequest } from "./apiClient";
+import deals from "../data/deals.json" with { type: "json" };
+import { simulateRequest } from "./apiClient.js";
 
 /* ---------------- internal helpers (simulated server logic) ---------------- */
 

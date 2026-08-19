@@ -49,7 +49,7 @@ export function Header({ onMenuClick }) {
         </button>
 
         <div className="text-stone-700 dark:text-stone-300 font-medium truncate">
-          {investor?.name || "Meera Nair"}
+          {investor?.name || "Shubham Kumar"}
         </div>
       </div>
     </header>

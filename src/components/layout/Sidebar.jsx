@@ -26,8 +26,10 @@ export function Sidebar({ mobileOpen, onClose }) {
         </Link>
         {onClose && (
           <button
+            type="button"
             onClick={onClose}
-            className="lg:hidden text-stone-400 hover:text-stone-600 dark:hover:text-stone-200"
+            aria-label="Close navigation menu"
+            className="lg:hidden text-stone-400 hover:text-stone-600 dark:hover:text-stone-200 cursor-pointer p-1"
           >
             <X className="w-4 h-4" />
           </button>

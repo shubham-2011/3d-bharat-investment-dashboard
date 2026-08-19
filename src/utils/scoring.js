@@ -36,6 +36,7 @@ function roiScore(deal) {
  * (breakdown is handy for tooltips: "why is this recommended?").
  */
 export function scoreDeal(deal, investor) {
+  if (!deal || !investor) return { total: 0, breakdown: { risk: 0, industry: 0, budget: 0, roi: 0 } };
   const breakdown = {
     risk: riskScore(deal, investor),
     industry: industryScore(deal, investor),
@@ -47,13 +48,15 @@ export function scoreDeal(deal, investor) {
 }
 
 /**
- * Rank a list of deals for an investor, best match first.
- * Call inside useMemo — this touches every deal:
+ * Compute investor match score for a list of deals without disturbing service-side sort order.
+ * Call inside useMemo:
  *   const ranked = useMemo(() => rankDeals(deals, investor), [deals, investor]);
  */
 export function rankDeals(deals, investor) {
-  if (!investor) return deals.map((deal) => ({ ...deal, matchScore: 0 }));
-  return deals
-    .map((deal) => ({ ...deal, matchScore: scoreDeal(deal, investor).total }))
-    .sort((a, b) => b.matchScore - a.matchScore);
+  if (!Array.isArray(deals)) return [];
+  if (!investor) return deals.map((deal) => ({ ...deal, matchScore: undefined }));
+  return deals.map((deal) => ({
+    ...deal,
+    matchScore: scoreDeal(deal, investor).total,
+  }));
 }

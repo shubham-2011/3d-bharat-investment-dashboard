@@ -4,9 +4,11 @@ import { useEffect, useMemo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { selectInterestIds } from "@/store/slices/interestsSlice";
 import { fetchDeals, selectDealsList, selectDealsListState } from "@/store/slices/dealsSlice";
+import { fetchCurrentInvestor, selectInvestorProfile } from "@/store/slices/investorSlice";
 import { DealTable } from "@/components/deals/DealTable";
 import { StatCard } from "@/components/ui/StatCard";
 import { formatLakhs } from "@/utils/formatters";
+import { rankDeals } from "@/utils/scoring";
 import Link from "next/link";
 
 export default function WatchlistPage() {
@@ -14,14 +16,17 @@ export default function WatchlistPage() {
   const interestIds = useSelector(selectInterestIds);
   const allDeals = useSelector(selectDealsList);
   const { status } = useSelector(selectDealsListState);
+  const investor = useSelector(selectInvestorProfile);
 
   useEffect(() => {
     dispatch(fetchDeals({ pageSize: 100 }));
+    dispatch(fetchCurrentInvestor());
   }, [dispatch]);
 
   const savedDeals = useMemo(() => {
-    return allDeals.filter((deal) => interestIds.includes(deal.id));
-  }, [allDeals, interestIds]);
+    const list = allDeals.filter((deal) => interestIds.includes(deal.id));
+    return rankDeals(list, investor);
+  }, [allDeals, interestIds, investor]);
 
   const totalMinEntry = useMemo(() => {
     return savedDeals.reduce((sum, deal) => sum + deal.minInvestment, 0);
@@ -40,13 +45,24 @@ export default function WatchlistPage() {
           <h1 className="text-xl font-bold text-stone-900 dark:text-stone-100 tracking-tight">
             Watchlist
           </h1>
-          <p className="text-xs text-stone-500 dark:text-stone-400">
+          <p className="text-xs text-stone-500 dark:text-stone-400" aria-live="polite">
             {savedDeals.length} watchlisted deals
           </p>
         </div>
       </div>
 
-      {savedDeals.length > 0 && (
+      {status === "loading" && (
+        <div className="space-y-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <StatCard label="WATCHLISTED" value="—" />
+            <StatCard label="TOTAL MIN. ENTRY" value="—" />
+            <StatCard label="AVG. TARGET ROI" value="—" />
+          </div>
+          <DealTable isLoading={true} />
+        </div>
+      )}
+
+      {status !== "loading" && savedDeals.length > 0 && (
         <>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             <StatCard label="WATCHLISTED" value={savedDeals.length} />

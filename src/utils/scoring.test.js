@@ -5,7 +5,7 @@ import { scoreDeal, rankDeals } from "./scoring.js";
 describe("Scoring Recommendation Engine", () => {
   const investor = {
     id: "inv-001",
-    name: "Meera Nair",
+    name: "Shubham Kumar",
     budget: 950,
     preferredIndustries: ["Solar", "Roads", "Bridges"],
     riskAppetite: "Low",
@@ -47,9 +47,16 @@ describe("Scoring Recommendation Engine", () => {
     assert.equal(total < 30, true);
   });
 
-  it("ranks deals best match first", () => {
-    const ranked = rankDeals([deal2, deal1], investor);
+  it("calculates match scores for deal list", () => {
+    const ranked = rankDeals([deal1, deal2], investor);
     assert.equal(ranked[0].id, "deal-1");
     assert.equal(ranked[0].matchScore > ranked[1].matchScore, true);
+  });
+
+  it("handles null investor safely without throwing or returning NaN", () => {
+    const unranked = rankDeals([deal1, deal2], null);
+    assert.equal(unranked.length, 2);
+    assert.equal(unranked[0].matchScore, undefined);
+    assert.equal(unranked[1].matchScore, undefined);
   });
 });
