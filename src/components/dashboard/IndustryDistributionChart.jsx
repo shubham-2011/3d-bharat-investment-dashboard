@@ -22,7 +22,11 @@ export function IndustryDistributionChart({ data = [] }) {
   };
 
   return (
-    <div className="p-4 rounded-md border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 space-y-3">
+    <div
+      role="img"
+      aria-label="Capital split by sector donut chart"
+      className="p-4 rounded-md border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 space-y-3"
+    >
       <div className="border-b border-stone-100 dark:border-stone-800 pb-2">
         <h3 className="text-xs font-semibold uppercase tracking-wider text-stone-600 dark:text-stone-300">
           Capital split by sector
