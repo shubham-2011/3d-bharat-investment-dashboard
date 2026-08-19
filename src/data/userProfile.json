@@ -1,0 +1,28 @@
+{
+  "id": "inv-001",
+  "name": "Shubham Kumar",
+  "riskAppetite": "Medium",
+  "budgetRange": {
+    "min": 25,
+    "max": 500
+  },
+  "preferredIndustries": [
+    "Roads",
+    "Bridges",
+    "EV/CleanEnergy",
+    "Fintech",
+    "SaaS"
+  ],
+  "interests": [
+    "deal-001",
+    "deal-004",
+    "deal-012",
+    "deal-018",
+    "deal-025"
+  ],
+  "watchlist": [
+    "deal-001",
+    "deal-004",
+    "deal-012"
+  ]
+}

@@ -77,7 +77,7 @@ export const dealService = {
   /** GET deal by ID */
   getDealById(id) {
     return simulateRequest(() => {
-      const deal = deals.find((d) => d.id === id);
+      const deal = deals.find((d) => d.id.toLowerCase() === String(id).toLowerCase());
       if (!deal) throw new Error(`Deal ${id} not found`);
       return deal;
     }, { failable: false });
@@ -101,7 +101,10 @@ export const dealService = {
           acc[d.industry] = (acc[d.industry] || 0) + d.fundingRaised;
           return acc;
         }, {})
-      ).map(([industry, value]) => ({ industry, value }));
+      )
+        .map(([industry, value]) => ({ industry, value }))
+        .sort((a, b) => b.value - a.value)
+        .slice(0, 6);
 
       const riskVsRoi = deals.map((d) => ({
         id: d.id,

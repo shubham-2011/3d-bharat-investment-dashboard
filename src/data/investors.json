@@ -2,936 +2,1593 @@
   {
     "id": "inv-001",
     "name": "Shubham Kumar",
-    "budget": 950,
-    "preferredIndustries": [
-      "Solar",
-      "Roads",
-      "Bridges"
-    ],
-    "riskAppetite": "Low",
-    "portfolioValue": 652,
-    "activeDeals": 6,
-    "investmentGrowth": [
-      {
-        "month": "2025-01",
-        "value": 187
-      },
-      {
-        "month": "2025-02",
-        "value": 188
-      },
-      {
-        "month": "2025-03",
-        "value": 193
-      },
-      {
-        "month": "2025-04",
-        "value": 196
-      },
-      {
-        "month": "2025-05",
-        "value": 197
-      },
-      {
-        "month": "2025-06",
-        "value": 202
-      },
-      {
-        "month": "2025-07",
-        "value": 205
-      },
-      {
-        "month": "2025-08",
-        "value": 208
-      },
-      {
-        "month": "2025-09",
-        "value": 212
-      },
-      {
-        "month": "2025-10",
-        "value": 224
-      },
-      {
-        "month": "2025-11",
-        "value": 223
-      },
-      {
-        "month": "2025-12",
-        "value": 222
-      }
-    ]
-  },
-  {
-    "id": "inv-002",
-    "name": "Meera Joshi",
-    "budget": 650,
-    "preferredIndustries": [
-      "Solar",
-      "Metro"
-    ],
-    "riskAppetite": "Low",
-    "portfolioValue": 773,
-    "activeDeals": 1,
-    "investmentGrowth": [
-      {
-        "month": "2025-01",
-        "value": 57
-      },
-      {
-        "month": "2025-02",
-        "value": 58
-      },
-      {
-        "month": "2025-03",
-        "value": 61
-      },
-      {
-        "month": "2025-04",
-        "value": 63
-      },
-      {
-        "month": "2025-05",
-        "value": 65
-      },
-      {
-        "month": "2025-06",
-        "value": 68
-      },
-      {
-        "month": "2025-07",
-        "value": 68
-      },
-      {
-        "month": "2025-08",
-        "value": 70
-      },
-      {
-        "month": "2025-09",
-        "value": 74
-      },
-      {
-        "month": "2025-10",
-        "value": 74
-      },
-      {
-        "month": "2025-11",
-        "value": 78
-      },
-      {
-        "month": "2025-12",
-        "value": 81
-      }
-    ]
-  },
-  {
-    "id": "inv-003",
-    "name": "Divya Kulkarni",
-    "budget": 885,
+    "type": "HNI",
+    "avatarColor": "#1a56db",
+    "city": "Bengaluru",
     "preferredIndustries": [
       "Roads",
-      "Bridges"
-    ],
-    "riskAppetite": "Low",
-    "portfolioValue": 389,
-    "activeDeals": 10,
-    "investmentGrowth": [
-      {
-        "month": "2025-01",
-        "value": 175
-      },
-      {
-        "month": "2025-02",
-        "value": 176
-      },
-      {
-        "month": "2025-03",
-        "value": 179
-      },
-      {
-        "month": "2025-04",
-        "value": 191
-      },
-      {
-        "month": "2025-05",
-        "value": 190
-      },
-      {
-        "month": "2025-06",
-        "value": 203
-      },
-      {
-        "month": "2025-07",
-        "value": 213
-      },
-      {
-        "month": "2025-08",
-        "value": 218
-      },
-      {
-        "month": "2025-09",
-        "value": 227
-      },
-      {
-        "month": "2025-10",
-        "value": 242
-      },
-      {
-        "month": "2025-11",
-        "value": 249
-      },
-      {
-        "month": "2025-12",
-        "value": 249
-      }
-    ]
-  },
-  {
-    "id": "inv-004",
-    "name": "Rahul Deshmukh",
-    "budget": 1585,
-    "preferredIndustries": [
-      "Roads",
-      "Metro",
-      "Railway"
-    ],
-    "riskAppetite": "Low",
-    "portfolioValue": 4326,
-    "activeDeals": 4,
-    "investmentGrowth": [
-      {
-        "month": "2025-01",
-        "value": 131
-      },
-      {
-        "month": "2025-02",
-        "value": 135
-      },
-      {
-        "month": "2025-03",
-        "value": 140
-      },
-      {
-        "month": "2025-04",
-        "value": 142
-      },
-      {
-        "month": "2025-05",
-        "value": 145
-      },
-      {
-        "month": "2025-06",
-        "value": 145
-      },
-      {
-        "month": "2025-07",
-        "value": 149
-      },
-      {
-        "month": "2025-08",
-        "value": 149
-      },
-      {
-        "month": "2025-09",
-        "value": 154
-      },
-      {
-        "month": "2025-10",
-        "value": 160
-      },
-      {
-        "month": "2025-11",
-        "value": 163
-      },
-      {
-        "month": "2025-12",
-        "value": 162
-      }
-    ]
-  },
-  {
-    "id": "inv-005",
-    "name": "Neha Joshi",
-    "budget": 780,
-    "preferredIndustries": [
-      "Roads",
-      "Solar",
-      "Bridges"
-    ],
-    "riskAppetite": "High",
-    "portfolioValue": 4681,
-    "activeDeals": 3,
-    "investmentGrowth": [
-      {
-        "month": "2025-01",
-        "value": 187
-      },
-      {
-        "month": "2025-02",
-        "value": 191
-      },
-      {
-        "month": "2025-03",
-        "value": 189
-      },
-      {
-        "month": "2025-04",
-        "value": 200
-      },
-      {
-        "month": "2025-05",
-        "value": 200
-      },
-      {
-        "month": "2025-06",
-        "value": 202
-      },
-      {
-        "month": "2025-07",
-        "value": 211
-      },
-      {
-        "month": "2025-08",
-        "value": 222
-      },
-      {
-        "month": "2025-09",
-        "value": 232
-      },
-      {
-        "month": "2025-10",
-        "value": 247
-      },
-      {
-        "month": "2025-11",
-        "value": 260
-      },
-      {
-        "month": "2025-12",
-        "value": 269
-      }
-    ]
-  },
-  {
-    "id": "inv-006",
-    "name": "Meera Sharma",
-    "budget": 585,
-    "preferredIndustries": [
-      "Roads",
-      "Bridges"
-    ],
-    "riskAppetite": "Low",
-    "portfolioValue": 2863,
-    "activeDeals": 4,
-    "investmentGrowth": [
-      {
-        "month": "2025-01",
-        "value": 141
-      },
-      {
-        "month": "2025-02",
-        "value": 145
-      },
-      {
-        "month": "2025-03",
-        "value": 150
-      },
-      {
-        "month": "2025-04",
-        "value": 156
-      },
-      {
-        "month": "2025-05",
-        "value": 163
-      },
-      {
-        "month": "2025-06",
-        "value": 171
-      },
-      {
-        "month": "2025-07",
-        "value": 174
-      },
-      {
-        "month": "2025-08",
-        "value": 179
-      },
-      {
-        "month": "2025-09",
-        "value": 180
-      },
-      {
-        "month": "2025-10",
-        "value": 183
-      },
-      {
-        "month": "2025-11",
-        "value": 194
-      },
-      {
-        "month": "2025-12",
-        "value": 193
-      }
-    ]
-  },
-  {
-    "id": "inv-007",
-    "name": "Ananya Patel",
-    "budget": 1275,
-    "preferredIndustries": [
-      "Roads",
-      "Bridges"
-    ],
-    "riskAppetite": "Medium",
-    "portfolioValue": 1069,
-    "activeDeals": 11,
-    "investmentGrowth": [
-      {
-        "month": "2025-01",
-        "value": 166
-      },
-      {
-        "month": "2025-02",
-        "value": 174
-      },
-      {
-        "month": "2025-03",
-        "value": 183
-      },
-      {
-        "month": "2025-04",
-        "value": 193
-      },
-      {
-        "month": "2025-05",
-        "value": 201
-      },
-      {
-        "month": "2025-06",
-        "value": 211
-      },
-      {
-        "month": "2025-07",
-        "value": 222
-      },
-      {
-        "month": "2025-08",
-        "value": 236
-      },
-      {
-        "month": "2025-09",
-        "value": 247
-      },
-      {
-        "month": "2025-10",
-        "value": 255
-      },
-      {
-        "month": "2025-11",
-        "value": 260
-      },
-      {
-        "month": "2025-12",
-        "value": 268
-      }
-    ]
-  },
-  {
-    "id": "inv-008",
-    "name": "Priya Joshi",
-    "budget": 655,
-    "preferredIndustries": [
-      "Solar",
-      "Roads",
-      "Metro"
-    ],
-    "riskAppetite": "Low",
-    "portfolioValue": 1337,
-    "activeDeals": 8,
-    "investmentGrowth": [
-      {
-        "month": "2025-01",
-        "value": 89
-      },
-      {
-        "month": "2025-02",
-        "value": 95
-      },
-      {
-        "month": "2025-03",
-        "value": 99
-      },
-      {
-        "month": "2025-04",
-        "value": 98
-      },
-      {
-        "month": "2025-05",
-        "value": 103
-      },
-      {
-        "month": "2025-06",
-        "value": 108
-      },
-      {
-        "month": "2025-07",
-        "value": 113
-      },
-      {
-        "month": "2025-08",
-        "value": 120
-      },
-      {
-        "month": "2025-09",
-        "value": 127
-      },
-      {
-        "month": "2025-10",
-        "value": 130
-      },
-      {
-        "month": "2025-11",
-        "value": 132
-      },
-      {
-        "month": "2025-12",
-        "value": 139
-      }
-    ]
-  },
-  {
-    "id": "inv-009",
-    "name": "Arjun Reddy",
-    "budget": 505,
-    "preferredIndustries": [
-      "Smart City",
-      "Railway"
-    ],
-    "riskAppetite": "High",
-    "portfolioValue": 2209,
-    "activeDeals": 9,
-    "investmentGrowth": [
-      {
-        "month": "2025-01",
-        "value": 182
-      },
-      {
-        "month": "2025-02",
-        "value": 192
-      },
-      {
-        "month": "2025-03",
-        "value": 193
-      },
-      {
-        "month": "2025-04",
-        "value": 192
-      },
-      {
-        "month": "2025-05",
-        "value": 196
-      },
-      {
-        "month": "2025-06",
-        "value": 202
-      },
-      {
-        "month": "2025-07",
-        "value": 206
-      },
-      {
-        "month": "2025-08",
-        "value": 219
-      },
-      {
-        "month": "2025-09",
-        "value": 223
-      },
-      {
-        "month": "2025-10",
-        "value": 221
-      },
-      {
-        "month": "2025-11",
-        "value": 234
-      },
-      {
-        "month": "2025-12",
-        "value": 234
-      }
-    ]
-  },
-  {
-    "id": "inv-010",
-    "name": "Ananya Reddy",
-    "budget": 1560,
-    "preferredIndustries": [
-      "Metro",
-      "Railway"
-    ],
-    "riskAppetite": "High",
-    "portfolioValue": 3341,
-    "activeDeals": 11,
-    "investmentGrowth": [
-      {
-        "month": "2025-01",
-        "value": 151
-      },
-      {
-        "month": "2025-02",
-        "value": 153
-      },
-      {
-        "month": "2025-03",
-        "value": 157
-      },
-      {
-        "month": "2025-04",
-        "value": 157
-      },
-      {
-        "month": "2025-05",
-        "value": 164
-      },
-      {
-        "month": "2025-06",
-        "value": 165
-      },
-      {
-        "month": "2025-07",
-        "value": 171
-      },
-      {
-        "month": "2025-08",
-        "value": 176
-      },
-      {
-        "month": "2025-09",
-        "value": 182
-      },
-      {
-        "month": "2025-10",
-        "value": 191
-      },
-      {
-        "month": "2025-11",
-        "value": 196
-      },
-      {
-        "month": "2025-12",
-        "value": 195
-      }
-    ]
-  },
-  {
-    "id": "inv-011",
-    "name": "Rahul Kulkarni",
-    "budget": 430,
-    "preferredIndustries": [
-      "Roads",
-      "Smart City"
-    ],
-    "riskAppetite": "Medium",
-    "portfolioValue": 841,
-    "activeDeals": 6,
-    "investmentGrowth": [
-      {
-        "month": "2025-01",
-        "value": 108
-      },
-      {
-        "month": "2025-02",
-        "value": 108
-      },
-      {
-        "month": "2025-03",
-        "value": 109
-      },
-      {
-        "month": "2025-04",
-        "value": 114
-      },
-      {
-        "month": "2025-05",
-        "value": 119
-      },
-      {
-        "month": "2025-06",
-        "value": 123
-      },
-      {
-        "month": "2025-07",
-        "value": 122
-      },
-      {
-        "month": "2025-08",
-        "value": 125
-      },
-      {
-        "month": "2025-09",
-        "value": 131
-      },
-      {
-        "month": "2025-10",
-        "value": 138
-      },
-      {
-        "month": "2025-11",
-        "value": 147
-      },
-      {
-        "month": "2025-12",
-        "value": 148
-      }
-    ]
-  },
-  {
-    "id": "inv-012",
-    "name": "Sneha Joshi",
-    "budget": 950,
-    "preferredIndustries": [
       "Bridges",
-      "Smart City"
+      "EV/CleanEnergy",
+      "Fintech",
+      "SaaS"
     ],
-    "riskAppetite": "Low",
-    "portfolioValue": 1614,
+    "riskAppetite": "Medium",
+    "budget": 500,
+    "budgetRange": {
+      "min": 25,
+      "max": 500
+    },
+    "preferredStages": [
+      "Seed",
+      "Series B"
+    ],
+    "totalInvested": 322,
     "activeDeals": 2,
+    "avgROI": 18.5,
+    "portfolio": [
+      {
+        "dealId": "deal-001",
+        "amountInvested": 3,
+        "investedDate": "2025-02-15T10:00:00.000Z",
+        "currentROI": 15.6,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-002",
+        "amountInvested": 100,
+        "investedDate": "2025-03-15T10:00:00.000Z",
+        "currentROI": 9.8,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-003",
+        "amountInvested": 87,
+        "investedDate": "2025-04-15T10:00:00.000Z",
+        "currentROI": 33.1,
+        "status": "Exited"
+      },
+      {
+        "dealId": "deal-004",
+        "amountInvested": 132,
+        "investedDate": "2025-05-15T10:00:00.000Z",
+        "currentROI": 25.4,
+        "status": "At Risk"
+      }
+    ],
     "investmentGrowth": [
       {
-        "month": "2025-01",
-        "value": 151
+        "month": "Jan",
+        "amount": 200
       },
       {
-        "month": "2025-02",
-        "value": 160
+        "month": "Feb",
+        "amount": 282
       },
       {
-        "month": "2025-03",
-        "value": 168
+        "month": "Mar",
+        "amount": 364
       },
       {
-        "month": "2025-04",
-        "value": 168
+        "month": "Apr",
+        "amount": 406
       },
       {
-        "month": "2025-05",
-        "value": 175
+        "month": "May",
+        "amount": 488
       },
       {
-        "month": "2025-06",
-        "value": 184
+        "month": "Jun",
+        "amount": 530
       },
       {
-        "month": "2025-07",
-        "value": 194
+        "month": "Jul",
+        "amount": 612
       },
       {
-        "month": "2025-08",
-        "value": 199
+        "month": "Aug",
+        "amount": 694
       },
       {
-        "month": "2025-09",
-        "value": 205
+        "month": "Sep",
+        "amount": 736
       },
       {
-        "month": "2025-10",
-        "value": 208
+        "month": "Oct",
+        "amount": 818
       },
       {
-        "month": "2025-11",
-        "value": 222
+        "month": "Nov",
+        "amount": 860
       },
       {
-        "month": "2025-12",
-        "value": 225
+        "month": "Dec",
+        "amount": 942
       }
-    ]
+    ],
+    "joinedDate": "2023-01-10T08:00:00.000Z"
   },
   {
-    "id": "inv-013",
-    "name": "Ishita Kulkarni",
-    "budget": 1090,
+    "id": "INV-002",
+    "name": "Ananya Sharma",
+    "type": "Angel",
+    "avatarColor": "#0f766e",
+    "city": "Mumbai",
     "preferredIndustries": [
-      "Smart City",
-      "Railway"
+      "SaaS",
+      "E-commerce",
+      "Manufacturing"
     ],
     "riskAppetite": "Low",
-    "portfolioValue": 2209,
-    "activeDeals": 11,
-    "investmentGrowth": [
-      {
-        "month": "2025-01",
-        "value": 54
-      },
-      {
-        "month": "2025-02",
-        "value": 56
-      },
-      {
-        "month": "2025-03",
-        "value": 56
-      },
-      {
-        "month": "2025-04",
-        "value": 59
-      },
-      {
-        "month": "2025-05",
-        "value": 59
-      },
-      {
-        "month": "2025-06",
-        "value": 61
-      },
-      {
-        "month": "2025-07",
-        "value": 61
-      },
-      {
-        "month": "2025-08",
-        "value": 62
-      },
-      {
-        "month": "2025-09",
-        "value": 65
-      },
-      {
-        "month": "2025-10",
-        "value": 67
-      },
-      {
-        "month": "2025-11",
-        "value": 70
-      },
-      {
-        "month": "2025-12",
-        "value": 72
-      }
-    ]
-  },
-  {
-    "id": "inv-014",
-    "name": "Rohan Reddy",
-    "budget": 725,
-    "preferredIndustries": [
-      "Bridges",
-      "Smart City",
-      "Metro"
+    "budget": 750,
+    "budgetRange": {
+      "min": 35,
+      "max": 750
+    },
+    "preferredStages": [
+      "Series A",
+      "Growth"
     ],
-    "riskAppetite": "High",
-    "portfolioValue": 1398,
-    "activeDeals": 12,
+    "totalInvested": 450,
+    "activeDeals": 2,
+    "avgROI": 19.3,
+    "portfolio": [
+      {
+        "dealId": "deal-006",
+        "amountInvested": 75,
+        "investedDate": "2025-07-15T10:00:00.000Z",
+        "currentROI": 31.7,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-007",
+        "amountInvested": 100,
+        "investedDate": "2025-08-15T10:00:00.000Z",
+        "currentROI": 17.1,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-008",
+        "amountInvested": 125,
+        "investedDate": "2025-09-15T10:00:00.000Z",
+        "currentROI": 9,
+        "status": "Exited"
+      },
+      {
+        "dealId": "deal-009",
+        "amountInvested": 150,
+        "investedDate": "2025-10-15T10:00:00.000Z",
+        "currentROI": 31.6,
+        "status": "At Risk"
+      }
+    ],
     "investmentGrowth": [
       {
-        "month": "2025-01",
-        "value": 91
+        "month": "Jan",
+        "amount": 200
       },
       {
-        "month": "2025-02",
-        "value": 94
+        "month": "Feb",
+        "amount": 282
       },
       {
-        "month": "2025-03",
-        "value": 98
+        "month": "Mar",
+        "amount": 364
       },
       {
-        "month": "2025-04",
-        "value": 99
+        "month": "Apr",
+        "amount": 406
       },
       {
-        "month": "2025-05",
-        "value": 105
+        "month": "May",
+        "amount": 488
       },
       {
-        "month": "2025-06",
-        "value": 107
+        "month": "Jun",
+        "amount": 530
       },
       {
-        "month": "2025-07",
-        "value": 109
+        "month": "Jul",
+        "amount": 612
       },
       {
-        "month": "2025-08",
-        "value": 111
+        "month": "Aug",
+        "amount": 694
       },
       {
-        "month": "2025-09",
-        "value": 115
+        "month": "Sep",
+        "amount": 736
       },
       {
-        "month": "2025-10",
-        "value": 118
+        "month": "Oct",
+        "amount": 818
       },
       {
-        "month": "2025-11",
-        "value": 125
+        "month": "Nov",
+        "amount": 860
       },
       {
-        "month": "2025-12",
-        "value": 129
+        "month": "Dec",
+        "amount": 942
       }
-    ]
+    ],
+    "joinedDate": "2023-02-10T08:00:00.000Z"
   },
   {
-    "id": "inv-015",
-    "name": "Sneha Sharma",
-    "budget": 820,
+    "id": "INV-003",
+    "name": "Rajesh Singhania",
+    "type": "VC",
+    "avatarColor": "#b45309",
+    "city": "Gurgaon",
     "preferredIndustries": [
-      "Solar",
+      "Logistics",
+      "DeepTech",
       "Roads"
     ],
     "riskAppetite": "High",
-    "portfolioValue": 4539,
-    "activeDeals": 5,
+    "budget": 1000,
+    "budgetRange": {
+      "min": 45,
+      "max": 1000
+    },
+    "preferredStages": [
+      "Series B",
+      "Pre-IPO"
+    ],
+    "totalInvested": 450,
+    "activeDeals": 2,
+    "avgROI": 20.1,
+    "portfolio": [
+      {
+        "dealId": "deal-011",
+        "amountInvested": 75,
+        "investedDate": "2025-12-15T10:00:00.000Z",
+        "currentROI": 9.8,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-012",
+        "amountInvested": 100,
+        "investedDate": "2025-01-15T10:00:00.000Z",
+        "currentROI": 31.4,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-013",
+        "amountInvested": 125,
+        "investedDate": "2025-02-15T10:00:00.000Z",
+        "currentROI": 18.6,
+        "status": "Exited"
+      },
+      {
+        "dealId": "deal-014",
+        "amountInvested": 150,
+        "investedDate": "2025-03-15T10:00:00.000Z",
+        "currentROI": 16.3,
+        "status": "At Risk"
+      }
+    ],
     "investmentGrowth": [
       {
-        "month": "2025-01",
-        "value": 138
+        "month": "Jan",
+        "amount": 200
       },
       {
-        "month": "2025-02",
-        "value": 143
+        "month": "Feb",
+        "amount": 282
       },
       {
-        "month": "2025-03",
-        "value": 145
+        "month": "Mar",
+        "amount": 364
       },
       {
-        "month": "2025-04",
-        "value": 152
+        "month": "Apr",
+        "amount": 406
       },
       {
-        "month": "2025-05",
-        "value": 154
+        "month": "May",
+        "amount": 488
       },
       {
-        "month": "2025-06",
-        "value": 161
+        "month": "Jun",
+        "amount": 530
       },
       {
-        "month": "2025-07",
-        "value": 162
+        "month": "Jul",
+        "amount": 612
       },
       {
-        "month": "2025-08",
-        "value": 163
+        "month": "Aug",
+        "amount": 694
       },
       {
-        "month": "2025-09",
-        "value": 170
+        "month": "Sep",
+        "amount": 736
       },
       {
-        "month": "2025-10",
-        "value": 169
+        "month": "Oct",
+        "amount": 818
       },
       {
-        "month": "2025-11",
-        "value": 177
+        "month": "Nov",
+        "amount": 860
       },
       {
-        "month": "2025-12",
-        "value": 182
+        "month": "Dec",
+        "amount": 942
       }
-    ]
+    ],
+    "joinedDate": "2023-03-10T08:00:00.000Z"
+  },
+  {
+    "id": "INV-004",
+    "name": "Nexus Bharat Ventures",
+    "type": "VC",
+    "avatarColor": "#dc2626",
+    "city": "Hyderabad",
+    "preferredIndustries": [
+      "Railway",
+      "Metro",
+      "Solar"
+    ],
+    "riskAppetite": "Medium",
+    "budget": 1250,
+    "budgetRange": {
+      "min": 55,
+      "max": 1250
+    },
+    "preferredStages": [
+      "Growth",
+      "Seed"
+    ],
+    "totalInvested": 450,
+    "activeDeals": 2,
+    "avgROI": 20.9,
+    "portfolio": [
+      {
+        "dealId": "deal-016",
+        "amountInvested": 75,
+        "investedDate": "2025-05-15T10:00:00.000Z",
+        "currentROI": 18.7,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-017",
+        "amountInvested": 100,
+        "investedDate": "2025-06-15T10:00:00.000Z",
+        "currentROI": 9.3,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-018",
+        "amountInvested": 125,
+        "investedDate": "2025-07-15T10:00:00.000Z",
+        "currentROI": 30.4,
+        "status": "Exited"
+      },
+      {
+        "dealId": "deal-019",
+        "amountInvested": 150,
+        "investedDate": "2025-08-15T10:00:00.000Z",
+        "currentROI": 20,
+        "status": "At Risk"
+      }
+    ],
+    "investmentGrowth": [
+      {
+        "month": "Jan",
+        "amount": 200
+      },
+      {
+        "month": "Feb",
+        "amount": 282
+      },
+      {
+        "month": "Mar",
+        "amount": 364
+      },
+      {
+        "month": "Apr",
+        "amount": 406
+      },
+      {
+        "month": "May",
+        "amount": 488
+      },
+      {
+        "month": "Jun",
+        "amount": 530
+      },
+      {
+        "month": "Jul",
+        "amount": 612
+      },
+      {
+        "month": "Aug",
+        "amount": 694
+      },
+      {
+        "month": "Sep",
+        "amount": 736
+      },
+      {
+        "month": "Oct",
+        "amount": 818
+      },
+      {
+        "month": "Nov",
+        "amount": 860
+      },
+      {
+        "month": "Dec",
+        "amount": 942
+      }
+    ],
+    "joinedDate": "2023-04-10T08:00:00.000Z"
+  },
+  {
+    "id": "INV-005",
+    "name": "Vikas Malpani",
+    "type": "Family Office",
+    "avatarColor": "#7c3aed",
+    "city": "Pune",
+    "preferredIndustries": [
+      "Fintech",
+      "HealthTech",
+      "AgriTech"
+    ],
+    "riskAppetite": "Low",
+    "budget": 1500,
+    "budgetRange": {
+      "min": 65,
+      "max": 1500
+    },
+    "preferredStages": [
+      "Pre-IPO",
+      "Series A"
+    ],
+    "totalInvested": 450,
+    "activeDeals": 2,
+    "avgROI": 21.7,
+    "portfolio": [
+      {
+        "dealId": "deal-021",
+        "amountInvested": 75,
+        "investedDate": "2025-10-15T10:00:00.000Z",
+        "currentROI": 29.4,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-022",
+        "amountInvested": 100,
+        "investedDate": "2025-11-15T10:00:00.000Z",
+        "currentROI": 20.6,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-023",
+        "amountInvested": 125,
+        "investedDate": "2025-12-15T10:00:00.000Z",
+        "currentROI": 16.2,
+        "status": "Exited"
+      },
+      {
+        "dealId": "deal-024",
+        "amountInvested": 150,
+        "investedDate": "2025-01-15T10:00:00.000Z",
+        "currentROI": 45.4,
+        "status": "At Risk"
+      }
+    ],
+    "investmentGrowth": [
+      {
+        "month": "Jan",
+        "amount": 200
+      },
+      {
+        "month": "Feb",
+        "amount": 282
+      },
+      {
+        "month": "Mar",
+        "amount": 364
+      },
+      {
+        "month": "Apr",
+        "amount": 406
+      },
+      {
+        "month": "May",
+        "amount": 488
+      },
+      {
+        "month": "Jun",
+        "amount": 530
+      },
+      {
+        "month": "Jul",
+        "amount": 612
+      },
+      {
+        "month": "Aug",
+        "amount": 694
+      },
+      {
+        "month": "Sep",
+        "amount": 736
+      },
+      {
+        "month": "Oct",
+        "amount": 818
+      },
+      {
+        "month": "Nov",
+        "amount": 860
+      },
+      {
+        "month": "Dec",
+        "amount": 942
+      }
+    ],
+    "joinedDate": "2023-05-10T08:00:00.000Z"
+  },
+  {
+    "id": "INV-006",
+    "name": "Kaveri Family Office",
+    "type": "Family Office",
+    "avatarColor": "#0284c7",
+    "city": "Noida",
+    "preferredIndustries": [
+      "SaaS",
+      "E-commerce",
+      "Manufacturing"
+    ],
+    "riskAppetite": "High",
+    "budget": 1750,
+    "budgetRange": {
+      "min": 75,
+      "max": 1750
+    },
+    "preferredStages": [
+      "Seed",
+      "Series B"
+    ],
+    "totalInvested": 265,
+    "activeDeals": 2,
+    "avgROI": 22.5,
+    "portfolio": [
+      {
+        "dealId": "deal-026",
+        "amountInvested": 75,
+        "investedDate": "2025-03-15T10:00:00.000Z",
+        "currentROI": 9.4,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-027",
+        "amountInvested": 100,
+        "investedDate": "2025-04-15T10:00:00.000Z",
+        "currentROI": 28.9,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-028",
+        "amountInvested": 30,
+        "investedDate": "2025-05-15T10:00:00.000Z",
+        "currentROI": 22.4,
+        "status": "Exited"
+      },
+      {
+        "dealId": "deal-029",
+        "amountInvested": 60,
+        "investedDate": "2025-06-15T10:00:00.000Z",
+        "currentROI": 15.7,
+        "status": "At Risk"
+      }
+    ],
+    "investmentGrowth": [
+      {
+        "month": "Jan",
+        "amount": 200
+      },
+      {
+        "month": "Feb",
+        "amount": 282
+      },
+      {
+        "month": "Mar",
+        "amount": 364
+      },
+      {
+        "month": "Apr",
+        "amount": 406
+      },
+      {
+        "month": "May",
+        "amount": 488
+      },
+      {
+        "month": "Jun",
+        "amount": 530
+      },
+      {
+        "month": "Jul",
+        "amount": 612
+      },
+      {
+        "month": "Aug",
+        "amount": 694
+      },
+      {
+        "month": "Sep",
+        "amount": 736
+      },
+      {
+        "month": "Oct",
+        "amount": 818
+      },
+      {
+        "month": "Nov",
+        "amount": 860
+      },
+      {
+        "month": "Dec",
+        "amount": 942
+      }
+    ],
+    "joinedDate": "2023-06-10T08:00:00.000Z"
+  },
+  {
+    "id": "INV-007",
+    "name": "Peak Capital India",
+    "type": "VC",
+    "avatarColor": "#d97706",
+    "city": "Chennai",
+    "preferredIndustries": [
+      "Logistics",
+      "DeepTech",
+      "Roads"
+    ],
+    "riskAppetite": "Medium",
+    "budget": 2000,
+    "budgetRange": {
+      "min": 85,
+      "max": 2000
+    },
+    "preferredStages": [
+      "Series A",
+      "Growth"
+    ],
+    "totalInvested": 424,
+    "activeDeals": 2,
+    "avgROI": 23.3,
+    "portfolio": [
+      {
+        "dealId": "deal-031",
+        "amountInvested": 57,
+        "investedDate": "2025-08-15T10:00:00.000Z",
+        "currentROI": 14.7,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-032",
+        "amountInvested": 92,
+        "investedDate": "2025-09-15T10:00:00.000Z",
+        "currentROI": 8.8,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-033",
+        "amountInvested": 125,
+        "investedDate": "2025-10-15T10:00:00.000Z",
+        "currentROI": 27.6,
+        "status": "Exited"
+      },
+      {
+        "dealId": "deal-034",
+        "amountInvested": 150,
+        "investedDate": "2025-11-15T10:00:00.000Z",
+        "currentROI": 24.2,
+        "status": "At Risk"
+      }
+    ],
+    "investmentGrowth": [
+      {
+        "month": "Jan",
+        "amount": 200
+      },
+      {
+        "month": "Feb",
+        "amount": 282
+      },
+      {
+        "month": "Mar",
+        "amount": 364
+      },
+      {
+        "month": "Apr",
+        "amount": 406
+      },
+      {
+        "month": "May",
+        "amount": 488
+      },
+      {
+        "month": "Jun",
+        "amount": 530
+      },
+      {
+        "month": "Jul",
+        "amount": 612
+      },
+      {
+        "month": "Aug",
+        "amount": 694
+      },
+      {
+        "month": "Sep",
+        "amount": 736
+      },
+      {
+        "month": "Oct",
+        "amount": 818
+      },
+      {
+        "month": "Nov",
+        "amount": 860
+      },
+      {
+        "month": "Dec",
+        "amount": 942
+      }
+    ],
+    "joinedDate": "2023-07-10T08:00:00.000Z"
+  },
+  {
+    "id": "INV-008",
+    "name": "Sunil Munjal",
+    "type": "Angel",
+    "avatarColor": "#059669",
+    "city": "Ahmedabad",
+    "preferredIndustries": [
+      "Railway",
+      "Metro",
+      "Solar"
+    ],
+    "riskAppetite": "Low",
+    "budget": 2250,
+    "budgetRange": {
+      "min": 95,
+      "max": 2250
+    },
+    "preferredStages": [
+      "Series B",
+      "Pre-IPO"
+    ],
+    "totalInvested": 450,
+    "activeDeals": 2,
+    "avgROI": 24.1,
+    "portfolio": [
+      {
+        "dealId": "deal-036",
+        "amountInvested": 75,
+        "investedDate": "2025-01-15T10:00:00.000Z",
+        "currentROI": 27.2,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-037",
+        "amountInvested": 100,
+        "investedDate": "2025-02-15T10:00:00.000Z",
+        "currentROI": 16.1,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-038",
+        "amountInvested": 125,
+        "investedDate": "2025-03-15T10:00:00.000Z",
+        "currentROI": 15.6,
+        "status": "Exited"
+      },
+      {
+        "dealId": "deal-039",
+        "amountInvested": 150,
+        "investedDate": "2025-04-15T10:00:00.000Z",
+        "currentROI": 42.4,
+        "status": "At Risk"
+      }
+    ],
+    "investmentGrowth": [
+      {
+        "month": "Jan",
+        "amount": 200
+      },
+      {
+        "month": "Feb",
+        "amount": 282
+      },
+      {
+        "month": "Mar",
+        "amount": 364
+      },
+      {
+        "month": "Apr",
+        "amount": 406
+      },
+      {
+        "month": "May",
+        "amount": 488
+      },
+      {
+        "month": "Jun",
+        "amount": 530
+      },
+      {
+        "month": "Jul",
+        "amount": 612
+      },
+      {
+        "month": "Aug",
+        "amount": 694
+      },
+      {
+        "month": "Sep",
+        "amount": 736
+      },
+      {
+        "month": "Oct",
+        "amount": 818
+      },
+      {
+        "month": "Nov",
+        "amount": 860
+      },
+      {
+        "month": "Dec",
+        "amount": 942
+      }
+    ],
+    "joinedDate": "2023-08-10T08:00:00.000Z"
+  },
+  {
+    "id": "INV-009",
+    "name": "Rohan Mehta",
+    "type": "HNI",
+    "avatarColor": "#1a56db",
+    "city": "Jaipur",
+    "preferredIndustries": [
+      "Fintech",
+      "HealthTech",
+      "AgriTech"
+    ],
+    "riskAppetite": "High",
+    "budget": 2500,
+    "budgetRange": {
+      "min": 105,
+      "max": 2500
+    },
+    "preferredStages": [
+      "Growth",
+      "Seed"
+    ],
+    "totalInvested": 450,
+    "activeDeals": 2,
+    "avgROI": 24.9,
+    "portfolio": [
+      {
+        "dealId": "deal-041",
+        "amountInvested": 75,
+        "investedDate": "2024-06-15T10:00:00.000Z",
+        "currentROI": 8.9,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-042",
+        "amountInvested": 100,
+        "investedDate": "2024-07-15T10:00:00.000Z",
+        "currentROI": 26.4,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-043",
+        "amountInvested": 125,
+        "investedDate": "2024-08-15T10:00:00.000Z",
+        "currentROI": 26.3,
+        "status": "Exited"
+      },
+      {
+        "dealId": "deal-044",
+        "amountInvested": 150,
+        "investedDate": "2024-09-15T10:00:00.000Z",
+        "currentROI": 15.1,
+        "status": "At Risk"
+      }
+    ],
+    "investmentGrowth": [
+      {
+        "month": "Jan",
+        "amount": 200
+      },
+      {
+        "month": "Feb",
+        "amount": 282
+      },
+      {
+        "month": "Mar",
+        "amount": 364
+      },
+      {
+        "month": "Apr",
+        "amount": 406
+      },
+      {
+        "month": "May",
+        "amount": 488
+      },
+      {
+        "month": "Jun",
+        "amount": 530
+      },
+      {
+        "month": "Jul",
+        "amount": 612
+      },
+      {
+        "month": "Aug",
+        "amount": 694
+      },
+      {
+        "month": "Sep",
+        "amount": 736
+      },
+      {
+        "month": "Oct",
+        "amount": 818
+      },
+      {
+        "month": "Nov",
+        "amount": 860
+      },
+      {
+        "month": "Dec",
+        "amount": 942
+      }
+    ],
+    "joinedDate": "2023-01-10T08:00:00.000Z"
+  },
+  {
+    "id": "INV-010",
+    "name": "Matrix India Partners",
+    "type": "VC",
+    "avatarColor": "#0f766e",
+    "city": "Kolkata",
+    "preferredIndustries": [
+      "SaaS",
+      "E-commerce",
+      "Manufacturing"
+    ],
+    "riskAppetite": "Medium",
+    "budget": 2750,
+    "budgetRange": {
+      "min": 115,
+      "max": 2750
+    },
+    "preferredStages": [
+      "Pre-IPO",
+      "Series A"
+    ],
+    "totalInvested": 450,
+    "activeDeals": 2,
+    "avgROI": 25.7,
+    "portfolio": [
+      {
+        "dealId": "deal-046",
+        "amountInvested": 75,
+        "investedDate": "2024-11-15T10:00:00.000Z",
+        "currentROI": 17.8,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-047",
+        "amountInvested": 100,
+        "investedDate": "2024-12-15T10:00:00.000Z",
+        "currentROI": 8.3,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-048",
+        "amountInvested": 125,
+        "investedDate": "2024-01-15T10:00:00.000Z",
+        "currentROI": 40.3,
+        "status": "Exited"
+      },
+      {
+        "dealId": "deal-049",
+        "amountInvested": 150,
+        "investedDate": "2024-02-15T10:00:00.000Z",
+        "currentROI": 28.4,
+        "status": "At Risk"
+      }
+    ],
+    "investmentGrowth": [
+      {
+        "month": "Jan",
+        "amount": 200
+      },
+      {
+        "month": "Feb",
+        "amount": 282
+      },
+      {
+        "month": "Mar",
+        "amount": 364
+      },
+      {
+        "month": "Apr",
+        "amount": 406
+      },
+      {
+        "month": "May",
+        "amount": 488
+      },
+      {
+        "month": "Jun",
+        "amount": 530
+      },
+      {
+        "month": "Jul",
+        "amount": 612
+      },
+      {
+        "month": "Aug",
+        "amount": 694
+      },
+      {
+        "month": "Sep",
+        "amount": 736
+      },
+      {
+        "month": "Oct",
+        "amount": 818
+      },
+      {
+        "month": "Nov",
+        "amount": 860
+      },
+      {
+        "month": "Dec",
+        "amount": 942
+      }
+    ],
+    "joinedDate": "2023-02-10T08:00:00.000Z"
+  },
+  {
+    "id": "INV-011",
+    "name": "Pooja Agarwal",
+    "type": "Angel",
+    "avatarColor": "#b45309",
+    "city": "Bengaluru",
+    "preferredIndustries": [
+      "Logistics",
+      "DeepTech",
+      "Roads"
+    ],
+    "riskAppetite": "Low",
+    "budget": 3000,
+    "budgetRange": {
+      "min": 125,
+      "max": 3000
+    },
+    "preferredStages": [
+      "Seed",
+      "Series B"
+    ],
+    "totalInvested": 450,
+    "activeDeals": 2,
+    "avgROI": 26.5,
+    "portfolio": [
+      {
+        "dealId": "deal-051",
+        "amountInvested": 75,
+        "investedDate": "2024-04-15T10:00:00.000Z",
+        "currentROI": 24.9,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-052",
+        "amountInvested": 100,
+        "investedDate": "2024-05-15T10:00:00.000Z",
+        "currentROI": 19.6,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-053",
+        "amountInvested": 125,
+        "investedDate": "2024-06-15T10:00:00.000Z",
+        "currentROI": 15.1,
+        "status": "Exited"
+      },
+      {
+        "dealId": "deal-054",
+        "amountInvested": 150,
+        "investedDate": "2024-07-15T10:00:00.000Z",
+        "currentROI": 39.4,
+        "status": "At Risk"
+      }
+    ],
+    "investmentGrowth": [
+      {
+        "month": "Jan",
+        "amount": 200
+      },
+      {
+        "month": "Feb",
+        "amount": 282
+      },
+      {
+        "month": "Mar",
+        "amount": 364
+      },
+      {
+        "month": "Apr",
+        "amount": 406
+      },
+      {
+        "month": "May",
+        "amount": 488
+      },
+      {
+        "month": "Jun",
+        "amount": 530
+      },
+      {
+        "month": "Jul",
+        "amount": 612
+      },
+      {
+        "month": "Aug",
+        "amount": 694
+      },
+      {
+        "month": "Sep",
+        "amount": 736
+      },
+      {
+        "month": "Oct",
+        "amount": 818
+      },
+      {
+        "month": "Nov",
+        "amount": 860
+      },
+      {
+        "month": "Dec",
+        "amount": 942
+      }
+    ],
+    "joinedDate": "2023-03-10T08:00:00.000Z"
+  },
+  {
+    "id": "INV-012",
+    "name": "Arjun Deshmukh",
+    "type": "HNI",
+    "avatarColor": "#dc2626",
+    "city": "Mumbai",
+    "preferredIndustries": [
+      "Railway",
+      "Metro",
+      "Solar"
+    ],
+    "riskAppetite": "High",
+    "budget": 3250,
+    "budgetRange": {
+      "min": 135,
+      "max": 3250
+    },
+    "preferredStages": [
+      "Series A",
+      "Growth"
+    ],
+    "totalInvested": 264,
+    "activeDeals": 2,
+    "avgROI": 27.3,
+    "portfolio": [
+      {
+        "dealId": "deal-056",
+        "amountInvested": 21,
+        "investedDate": "2024-09-15T10:00:00.000Z",
+        "currentROI": 8.5,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-057",
+        "amountInvested": 46,
+        "investedDate": "2024-10-15T10:00:00.000Z",
+        "currentROI": 37.9,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-058",
+        "amountInvested": 77,
+        "investedDate": "2024-11-15T10:00:00.000Z",
+        "currentROI": 21.3,
+        "status": "Exited"
+      },
+      {
+        "dealId": "deal-059",
+        "amountInvested": 120,
+        "investedDate": "2024-12-15T10:00:00.000Z",
+        "currentROI": 14.5,
+        "status": "At Risk"
+      }
+    ],
+    "investmentGrowth": [
+      {
+        "month": "Jan",
+        "amount": 200
+      },
+      {
+        "month": "Feb",
+        "amount": 282
+      },
+      {
+        "month": "Mar",
+        "amount": 364
+      },
+      {
+        "month": "Apr",
+        "amount": 406
+      },
+      {
+        "month": "May",
+        "amount": 488
+      },
+      {
+        "month": "Jun",
+        "amount": 530
+      },
+      {
+        "month": "Jul",
+        "amount": 612
+      },
+      {
+        "month": "Aug",
+        "amount": 694
+      },
+      {
+        "month": "Sep",
+        "amount": 736
+      },
+      {
+        "month": "Oct",
+        "amount": 818
+      },
+      {
+        "month": "Nov",
+        "amount": 860
+      },
+      {
+        "month": "Dec",
+        "amount": 942
+      }
+    ],
+    "joinedDate": "2023-04-10T08:00:00.000Z"
+  },
+  {
+    "id": "INV-013",
+    "name": "Zenith Corporate Fund",
+    "type": "Corporate",
+    "avatarColor": "#7c3aed",
+    "city": "Gurgaon",
+    "preferredIndustries": [
+      "Fintech",
+      "HealthTech",
+      "AgriTech"
+    ],
+    "riskAppetite": "Medium",
+    "budget": 3500,
+    "budgetRange": {
+      "min": 145,
+      "max": 3500
+    },
+    "preferredStages": [
+      "Series B",
+      "Pre-IPO"
+    ],
+    "totalInvested": 450,
+    "activeDeals": 2,
+    "avgROI": 28.1,
+    "portfolio": [
+      {
+        "dealId": "deal-061",
+        "amountInvested": 75,
+        "investedDate": "2024-02-15T10:00:00.000Z",
+        "currentROI": 21,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-062",
+        "amountInvested": 100,
+        "investedDate": "2024-03-15T10:00:00.000Z",
+        "currentROI": 14.8,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-063",
+        "amountInvested": 125,
+        "investedDate": "2024-04-15T10:00:00.000Z",
+        "currentROI": 37.5,
+        "status": "Exited"
+      },
+      {
+        "dealId": "deal-064",
+        "amountInvested": 150,
+        "investedDate": "2024-05-15T10:00:00.000Z",
+        "currentROI": 23,
+        "status": "At Risk"
+      }
+    ],
+    "investmentGrowth": [
+      {
+        "month": "Jan",
+        "amount": 200
+      },
+      {
+        "month": "Feb",
+        "amount": 282
+      },
+      {
+        "month": "Mar",
+        "amount": 364
+      },
+      {
+        "month": "Apr",
+        "amount": 406
+      },
+      {
+        "month": "May",
+        "amount": 488
+      },
+      {
+        "month": "Jun",
+        "amount": 530
+      },
+      {
+        "month": "Jul",
+        "amount": 612
+      },
+      {
+        "month": "Aug",
+        "amount": 694
+      },
+      {
+        "month": "Sep",
+        "amount": 736
+      },
+      {
+        "month": "Oct",
+        "amount": 818
+      },
+      {
+        "month": "Nov",
+        "amount": 860
+      },
+      {
+        "month": "Dec",
+        "amount": 942
+      }
+    ],
+    "joinedDate": "2023-05-10T08:00:00.000Z"
+  },
+  {
+    "id": "INV-014",
+    "name": "Kabir Capital",
+    "type": "VC",
+    "avatarColor": "#0284c7",
+    "city": "Hyderabad",
+    "preferredIndustries": [
+      "SaaS",
+      "E-commerce",
+      "Manufacturing"
+    ],
+    "riskAppetite": "Low",
+    "budget": 3750,
+    "budgetRange": {
+      "min": 155,
+      "max": 3750
+    },
+    "preferredStages": [
+      "Growth",
+      "Seed"
+    ],
+    "totalInvested": 450,
+    "activeDeals": 2,
+    "avgROI": 28.9,
+    "portfolio": [
+      {
+        "dealId": "deal-066",
+        "amountInvested": 75,
+        "investedDate": "2024-07-15T10:00:00.000Z",
+        "currentROI": 22.7,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-067",
+        "amountInvested": 100,
+        "investedDate": "2024-08-15T10:00:00.000Z",
+        "currentROI": 23.1,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-068",
+        "amountInvested": 125,
+        "investedDate": "2024-09-15T10:00:00.000Z",
+        "currentROI": 14.5,
+        "status": "Exited"
+      },
+      {
+        "dealId": "deal-069",
+        "amountInvested": 150,
+        "investedDate": "2024-10-15T10:00:00.000Z",
+        "currentROI": 36.4,
+        "status": "At Risk"
+      }
+    ],
+    "investmentGrowth": [
+      {
+        "month": "Jan",
+        "amount": 200
+      },
+      {
+        "month": "Feb",
+        "amount": 282
+      },
+      {
+        "month": "Mar",
+        "amount": 364
+      },
+      {
+        "month": "Apr",
+        "amount": 406
+      },
+      {
+        "month": "May",
+        "amount": 488
+      },
+      {
+        "month": "Jun",
+        "amount": 530
+      },
+      {
+        "month": "Jul",
+        "amount": 612
+      },
+      {
+        "month": "Aug",
+        "amount": 694
+      },
+      {
+        "month": "Sep",
+        "amount": 736
+      },
+      {
+        "month": "Oct",
+        "amount": 818
+      },
+      {
+        "month": "Nov",
+        "amount": 860
+      },
+      {
+        "month": "Dec",
+        "amount": 942
+      }
+    ],
+    "joinedDate": "2023-06-10T08:00:00.000Z"
+  },
+  {
+    "id": "INV-015",
+    "name": "Vikramaditya Rao",
+    "type": "Family Office",
+    "avatarColor": "#d97706",
+    "city": "Pune",
+    "preferredIndustries": [
+      "Logistics",
+      "DeepTech",
+      "Roads"
+    ],
+    "riskAppetite": "High",
+    "budget": 4000,
+    "budgetRange": {
+      "min": 165,
+      "max": 4000
+    },
+    "preferredStages": [
+      "Pre-IPO",
+      "Series A"
+    ],
+    "totalInvested": 450,
+    "activeDeals": 2,
+    "avgROI": 29.7,
+    "portfolio": [
+      {
+        "dealId": "deal-071",
+        "amountInvested": 75,
+        "investedDate": "2024-12-15T10:00:00.000Z",
+        "currentROI": 8,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-072",
+        "amountInvested": 100,
+        "investedDate": "2024-01-15T10:00:00.000Z",
+        "currentROI": 35.4,
+        "status": "Active"
+      },
+      {
+        "dealId": "deal-073",
+        "amountInvested": 125,
+        "investedDate": "2024-02-15T10:00:00.000Z",
+        "currentROI": 25.2,
+        "status": "Exited"
+      },
+      {
+        "dealId": "deal-074",
+        "amountInvested": 150,
+        "investedDate": "2024-03-15T10:00:00.000Z",
+        "currentROI": 13.9,
+        "status": "At Risk"
+      }
+    ],
+    "investmentGrowth": [
+      {
+        "month": "Jan",
+        "amount": 200
+      },
+      {
+        "month": "Feb",
+        "amount": 282
+      },
+      {
+        "month": "Mar",
+        "amount": 364
+      },
+      {
+        "month": "Apr",
+        "amount": 406
+      },
+      {
+        "month": "May",
+        "amount": 488
+      },
+      {
+        "month": "Jun",
+        "amount": 530
+      },
+      {
+        "month": "Jul",
+        "amount": 612
+      },
+      {
+        "month": "Aug",
+        "amount": 694
+      },
+      {
+        "month": "Sep",
+        "amount": 736
+      },
+      {
+        "month": "Oct",
+        "amount": 818
+      },
+      {
+        "month": "Nov",
+        "amount": 860
+      },
+      {
+        "month": "Dec",
+        "amount": 942
+      }
+    ],
+    "joinedDate": "2023-07-10T08:00:00.000Z"
   }
 ]

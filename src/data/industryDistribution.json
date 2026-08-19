@@ -1,0 +1,114 @@
+[
+  {
+    "industry": "Fintech",
+    "dealCount": 5,
+    "totalValue": 10022,
+    "avgROI": 17.2,
+    "avgRisk": 1.8
+  },
+  {
+    "industry": "HealthTech",
+    "dealCount": 5,
+    "totalValue": 30664,
+    "avgROI": 18.8,
+    "avgRisk": 2
+  },
+  {
+    "industry": "AgriTech",
+    "dealCount": 5,
+    "totalValue": 12075,
+    "avgROI": 21.8,
+    "avgRisk": 2.2
+  },
+  {
+    "industry": "EV/CleanEnergy",
+    "dealCount": 5,
+    "totalValue": 12940,
+    "avgROI": 19.2,
+    "avgRisk": 1.8
+  },
+  {
+    "industry": "SaaS",
+    "dealCount": 5,
+    "totalValue": 13805,
+    "avgROI": 21.1,
+    "avgRisk": 2
+  },
+  {
+    "industry": "E-commerce",
+    "dealCount": 5,
+    "totalValue": 14670,
+    "avgROI": 24.4,
+    "avgRisk": 2.2
+  },
+  {
+    "industry": "Manufacturing",
+    "dealCount": 5,
+    "totalValue": 15535,
+    "avgROI": 19.9,
+    "avgRisk": 1.8
+  },
+  {
+    "industry": "EdTech",
+    "dealCount": 5,
+    "totalValue": 11600,
+    "avgROI": 22.2,
+    "avgRisk": 2
+  },
+  {
+    "industry": "Logistics",
+    "dealCount": 5,
+    "totalValue": 12465,
+    "avgROI": 22.7,
+    "avgRisk": 2.2
+  },
+  {
+    "industry": "DeepTech",
+    "dealCount": 5,
+    "totalValue": 13330,
+    "avgROI": 17.8,
+    "avgRisk": 1.8
+  },
+  {
+    "industry": "Roads",
+    "dealCount": 5,
+    "totalValue": 14195,
+    "avgROI": 20.5,
+    "avgRisk": 2
+  },
+  {
+    "industry": "Bridges",
+    "dealCount": 5,
+    "totalValue": 10260,
+    "avgROI": 22.4,
+    "avgRisk": 2.2
+  },
+  {
+    "industry": "Railway",
+    "dealCount": 5,
+    "totalValue": 11125,
+    "avgROI": 19.8,
+    "avgRisk": 1.8
+  },
+  {
+    "industry": "Metro",
+    "dealCount": 5,
+    "totalValue": 11990,
+    "avgROI": 22.8,
+    "avgRisk": 2
+  },
+  {
+    "industry": "Solar",
+    "dealCount": 5,
+    "totalValue": 12855,
+    "avgROI": 23.6,
+    "avgRisk": 2.2
+  },
+  {
+    "industry": "Smart City",
+    "dealCount": 5,
+    "totalValue": 13720,
+    "avgROI": 19.1,
+    "avgRisk": 1.8
+  }
+]

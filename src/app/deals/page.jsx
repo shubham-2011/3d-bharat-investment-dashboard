@@ -13,7 +13,24 @@ import { ErrorState } from "@/components/ui/ErrorState";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { Search, ChevronLeft, ChevronRight, Loader2, X, Filter } from "lucide-react";
 
-const INDUSTRIES = ["Roads", "Bridges", "Railway", "Metro", "Solar", "Smart City"];
+const INDUSTRIES = [
+  "Fintech",
+  "HealthTech",
+  "AgriTech",
+  "EV/CleanEnergy",
+  "SaaS",
+  "E-commerce",
+  "Manufacturing",
+  "EdTech",
+  "Logistics",
+  "DeepTech",
+  "Roads",
+  "Bridges",
+  "Railway",
+  "Metro",
+  "Solar",
+  "Smart City",
+];
 const RISK_LEVELS = ["Low", "Medium", "High"];
 
 function DealsContent() {

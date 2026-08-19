@@ -1,0 +1,146 @@
+[
+  {
+    "month": "2024-01",
+    "totalInvestment": 12850,
+    "dealCount": 18,
+    "newInvestors": 5
+  },
+  {
+    "month": "2024-02",
+    "totalInvestment": 13910,
+    "dealCount": 20,
+    "newInvestors": 12
+  },
+  {
+    "month": "2024-03",
+    "totalInvestment": 15180,
+    "dealCount": 23,
+    "newInvestors": 7
+  },
+  {
+    "month": "2024-04",
+    "totalInvestment": 16660,
+    "dealCount": 25,
+    "newInvestors": 14
+  },
+  {
+    "month": "2024-05",
+    "totalInvestment": 18350,
+    "dealCount": 28,
+    "newInvestors": 9
+  },
+  {
+    "month": "2024-06",
+    "totalInvestment": 16950,
+    "dealCount": 30,
+    "newInvestors": 16
+  },
+  {
+    "month": "2024-07",
+    "totalInvestment": 19060,
+    "dealCount": 33,
+    "newInvestors": 11
+  },
+  {
+    "month": "2024-08",
+    "totalInvestment": 21380,
+    "dealCount": 35,
+    "newInvestors": 6
+  },
+  {
+    "month": "2024-09",
+    "totalInvestment": 23910,
+    "dealCount": 38,
+    "newInvestors": 13
+  },
+  {
+    "month": "2024-10",
+    "totalInvestment": 26650,
+    "dealCount": 40,
+    "newInvestors": 8
+  },
+  {
+    "month": "2024-11",
+    "totalInvestment": 29600,
+    "dealCount": 43,
+    "newInvestors": 15
+  },
+  {
+    "month": "2024-12",
+    "totalInvestment": 27500,
+    "dealCount": 45,
+    "newInvestors": 10
+  },
+  {
+    "month": "2025-01",
+    "totalInvestment": 30870,
+    "dealCount": 48,
+    "newInvestors": 5
+  },
+  {
+    "month": "2025-02",
+    "totalInvestment": 34450,
+    "dealCount": 50,
+    "newInvestors": 12
+  },
+  {
+    "month": "2025-03",
+    "totalInvestment": 38240,
+    "dealCount": 53,
+    "newInvestors": 7
+  },
+  {
+    "month": "2025-04",
+    "totalInvestment": 42240,
+    "dealCount": 55,
+    "newInvestors": 14
+  },
+  {
+    "month": "2025-05",
+    "totalInvestment": 46450,
+    "dealCount": 58,
+    "newInvestors": 9
+  },
+  {
+    "month": "2025-06",
+    "totalInvestment": 50870,
+    "dealCount": 60,
+    "newInvestors": 16
+  },
+  {
+    "month": "2025-07",
+    "totalInvestment": 49070,
+    "dealCount": 63,
+    "newInvestors": 11
+  },
+  {
+    "month": "2025-08",
+    "totalInvestment": 53910,
+    "dealCount": 65,
+    "newInvestors": 6
+  },
+  {
+    "month": "2025-09",
+    "totalInvestment": 58960,
+    "dealCount": 68,
+    "newInvestors": 13
+  },
+  {
+    "month": "2025-10",
+    "totalInvestment": 64220,
+    "dealCount": 70,
+    "newInvestors": 8
+  },
+  {
+    "month": "2025-11",
+    "totalInvestment": 69690,
+    "dealCount": 73,
+    "newInvestors": 15
+  },
+  {
+    "month": "2025-12",
+    "totalInvestment": 75370,
+    "dealCount": 75,
+    "newInvestors": 10
+  }
+]

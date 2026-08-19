@@ -1,0 +1,89 @@
+{
+  "summary": {
+    "totalFundingRaised": 124880,
+    "totalInvestors": 743,
+    "conversionRate": 56.4,
+    "avgDealClosureDays": 42
+  },
+  "monthlyTrends": [
+    {
+      "month": "2025-01",
+      "fundingRaised": 3500,
+      "investorInquiries": 45,
+      "dealsConverted": 3
+    },
+    {
+      "month": "2025-02",
+      "fundingRaised": 4660,
+      "investorInquiries": 53,
+      "dealsConverted": 5
+    },
+    {
+      "month": "2025-03",
+      "fundingRaised": 5820,
+      "investorInquiries": 61,
+      "dealsConverted": 7
+    },
+    {
+      "month": "2025-04",
+      "fundingRaised": 6980,
+      "investorInquiries": 69,
+      "dealsConverted": 3
+    },
+    {
+      "month": "2025-05",
+      "fundingRaised": 6940,
+      "investorInquiries": 77,
+      "dealsConverted": 5
+    },
+    {
+      "month": "2025-06",
+      "fundingRaised": 8100,
+      "investorInquiries": 85,
+      "dealsConverted": 7
+    },
+    {
+      "month": "2025-07",
+      "fundingRaised": 9260,
+      "investorInquiries": 93,
+      "dealsConverted": 3
+    },
+    {
+      "month": "2025-08",
+      "fundingRaised": 10420,
+      "investorInquiries": 101,
+      "dealsConverted": 5
+    },
+    {
+      "month": "2025-09",
+      "fundingRaised": 10380,
+      "investorInquiries": 109,
+      "dealsConverted": 7
+    },
+    {
+      "month": "2025-10",
+      "fundingRaised": 11540,
+      "investorInquiries": 117,
+      "dealsConverted": 3
+    },
+    {
+      "month": "2025-11",
+      "fundingRaised": 12700,
+      "investorInquiries": 125,
+      "dealsConverted": 5
+    },
+    {
+      "month": "2025-12",
+      "fundingRaised": 13860,
+      "investorInquiries": 133,
+      "dealsConverted": 7
+    }
+  ],
+  "topDeals": [
+    "deal-002",
+    "deal-027",
+    "deal-054",
+    "deal-026",
+    "deal-053"
+  ]
+}

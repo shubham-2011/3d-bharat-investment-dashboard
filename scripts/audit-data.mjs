@@ -4,9 +4,9 @@ import investors from "../src/data/investors.json" with { type: "json" };
 const errors = [];
 const check = (cond, id, msg) => { if (!cond) errors.push(`${id}: ${msg}`); };
 
-const INDUSTRIES = ["Roads","Bridges","Railway","Metro","Solar","Smart City"];
-const RISKS = ["Low","Medium","High"];
-const STAGES = ["Planning","Approved","In Progress","Expansion"];
+const INDUSTRIES = ["Fintech", "HealthTech", "AgriTech", "EV/CleanEnergy", "SaaS", "E-commerce", "Manufacturing", "EdTech", "Logistics", "DeepTech", "Roads", "Bridges", "Railway", "Metro", "Solar", "Smart City"];
+const RISKS = ["Low", "Medium", "High"];
+const STAGES = ["Seed", "Series A", "Series B", "Growth", "Pre-IPO", "Planning", "Approved", "In Progress", "Expansion"];
 
 // TC-D01/02 counts
 check(deals.length >= 50 && deals.length <= 100, "TC-D01", `deals=${deals.length}, need 50–100`);
