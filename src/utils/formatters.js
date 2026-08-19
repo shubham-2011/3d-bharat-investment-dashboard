@@ -1,12 +1,14 @@
 // utils/formatters.js
 // Pure display helpers — keep formatting out of components.
 
-/** ₹ lakhs → readable: 2480 → "₹24.8 Cr", 150 → "₹1.5 Cr", 45 → "₹45 L" */
-export function formatLakhs(lakhs) {
-  if (lakhs == null) return "₹0 L";
-  if (lakhs >= 100) return `₹${(lakhs / 100).toFixed(1).replace(/\.0$/, "")} Cr`;
-  return `₹${lakhs} L`;
+/** ₹ Crore → readable: 24.8 → "₹24.8 Cr", 0.45 → "₹45 L", 120 → "₹120 Cr" */
+export function formatCr(cr) {
+  if (cr == null || isNaN(cr)) return "₹0 Cr";
+  if (cr < 1) return `₹${Math.round(cr * 100)} L`;
+  return `₹${cr % 1 === 0 ? cr : Number(cr).toFixed(1)} Cr`;
 }
+
+export const formatLakhs = formatCr; // temporary alias so call sites keep working
 
 export function formatPercent(n) {
   return `${n}%`;
@@ -26,4 +28,7 @@ export const INDUSTRY_COLORS = {
   Bridges: "#57534e",
   Solar: "#ca8a04",
   "Smart City": "#0f766e",
+  Water: "#0369a1",
+  Ports: "#7c2d12",
+  Airports: "#4d7c0f",
 };

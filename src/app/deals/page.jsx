@@ -14,22 +14,15 @@ import { EmptyState } from "@/components/ui/EmptyState";
 import { Search, ChevronLeft, ChevronRight, Loader2, X, Filter } from "lucide-react";
 
 const INDUSTRIES = [
-  "Fintech",
-  "HealthTech",
-  "AgriTech",
-  "EV/CleanEnergy",
-  "SaaS",
-  "E-commerce",
-  "Manufacturing",
-  "EdTech",
-  "Logistics",
-  "DeepTech",
   "Roads",
-  "Bridges",
-  "Railway",
   "Metro",
+  "Railway",
   "Solar",
+  "Bridges",
   "Smart City",
+  "Water",
+  "Ports",
+  "Airports",
 ];
 const RISK_LEVELS = ["Low", "Medium", "High"];
 

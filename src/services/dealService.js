@@ -2,6 +2,7 @@
 // Standalone simulated service layer — zero external HTTP calls, 100% in-memory simulation.
 
 import deals from "../data/deals.json" with { type: "json" };
+import industryDistributionData from "../data/industryDistribution.json" with { type: "json" };
 import { simulateRequest } from "./apiClient.js";
 
 /* ---------------- internal helpers (simulated server logic) ---------------- */
@@ -11,10 +12,12 @@ function applySearch(list, search) {
   const q = search.toLowerCase().trim();
   return list.filter(
     (d) =>
-      d.projectName.toLowerCase().includes(q) ||
-      d.company.toLowerCase().includes(q) ||
+      (d.projectName && d.projectName.toLowerCase().includes(q)) ||
+      (d.companyName && d.companyName.toLowerCase().includes(q)) ||
+      (d.company && d.company.toLowerCase().includes(q)) ||
       d.industry.toLowerCase().includes(q) ||
-      d.location.toLowerCase().includes(q)
+      (d.location && d.location.toLowerCase().includes(q)) ||
+      (d.city && d.city.toLowerCase().includes(q))
   );
 }
 
@@ -96,22 +99,18 @@ export const dealService = {
         count: deals.filter((d) => d.riskLevel === level).length,
       }));
 
-      const industryDistribution = Object.entries(
-        deals.reduce((acc, d) => {
-          acc[d.industry] = (acc[d.industry] || 0) + d.fundingRaised;
-          return acc;
-        }, {})
-      )
-        .map(([industry, value]) => ({ industry, value }))
-        .sort((a, b) => b.value - a.value)
-        .slice(0, 6);
+      const industryDistribution = industryDistributionData.map((d) => ({
+        industry: d.industry,
+        value: d.value ?? d.totalValue ?? 0,
+      }));
 
       const riskVsRoi = deals.map((d) => ({
         id: d.id,
-        name: d.projectName,
+        name: d.projectName || d.companyName || d.company,
         risk: ["Low", "Medium", "High"].indexOf(d.riskLevel) + 1,
         roi: d.roi,
         funding: d.fundingRaised,
+        size: d.dealSize,
       }));
 
       return { totalInvestment, activeDeals, avgRoi, riskDistribution, industryDistribution, riskVsRoi };

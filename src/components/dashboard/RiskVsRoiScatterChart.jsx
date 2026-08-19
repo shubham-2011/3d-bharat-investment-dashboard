@@ -6,11 +6,12 @@ import {
   Scatter,
   XAxis,
   YAxis,
+  ZAxis,
   Tooltip,
   CartesianGrid,
   Cell,
 } from "recharts";
-import { formatLakhs, RISK_COLORS } from "@/utils/formatters";
+import { formatCr, RISK_COLORS } from "@/utils/formatters";
 
 export function RiskVsRoiScatterChart({ data = [] }) {
   const riskLabels = ["", "Low", "Medium", "High"];
@@ -19,11 +20,14 @@ export function RiskVsRoiScatterChart({ data = [] }) {
     if (active && payload && payload.length) {
       const item = payload[0].payload;
       return (
-        <div className="p-2.5 rounded-md bg-stone-900 text-white text-xs border border-stone-800 space-y-1">
+        <div className="p-2.5 rounded-md bg-stone-900 text-white text-xs border border-stone-800 space-y-1 shadow-md">
           <p className="font-sans font-semibold text-stone-200">{item.name}</p>
           <div className="flex gap-3 text-stone-400 font-mono text-[11px]">
             <span>ROI: <strong className="text-emerald-400">{item.roi}%</strong></span>
-            <span>Funding: <strong className="text-blue-400">{formatLakhs(item.funding)}</strong></span>
+            <span>Raised: <strong className="text-blue-400">{formatCr(item.funding)}</strong></span>
+            {item.size != null && (
+              <span>Size: <strong className="text-amber-400">{formatCr(item.size)}</strong></span>
+            )}
           </div>
         </div>
       );
@@ -41,7 +45,7 @@ export function RiskVsRoiScatterChart({ data = [] }) {
     <div
       role="img"
       aria-label="Risk versus ROI scatter plot chart"
-      className="p-4 rounded-md border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 space-y-3"
+      className="p-4 rounded-md border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 space-y-3 shadow-xs"
     >
       <div className="border-b border-stone-100 dark:border-stone-800 pb-2">
         <h3 className="text-xs font-semibold uppercase tracking-wider text-stone-600 dark:text-stone-300">
@@ -73,6 +77,7 @@ export function RiskVsRoiScatterChart({ data = [] }) {
               axisLine={false}
               tick={{ fill: "#a8a29e", fontSize: 11 }}
             />
+            <ZAxis type="number" dataKey="size" range={[30, 300]} name="Deal Size" />
             <Tooltip content={<CustomTooltip />} cursor={{ strokeDasharray: "3 3" }} />
             <Scatter name="Deals" data={data}>
               {data.map((entry, index) => (
