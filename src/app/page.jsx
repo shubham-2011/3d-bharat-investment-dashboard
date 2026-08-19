@@ -27,6 +27,12 @@ export default function OverviewPage() {
     dispatch(fetchDashboardSummary());
   };
 
+  const getRiskCount = (level) => {
+    if (!summary || !summary.riskDistribution) return 0;
+    const item = summary.riskDistribution.find((r) => r.level === level);
+    return item ? item.count : 0;
+  };
+
   return (
     <div className="space-y-5">
       {/* Title & Portfolio Header */}
@@ -46,8 +52,8 @@ export default function OverviewPage() {
         <ErrorState message={error || "Couldn't load overview."} onRetry={handleRetry} />
       )}
 
-      {/* Thin Metric Strip: 4 cards in one row, label ABOVE value */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+      {/* Metric Strip: 5 cards (Doc Req #4: Total Investments, Active Deals, ROI Overview, Risk Distribution + Watchlist) */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
         <StatCard
           label="PORTFOLIO VALUE"
           value={summary ? formatLakhs(summary.totalInvestment) : "—"}
@@ -60,6 +66,28 @@ export default function OverviewPage() {
           label="AVG. TARGET ROI"
           value={summary ? `${summary.avgRoi}%` : "—"}
         />
+        <StatCard label="RISK DISTRIBUTION">
+          {summary ? (
+            <div className="flex items-center gap-2 font-mono text-xs font-semibold text-stone-900 dark:text-stone-100">
+              <span className="inline-flex items-center gap-1">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 inline-block" />
+                {getRiskCount("Low")}
+              </span>
+              <span className="text-stone-300 dark:text-stone-700">·</span>
+              <span className="inline-flex items-center gap-1">
+                <span className="w-1.5 h-1.5 rounded-full bg-amber-500 inline-block" />
+                {getRiskCount("Medium")}
+              </span>
+              <span className="text-stone-300 dark:text-stone-700">·</span>
+              <span className="inline-flex items-center gap-1">
+                <span className="w-1.5 h-1.5 rounded-full bg-rose-600 inline-block" />
+                {getRiskCount("High")}
+              </span>
+            </div>
+          ) : (
+            <span className="text-xl sm:text-2xl font-semibold font-mono text-stone-900 dark:text-stone-100">—</span>
+          )}
+        </StatCard>
         <StatCard
           label="WATCHLISTED"
           value={watchlistIds.length}
