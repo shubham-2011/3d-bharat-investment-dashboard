@@ -1,7 +1,8 @@
 // One-time script to generate infrastructure-themed mock data
-// Run: node generate-data.js
+// Run: node src/data/generate-data.js
 
 const fs = require("fs");
+const path = require("path");
 
 const INDUSTRIES = ["Roads", "Bridges", "Railway", "Metro", "Solar", "Smart City"];
 const RISKS = ["Low", "Medium", "High"];
@@ -41,7 +42,6 @@ function makeProjectName(industry) {
 }
 
 function makeRoiProjections(baseRoi) {
-  // 5-year projection with slight growth curve
   return Array.from({ length: 5 }, (_, i) => ({
     year: 2026 + i,
     projectedRoi: round(baseRoi * (0.6 + i * 0.18) + Math.random() * 2),
@@ -49,7 +49,6 @@ function makeRoiProjections(baseRoi) {
 }
 
 function makeGrowthHistory() {
-  // 12 months of cumulative investment value for line charts
   let value = randInt(50, 200);
   return Array.from({ length: 12 }, (_, i) => {
     value = round(value * (1 + (Math.random() * 0.08 - 0.01)), 0);
@@ -61,10 +60,9 @@ function makeGrowthHistory() {
 const deals = Array.from({ length: 80 }, (_, i) => {
   const industry = rand(INDUSTRIES);
   const riskLevel = rand(RISKS);
-  // Higher risk → higher potential ROI (realistic correlation)
   const roiBase = { Low: [8, 14], Medium: [12, 20], High: [18, 32] }[riskLevel];
   const roi = round(randInt(roiBase[0] * 10, roiBase[1] * 10) / 10);
-  const fundingTarget = randInt(20, 500) * 10; // ₹ in lakhs
+  const fundingTarget = randInt(20, 500) * 10;
   const fundingRaised = Math.floor(fundingTarget * (Math.random() * 0.85 + 0.05));
   const minInvestment = randInt(5, 50) * 5;
 
@@ -75,9 +73,9 @@ const deals = Array.from({ length: 80 }, (_, i) => {
     industry,
     riskLevel,
     roi,
-    minInvestment,                       // ₹ lakhs
+    minInvestment,
     maxInvestment: minInvestment * randInt(4, 12),
-    fundingTarget,                       // ₹ lakhs
+    fundingTarget,
     fundingRaised,
     stage: rand(STAGES),
     location: rand(LOCATIONS),
@@ -86,7 +84,7 @@ const deals = Array.from({ length: 80 }, (_, i) => {
       `${industry} infrastructure project executed with 3D point cloud monitoring, ` +
       `drone-based progress tracking, and milestone-linked disbursement.`,
     financials: {
-      revenue: randInt(100, 2000),      // ₹ lakhs / yr
+      revenue: randInt(100, 2000),
       profitMargin: round(randInt(80, 280) / 10),
       growthRate: round(randInt(40, 350) / 10),
       debtEquityRatio: round(randInt(2, 18) / 10),
@@ -104,16 +102,19 @@ const investors = Array.from({ length: 15 }, (_, i) => {
   const preferred = [...INDUSTRIES].sort(() => 0.5 - Math.random()).slice(0, randInt(2, 3));
   return {
     id: `inv-${String(i + 1).padStart(3, "0")}`,
-    name: `${rand(FIRST)} ${rand(LAST)}`,
-    budget: randInt(20, 400) * 5,        // ₹ lakhs
-    preferredIndustries: preferred,
-    riskAppetite: rand(RISKS),
+    name: i === 0 ? "Meera Nair" : `${rand(FIRST)} ${rand(LAST)}`,
+    budget: i === 0 ? 950 : randInt(20, 400) * 5,
+    preferredIndustries: i === 0 ? ["Solar", "Roads", "Bridges"] : preferred,
+    riskAppetite: i === 0 ? "Low" : rand(RISKS),
     portfolioValue: randInt(100, 5000),
     activeDeals: randInt(1, 12),
     investmentGrowth: makeGrowthHistory(),
   };
 });
 
-fs.writeFileSync("/home/claude/3d-bharat-backend/data/deals.json", JSON.stringify(deals, null, 2));
-fs.writeFileSync("/home/claude/3d-bharat-backend/data/investors.json", JSON.stringify(investors, null, 2));
+const dealsPath = path.join(__dirname, "deals.json");
+const investorsPath = path.join(__dirname, "investors.json");
+
+fs.writeFileSync(dealsPath, JSON.stringify(deals, null, 2));
+fs.writeFileSync(investorsPath, JSON.stringify(investors, null, 2));
 console.log(`Generated ${deals.length} deals, ${investors.length} investors`);

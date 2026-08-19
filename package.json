@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "node --test src/utils/*.test.js",
+    "audit:data": "node scripts/audit-data.mjs"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.12.0",

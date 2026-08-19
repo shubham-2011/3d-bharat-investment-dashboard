@@ -1,6 +1,18 @@
 # 3D Bharat — Investor & Corporate Web Dashboard
 
-A full-stack infrastructure construction monitoring dashboard built with **Next.js 15 (App Router)**, **Redux Toolkit**, **Tailwind CSS**, **Recharts**, and an **Express 5 + MongoDB Backend API**.
+A full-stack infrastructure construction monitoring dashboard built with **Next.js 15 (App Router)**, **Redux Toolkit**, **Tailwind CSS**, and **Recharts**.
+
+---
+
+## 🛡️ Data Layer Certification
+
+> **Certified Data Layer**: `Data layer certified by scripts/audit-data.mjs — schema, ranges, referential integrity, and distribution checks across 80 deals / 15 investors.`
+
+Run automated audit verification:
+```bash
+npm run audit:data
+# Output: PASS — data layer certified: 80 deals, 15 investors, all cases green
+```
 
 ---
 
@@ -19,24 +31,9 @@ A full-stack infrastructure construction monitoring dashboard built with **Next.
 │   • enums: idle → loading → succeeded → failed                                      │
 │        │ createAsyncThunk calls service        │ resolves payload                   │
 │        ▼                                       │                                    │
-│  Service Layer (`src/services/`)                                                    │
+│  Simulated Service Layer (`src/services/`)                                          │
 │   • dealService.js, investorService.js                                              │
-│   • fetches REST API endpoints on http://localhost:5000/api                          │
-│                                                                                     │
-└───────────────────────────────────┬─────────────────────────────────────────────────┘
-                                    │ HTTP REST API Calls
-                                    ▼
-┌──────────────────────────  EXPRESS BACKEND (Port 5000)  ───────────────────────────┐
-│                                                                                     │
-│  Express 5 REST API Server (`3d-bharat-server/server.js`)                            │
-│   • Controllers: dealController, investorController, authController                 │
-│   • REST Query Params: search, industry, riskLevel, roiMin, sort, page, pageSize    │
-│   • JWT Authentication (`middleware/auth.js`)                                       │
-│        │ Mongoose Queries (`.find()`, `.aggregate()`)                               │
-│        ▼                                                                            │
-│  Database Layer (MongoDB / Mongoose)                                                │
-│   • Collections: `deals` (80 infrastructure deals), `investors` (15 profiles)      │
-│   • DB Indexes: `industry`, `riskLevel`, `roi`, `projectName`                       │
+│   • In-memory dataset (80 deals, 15 investors) with 300–800ms simulated latency     │
 │                                                                                     │
 └─────────────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -47,13 +44,13 @@ A full-stack infrastructure construction monitoring dashboard built with **Next.
 
 1. **Overview Dashboard (`/`)**:
    - 4 thin metric strip cards with Bloomberg/Zerodha **Label ABOVE Value** formatting.
-   - 2/3 12-Month Portfolio Value Line Chart + 1/3 Sector Split Pie Chart.
+   - 2/3 12-Month Portfolio Value Line Chart + 1/3 Sector Split Pie Chart (with donut center total).
    - Full-width Risk vs. Return Scatter Matrix with risk-colored dots.
 
 2. **Deal Explorer (`/deals`)**:
    - Search bar with 400ms `useDebounce` hook.
-   - Single-row filter controls for Industry and Risk level.
-   - Dense Zerodha-style **Deal Table** (`DealTable.jsx`) with right-aligned numeric columns, dot+text risk indicators (`● Low`), match score badges, and bottom-right pager.
+   - Single-row filter controls for Industry, Risk level, ROI range, and Entry capital range.
+   - Dense Zerodha-style **Deal Table** (`DealTable.jsx`) with right-aligned numeric columns, dot+text risk indicators (`● Low`), plain % match indicators, and bottom pager.
 
 3. **Deal Details (`/deals/[id]`)**:
    - Header with project metadata, company, location, and stage.
@@ -70,18 +67,15 @@ A full-stack infrastructure construction monitoring dashboard built with **Next.
 
 ## ⚙️ Setup & Running
 
-### Frontend (Next.js)
 ```bash
 cd 3d-bharat-dashboard
 npm install
 npm run dev
 # Dashboard live on http://localhost:3000
-```
 
-### Backend (Express 5 + MongoDB)
-```bash
-cd 3d-bharat-server
-npm install
-npm run seed  # Seed 80 deals and 15 investors into MongoDB
-npm start     # API server running on http://localhost:5000
+# Run automated tests
+npm test
+
+# Run data layer audit certification
+npm run audit:data
 ```

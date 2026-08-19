@@ -1,23 +1,473 @@
 [
   {
     "id": "deal-001",
-    "projectName": "Chennai Smart Water Grid",
+    "projectName": "Pune Railway Corridor Doubling",
     "company": "BharatInfra Ltd",
-    "industry": "Smart City",
-    "riskLevel": "High",
-    "roi": 20.1,
-    "minInvestment": 50,
-    "maxInvestment": 550,
-    "fundingTarget": 2480,
-    "fundingRaised": 323,
+    "industry": "Railway",
+    "riskLevel": "Medium",
+    "roi": 17.8,
+    "minInvestment": 175,
+    "maxInvestment": 2100,
+    "fundingTarget": 2320,
+    "fundingRaised": 1573,
+    "stage": "Planning",
+    "location": "Lucknow, UP",
+    "createdAt": "2025-06-14",
+    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 353,
+      "profitMargin": 16.3,
+      "growthRate": 24,
+      "debtEquityRatio": 0.9
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 12.6
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 14.1
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 17.5
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 21.3
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 24.5
+      }
+    ],
+    "investorCount": 13
+  },
+  {
+    "id": "deal-002",
+    "projectName": "Solar Corridor Lucknow",
+    "company": "BharatInfra Ltd",
+    "industry": "Solar",
+    "riskLevel": "Low",
+    "roi": 13.9,
+    "minInvestment": 210,
+    "maxInvestment": 1680,
+    "fundingTarget": 600,
+    "fundingRaised": 238,
     "stage": "Approved",
+    "location": "Bhubaneswar, OD",
+    "createdAt": "2025-07-10",
+    "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1883,
+      "profitMargin": 16.1,
+      "growthRate": 4.9,
+      "debtEquityRatio": 0.5
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 9.9
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 12.3
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 15.3
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 17.5
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 18.7
+      }
+    ],
+    "investorCount": 22
+  },
+  {
+    "id": "deal-003",
+    "projectName": "Chennai Metro Phase 3 Extension",
+    "company": "Kaveri Structures",
+    "industry": "Metro",
+    "riskLevel": "Low",
+    "roi": 13.9,
+    "minInvestment": 60,
+    "maxInvestment": 240,
+    "fundingTarget": 2930,
+    "fundingRaised": 1718,
+    "stage": "Planning",
+    "location": "Chennai, TN",
+    "createdAt": "2025-08-01",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 579,
+      "profitMargin": 11.4,
+      "growthRate": 33.1,
+      "debtEquityRatio": 1.2
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 8.8
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 12.3
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 14.7
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 17.4
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 18.5
+      }
+    ],
+    "investorCount": 32
+  },
+  {
+    "id": "deal-004",
+    "projectName": "Chennai Expressway Corridor",
+    "company": "Kaveri Structures",
+    "industry": "Roads",
+    "riskLevel": "Medium",
+    "roi": 12,
+    "minInvestment": 230,
+    "maxInvestment": 2070,
+    "fundingTarget": 3730,
+    "fundingRaised": 3046,
+    "stage": "In Progress",
     "location": "Ahmedabad, GJ",
-    "createdAt": "2025-10-01",
+    "createdAt": "2025-10-06",
+    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1936,
+      "profitMargin": 20.1,
+      "growthRate": 34.3,
+      "debtEquityRatio": 0.5
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 7.5
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 11.4
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 12.2
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 14.6
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 17.1
+      }
+    ],
+    "investorCount": 35
+  },
+  {
+    "id": "deal-005",
+    "projectName": "Solar Corridor Bengaluru",
+    "company": "Sahyadri Projects",
+    "industry": "Solar",
+    "riskLevel": "Medium",
+    "roi": 12.5,
+    "minInvestment": 85,
+    "maxInvestment": 595,
+    "fundingTarget": 3170,
+    "fundingRaised": 1954,
+    "stage": "In Progress",
+    "location": "Ahmedabad, GJ",
+    "createdAt": "2025-05-25",
+    "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1796,
+      "profitMargin": 19.6,
+      "growthRate": 13.3,
+      "debtEquityRatio": 1.3
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 8.4
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 10.2
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 13.6
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 14.3
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 16.9
+      }
+    ],
+    "investorCount": 13
+  },
+  {
+    "id": "deal-006",
+    "projectName": "Chennai Digital Infrastructure Hub",
+    "company": "NextGen Infra",
+    "industry": "Smart City",
+    "riskLevel": "Low",
+    "roi": 13.3,
+    "minInvestment": 230,
+    "maxInvestment": 2070,
+    "fundingTarget": 2120,
+    "fundingRaised": 1075,
+    "stage": "In Progress",
+    "location": "Nagpur, MH",
+    "createdAt": "2025-03-19",
     "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 335,
-      "profitMargin": 24.9,
-      "growthRate": 17.5,
+      "revenue": 1381,
+      "profitMargin": 20.2,
+      "growthRate": 10.4,
+      "debtEquityRatio": 1.5
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 9.8
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 10.5
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 14.2
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 16.2
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 18
+      }
+    ],
+    "investorCount": 30
+  },
+  {
+    "id": "deal-007",
+    "projectName": "Bhubaneswar Metro Phase 1 Extension",
+    "company": "Vajra Engineering",
+    "industry": "Metro",
+    "riskLevel": "Medium",
+    "roi": 14.8,
+    "minInvestment": 70,
+    "maxInvestment": 560,
+    "fundingTarget": 3820,
+    "fundingRaised": 697,
+    "stage": "Approved",
+    "location": "Bengaluru, KA",
+    "createdAt": "2025-01-19",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1587,
+      "profitMargin": 16.3,
+      "growthRate": 23.5,
+      "debtEquityRatio": 1
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 10.2
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 13.1
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 14.4
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 17.8
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 21.1
+      }
+    ],
+    "investorCount": 31
+  },
+  {
+    "id": "deal-008",
+    "projectName": "Chennai Metro Phase 3 Extension",
+    "company": "BharatInfra Ltd",
+    "industry": "Metro",
+    "riskLevel": "High",
+    "roi": 30.1,
+    "minInvestment": 35,
+    "maxInvestment": 210,
+    "fundingTarget": 3400,
+    "fundingRaised": 1490,
+    "stage": "Approved",
+    "location": "Hyderabad, TS",
+    "createdAt": "2025-01-09",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 155,
+      "profitMargin": 27.5,
+      "growthRate": 30.2,
+      "debtEquityRatio": 1.5
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 18.2
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 23.8
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 30.4
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 34.5
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 41.1
+      }
+    ],
+    "investorCount": 24
+  },
+  {
+    "id": "deal-009",
+    "projectName": "Cable-Stayed Bridge Nagpur",
+    "company": "Kaveri Structures",
+    "industry": "Bridges",
+    "riskLevel": "High",
+    "roi": 31.2,
+    "minInvestment": 135,
+    "maxInvestment": 1350,
+    "fundingTarget": 3110,
+    "fundingRaised": 2567,
+    "stage": "Approved",
+    "location": "Hyderabad, TS",
+    "createdAt": "2025-08-28",
+    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 654,
+      "profitMargin": 19.3,
+      "growthRate": 15.6,
+      "debtEquityRatio": 1.2
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 19.1
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 26.1
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 30.9
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 37.4
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 42.4
+      }
+    ],
+    "investorCount": 31
+  },
+  {
+    "id": "deal-010",
+    "projectName": "Pune Solar Park 5MW",
+    "company": "Sahyadri Projects",
+    "industry": "Solar",
+    "riskLevel": "Low",
+    "roi": 12.1,
+    "minInvestment": 205,
+    "maxInvestment": 2050,
+    "fundingTarget": 320,
+    "fundingRaised": 173,
+    "stage": "Planning",
+    "location": "Jaipur, RJ",
+    "createdAt": "2025-05-22",
+    "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1445,
+      "profitMargin": 8.9,
+      "growthRate": 28.6,
+      "debtEquityRatio": 1
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 7.5
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 9.9
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 11.9
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 14.4
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 17
+      }
+    ],
+    "investorCount": 5
+  },
+  {
+    "id": "deal-011",
+    "projectName": "Pune Sea Link Extension",
+    "company": "IndiaBuild Corp",
+    "industry": "Bridges",
+    "riskLevel": "High",
+    "roi": 21.1,
+    "minInvestment": 190,
+    "maxInvestment": 1330,
+    "fundingTarget": 680,
+    "fundingRaised": 301,
+    "stage": "Expansion",
+    "location": "Hyderabad, TS",
+    "createdAt": "2025-01-08",
+    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1457,
+      "profitMargin": 27,
+      "growthRate": 23.5,
       "debtEquityRatio": 0.4
     },
     "roiProjections": [
@@ -27,403 +477,313 @@
       },
       {
         "year": 2027,
-        "projectedRoi": 16.7
+        "projectedRoi": 18.4
       },
       {
         "year": 2028,
-        "projectedRoi": 20.1
+        "projectedRoi": 20.4
       },
       {
         "year": 2029,
-        "projectedRoi": 23.2
+        "projectedRoi": 24.4
       },
       {
         "year": 2030,
-        "projectedRoi": 27
+        "projectedRoi": 29.6
       }
     ],
-    "investorCount": 21
+    "investorCount": 2
   },
   {
-    "id": "deal-002",
-    "projectName": "Cable-Stayed Bridge Chennai",
-    "company": "Peninsula Projects",
-    "industry": "Bridges",
-    "riskLevel": "Medium",
-    "roi": 17.9,
-    "minInvestment": 105,
-    "maxInvestment": 420,
-    "fundingTarget": 1790,
-    "fundingRaised": 1004,
-    "stage": "In Progress",
-    "location": "Chennai, TN",
-    "createdAt": "2025-03-19",
-    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "id": "deal-012",
+    "projectName": "State Highway 43 Upgrade",
+    "company": "NextGen Infra",
+    "industry": "Roads",
+    "riskLevel": "High",
+    "roi": 22.7,
+    "minInvestment": 195,
+    "maxInvestment": 1560,
+    "fundingTarget": 1670,
+    "fundingRaised": 117,
+    "stage": "Expansion",
+    "location": "Pune, MH",
+    "createdAt": "2025-02-07",
+    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 987,
-      "profitMargin": 15.6,
-      "growthRate": 19,
-      "debtEquityRatio": 0.4
+      "revenue": 1164,
+      "profitMargin": 17.5,
+      "growthRate": 24.5,
+      "debtEquityRatio": 1.2
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 11.7
+        "projectedRoi": 14.9
       },
       {
         "year": 2027,
-        "projectedRoi": 14.2
+        "projectedRoi": 19.3
       },
       {
         "year": 2028,
-        "projectedRoi": 19
+        "projectedRoi": 22
       },
       {
         "year": 2029,
-        "projectedRoi": 21.9
+        "projectedRoi": 27.8
       },
       {
         "year": 2030,
-        "projectedRoi": 24.4
+        "projectedRoi": 31.8
       }
     ],
-    "investorCount": 29
+    "investorCount": 36
   },
   {
-    "id": "deal-003",
-    "projectName": "Pune Sea Link Extension",
-    "company": "NextGen Infra",
-    "industry": "Bridges",
-    "riskLevel": "Medium",
-    "roi": 16.4,
-    "minInvestment": 215,
-    "maxInvestment": 1290,
-    "fundingTarget": 4860,
-    "fundingRaised": 4038,
+    "id": "deal-013",
+    "projectName": "State Highway 24 Upgrade",
+    "company": "Peninsula Projects",
+    "industry": "Roads",
+    "riskLevel": "High",
+    "roi": 24,
+    "minInvestment": 160,
+    "maxInvestment": 1920,
+    "fundingTarget": 2060,
+    "fundingRaised": 543,
     "stage": "Planning",
-    "location": "Mumbai, MH",
-    "createdAt": "2025-03-26",
-    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "location": "Lucknow, UP",
+    "createdAt": "2025-01-11",
+    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 852,
-      "profitMargin": 17.1,
-      "growthRate": 34.2,
+      "revenue": 737,
+      "profitMargin": 22.8,
+      "growthRate": 26.2,
+      "debtEquityRatio": 1.3
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 14.4
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 19.2
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 23.3
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 28.5
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 32.2
+      }
+    ],
+    "investorCount": 15
+  },
+  {
+    "id": "deal-014",
+    "projectName": "Jaipur Floating Solar Plant",
+    "company": "Trident Infrastructure",
+    "industry": "Solar",
+    "riskLevel": "Medium",
+    "roi": 19.3,
+    "minInvestment": 120,
+    "maxInvestment": 840,
+    "fundingTarget": 460,
+    "fundingRaised": 331,
+    "stage": "In Progress",
+    "location": "Chennai, TN",
+    "createdAt": "2025-11-20",
+    "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 672,
+      "profitMargin": 8.5,
+      "growthRate": 29.2,
       "debtEquityRatio": 1
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 11.2
+        "projectedRoi": 12.6
       },
       {
         "year": 2027,
-        "projectedRoi": 13.1
+        "projectedRoi": 15.5
       },
       {
         "year": 2028,
-        "projectedRoi": 17.7
+        "projectedRoi": 19.5
       },
       {
         "year": 2029,
-        "projectedRoi": 20.1
+        "projectedRoi": 23.5
       },
       {
         "year": 2030,
-        "projectedRoi": 23.4
+        "projectedRoi": 26.2
+      }
+    ],
+    "investorCount": 5
+  },
+  {
+    "id": "deal-015",
+    "projectName": "Pune Solar Park 10MW",
+    "company": "IndiaBuild Corp",
+    "industry": "Solar",
+    "riskLevel": "High",
+    "roi": 28.9,
+    "minInvestment": 125,
+    "maxInvestment": 1500,
+    "fundingTarget": 3560,
+    "fundingRaised": 633,
+    "stage": "Planning",
+    "location": "Pune, MH",
+    "createdAt": "2025-11-02",
+    "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 156,
+      "profitMargin": 17.6,
+      "growthRate": 32.7,
+      "debtEquityRatio": 1.8
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 18
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 23.5
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 29.7
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 33.6
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 38.6
+      }
+    ],
+    "investorCount": 37
+  },
+  {
+    "id": "deal-016",
+    "projectName": "Chennai Neo Metro Project",
+    "company": "Sahyadri Projects",
+    "industry": "Metro",
+    "riskLevel": "Low",
+    "roi": 9.8,
+    "minInvestment": 160,
+    "maxInvestment": 1920,
+    "fundingTarget": 1420,
+    "fundingRaised": 95,
+    "stage": "Planning",
+    "location": "Nagpur, MH",
+    "createdAt": "2025-10-08",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 115,
+      "profitMargin": 19.3,
+      "growthRate": 11.9,
+      "debtEquityRatio": 1.1
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 7.6
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 9.3
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 9.5
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 12.9
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 13.2
       }
     ],
     "investorCount": 14
   },
   {
-    "id": "deal-004",
-    "projectName": "Nagpur Flyover Network",
-    "company": "Vajra Engineering",
-    "industry": "Bridges",
-    "riskLevel": "Low",
-    "roi": 11.4,
-    "minInvestment": 250,
-    "maxInvestment": 1000,
-    "fundingTarget": 2750,
-    "fundingRaised": 340,
-    "stage": "In Progress",
-    "location": "Hyderabad, TS",
-    "createdAt": "2025-03-12",
-    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1997,
-      "profitMargin": 26.3,
-      "growthRate": 20.3,
-      "debtEquityRatio": 1.5
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 7.8
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 10.8
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 11.7
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 13.6
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 16.2
-      }
-    ],
-    "investorCount": 26
-  },
-  {
-    "id": "deal-005",
-    "projectName": "State Highway 57 Upgrade",
-    "company": "NextGen Infra",
-    "industry": "Roads",
-    "riskLevel": "Low",
-    "roi": 13.2,
-    "minInvestment": 225,
-    "maxInvestment": 2700,
-    "fundingTarget": 4370,
-    "fundingRaised": 3290,
-    "stage": "Expansion",
-    "location": "Mumbai, MH",
-    "createdAt": "2025-03-28",
-    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 106,
-      "profitMargin": 16.1,
-      "growthRate": 24,
-      "debtEquityRatio": 0.2
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 8
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 11.6
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 14.6
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 16.8
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 18.3
-      }
-    ],
-    "investorCount": 2
-  },
-  {
-    "id": "deal-006",
-    "projectName": "Freight Corridor Chennai Section",
-    "company": "Ashoka Devcon",
+    "id": "deal-017",
+    "projectName": "Ahmedabad Station Redevelopment",
+    "company": "BharatInfra Ltd",
     "industry": "Railway",
-    "riskLevel": "Medium",
-    "roi": 15.9,
-    "minInvestment": 90,
-    "maxInvestment": 540,
-    "fundingTarget": 240,
-    "fundingRaised": 213,
-    "stage": "Expansion",
-    "location": "Ahmedabad, GJ",
-    "createdAt": "2025-05-23",
-    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1887,
-      "profitMargin": 10.6,
-      "growthRate": 15.6,
-      "debtEquityRatio": 1
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 11
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 13.7
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 16.8
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 20.1
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 21.3
-      }
-    ],
-    "investorCount": 23
-  },
-  {
-    "id": "deal-007",
-    "projectName": "Pune Railway Corridor Doubling",
-    "company": "NextGen Infra",
-    "industry": "Railway",
-    "riskLevel": "Medium",
-    "roi": 17.9,
-    "minInvestment": 225,
-    "maxInvestment": 1350,
-    "fundingTarget": 2890,
-    "fundingRaised": 2291,
-    "stage": "Approved",
-    "location": "Bhubaneswar, OD",
-    "createdAt": "2025-02-08",
-    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1666,
-      "profitMargin": 13.9,
-      "growthRate": 8.8,
-      "debtEquityRatio": 0.4
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 11.1
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 14.2
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 19
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 21.4
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 25
-      }
-    ],
-    "investorCount": 23
-  },
-  {
-    "id": "deal-008",
-    "projectName": "Godavari River Bridge Project",
-    "company": "Sahyadri Projects",
-    "industry": "Bridges",
     "riskLevel": "High",
-    "roi": 23.5,
-    "minInvestment": 160,
-    "maxInvestment": 640,
-    "fundingTarget": 1850,
-    "fundingRaised": 327,
-    "stage": "In Progress",
-    "location": "Lucknow, UP",
-    "createdAt": "2025-09-10",
-    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "roi": 27.3,
+    "minInvestment": 125,
+    "maxInvestment": 1250,
+    "fundingTarget": 840,
+    "fundingRaised": 255,
+    "stage": "Planning",
+    "location": "Ahmedabad, GJ",
+    "createdAt": "2025-10-18",
+    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 506,
-      "profitMargin": 22.1,
-      "growthRate": 33.1,
-      "debtEquityRatio": 1.8
+      "revenue": 1878,
+      "profitMargin": 23,
+      "growthRate": 21.1,
+      "debtEquityRatio": 0.5
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 15.2
+        "projectedRoi": 16.7
       },
       {
         "year": 2027,
-        "projectedRoi": 20
+        "projectedRoi": 21.6
       },
       {
         "year": 2028,
-        "projectedRoi": 22.6
+        "projectedRoi": 27
       },
       {
         "year": 2029,
-        "projectedRoi": 28.7
-      },
-      {
-        "year": 2030,
         "projectedRoi": 31.2
-      }
-    ],
-    "investorCount": 30
-  },
-  {
-    "id": "deal-009",
-    "projectName": "Mumbai Station Redevelopment",
-    "company": "Trident Infrastructure",
-    "industry": "Railway",
-    "riskLevel": "High",
-    "roi": 23.5,
-    "minInvestment": 220,
-    "maxInvestment": 2420,
-    "fundingTarget": 850,
-    "fundingRaised": 351,
-    "stage": "Approved",
-    "location": "Jaipur, RJ",
-    "createdAt": "2025-03-23",
-    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1614,
-      "profitMargin": 9.7,
-      "growthRate": 6.6,
-      "debtEquityRatio": 1.8
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 15.1
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 19.7
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 23.2
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 27.7
       },
       {
         "year": 2030,
-        "projectedRoi": 31.6
+        "projectedRoi": 37.8
       }
     ],
-    "investorCount": 2
+    "investorCount": 28
   },
   {
-    "id": "deal-010",
-    "projectName": "Mumbai Flyover Network",
-    "company": "Trident Infrastructure",
-    "industry": "Bridges",
+    "id": "deal-018",
+    "projectName": "Nagpur Smart Traffic System",
+    "company": "Kaveri Structures",
+    "industry": "Smart City",
     "riskLevel": "Medium",
-    "roi": 17.8,
-    "minInvestment": 225,
-    "maxInvestment": 1350,
-    "fundingTarget": 2340,
-    "fundingRaised": 370,
-    "stage": "Expansion",
-    "location": "Ahmedabad, GJ",
-    "createdAt": "2025-06-15",
-    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "roi": 18.6,
+    "minInvestment": 135,
+    "maxInvestment": 1215,
+    "fundingTarget": 680,
+    "fundingRaised": 302,
+    "stage": "In Progress",
+    "location": "Pune, MH",
+    "createdAt": "2025-04-14",
+    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 1458,
-      "profitMargin": 10.7,
-      "growthRate": 16.3,
-      "debtEquityRatio": 0.8
+      "revenue": 279,
+      "profitMargin": 15.8,
+      "growthRate": 20.3,
+      "debtEquityRatio": 1.6
     },
     "roiProjections": [
       {
@@ -432,267 +792,132 @@
       },
       {
         "year": 2027,
-        "projectedRoi": 14.4
+        "projectedRoi": 15.8
       },
       {
         "year": 2028,
-        "projectedRoi": 17.6
+        "projectedRoi": 18.4
       },
       {
         "year": 2029,
-        "projectedRoi": 21.4
+        "projectedRoi": 21.3
       },
       {
         "year": 2030,
-        "projectedRoi": 24.1
+        "projectedRoi": 25.3
       }
     ],
-    "investorCount": 4
+    "investorCount": 28
   },
   {
-    "id": "deal-011",
-    "projectName": "Chennai Flyover Network",
-    "company": "Trident Infrastructure",
-    "industry": "Bridges",
+    "id": "deal-019",
+    "projectName": "Solar Corridor Nagpur",
+    "company": "Kaveri Structures",
+    "industry": "Solar",
     "riskLevel": "Low",
-    "roi": 12.5,
-    "minInvestment": 95,
-    "maxInvestment": 570,
-    "fundingTarget": 470,
-    "fundingRaised": 83,
-    "stage": "Expansion",
+    "roi": 8.8,
+    "minInvestment": 205,
+    "maxInvestment": 1845,
+    "fundingTarget": 2590,
+    "fundingRaised": 937,
+    "stage": "Planning",
     "location": "Bengaluru, KA",
-    "createdAt": "2025-12-19",
-    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "createdAt": "2025-05-28",
+    "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 1370,
-      "profitMargin": 8.9,
-      "growthRate": 10.5,
-      "debtEquityRatio": 1.6
+      "revenue": 639,
+      "profitMargin": 21.8,
+      "growthRate": 28,
+      "debtEquityRatio": 0.9
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 8.5
+        "projectedRoi": 7.2
       },
       {
         "year": 2027,
-        "projectedRoi": 11.5
+        "projectedRoi": 6.9
       },
       {
         "year": 2028,
-        "projectedRoi": 12.5
+        "projectedRoi": 9.8
       },
       {
         "year": 2029,
-        "projectedRoi": 16
+        "projectedRoi": 11
       },
       {
         "year": 2030,
-        "projectedRoi": 17.2
+        "projectedRoi": 11.8
       }
     ],
-    "investorCount": 17
+    "investorCount": 23
   },
   {
-    "id": "deal-012",
-    "projectName": "Lucknow Metro Depot Development",
-    "company": "Vajra Engineering",
-    "industry": "Metro",
-    "riskLevel": "Medium",
-    "roi": 15.6,
-    "minInvestment": 160,
-    "maxInvestment": 1440,
-    "fundingTarget": 2910,
-    "fundingRaised": 2505,
-    "stage": "Expansion",
-    "location": "Chennai, TN",
-    "createdAt": "2025-09-21",
-    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "id": "deal-020",
+    "projectName": "Ahmedabad Solar Park 30MW",
+    "company": "Ashoka Devcon",
+    "industry": "Solar",
+    "riskLevel": "High",
+    "roi": 23,
+    "minInvestment": 170,
+    "maxInvestment": 680,
+    "fundingTarget": 1960,
+    "fundingRaised": 116,
+    "stage": "In Progress",
+    "location": "Jaipur, RJ",
+    "createdAt": "2025-08-08",
+    "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 1073,
-      "profitMargin": 26.4,
-      "growthRate": 33.5,
+      "revenue": 939,
+      "profitMargin": 25.9,
+      "growthRate": 8,
       "debtEquityRatio": 1.8
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 10.5
+        "projectedRoi": 14.6
       },
       {
         "year": 2027,
-        "projectedRoi": 13.7
+        "projectedRoi": 18.1
       },
       {
         "year": 2028,
-        "projectedRoi": 16.5
+        "projectedRoi": 22.3
       },
       {
         "year": 2029,
-        "projectedRoi": 19.4
+        "projectedRoi": 28.2
       },
       {
         "year": 2030,
-        "projectedRoi": 20.7
+        "projectedRoi": 31.7
       }
     ],
-    "investorCount": 36
+    "investorCount": 23
   },
   {
-    "id": "deal-013",
-    "projectName": "Pune Metro Depot Development",
-    "company": "Trident Infrastructure",
-    "industry": "Metro",
-    "riskLevel": "Medium",
-    "roi": 13,
-    "minInvestment": 90,
-    "maxInvestment": 900,
-    "fundingTarget": 490,
-    "fundingRaised": 223,
-    "stage": "Approved",
-    "location": "Jaipur, RJ",
-    "createdAt": "2025-06-11",
-    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 331,
-      "profitMargin": 17.8,
-      "growthRate": 33.9,
-      "debtEquityRatio": 1.6
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 8.6
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 11.5
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 13.1
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 15.3
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 19.1
-      }
-    ],
-    "investorCount": 26
-  },
-  {
-    "id": "deal-014",
-    "projectName": "Chennai Digital Infrastructure Hub",
-    "company": "Kaveri Structures",
-    "industry": "Smart City",
-    "riskLevel": "Medium",
-    "roi": 16,
-    "minInvestment": 225,
-    "maxInvestment": 1800,
-    "fundingTarget": 3250,
-    "fundingRaised": 1412,
-    "stage": "Planning",
-    "location": "Hyderabad, TS",
-    "createdAt": "2025-12-22",
-    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1928,
-      "profitMargin": 23.3,
-      "growthRate": 30.6,
-      "debtEquityRatio": 0.9
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 11.5
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 13.2
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 16.3
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 18.4
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 22.8
-      }
-    ],
-    "investorCount": 12
-  },
-  {
-    "id": "deal-015",
-    "projectName": "Nagpur Smart Traffic System",
-    "company": "Ashoka Devcon",
-    "industry": "Smart City",
-    "riskLevel": "Medium",
-    "roi": 18.3,
-    "minInvestment": 85,
-    "maxInvestment": 340,
-    "fundingTarget": 2430,
-    "fundingRaised": 2053,
-    "stage": "Approved",
-    "location": "Chennai, TN",
-    "createdAt": "2025-09-12",
-    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 501,
-      "profitMargin": 22.1,
-      "growthRate": 16.1,
-      "debtEquityRatio": 0.9
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 11.7
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 15.3
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 18.8
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 22.6
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 25.9
-      }
-    ],
-    "investorCount": 10
-  },
-  {
-    "id": "deal-016",
-    "projectName": "Mahanadi River Bridge Project",
-    "company": "BharatInfra Ltd",
-    "industry": "Bridges",
+    "id": "deal-021",
+    "projectName": "Nagpur Station Redevelopment",
+    "company": "NextGen Infra",
+    "industry": "Railway",
     "riskLevel": "High",
-    "roi": 21.9,
-    "minInvestment": 220,
-    "maxInvestment": 880,
-    "fundingTarget": 2890,
-    "fundingRaised": 2337,
-    "stage": "Expansion",
-    "location": "Bhubaneswar, OD",
-    "createdAt": "2025-01-12",
-    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "roi": 22.6,
+    "minInvestment": 115,
+    "maxInvestment": 690,
+    "fundingTarget": 4120,
+    "fundingRaised": 1310,
+    "stage": "In Progress",
+    "location": "Lucknow, UP",
+    "createdAt": "2025-07-26",
+    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 1425,
-      "profitMargin": 14.4,
-      "growthRate": 10,
+      "revenue": 1360,
+      "profitMargin": 28,
+      "growthRate": 5.3,
       "debtEquityRatio": 0.8
     },
     "roiProjections": [
@@ -702,408 +927,363 @@
       },
       {
         "year": 2027,
-        "projectedRoi": 19
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 22.8
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 25
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 30.9
-      }
-    ],
-    "investorCount": 37
-  },
-  {
-    "id": "deal-017",
-    "projectName": "Freight Corridor Jaipur Section",
-    "company": "BharatInfra Ltd",
-    "industry": "Railway",
-    "riskLevel": "High",
-    "roi": 29.3,
-    "minInvestment": 205,
-    "maxInvestment": 2255,
-    "fundingTarget": 4860,
-    "fundingRaised": 3281,
-    "stage": "In Progress",
-    "location": "Pune, MH",
-    "createdAt": "2025-12-14",
-    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1206,
-      "profitMargin": 17.2,
-      "growthRate": 15.1,
-      "debtEquityRatio": 0.3
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 18.2
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 23.1
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 29.1
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 33.7
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 39.8
-      }
-    ],
-    "investorCount": 17
-  },
-  {
-    "id": "deal-018",
-    "projectName": "Pune Integrated Command Centre",
-    "company": "Peninsula Projects",
-    "industry": "Smart City",
-    "riskLevel": "Low",
-    "roi": 9.8,
-    "minInvestment": 105,
-    "maxInvestment": 1260,
-    "fundingTarget": 3080,
-    "fundingRaised": 1153,
-    "stage": "Expansion",
-    "location": "Ahmedabad, GJ",
-    "createdAt": "2025-04-10",
-    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 444,
-      "profitMargin": 24.2,
-      "growthRate": 25.9,
-      "debtEquityRatio": 0.4
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 6
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 8.6
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 9.9
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 12.7
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 14.6
-      }
-    ],
-    "investorCount": 15
-  },
-  {
-    "id": "deal-019",
-    "projectName": "Freight Corridor Bengaluru Section",
-    "company": "Kaveri Structures",
-    "industry": "Railway",
-    "riskLevel": "High",
-    "roi": 19.6,
-    "minInvestment": 125,
-    "maxInvestment": 750,
-    "fundingTarget": 1210,
-    "fundingRaised": 652,
-    "stage": "In Progress",
-    "location": "Lucknow, UP",
-    "createdAt": "2025-04-23",
-    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1473,
-      "profitMargin": 13.6,
-      "growthRate": 10.8,
-      "debtEquityRatio": 0.4
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 12
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 16.2
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 18.9
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 22.9
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 26.9
-      }
-    ],
-    "investorCount": 37
-  },
-  {
-    "id": "deal-020",
-    "projectName": "Tapi River Bridge Project",
-    "company": "Peninsula Projects",
-    "industry": "Bridges",
-    "riskLevel": "High",
-    "roi": 20.9,
-    "minInvestment": 40,
-    "maxInvestment": 440,
-    "fundingTarget": 4450,
-    "fundingRaised": 3960,
-    "stage": "Planning",
-    "location": "Jaipur, RJ",
-    "createdAt": "2025-06-06",
-    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1347,
-      "profitMargin": 14.1,
-      "growthRate": 28.7,
-      "debtEquityRatio": 1
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 13.8
-      },
-      {
-        "year": 2027,
         "projectedRoi": 18
       },
       {
         "year": 2028,
-        "projectedRoi": 20.8
+        "projectedRoi": 23.6
       },
       {
         "year": 2029,
-        "projectedRoi": 24
+        "projectedRoi": 26.3
       },
       {
         "year": 2030,
-        "projectedRoi": 29.5
+        "projectedRoi": 30.5
       }
     ],
-    "investorCount": 2
-  },
-  {
-    "id": "deal-021",
-    "projectName": "Nagpur Floating Solar Plant",
-    "company": "NextGen Infra",
-    "industry": "Solar",
-    "riskLevel": "Low",
-    "roi": 13.5,
-    "minInvestment": 175,
-    "maxInvestment": 875,
-    "fundingTarget": 260,
-    "fundingRaised": 124,
-    "stage": "In Progress",
-    "location": "Jaipur, RJ",
-    "createdAt": "2025-11-04",
-    "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1392,
-      "profitMargin": 10.2,
-      "growthRate": 9.7,
-      "debtEquityRatio": 1.2
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 8.3
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 12
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 14
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 16.8
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 19.6
-      }
-    ],
-    "investorCount": 10
+    "investorCount": 22
   },
   {
     "id": "deal-022",
-    "projectName": "Lucknow Smart Traffic System",
-    "company": "NextGen Infra",
-    "industry": "Smart City",
-    "riskLevel": "Medium",
-    "roi": 13.7,
-    "minInvestment": 50,
-    "maxInvestment": 350,
-    "fundingTarget": 2780,
-    "fundingRaised": 2380,
-    "stage": "In Progress",
-    "location": "Mumbai, MH",
-    "createdAt": "2025-07-22",
-    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "projectName": "Hyderabad Metro Line 42",
+    "company": "BharatInfra Ltd",
+    "industry": "Metro",
+    "riskLevel": "High",
+    "roi": 26.7,
+    "minInvestment": 175,
+    "maxInvestment": 1750,
+    "fundingTarget": 3150,
+    "fundingRaised": 2550,
+    "stage": "Expansion",
+    "location": "Lucknow, UP",
+    "createdAt": "2025-07-18",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 293,
-      "profitMargin": 26.6,
-      "growthRate": 13.6,
-      "debtEquityRatio": 1.8
+      "revenue": 1077,
+      "profitMargin": 25.6,
+      "growthRate": 25.5,
+      "debtEquityRatio": 0.5
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 8.5
+        "projectedRoi": 16.4
       },
       {
         "year": 2027,
-        "projectedRoi": 10.9
+        "projectedRoi": 22.6
       },
       {
         "year": 2028,
-        "projectedRoi": 14.4
+        "projectedRoi": 26.1
       },
       {
         "year": 2029,
-        "projectedRoi": 17.1
+        "projectedRoi": 30.9
       },
       {
         "year": 2030,
-        "projectedRoi": 19.1
+        "projectedRoi": 35.8
+      }
+    ],
+    "investorCount": 22
+  },
+  {
+    "id": "deal-023",
+    "projectName": "Bengaluru Sea Link Extension",
+    "company": "Kaveri Structures",
+    "industry": "Bridges",
+    "riskLevel": "Low",
+    "roi": 8,
+    "minInvestment": 30,
+    "maxInvestment": 210,
+    "fundingTarget": 3360,
+    "fundingRaised": 240,
+    "stage": "In Progress",
+    "location": "Jaipur, RJ",
+    "createdAt": "2025-01-11",
+    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 788,
+      "profitMargin": 24.4,
+      "growthRate": 16.5,
+      "debtEquityRatio": 1.4
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 5.8
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 7.5
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 8.6
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 11
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 11.8
+      }
+    ],
+    "investorCount": 20
+  },
+  {
+    "id": "deal-024",
+    "projectName": "Hyderabad Neo Metro Project",
+    "company": "BharatInfra Ltd",
+    "industry": "Metro",
+    "riskLevel": "Medium",
+    "roi": 19.5,
+    "minInvestment": 170,
+    "maxInvestment": 1530,
+    "fundingTarget": 1050,
+    "fundingRaised": 797,
+    "stage": "Expansion",
+    "location": "Nagpur, MH",
+    "createdAt": "2025-12-11",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 420,
+      "profitMargin": 25.9,
+      "growthRate": 19.8,
+      "debtEquityRatio": 0.8
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 13.3
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 15.7
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 19.9
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 22.6
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 27
+      }
+    ],
+    "investorCount": 11
+  },
+  {
+    "id": "deal-025",
+    "projectName": "Ahmedabad Ring Road Phase 4",
+    "company": "BharatInfra Ltd",
+    "industry": "Roads",
+    "riskLevel": "Medium",
+    "roi": 18.6,
+    "minInvestment": 55,
+    "maxInvestment": 275,
+    "fundingTarget": 3910,
+    "fundingRaised": 1925,
+    "stage": "Expansion",
+    "location": "Hyderabad, TS",
+    "createdAt": "2025-05-21",
+    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 659,
+      "profitMargin": 15.5,
+      "growthRate": 21,
+      "debtEquityRatio": 0.2
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 12.1
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 15.9
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 18
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 22.8
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 25.7
       }
     ],
     "investorCount": 32
   },
   {
-    "id": "deal-023",
-    "projectName": "Bhubaneswar Integrated Command Centre",
-    "company": "Sahyadri Projects",
+    "id": "deal-026",
+    "projectName": "Bhubaneswar Digital Infrastructure Hub",
+    "company": "Deccan Constructions",
     "industry": "Smart City",
-    "riskLevel": "High",
-    "roi": 21.8,
-    "minInvestment": 130,
-    "maxInvestment": 1430,
-    "fundingTarget": 2840,
-    "fundingRaised": 1180,
-    "stage": "Expansion",
-    "location": "Mumbai, MH",
-    "createdAt": "2025-03-20",
+    "riskLevel": "Medium",
+    "roi": 13.9,
+    "minInvestment": 100,
+    "maxInvestment": 800,
+    "fundingTarget": 680,
+    "fundingRaised": 406,
+    "stage": "Approved",
+    "location": "Lucknow, UP",
+    "createdAt": "2025-05-14",
     "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 356,
-      "profitMargin": 10.9,
-      "growthRate": 15.1,
-      "debtEquityRatio": 1.5
+      "revenue": 711,
+      "profitMargin": 19.9,
+      "growthRate": 32.7,
+      "debtEquityRatio": 1.3
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 13.5
+        "projectedRoi": 9.3
       },
       {
         "year": 2027,
-        "projectedRoi": 17.8
+        "projectedRoi": 11.4
       },
       {
         "year": 2028,
-        "projectedRoi": 22.5
+        "projectedRoi": 15.1
       },
       {
         "year": 2029,
-        "projectedRoi": 25.1
+        "projectedRoi": 16
       },
       {
         "year": 2030,
-        "projectedRoi": 29.2
+        "projectedRoi": 20.1
       }
     ],
-    "investorCount": 26
+    "investorCount": 19
   },
   {
-    "id": "deal-024",
-    "projectName": "Bengaluru Floating Solar Plant",
-    "company": "BharatInfra Ltd",
-    "industry": "Solar",
+    "id": "deal-027",
+    "projectName": "Mumbai Flyover Network",
+    "company": "NextGen Infra",
+    "industry": "Bridges",
     "riskLevel": "Medium",
-    "roi": 18.5,
-    "minInvestment": 200,
-    "maxInvestment": 2200,
-    "fundingTarget": 4410,
-    "fundingRaised": 3949,
-    "stage": "Expansion",
+    "roi": 17.4,
+    "minInvestment": 65,
+    "maxInvestment": 650,
+    "fundingTarget": 1800,
+    "fundingRaised": 556,
+    "stage": "In Progress",
     "location": "Bhubaneswar, OD",
-    "createdAt": "2025-10-05",
-    "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "createdAt": "2025-01-02",
+    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 854,
-      "profitMargin": 19.4,
-      "growthRate": 34.4,
-      "debtEquityRatio": 1.6
+      "revenue": 1749,
+      "profitMargin": 24.2,
+      "growthRate": 29.9,
+      "debtEquityRatio": 0.5
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 12.9
+        "projectedRoi": 11.3
       },
       {
         "year": 2027,
-        "projectedRoi": 15.2
+        "projectedRoi": 14.9
       },
       {
         "year": 2028,
-        "projectedRoi": 18.9
+        "projectedRoi": 17.6
       },
       {
         "year": 2029,
-        "projectedRoi": 21.2
+        "projectedRoi": 20.3
       },
       {
         "year": 2030,
-        "projectedRoi": 25
+        "projectedRoi": 23.1
       }
     ],
-    "investorCount": 21
+    "investorCount": 24
   },
   {
-    "id": "deal-025",
-    "projectName": "NH-66 Widening Project",
-    "company": "Sahyadri Projects",
-    "industry": "Roads",
+    "id": "deal-028",
+    "projectName": "Ahmedabad Metro Line 46",
+    "company": "NextGen Infra",
+    "industry": "Metro",
     "riskLevel": "Low",
-    "roi": 9.3,
-    "minInvestment": 215,
-    "maxInvestment": 1505,
-    "fundingTarget": 1420,
-    "fundingRaised": 83,
+    "roi": 13.9,
+    "minInvestment": 125,
+    "maxInvestment": 1375,
+    "fundingTarget": 1730,
+    "fundingRaised": 143,
     "stage": "Expansion",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-07-02",
-    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "location": "Mumbai, MH",
+    "createdAt": "2025-01-06",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 953,
-      "profitMargin": 10.1,
-      "growthRate": 11.6,
-      "debtEquityRatio": 1.8
+      "revenue": 672,
+      "profitMargin": 18.1,
+      "growthRate": 33.9,
+      "debtEquityRatio": 0.2
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 6.4
+        "projectedRoi": 9.6
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 12.5
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 14.9
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 17.3
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 18.8
+      }
+    ],
+    "investorCount": 8
+  },
+  {
+    "id": "deal-029",
+    "projectName": "Narmada River Bridge Project",
+    "company": "Vajra Engineering",
+    "industry": "Bridges",
+    "riskLevel": "Low",
+    "roi": 8.5,
+    "minInvestment": 245,
+    "maxInvestment": 2940,
+    "fundingTarget": 2450,
+    "fundingRaised": 596,
+    "stage": "In Progress",
+    "location": "Bengaluru, KA",
+    "createdAt": "2025-02-12",
+    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 464,
+      "profitMargin": 18.3,
+      "growthRate": 4.8,
+      "debtEquityRatio": 0.8
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 7.1
       },
       {
         "year": 2027,
@@ -1111,174 +1291,219 @@
       },
       {
         "year": 2028,
-        "projectedRoi": 10.4
+        "projectedRoi": 10.2
       },
       {
         "year": 2029,
-        "projectedRoi": 11.9
+        "projectedRoi": 11.1
       },
       {
         "year": 2030,
-        "projectedRoi": 13.6
+        "projectedRoi": 12
       }
     ],
-    "investorCount": 13
+    "investorCount": 17
   },
   {
-    "id": "deal-026",
-    "projectName": "High-Speed Rail Chennai Segment",
-    "company": "Sahyadri Projects",
-    "industry": "Railway",
-    "riskLevel": "Low",
-    "roi": 13.6,
-    "minInvestment": 170,
-    "maxInvestment": 1870,
-    "fundingTarget": 490,
-    "fundingRaised": 360,
-    "stage": "Planning",
-    "location": "Lucknow, UP",
-    "createdAt": "2025-05-01",
-    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 228,
-      "profitMargin": 21.5,
-      "growthRate": 26.8,
-      "debtEquityRatio": 0.3
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 9.9
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 11.8
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 15
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 16.9
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 19.3
-      }
-    ],
-    "investorCount": 19
-  },
-  {
-    "id": "deal-027",
-    "projectName": "Bhubaneswar Metro Depot Development",
-    "company": "IndiaBuild Corp",
+    "id": "deal-030",
+    "projectName": "Lucknow Metro Line 12",
+    "company": "Ashoka Devcon",
     "industry": "Metro",
     "riskLevel": "Low",
-    "roi": 8.2,
-    "minInvestment": 35,
-    "maxInvestment": 210,
-    "fundingTarget": 3430,
-    "fundingRaised": 1608,
-    "stage": "Planning",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-10-23",
+    "roi": 11.1,
+    "minInvestment": 210,
+    "maxInvestment": 1680,
+    "fundingTarget": 2510,
+    "fundingRaised": 2183,
+    "stage": "In Progress",
+    "location": "Bengaluru, KA",
+    "createdAt": "2025-10-21",
     "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 856,
-      "profitMargin": 23.2,
-      "growthRate": 5.6,
-      "debtEquityRatio": 0.5
+      "revenue": 531,
+      "profitMargin": 25.4,
+      "growthRate": 34.5,
+      "debtEquityRatio": 1.7
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 5.4
-      },
-      {
-        "year": 2027,
         "projectedRoi": 7.1
       },
       {
+        "year": 2027,
+        "projectedRoi": 9.8
+      },
+      {
         "year": 2028,
-        "projectedRoi": 9.9
+        "projectedRoi": 11.1
       },
       {
         "year": 2029,
-        "projectedRoi": 10.8
+        "projectedRoi": 14
       },
       {
         "year": 2030,
-        "projectedRoi": 10.9
+        "projectedRoi": 16.5
       }
     ],
-    "investorCount": 36
+    "investorCount": 27
   },
   {
-    "id": "deal-028",
-    "projectName": "Freight Corridor Nagpur Section",
-    "company": "Sahyadri Projects",
-    "industry": "Railway",
-    "riskLevel": "High",
-    "roi": 31.1,
-    "minInvestment": 110,
-    "maxInvestment": 880,
-    "fundingTarget": 4220,
-    "fundingRaised": 668,
-    "stage": "In Progress",
-    "location": "Lucknow, UP",
-    "createdAt": "2025-12-06",
-    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "id": "deal-031",
+    "projectName": "Chennai Metro Depot Development",
+    "company": "Kaveri Structures",
+    "industry": "Metro",
+    "riskLevel": "Low",
+    "roi": 9.7,
+    "minInvestment": 100,
+    "maxInvestment": 1100,
+    "fundingTarget": 4050,
+    "fundingRaised": 2062,
+    "stage": "Approved",
+    "location": "Hyderabad, TS",
+    "createdAt": "2025-01-05",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 1982,
-      "profitMargin": 20.7,
-      "growthRate": 12.7,
-      "debtEquityRatio": 1.5
+      "revenue": 477,
+      "profitMargin": 13.3,
+      "growthRate": 6.3,
+      "debtEquityRatio": 1.4
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 19.7
+        "projectedRoi": 7.3
       },
       {
         "year": 2027,
-        "projectedRoi": 24.7
+        "projectedRoi": 8.3
       },
       {
         "year": 2028,
-        "projectedRoi": 31.3
+        "projectedRoi": 10.8
       },
       {
         "year": 2029,
-        "projectedRoi": 35.8
+        "projectedRoi": 12.8
       },
       {
         "year": 2030,
-        "projectedRoi": 42.7
+        "projectedRoi": 13.1
       }
     ],
-    "investorCount": 20
+    "investorCount": 29
   },
   {
-    "id": "deal-029",
-    "projectName": "Mumbai Metro Depot Development",
+    "id": "deal-032",
+    "projectName": "Freight Corridor Bhubaneswar Section",
     "company": "Sahyadri Projects",
-    "industry": "Metro",
-    "riskLevel": "Medium",
-    "roi": 17.2,
-    "minInvestment": 125,
-    "maxInvestment": 750,
-    "fundingTarget": 820,
-    "fundingRaised": 511,
+    "industry": "Railway",
+    "riskLevel": "Low",
+    "roi": 10.2,
+    "minInvestment": 130,
+    "maxInvestment": 1560,
+    "fundingTarget": 2410,
+    "fundingRaised": 1009,
     "stage": "Expansion",
-    "location": "Mumbai, MH",
-    "createdAt": "2025-06-24",
-    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "location": "Jaipur, RJ",
+    "createdAt": "2025-05-28",
+    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 739,
-      "profitMargin": 25.7,
-      "growthRate": 21.5,
-      "debtEquityRatio": 1.1
+      "revenue": 549,
+      "profitMargin": 25.5,
+      "growthRate": 16.5,
+      "debtEquityRatio": 1.6
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 7.9
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 9
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 10.1
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 12.1
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 13.9
+      }
+    ],
+    "investorCount": 24
+  },
+  {
+    "id": "deal-033",
+    "projectName": "Bhubaneswar Smart Traffic System",
+    "company": "Sahyadri Projects",
+    "industry": "Smart City",
+    "riskLevel": "Low",
+    "roi": 9.8,
+    "minInvestment": 165,
+    "maxInvestment": 660,
+    "fundingTarget": 660,
+    "fundingRaised": 185,
+    "stage": "Planning",
+    "location": "Hyderabad, TS",
+    "createdAt": "2025-12-12",
+    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1744,
+      "profitMargin": 15,
+      "growthRate": 15.8,
+      "debtEquityRatio": 0.9
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 6.5
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 8.2
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 10.6
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 11.6
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 13.1
+      }
+    ],
+    "investorCount": 37
+  },
+  {
+    "id": "deal-034",
+    "projectName": "Nagpur Ring Road Phase 1",
+    "company": "BharatInfra Ltd",
+    "industry": "Roads",
+    "riskLevel": "Medium",
+    "roi": 14.8,
+    "minInvestment": 125,
+    "maxInvestment": 1000,
+    "fundingTarget": 970,
+    "fundingRaised": 96,
+    "stage": "Expansion",
+    "location": "Lucknow, UP",
+    "createdAt": "2025-02-27",
+    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1451,
+      "profitMargin": 26.3,
+      "growthRate": 14.5,
+      "debtEquityRatio": 0.8
     },
     "roiProjections": [
       {
@@ -1287,88 +1512,133 @@
       },
       {
         "year": 2027,
-        "projectedRoi": 14.5
+        "projectedRoi": 13.2
       },
       {
         "year": 2028,
-        "projectedRoi": 16.7
+        "projectedRoi": 15.8
       },
       {
         "year": 2029,
-        "projectedRoi": 20.6
+        "projectedRoi": 18.2
       },
       {
         "year": 2030,
-        "projectedRoi": 24.2
+        "projectedRoi": 20.8
       }
     ],
-    "investorCount": 21
+    "investorCount": 5
   },
   {
-    "id": "deal-030",
-    "projectName": "Jaipur Railway Corridor Doubling",
-    "company": "NextGen Infra",
-    "industry": "Railway",
+    "id": "deal-035",
+    "projectName": "State Highway 57 Upgrade",
+    "company": "Peninsula Projects",
+    "industry": "Roads",
     "riskLevel": "Medium",
-    "roi": 13.8,
-    "minInvestment": 220,
-    "maxInvestment": 880,
-    "fundingTarget": 920,
-    "fundingRaised": 720,
-    "stage": "Planning",
-    "location": "Mumbai, MH",
-    "createdAt": "2025-12-14",
-    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "roi": 18.2,
+    "minInvestment": 100,
+    "maxInvestment": 1200,
+    "fundingTarget": 1230,
+    "fundingRaised": 806,
+    "stage": "Approved",
+    "location": "Bhubaneswar, OD",
+    "createdAt": "2025-03-16",
+    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 1886,
-      "profitMargin": 9.4,
-      "growthRate": 30.1,
-      "debtEquityRatio": 1.2
+      "revenue": 1565,
+      "profitMargin": 27.3,
+      "growthRate": 21.5,
+      "debtEquityRatio": 1.6
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 9.2
+        "projectedRoi": 12.6
       },
       {
         "year": 2027,
-        "projectedRoi": 11.9
+        "projectedRoi": 15.7
       },
       {
         "year": 2028,
-        "projectedRoi": 13.9
+        "projectedRoi": 18.7
       },
       {
         "year": 2029,
-        "projectedRoi": 16.2
+        "projectedRoi": 21.2
       },
       {
         "year": 2030,
-        "projectedRoi": 18.5
+        "projectedRoi": 24.5
       }
     ],
-    "investorCount": 13
+    "investorCount": 14
   },
   {
-    "id": "deal-031",
-    "projectName": "Nagpur Ring Road Phase 2",
-    "company": "Sahyadri Projects",
-    "industry": "Roads",
+    "id": "deal-036",
+    "projectName": "Jaipur Solar Park 65MW",
+    "company": "Deccan Constructions",
+    "industry": "Solar",
     "riskLevel": "Low",
-    "roi": 11.4,
-    "minInvestment": 240,
-    "maxInvestment": 1680,
-    "fundingTarget": 1450,
-    "fundingRaised": 362,
-    "stage": "Approved",
-    "location": "Pune, MH",
+    "roi": 8.8,
+    "minInvestment": 190,
+    "maxInvestment": 1900,
+    "fundingTarget": 1320,
+    "fundingRaised": 538,
+    "stage": "Planning",
+    "location": "Nagpur, MH",
     "createdAt": "2025-07-18",
-    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 243,
-      "profitMargin": 11.6,
-      "growthRate": 20.8,
-      "debtEquityRatio": 1.1
+      "revenue": 1275,
+      "profitMargin": 10.6,
+      "growthRate": 4.5,
+      "debtEquityRatio": 1
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 6.7
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 8
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 9.7
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 10.4
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 13.2
+      }
+    ],
+    "investorCount": 22
+  },
+  {
+    "id": "deal-037",
+    "projectName": "Hyderabad Metro Line 34",
+    "company": "Deccan Constructions",
+    "industry": "Metro",
+    "riskLevel": "Low",
+    "roi": 11.1,
+    "minInvestment": 225,
+    "maxInvestment": 2700,
+    "fundingTarget": 1190,
+    "fundingRaised": 67,
+    "stage": "Planning",
+    "location": "Pune, MH",
+    "createdAt": "2025-03-02",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1116,
+      "profitMargin": 10.9,
+      "growthRate": 16.7,
+      "debtEquityRatio": 0.8
     },
     "roiProjections": [
       {
@@ -1381,39 +1651,174 @@
       },
       {
         "year": 2028,
-        "projectedRoi": 11.1
+        "projectedRoi": 12.4
       },
       {
         "year": 2029,
-        "projectedRoi": 13.5
+        "projectedRoi": 13.9
       },
       {
         "year": 2030,
-        "projectedRoi": 15.8
+        "projectedRoi": 16.5
       }
     ],
-    "investorCount": 40
+    "investorCount": 21
   },
   {
-    "id": "deal-032",
-    "projectName": "Hyderabad Ring Road Phase 1",
-    "company": "Ashoka Devcon",
+    "id": "deal-038",
+    "projectName": "Ahmedabad Expressway Corridor",
+    "company": "Trident Infrastructure",
     "industry": "Roads",
-    "riskLevel": "Medium",
-    "roi": 19.5,
-    "minInvestment": 75,
-    "maxInvestment": 825,
-    "fundingTarget": 2290,
-    "fundingRaised": 501,
+    "riskLevel": "High",
+    "roi": 29.4,
+    "minInvestment": 40,
+    "maxInvestment": 280,
+    "fundingTarget": 370,
+    "fundingRaised": 294,
     "stage": "Approved",
-    "location": "Bengaluru, KA",
-    "createdAt": "2025-08-20",
+    "location": "Bhubaneswar, OD",
+    "createdAt": "2025-11-08",
     "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 660,
-      "profitMargin": 12.8,
-      "growthRate": 4.4,
+      "revenue": 271,
+      "profitMargin": 14.6,
+      "growthRate": 31,
+      "debtEquityRatio": 1.7
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 18
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 24.3
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 30.2
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 33.6
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 39.8
+      }
+    ],
+    "investorCount": 25
+  },
+  {
+    "id": "deal-039",
+    "projectName": "Chennai Ring Road Phase 3",
+    "company": "Deccan Constructions",
+    "industry": "Roads",
+    "riskLevel": "Low",
+    "roi": 13.1,
+    "minInvestment": 155,
+    "maxInvestment": 1860,
+    "fundingTarget": 710,
+    "fundingRaised": 107,
+    "stage": "Approved",
+    "location": "Mumbai, MH",
+    "createdAt": "2025-09-18",
+    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1387,
+      "profitMargin": 19.1,
+      "growthRate": 13.4,
+      "debtEquityRatio": 1.7
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 8.2
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 12.2
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 13.1
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 15.4
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 19.2
+      }
+    ],
+    "investorCount": 19
+  },
+  {
+    "id": "deal-040",
+    "projectName": "Mumbai Flyover Network",
+    "company": "Kaveri Structures",
+    "industry": "Bridges",
+    "riskLevel": "Medium",
+    "roi": 14,
+    "minInvestment": 240,
+    "maxInvestment": 1440,
+    "fundingTarget": 350,
+    "fundingRaised": 243,
+    "stage": "Approved",
+    "location": "Nagpur, MH",
+    "createdAt": "2025-03-18",
+    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 264,
+      "profitMargin": 19.9,
+      "growthRate": 29.8,
       "debtEquityRatio": 1.1
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 9.5
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 12.8
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 14.1
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 17.9
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 19.7
+      }
+    ],
+    "investorCount": 36
+  },
+  {
+    "id": "deal-041",
+    "projectName": "Pune Station Redevelopment",
+    "company": "Ashoka Devcon",
+    "industry": "Railway",
+    "riskLevel": "High",
+    "roi": 21.4,
+    "minInvestment": 100,
+    "maxInvestment": 1200,
+    "fundingTarget": 4810,
+    "fundingRaised": 1141,
+    "stage": "Expansion",
+    "location": "Bengaluru, KA",
+    "createdAt": "2025-06-21",
+    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 949,
+      "profitMargin": 26.6,
+      "growthRate": 21.7,
+      "debtEquityRatio": 0.6
     },
     "roiProjections": [
       {
@@ -1422,133 +1827,1123 @@
       },
       {
         "year": 2027,
-        "projectedRoi": 15.5
+        "projectedRoi": 18.4
       },
       {
         "year": 2028,
-        "projectedRoi": 19
+        "projectedRoi": 20.7
       },
       {
         "year": 2029,
-        "projectedRoi": 23.3
+        "projectedRoi": 25.4
       },
       {
         "year": 2030,
-        "projectedRoi": 25.8
+        "projectedRoi": 28.3
+      }
+    ],
+    "investorCount": 11
+  },
+  {
+    "id": "deal-042",
+    "projectName": "Jaipur Ring Road Phase 1",
+    "company": "IndiaBuild Corp",
+    "industry": "Roads",
+    "riskLevel": "High",
+    "roi": 22.6,
+    "minInvestment": 205,
+    "maxInvestment": 820,
+    "fundingTarget": 290,
+    "fundingRaised": 191,
+    "stage": "Planning",
+    "location": "Chennai, TN",
+    "createdAt": "2025-04-20",
+    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 143,
+      "profitMargin": 17.7,
+      "growthRate": 31.6,
+      "debtEquityRatio": 1
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 15.6
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 19.6
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 23.7
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 26.5
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 31.3
+      }
+    ],
+    "investorCount": 40
+  },
+  {
+    "id": "deal-043",
+    "projectName": "Mumbai Integrated Command Centre",
+    "company": "Trident Infrastructure",
+    "industry": "Smart City",
+    "riskLevel": "High",
+    "roi": 32,
+    "minInvestment": 120,
+    "maxInvestment": 480,
+    "fundingTarget": 4290,
+    "fundingRaised": 3079,
+    "stage": "Expansion",
+    "location": "Ahmedabad, GJ",
+    "createdAt": "2025-12-16",
+    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 238,
+      "profitMargin": 19,
+      "growthRate": 15.9,
+      "debtEquityRatio": 0.9
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 19.7
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 25.3
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 31.3
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 38.2
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 44
+      }
+    ],
+    "investorCount": 27
+  },
+  {
+    "id": "deal-044",
+    "projectName": "Bhubaneswar Metro Phase 4 Extension",
+    "company": "Sahyadri Projects",
+    "industry": "Metro",
+    "riskLevel": "Low",
+    "roi": 8.5,
+    "minInvestment": 60,
+    "maxInvestment": 360,
+    "fundingTarget": 960,
+    "fundingRaised": 218,
+    "stage": "Expansion",
+    "location": "Jaipur, RJ",
+    "createdAt": "2025-11-20",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 753,
+      "profitMargin": 25.6,
+      "growthRate": 14.6,
+      "debtEquityRatio": 0.4
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 6.4
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 7.9
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 9.6
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 10.5
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 11.6
       }
     ],
     "investorCount": 24
   },
   {
-    "id": "deal-033",
-    "projectName": "Ahmedabad Metro Phase 2 Extension",
-    "company": "Ashoka Devcon",
-    "industry": "Metro",
-    "riskLevel": "Medium",
-    "roi": 15,
-    "minInvestment": 95,
-    "maxInvestment": 1140,
-    "fundingTarget": 3550,
-    "fundingRaised": 490,
-    "stage": "Expansion",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-05-06",
-    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "id": "deal-045",
+    "projectName": "Solar Corridor Jaipur",
+    "company": "Deccan Constructions",
+    "industry": "Solar",
+    "riskLevel": "Low",
+    "roi": 8,
+    "minInvestment": 220,
+    "maxInvestment": 1320,
+    "fundingTarget": 2370,
+    "fundingRaised": 349,
+    "stage": "Planning",
+    "location": "Bengaluru, KA",
+    "createdAt": "2025-04-10",
+    "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 177,
-      "profitMargin": 27.3,
-      "growthRate": 14.1,
+      "revenue": 890,
+      "profitMargin": 22.3,
+      "growthRate": 8.1,
       "debtEquityRatio": 0.7
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 10.2
+        "projectedRoi": 6.7
       },
       {
         "year": 2027,
-        "projectedRoi": 12.9
+        "projectedRoi": 7.4
       },
       {
         "year": 2028,
-        "projectedRoi": 14.7
+        "projectedRoi": 9.3
       },
       {
         "year": 2029,
-        "projectedRoi": 17.6
+        "projectedRoi": 11
       },
       {
         "year": 2030,
-        "projectedRoi": 21.5
+        "projectedRoi": 11.4
       }
     ],
-    "investorCount": 18
+    "investorCount": 39
   },
   {
-    "id": "deal-034",
-    "projectName": "Hyderabad Metro Line 11",
-    "company": "Deccan Constructions",
+    "id": "deal-046",
+    "projectName": "Jaipur Station Redevelopment",
+    "company": "NextGen Infra",
+    "industry": "Railway",
+    "riskLevel": "Medium",
+    "roi": 12.4,
+    "minInvestment": 95,
+    "maxInvestment": 950,
+    "fundingTarget": 1780,
+    "fundingRaised": 907,
+    "stage": "Expansion",
+    "location": "Ahmedabad, GJ",
+    "createdAt": "2025-08-24",
+    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1159,
+      "profitMargin": 18,
+      "growthRate": 8.7,
+      "debtEquityRatio": 1
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 8.5
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 10.2
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 12.5
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 14.7
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 17.4
+      }
+    ],
+    "investorCount": 26
+  },
+  {
+    "id": "deal-047",
+    "projectName": "Hyderabad Metro Phase 2 Extension",
+    "company": "Ashoka Devcon",
     "industry": "Metro",
-    "riskLevel": "High",
-    "roi": 24.1,
-    "minInvestment": 215,
-    "maxInvestment": 1075,
-    "fundingTarget": 1200,
-    "fundingRaised": 1063,
-    "stage": "In Progress",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-01-12",
+    "riskLevel": "Medium",
+    "roi": 14.8,
+    "minInvestment": 205,
+    "maxInvestment": 1230,
+    "fundingTarget": 3630,
+    "fundingRaised": 258,
+    "stage": "Expansion",
+    "location": "Pune, MH",
+    "createdAt": "2025-06-02",
     "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 471,
-      "profitMargin": 8.2,
-      "growthRate": 28.6,
+      "revenue": 1366,
+      "profitMargin": 17.2,
+      "growthRate": 15.1,
       "debtEquityRatio": 0.3
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 15
+        "projectedRoi": 10.6
       },
       {
         "year": 2027,
-        "projectedRoi": 20.1
+        "projectedRoi": 12.4
       },
       {
         "year": 2028,
-        "projectedRoi": 25
+        "projectedRoi": 15.6
       },
       {
         "year": 2029,
-        "projectedRoi": 28.7
+        "projectedRoi": 17.4
       },
       {
         "year": 2030,
-        "projectedRoi": 32.5
+        "projectedRoi": 19.6
       }
     ],
-    "investorCount": 34
+    "investorCount": 11
   },
   {
-    "id": "deal-035",
-    "projectName": "Ahmedabad Station Redevelopment",
+    "id": "deal-048",
+    "projectName": "Mumbai Neo Metro Project",
+    "company": "Sahyadri Projects",
+    "industry": "Metro",
+    "riskLevel": "Low",
+    "roi": 11.9,
+    "minInvestment": 50,
+    "maxInvestment": 450,
+    "fundingTarget": 3580,
+    "fundingRaised": 195,
+    "stage": "Expansion",
+    "location": "Mumbai, MH",
+    "createdAt": "2025-01-26",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1056,
+      "profitMargin": 20.2,
+      "growthRate": 5.7,
+      "debtEquityRatio": 1.2
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 8.3
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 9.9
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 12.7
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 14.7
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 16.1
+      }
+    ],
+    "investorCount": 6
+  },
+  {
+    "id": "deal-049",
+    "projectName": "Freight Corridor Bengaluru Section",
     "company": "Deccan Constructions",
     "industry": "Railway",
-    "riskLevel": "Low",
-    "roi": 10.6,
-    "minInvestment": 150,
-    "maxInvestment": 1500,
-    "fundingTarget": 3160,
-    "fundingRaised": 476,
-    "stage": "In Progress",
-    "location": "Mumbai, MH",
-    "createdAt": "2025-08-21",
+    "riskLevel": "High",
+    "roi": 20.1,
+    "minInvestment": 50,
+    "maxInvestment": 500,
+    "fundingTarget": 2530,
+    "fundingRaised": 241,
+    "stage": "Planning",
+    "location": "Ahmedabad, GJ",
+    "createdAt": "2025-07-24",
     "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 1274,
-      "profitMargin": 26.4,
-      "growthRate": 24.3,
+      "revenue": 700,
+      "profitMargin": 20.5,
+      "growthRate": 4,
       "debtEquityRatio": 0.7
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 12.4
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 16.5
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 21.1
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 23.2
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 27.5
+      }
+    ],
+    "investorCount": 2
+  },
+  {
+    "id": "deal-050",
+    "projectName": "Godavari River Bridge Project",
+    "company": "Ashoka Devcon",
+    "industry": "Bridges",
+    "riskLevel": "Low",
+    "roi": 13.7,
+    "minInvestment": 240,
+    "maxInvestment": 1440,
+    "fundingTarget": 250,
+    "fundingRaised": 107,
+    "stage": "Expansion",
+    "location": "Nagpur, MH",
+    "createdAt": "2025-10-01",
+    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1407,
+      "profitMargin": 26,
+      "growthRate": 32.8,
+      "debtEquityRatio": 0.6
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 8.4
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 12.1
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 14.8
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 15.9
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 18.5
+      }
+    ],
+    "investorCount": 13
+  },
+  {
+    "id": "deal-051",
+    "projectName": "Mumbai Smart Traffic System",
+    "company": "Kaveri Structures",
+    "industry": "Smart City",
+    "riskLevel": "Low",
+    "roi": 11.3,
+    "minInvestment": 85,
+    "maxInvestment": 935,
+    "fundingTarget": 3190,
+    "fundingRaised": 1715,
+    "stage": "Expansion",
+    "location": "Jaipur, RJ",
+    "createdAt": "2025-01-06",
+    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 656,
+      "profitMargin": 14.1,
+      "growthRate": 31.7,
+      "debtEquityRatio": 0.7
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 8.4
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 9.8
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 12.3
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 14.7
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 15.5
+      }
+    ],
+    "investorCount": 11
+  },
+  {
+    "id": "deal-052",
+    "projectName": "Chennai Flyover Network",
+    "company": "NextGen Infra",
+    "industry": "Bridges",
+    "riskLevel": "Medium",
+    "roi": 16.4,
+    "minInvestment": 185,
+    "maxInvestment": 925,
+    "fundingTarget": 1730,
+    "fundingRaised": 1160,
+    "stage": "Planning",
+    "location": "Bhubaneswar, OD",
+    "createdAt": "2025-12-15",
+    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1619,
+      "profitMargin": 14,
+      "growthRate": 22.4,
+      "debtEquityRatio": 1.8
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 9.9
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 14
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 17
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 20.5
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 23.3
+      }
+    ],
+    "investorCount": 36
+  },
+  {
+    "id": "deal-053",
+    "projectName": "Chennai Smart Traffic System",
+    "company": "Ashoka Devcon",
+    "industry": "Smart City",
+    "riskLevel": "High",
+    "roi": 20.7,
+    "minInvestment": 185,
+    "maxInvestment": 925,
+    "fundingTarget": 3820,
+    "fundingRaised": 1518,
+    "stage": "Planning",
+    "location": "Pune, MH",
+    "createdAt": "2025-01-08",
+    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 725,
+      "profitMargin": 13.9,
+      "growthRate": 13.6,
+      "debtEquityRatio": 1.8
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 12.9
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 17.1
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 20.7
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 25.3
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 28.6
+      }
+    ],
+    "investorCount": 31
+  },
+  {
+    "id": "deal-054",
+    "projectName": "Hyderabad Railway Corridor Doubling",
+    "company": "Ashoka Devcon",
+    "industry": "Railway",
+    "riskLevel": "Low",
+    "roi": 8,
+    "minInvestment": 110,
+    "maxInvestment": 1320,
+    "fundingTarget": 3200,
+    "fundingRaised": 2649,
+    "stage": "Approved",
+    "location": "Chennai, TN",
+    "createdAt": "2025-03-23",
+    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1500,
+      "profitMargin": 17.4,
+      "growthRate": 26.9,
+      "debtEquityRatio": 1.4
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 5.1
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 6.3
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 8.9
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 9.9
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 11
+      }
+    ],
+    "investorCount": 36
+  },
+  {
+    "id": "deal-055",
+    "projectName": "Lucknow Smart Traffic System",
+    "company": "Kaveri Structures",
+    "industry": "Smart City",
+    "riskLevel": "Medium",
+    "roi": 15.2,
+    "minInvestment": 235,
+    "maxInvestment": 1410,
+    "fundingTarget": 1590,
+    "fundingRaised": 1315,
+    "stage": "Planning",
+    "location": "Lucknow, UP",
+    "createdAt": "2025-08-05",
+    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1689,
+      "profitMargin": 14.7,
+      "growthRate": 19.7,
+      "debtEquityRatio": 0.3
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 11
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 12.7
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 16.3
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 18.9
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 20.8
+      }
+    ],
+    "investorCount": 37
+  },
+  {
+    "id": "deal-056",
+    "projectName": "Rooftop Solar Program Nagpur",
+    "company": "Ashoka Devcon",
+    "industry": "Solar",
+    "riskLevel": "Low",
+    "roi": 8.9,
+    "minInvestment": 75,
+    "maxInvestment": 675,
+    "fundingTarget": 2680,
+    "fundingRaised": 2215,
+    "stage": "In Progress",
+    "location": "Bengaluru, KA",
+    "createdAt": "2025-04-14",
+    "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 840,
+      "profitMargin": 26.3,
+      "growthRate": 17,
+      "debtEquityRatio": 0.5
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 6.2
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 8.3
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 9.8
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 10.7
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 12.1
+      }
+    ],
+    "investorCount": 30
+  },
+  {
+    "id": "deal-057",
+    "projectName": "Pune Railway Corridor Doubling",
+    "company": "Ashoka Devcon",
+    "industry": "Railway",
+    "riskLevel": "Medium",
+    "roi": 15.7,
+    "minInvestment": 225,
+    "maxInvestment": 2025,
+    "fundingTarget": 1310,
+    "fundingRaised": 838,
+    "stage": "Expansion",
+    "location": "Mumbai, MH",
+    "createdAt": "2025-02-28",
+    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1470,
+      "profitMargin": 23.4,
+      "growthRate": 11.7,
+      "debtEquityRatio": 1.2
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 10.3
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 14.1
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 15.7
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 19.5
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 21.7
+      }
+    ],
+    "investorCount": 12
+  },
+  {
+    "id": "deal-058",
+    "projectName": "Bhubaneswar Metro Depot Development",
+    "company": "IndiaBuild Corp",
+    "industry": "Metro",
+    "riskLevel": "High",
+    "roi": 19.8,
+    "minInvestment": 185,
+    "maxInvestment": 740,
+    "fundingTarget": 4060,
+    "fundingRaised": 1035,
+    "stage": "Planning",
+    "location": "Bhubaneswar, OD",
+    "createdAt": "2025-08-23",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1612,
+      "profitMargin": 16,
+      "growthRate": 7.7,
+      "debtEquityRatio": 0.9
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 12.5
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 16.1
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 20
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 24.3
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 26.4
+      }
+    ],
+    "investorCount": 36
+  },
+  {
+    "id": "deal-059",
+    "projectName": "Bengaluru Sea Link Extension",
+    "company": "Peninsula Projects",
+    "industry": "Bridges",
+    "riskLevel": "High",
+    "roi": 18.8,
+    "minInvestment": 45,
+    "maxInvestment": 405,
+    "fundingTarget": 1510,
+    "fundingRaised": 753,
+    "stage": "Planning",
+    "location": "Hyderabad, TS",
+    "createdAt": "2025-12-16",
+    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 491,
+      "profitMargin": 9.4,
+      "growthRate": 33.6,
+      "debtEquityRatio": 1.5
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 12.4
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 16.3
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 19.2
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 22.2
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 26.2
+      }
+    ],
+    "investorCount": 2
+  },
+  {
+    "id": "deal-060",
+    "projectName": "Nagpur Integrated Command Centre",
+    "company": "BharatInfra Ltd",
+    "industry": "Smart City",
+    "riskLevel": "High",
+    "roi": 25.7,
+    "minInvestment": 135,
+    "maxInvestment": 540,
+    "fundingTarget": 690,
+    "fundingRaised": 134,
+    "stage": "In Progress",
+    "location": "Lucknow, UP",
+    "createdAt": "2025-05-07",
+    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 435,
+      "profitMargin": 22.5,
+      "growthRate": 11.6,
+      "debtEquityRatio": 0.9
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 15.4
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 20.6
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 25.2
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 30.9
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 34.3
+      }
+    ],
+    "investorCount": 32
+  },
+  {
+    "id": "deal-061",
+    "projectName": "Bhubaneswar Railway Corridor Doubling",
+    "company": "NextGen Infra",
+    "industry": "Railway",
+    "riskLevel": "Low",
+    "roi": 10,
+    "minInvestment": 230,
+    "maxInvestment": 2300,
+    "fundingTarget": 280,
+    "fundingRaised": 94,
+    "stage": "Planning",
+    "location": "Bengaluru, KA",
+    "createdAt": "2025-06-12",
+    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1948,
+      "profitMargin": 16.8,
+      "growthRate": 27.3,
+      "debtEquityRatio": 1.1
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 7.2
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 8.2
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 10.5
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 13.3
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 13.9
+      }
+    ],
+    "investorCount": 20
+  },
+  {
+    "id": "deal-062",
+    "projectName": "Ahmedabad Flyover Network",
+    "company": "Sahyadri Projects",
+    "industry": "Bridges",
+    "riskLevel": "Medium",
+    "roi": 19.6,
+    "minInvestment": 140,
+    "maxInvestment": 700,
+    "fundingTarget": 2210,
+    "fundingRaised": 1177,
+    "stage": "In Progress",
+    "location": "Jaipur, RJ",
+    "createdAt": "2025-10-16",
+    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1939,
+      "profitMargin": 11,
+      "growthRate": 16.5,
+      "debtEquityRatio": 1.1
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 12.6
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 15.9
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 20.3
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 24.3
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 26
+      }
+    ],
+    "investorCount": 32
+  },
+  {
+    "id": "deal-063",
+    "projectName": "Bhubaneswar Metro Depot Development",
+    "company": "BharatInfra Ltd",
+    "industry": "Metro",
+    "riskLevel": "Low",
+    "roi": 10.1,
+    "minInvestment": 240,
+    "maxInvestment": 1680,
+    "fundingTarget": 1370,
+    "fundingRaised": 949,
+    "stage": "In Progress",
+    "location": "Bengaluru, KA",
+    "createdAt": "2025-01-14",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 465,
+      "profitMargin": 20.5,
+      "growthRate": 19.6,
+      "debtEquityRatio": 1.1
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 6.4
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 8.2
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 11.1
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 13.5
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 13.9
+      }
+    ],
+    "investorCount": 6
+  },
+  {
+    "id": "deal-064",
+    "projectName": "Jaipur Smart Traffic System",
+    "company": "Sahyadri Projects",
+    "industry": "Smart City",
+    "riskLevel": "Low",
+    "roi": 10.1,
+    "minInvestment": 235,
+    "maxInvestment": 1645,
+    "fundingTarget": 3030,
+    "fundingRaised": 2706,
+    "stage": "Approved",
+    "location": "Bhubaneswar, OD",
+    "createdAt": "2025-04-07",
+    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1614,
+      "profitMargin": 26.5,
+      "growthRate": 34.9,
+      "debtEquityRatio": 0.5
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 6.5
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 9.4
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 10.1
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 12.6
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 15.1
+      }
+    ],
+    "investorCount": 3
+  },
+  {
+    "id": "deal-065",
+    "projectName": "Pune Sea Link Extension",
+    "company": "Kaveri Structures",
+    "industry": "Bridges",
+    "riskLevel": "Low",
+    "roi": 13.4,
+    "minInvestment": 95,
+    "maxInvestment": 380,
+    "fundingTarget": 3390,
+    "fundingRaised": 2490,
+    "stage": "In Progress",
+    "location": "Lucknow, UP",
+    "createdAt": "2025-06-11",
+    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1495,
+      "profitMargin": 20.6,
+      "growthRate": 27.7,
+      "debtEquityRatio": 1.6
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 8.1
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 10.9
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 13.7
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 16.1
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 17.9
+      }
+    ],
+    "investorCount": 9
+  },
+  {
+    "id": "deal-066",
+    "projectName": "Krishna River Bridge Project",
+    "company": "Trident Infrastructure",
+    "industry": "Bridges",
+    "riskLevel": "Medium",
+    "roi": 12.3,
+    "minInvestment": 75,
+    "maxInvestment": 375,
+    "fundingTarget": 1200,
+    "fundingRaised": 181,
+    "stage": "Expansion",
+    "location": "Bengaluru, KA",
+    "createdAt": "2025-04-22",
+    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 376,
+      "profitMargin": 24.2,
+      "growthRate": 8.2,
+      "debtEquityRatio": 1.4
     },
     "roiProjections": [
       {
@@ -1557,43 +2952,223 @@
       },
       {
         "year": 2027,
-        "projectedRoi": 9.6
+        "projectedRoi": 10.1
       },
       {
         "year": 2028,
-        "projectedRoi": 10.3
+        "projectedRoi": 12.1
       },
       {
         "year": 2029,
-        "projectedRoi": 13.3
+        "projectedRoi": 14.5
       },
       {
         "year": 2030,
-        "projectedRoi": 15.9
+        "projectedRoi": 17.1
       }
     ],
-    "investorCount": 24
+    "investorCount": 34
   },
   {
-    "id": "deal-036",
-    "projectName": "Nagpur Metro Line 49",
-    "company": "Peninsula Projects",
+    "id": "deal-067",
+    "projectName": "Ahmedabad Flyover Network",
+    "company": "Kaveri Structures",
+    "industry": "Bridges",
+    "riskLevel": "Medium",
+    "roi": 17.1,
+    "minInvestment": 225,
+    "maxInvestment": 2025,
+    "fundingTarget": 340,
+    "fundingRaised": 225,
+    "stage": "In Progress",
+    "location": "Lucknow, UP",
+    "createdAt": "2025-04-15",
+    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 326,
+      "profitMargin": 10,
+      "growthRate": 23.3,
+      "debtEquityRatio": 1.5
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 10.4
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 14.4
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 17.8
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 20.1
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 24.5
+      }
+    ],
+    "investorCount": 22
+  },
+  {
+    "id": "deal-068",
+    "projectName": "Mumbai Railway Corridor Doubling",
+    "company": "Trident Infrastructure",
+    "industry": "Railway",
+    "riskLevel": "Low",
+    "roi": 11.9,
+    "minInvestment": 195,
+    "maxInvestment": 975,
+    "fundingTarget": 4530,
+    "fundingRaised": 3176,
+    "stage": "Expansion",
+    "location": "Jaipur, RJ",
+    "createdAt": "2025-05-23",
+    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 748,
+      "profitMargin": 14.8,
+      "growthRate": 19,
+      "debtEquityRatio": 0.3
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 8.1
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 10.2
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 11.6
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 15.2
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 16.2
+      }
+    ],
+    "investorCount": 34
+  },
+  {
+    "id": "deal-069",
+    "projectName": "Bengaluru Metro Depot Development",
+    "company": "IndiaBuild Corp",
     "industry": "Metro",
     "riskLevel": "Low",
-    "roi": 13.8,
-    "minInvestment": 120,
-    "maxInvestment": 480,
-    "fundingTarget": 4090,
-    "fundingRaised": 333,
-    "stage": "Approved",
-    "location": "Ahmedabad, GJ",
-    "createdAt": "2025-11-02",
+    "roi": 10.3,
+    "minInvestment": 155,
+    "maxInvestment": 1085,
+    "fundingTarget": 1710,
+    "fundingRaised": 508,
+    "stage": "Planning",
+    "location": "Nagpur, MH",
+    "createdAt": "2025-07-14",
     "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 1363,
-      "profitMargin": 18.7,
-      "growthRate": 33.8,
-      "debtEquityRatio": 1.6
+      "revenue": 1466,
+      "profitMargin": 27.4,
+      "growthRate": 24.1,
+      "debtEquityRatio": 0.6
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 7.6
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 9.1
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 10.4
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 13
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 14.4
+      }
+    ],
+    "investorCount": 28
+  },
+  {
+    "id": "deal-070",
+    "projectName": "Chennai Metro Line 44",
+    "company": "Kaveri Structures",
+    "industry": "Metro",
+    "riskLevel": "High",
+    "roi": 27,
+    "minInvestment": 145,
+    "maxInvestment": 1740,
+    "fundingTarget": 3860,
+    "fundingRaised": 2217,
+    "stage": "In Progress",
+    "location": "Hyderabad, TS",
+    "createdAt": "2025-10-13",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1185,
+      "profitMargin": 27.1,
+      "growthRate": 24.2,
+      "debtEquityRatio": 0.9
+    },
+    "roiProjections": [
+      {
+        "year": 2026,
+        "projectedRoi": 16.3
+      },
+      {
+        "year": 2027,
+        "projectedRoi": 22
+      },
+      {
+        "year": 2028,
+        "projectedRoi": 26
+      },
+      {
+        "year": 2029,
+        "projectedRoi": 30.8
+      },
+      {
+        "year": 2030,
+        "projectedRoi": 36.8
+      }
+    ],
+    "investorCount": 7
+  },
+  {
+    "id": "deal-071",
+    "projectName": "Jaipur Metro Depot Development",
+    "company": "Deccan Constructions",
+    "industry": "Metro",
+    "riskLevel": "Low",
+    "roi": 11.7,
+    "minInvestment": 175,
+    "maxInvestment": 700,
+    "fundingTarget": 3110,
+    "fundingRaised": 755,
+    "stage": "In Progress",
+    "location": "Pune, MH",
+    "createdAt": "2025-09-22",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "financials": {
+      "revenue": 1410,
+      "profitMargin": 8.8,
+      "growthRate": 18.3,
+      "debtEquityRatio": 1.5
     },
     "roiProjections": [
       {
@@ -1602,178 +3177,43 @@
       },
       {
         "year": 2027,
-        "projectedRoi": 11.4
+        "projectedRoi": 9.3
       },
       {
         "year": 2028,
-        "projectedRoi": 14.1
+        "projectedRoi": 11.9
       },
       {
         "year": 2029,
-        "projectedRoi": 16.7
+        "projectedRoi": 15.1
       },
       {
         "year": 2030,
-        "projectedRoi": 20
+        "projectedRoi": 16.8
       }
     ],
-    "investorCount": 16
+    "investorCount": 38
   },
   {
-    "id": "deal-037",
-    "projectName": "Pune Expressway Corridor",
-    "company": "Vajra Engineering",
-    "industry": "Roads",
-    "riskLevel": "Low",
-    "roi": 9.7,
-    "minInvestment": 60,
-    "maxInvestment": 540,
-    "fundingTarget": 2700,
-    "fundingRaised": 2239,
-    "stage": "In Progress",
-    "location": "Pune, MH",
-    "createdAt": "2025-01-06",
-    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1275,
-      "profitMargin": 8,
-      "growthRate": 7.5,
-      "debtEquityRatio": 0.5
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 6
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 9.1
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 10
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 12.1
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 12.8
-      }
-    ],
-    "investorCount": 32
-  },
-  {
-    "id": "deal-038",
-    "projectName": "NH-66 Widening Project",
-    "company": "Kaveri Structures",
-    "industry": "Roads",
-    "riskLevel": "Low",
-    "roi": 9,
-    "minInvestment": 210,
-    "maxInvestment": 1680,
-    "fundingTarget": 4880,
-    "fundingRaised": 2344,
-    "stage": "Planning",
-    "location": "Bhubaneswar, OD",
-    "createdAt": "2025-06-25",
-    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1959,
-      "profitMargin": 24.7,
-      "growthRate": 16.5,
-      "debtEquityRatio": 1.4
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 7.1
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 8.9
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 10
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 10.3
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 12.8
-      }
-    ],
-    "investorCount": 3
-  },
-  {
-    "id": "deal-039",
-    "projectName": "Pune Sea Link Extension",
-    "company": "BharatInfra Ltd",
-    "industry": "Bridges",
+    "id": "deal-072",
+    "projectName": "Solar Corridor Lucknow",
+    "company": "Peninsula Projects",
+    "industry": "Solar",
     "riskLevel": "High",
-    "roi": 20.1,
-    "minInvestment": 150,
-    "maxInvestment": 1800,
-    "fundingTarget": 3050,
-    "fundingRaised": 2503,
-    "stage": "Planning",
-    "location": "Jaipur, RJ",
-    "createdAt": "2025-10-09",
-    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1910,
-      "profitMargin": 14,
-      "growthRate": 28.2,
-      "debtEquityRatio": 0.8
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 13.5
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 17.5
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 20.1
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 23.7
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 27
-      }
-    ],
-    "investorCount": 29
-  },
-  {
-    "id": "deal-040",
-    "projectName": "Bengaluru Sea Link Extension",
-    "company": "Vajra Engineering",
-    "industry": "Bridges",
-    "riskLevel": "High",
-    "roi": 22.4,
-    "minInvestment": 30,
-    "maxInvestment": 330,
-    "fundingTarget": 1960,
-    "fundingRaised": 1100,
+    "roi": 21,
+    "minInvestment": 115,
+    "maxInvestment": 690,
+    "fundingTarget": 1740,
+    "fundingRaised": 587,
     "stage": "Approved",
-    "location": "Bengaluru, KA",
-    "createdAt": "2025-01-28",
-    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "location": "Mumbai, MH",
+    "createdAt": "2025-05-17",
+    "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 600,
-      "profitMargin": 16.8,
-      "growthRate": 11.2,
-      "debtEquityRatio": 0.5
+      "revenue": 1889,
+      "profitMargin": 8.4,
+      "growthRate": 26.4,
+      "debtEquityRatio": 0.4
     },
     "roiProjections": [
       {
@@ -1782,808 +3222,268 @@
       },
       {
         "year": 2027,
-        "projectedRoi": 17.9
+        "projectedRoi": 17.8
       },
       {
         "year": 2028,
-        "projectedRoi": 22.8
+        "projectedRoi": 21.5
       },
       {
         "year": 2029,
-        "projectedRoi": 27
+        "projectedRoi": 24.4
       },
       {
         "year": 2030,
-        "projectedRoi": 30.3
+        "projectedRoi": 28.9
       }
     ],
-    "investorCount": 3
+    "investorCount": 28
   },
   {
-    "id": "deal-041",
-    "projectName": "High-Speed Rail Bengaluru Segment",
-    "company": "Trident Infrastructure",
-    "industry": "Railway",
-    "riskLevel": "Low",
-    "roi": 8.3,
-    "minInvestment": 70,
-    "maxInvestment": 630,
-    "fundingTarget": 1360,
-    "fundingRaised": 852,
-    "stage": "In Progress",
-    "location": "Jaipur, RJ",
-    "createdAt": "2025-06-20",
-    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1930,
-      "profitMargin": 10.5,
-      "growthRate": 20.5,
-      "debtEquityRatio": 0.8
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 6.6
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 7.6
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 8.3
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 10
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 11.8
-      }
-    ],
-    "investorCount": 3
-  },
-  {
-    "id": "deal-042",
-    "projectName": "State Highway 29 Upgrade",
-    "company": "IndiaBuild Corp",
-    "industry": "Roads",
-    "riskLevel": "Low",
-    "roi": 12.3,
-    "minInvestment": 75,
-    "maxInvestment": 375,
-    "fundingTarget": 2400,
-    "fundingRaised": 172,
-    "stage": "Approved",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-02-19",
-    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1167,
-      "profitMargin": 11.2,
-      "growthRate": 15.3,
-      "debtEquityRatio": 1.8
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 8.6
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 11.1
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 13.3
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 14.8
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 16.9
-      }
-    ],
-    "investorCount": 37
-  },
-  {
-    "id": "deal-043",
-    "projectName": "NH-33 Widening Project",
-    "company": "NextGen Infra",
-    "industry": "Roads",
-    "riskLevel": "Low",
-    "roi": 8.1,
-    "minInvestment": 170,
-    "maxInvestment": 2040,
-    "fundingTarget": 520,
-    "fundingRaised": 219,
-    "stage": "In Progress",
-    "location": "Lucknow, UP",
-    "createdAt": "2025-04-23",
-    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1760,
-      "profitMargin": 15.9,
-      "growthRate": 28.6,
-      "debtEquityRatio": 0.5
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 5.5
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 7.3
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 7.9
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 11.1
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 12.1
-      }
-    ],
-    "investorCount": 11
-  },
-  {
-    "id": "deal-044",
-    "projectName": "Nagpur Ring Road Phase 4",
+    "id": "deal-073",
+    "projectName": "Nagpur Metro Phase 4 Extension",
     "company": "Ashoka Devcon",
-    "industry": "Roads",
-    "riskLevel": "High",
-    "roi": 21.7,
-    "minInvestment": 175,
-    "maxInvestment": 700,
-    "fundingTarget": 4880,
-    "fundingRaised": 3861,
-    "stage": "Approved",
-    "location": "Bengaluru, KA",
-    "createdAt": "2025-04-07",
-    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1942,
-      "profitMargin": 22.5,
-      "growthRate": 15.3,
-      "debtEquityRatio": 0.8
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 14.3
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 18.6
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 22.3
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 26.2
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 29.9
-      }
-    ],
-    "investorCount": 34
-  },
-  {
-    "id": "deal-045",
-    "projectName": "Mumbai Flyover Network",
-    "company": "Sahyadri Projects",
-    "industry": "Bridges",
-    "riskLevel": "High",
-    "roi": 27.1,
-    "minInvestment": 250,
-    "maxInvestment": 1750,
-    "fundingTarget": 1060,
-    "fundingRaised": 541,
-    "stage": "Approved",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-03-08",
-    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 784,
-      "profitMargin": 12,
-      "growthRate": 23.3,
-      "debtEquityRatio": 1
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 17.3
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 22.1
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 26.4
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 32.2
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 37.5
-      }
-    ],
-    "investorCount": 13
-  },
-  {
-    "id": "deal-046",
-    "projectName": "Nagpur Sea Link Extension",
-    "company": "IndiaBuild Corp",
-    "industry": "Bridges",
-    "riskLevel": "High",
-    "roi": 20,
-    "minInvestment": 210,
-    "maxInvestment": 1260,
-    "fundingTarget": 3050,
-    "fundingRaised": 1912,
+    "industry": "Metro",
+    "riskLevel": "Medium",
+    "roi": 19.6,
+    "minInvestment": 240,
+    "maxInvestment": 1680,
+    "fundingTarget": 4420,
+    "fundingRaised": 2682,
     "stage": "Planning",
     "location": "Jaipur, RJ",
-    "createdAt": "2025-12-22",
-    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "createdAt": "2025-12-09",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 1982,
-      "profitMargin": 15.5,
-      "growthRate": 19.4,
-      "debtEquityRatio": 1.5
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 13.7
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 16.3
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 20
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 23.4
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 28
-      }
-    ],
-    "investorCount": 34
-  },
-  {
-    "id": "deal-047",
-    "projectName": "High-Speed Rail Ahmedabad Segment",
-    "company": "BharatInfra Ltd",
-    "industry": "Railway",
-    "riskLevel": "Low",
-    "roi": 10.5,
-    "minInvestment": 180,
-    "maxInvestment": 1260,
-    "fundingTarget": 220,
-    "fundingRaised": 126,
-    "stage": "Expansion",
-    "location": "Ahmedabad, GJ",
-    "createdAt": "2025-11-13",
-    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 786,
-      "profitMargin": 23.3,
-      "growthRate": 15,
+      "revenue": 275,
+      "profitMargin": 20.6,
+      "growthRate": 11.4,
       "debtEquityRatio": 0.6
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 6.5
+        "projectedRoi": 12.3
       },
       {
         "year": 2027,
-        "projectedRoi": 8.6
+        "projectedRoi": 15.4
       },
       {
         "year": 2028,
-        "projectedRoi": 10.3
+        "projectedRoi": 18.9
       },
       {
         "year": 2029,
-        "projectedRoi": 12.6
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 14.2
-      }
-    ],
-    "investorCount": 22
-  },
-  {
-    "id": "deal-048",
-    "projectName": "Mumbai Expressway Corridor",
-    "company": "Ashoka Devcon",
-    "industry": "Roads",
-    "riskLevel": "Low",
-    "roi": 13.3,
-    "minInvestment": 30,
-    "maxInvestment": 210,
-    "fundingTarget": 4840,
-    "fundingRaised": 3782,
-    "stage": "Planning",
-    "location": "Chennai, TN",
-    "createdAt": "2025-11-24",
-    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 149,
-      "profitMargin": 9.5,
-      "growthRate": 10.1,
-      "debtEquityRatio": 0.2
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 9.1
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 11.6
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 13.9
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 15.9
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 18.4
-      }
-    ],
-    "investorCount": 14
-  },
-  {
-    "id": "deal-049",
-    "projectName": "Rooftop Solar Program Chennai",
-    "company": "Deccan Constructions",
-    "industry": "Solar",
-    "riskLevel": "High",
-    "roi": 19,
-    "minInvestment": 145,
-    "maxInvestment": 870,
-    "fundingTarget": 2850,
-    "fundingRaised": 2137,
-    "stage": "In Progress",
-    "location": "Lucknow, UP",
-    "createdAt": "2025-10-19",
-    "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 153,
-      "profitMargin": 22.8,
-      "growthRate": 11.2,
-      "debtEquityRatio": 0.5
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 11.8
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 16
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 18.7
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 23
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 27
-      }
-    ],
-    "investorCount": 10
-  },
-  {
-    "id": "deal-050",
-    "projectName": "Pune Neo Metro Project",
-    "company": "Ashoka Devcon",
-    "industry": "Metro",
-    "riskLevel": "High",
-    "roi": 20.1,
-    "minInvestment": 110,
-    "maxInvestment": 1320,
-    "fundingTarget": 4400,
-    "fundingRaised": 2431,
-    "stage": "Expansion",
-    "location": "Ahmedabad, GJ",
-    "createdAt": "2025-10-17",
-    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1572,
-      "profitMargin": 20.2,
-      "growthRate": 9.8,
-      "debtEquityRatio": 0.5
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 13.7
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 16.5
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 19.5
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 23.6
+        "projectedRoi": 22.7
       },
       {
         "year": 2030,
         "projectedRoi": 27.1
       }
     ],
-    "investorCount": 27
+    "investorCount": 33
   },
   {
-    "id": "deal-051",
-    "projectName": "State Highway 65 Upgrade",
-    "company": "Kaveri Structures",
+    "id": "deal-074",
+    "projectName": "NH-21 Widening Project",
+    "company": "NextGen Infra",
     "industry": "Roads",
     "riskLevel": "Low",
-    "roi": 10.2,
-    "minInvestment": 105,
-    "maxInvestment": 420,
-    "fundingTarget": 1180,
-    "fundingRaised": 992,
-    "stage": "Planning",
-    "location": "Hyderabad, TS",
-    "createdAt": "2025-07-17",
+    "roi": 11.3,
+    "minInvestment": 210,
+    "maxInvestment": 1470,
+    "fundingTarget": 3630,
+    "fundingRaised": 469,
+    "stage": "Approved",
+    "location": "Mumbai, MH",
+    "createdAt": "2025-11-26",
     "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 1516,
-      "profitMargin": 11.6,
-      "growthRate": 12.3,
-      "debtEquityRatio": 1.7
+      "revenue": 766,
+      "profitMargin": 12.4,
+      "growthRate": 14.9,
+      "debtEquityRatio": 1.2
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 7.9
+        "projectedRoi": 7.5
       },
       {
         "year": 2027,
-        "projectedRoi": 9.1
+        "projectedRoi": 9.8
       },
       {
         "year": 2028,
-        "projectedRoi": 10.9
+        "projectedRoi": 11.4
       },
       {
         "year": 2029,
-        "projectedRoi": 12.7
+        "projectedRoi": 14.5
       },
       {
         "year": 2030,
-        "projectedRoi": 14.7
+        "projectedRoi": 15.7
       }
     ],
-    "investorCount": 28
+    "investorCount": 12
   },
   {
-    "id": "deal-052",
-    "projectName": "Pune Metro Depot Development",
-    "company": "BharatInfra Ltd",
-    "industry": "Metro",
-    "riskLevel": "Medium",
-    "roi": 16.1,
-    "minInvestment": 110,
-    "maxInvestment": 770,
-    "fundingTarget": 4420,
-    "fundingRaised": 492,
-    "stage": "Expansion",
-    "location": "Bhubaneswar, OD",
-    "createdAt": "2025-04-17",
-    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1674,
-      "profitMargin": 22.8,
-      "growthRate": 24.4,
-      "debtEquityRatio": 0.4
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 10.5
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 12.9
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 16.4
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 19.8
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 21.4
-      }
-    ],
-    "investorCount": 5
-  },
-  {
-    "id": "deal-053",
-    "projectName": "Mahanadi River Bridge Project",
-    "company": "Peninsula Projects",
-    "industry": "Bridges",
-    "riskLevel": "Medium",
-    "roi": 13.3,
-    "minInvestment": 195,
-    "maxInvestment": 1560,
-    "fundingTarget": 780,
-    "fundingRaised": 69,
-    "stage": "Approved",
-    "location": "Bhubaneswar, OD",
-    "createdAt": "2025-01-18",
-    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 511,
-      "profitMargin": 15.3,
-      "growthRate": 34.5,
-      "debtEquityRatio": 1
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 9.4
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 12.3
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 14
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 16.4
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 18.8
-      }
-    ],
-    "investorCount": 16
-  },
-  {
-    "id": "deal-054",
-    "projectName": "Cable-Stayed Bridge Mumbai",
-    "company": "Trident Infrastructure",
+    "id": "deal-075",
+    "projectName": "Jaipur Sea Link Extension",
+    "company": "Kaveri Structures",
     "industry": "Bridges",
     "riskLevel": "High",
-    "roi": 23.8,
-    "minInvestment": 100,
-    "maxInvestment": 1200,
-    "fundingTarget": 4340,
-    "fundingRaised": 280,
-    "stage": "In Progress",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-11-24",
-    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 157,
-      "profitMargin": 27.2,
-      "growthRate": 14.2,
-      "debtEquityRatio": 1.7
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 15.1
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 19.6
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 24.5
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 27.2
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 33.1
-      }
-    ],
-    "investorCount": 20
-  },
-  {
-    "id": "deal-055",
-    "projectName": "Bengaluru Smart Water Grid",
-    "company": "BharatInfra Ltd",
-    "industry": "Smart City",
-    "riskLevel": "Low",
-    "roi": 10.6,
-    "minInvestment": 85,
-    "maxInvestment": 425,
-    "fundingTarget": 3660,
-    "fundingRaised": 1316,
+    "roi": 27.8,
+    "minInvestment": 240,
+    "maxInvestment": 2640,
+    "fundingTarget": 3140,
+    "fundingRaised": 2803,
     "stage": "In Progress",
     "location": "Ahmedabad, GJ",
-    "createdAt": "2025-02-01",
-    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "createdAt": "2025-12-23",
+    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 574,
-      "profitMargin": 8.3,
-      "growthRate": 12.4,
-      "debtEquityRatio": 0.9
+      "revenue": 670,
+      "profitMargin": 16.5,
+      "growthRate": 18.3,
+      "debtEquityRatio": 0.3
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 8.2
+        "projectedRoi": 16.8
       },
       {
         "year": 2027,
-        "projectedRoi": 8.7
+        "projectedRoi": 23.3
       },
       {
         "year": 2028,
-        "projectedRoi": 12.1
+        "projectedRoi": 27.9
       },
       {
         "year": 2029,
-        "projectedRoi": 13.3
+        "projectedRoi": 32.3
       },
       {
         "year": 2030,
-        "projectedRoi": 15.2
+        "projectedRoi": 37.7
       }
     ],
-    "investorCount": 32
+    "investorCount": 33
   },
   {
-    "id": "deal-056",
-    "projectName": "Hyderabad Metro Depot Development",
-    "company": "BharatInfra Ltd",
-    "industry": "Metro",
+    "id": "deal-076",
+    "projectName": "Jaipur Digital Infrastructure Hub",
+    "company": "Peninsula Projects",
+    "industry": "Smart City",
     "riskLevel": "Low",
-    "roi": 10.3,
-    "minInvestment": 115,
-    "maxInvestment": 1150,
-    "fundingTarget": 3350,
-    "fundingRaised": 1291,
-    "stage": "Approved",
-    "location": "Chennai, TN",
-    "createdAt": "2025-09-23",
-    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "roi": 8.3,
+    "minInvestment": 220,
+    "maxInvestment": 2200,
+    "fundingTarget": 4750,
+    "fundingRaised": 2438,
+    "stage": "In Progress",
+    "location": "Hyderabad, TS",
+    "createdAt": "2025-02-08",
+    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 1512,
-      "profitMargin": 21.5,
-      "growthRate": 10.5,
+      "revenue": 889,
+      "profitMargin": 19.2,
+      "growthRate": 4.7,
       "debtEquityRatio": 1.3
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 6.5
+        "projectedRoi": 5.7
       },
       {
         "year": 2027,
-        "projectedRoi": 8.5
+        "projectedRoi": 6.5
       },
       {
         "year": 2028,
-        "projectedRoi": 11.1
+        "projectedRoi": 9.5
       },
       {
         "year": 2029,
-        "projectedRoi": 12
+        "projectedRoi": 10.4
       },
       {
         "year": 2030,
-        "projectedRoi": 14.9
+        "projectedRoi": 12.3
       }
     ],
-    "investorCount": 32
+    "investorCount": 37
   },
   {
-    "id": "deal-057",
-    "projectName": "Hyderabad Railway Corridor Doubling",
+    "id": "deal-077",
+    "projectName": "Hyderabad Integrated Command Centre",
     "company": "Kaveri Structures",
-    "industry": "Railway",
-    "riskLevel": "Low",
-    "roi": 10.2,
-    "minInvestment": 125,
-    "maxInvestment": 750,
-    "fundingTarget": 1860,
-    "fundingRaised": 312,
-    "stage": "In Progress",
-    "location": "Hyderabad, TS",
-    "createdAt": "2025-05-01",
-    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "industry": "Smart City",
+    "riskLevel": "Medium",
+    "roi": 16.9,
+    "minInvestment": 155,
+    "maxInvestment": 775,
+    "fundingTarget": 4880,
+    "fundingRaised": 1074,
+    "stage": "Approved",
+    "location": "Lucknow, UP",
+    "createdAt": "2025-03-11",
+    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 495,
-      "profitMargin": 8.5,
-      "growthRate": 21.5,
-      "debtEquityRatio": 1.4
+      "revenue": 280,
+      "profitMargin": 22.6,
+      "growthRate": 16,
+      "debtEquityRatio": 0.5
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 6.4
+        "projectedRoi": 11.7
       },
       {
         "year": 2027,
-        "projectedRoi": 9.2
+        "projectedRoi": 14.5
       },
       {
         "year": 2028,
-        "projectedRoi": 10
+        "projectedRoi": 18
       },
       {
         "year": 2029,
-        "projectedRoi": 11.8
+        "projectedRoi": 19.7
       },
       {
         "year": 2030,
-        "projectedRoi": 13.7
+        "projectedRoi": 23.4
       }
     ],
-    "investorCount": 17
+    "investorCount": 4
   },
   {
-    "id": "deal-058",
-    "projectName": "Solar Corridor Mumbai",
+    "id": "deal-078",
+    "projectName": "Bhubaneswar Solar Park 48MW",
     "company": "Trident Infrastructure",
     "industry": "Solar",
-    "riskLevel": "Low",
-    "roi": 12.3,
-    "minInvestment": 220,
-    "maxInvestment": 1980,
-    "fundingTarget": 2490,
-    "fundingRaised": 1828,
+    "riskLevel": "Medium",
+    "roi": 13.3,
+    "minInvestment": 155,
+    "maxInvestment": 775,
+    "fundingTarget": 4930,
+    "fundingRaised": 2883,
     "stage": "Approved",
-    "location": "Bhubaneswar, OD",
-    "createdAt": "2025-03-09",
+    "location": "Nagpur, MH",
+    "createdAt": "2025-11-15",
     "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 457,
-      "profitMargin": 24.8,
-      "growthRate": 8.2,
-      "debtEquityRatio": 1.5
+      "revenue": 826,
+      "profitMargin": 24.5,
+      "growthRate": 16.4,
+      "debtEquityRatio": 1.7
     },
     "roiProjections": [
       {
@@ -2592,146 +3492,11 @@
       },
       {
         "year": 2027,
-        "projectedRoi": 11
+        "projectedRoi": 12.3
       },
       {
         "year": 2028,
-        "projectedRoi": 11.9
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 16
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 16.6
-      }
-    ],
-    "investorCount": 18
-  },
-  {
-    "id": "deal-059",
-    "projectName": "Ahmedabad Solar Park 23MW",
-    "company": "Sahyadri Projects",
-    "industry": "Solar",
-    "riskLevel": "Medium",
-    "roi": 18.9,
-    "minInvestment": 240,
-    "maxInvestment": 1200,
-    "fundingTarget": 2460,
-    "fundingRaised": 1956,
-    "stage": "Expansion",
-    "location": "Bengaluru, KA",
-    "createdAt": "2025-10-23",
-    "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 833,
-      "profitMargin": 21,
-      "growthRate": 15,
-      "debtEquityRatio": 1.4
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 11.5
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 15.3
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 19.1
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 22.8
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 25.4
-      }
-    ],
-    "investorCount": 7
-  },
-  {
-    "id": "deal-060",
-    "projectName": "High-Speed Rail Chennai Segment",
-    "company": "Sahyadri Projects",
-    "industry": "Railway",
-    "riskLevel": "Low",
-    "roi": 10.9,
-    "minInvestment": 25,
-    "maxInvestment": 150,
-    "fundingTarget": 2810,
-    "fundingRaised": 600,
-    "stage": "Expansion",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-06-02",
-    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1674,
-      "profitMargin": 19,
-      "growthRate": 26.8,
-      "debtEquityRatio": 1.5
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 7.9
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 9.9
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 12.1
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 13.4
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 14.5
-      }
-    ],
-    "investorCount": 23
-  },
-  {
-    "id": "deal-061",
-    "projectName": "Freight Corridor Nagpur Section",
-    "company": "Vajra Engineering",
-    "industry": "Railway",
-    "riskLevel": "Low",
-    "roi": 13.6,
-    "minInvestment": 25,
-    "maxInvestment": 250,
-    "fundingTarget": 4910,
-    "fundingRaised": 2037,
-    "stage": "Expansion",
-    "location": "Lucknow, UP",
-    "createdAt": "2025-08-06",
-    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 724,
-      "profitMargin": 23.5,
-      "growthRate": 8.3,
-      "debtEquityRatio": 0.5
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 8.5
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 12
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 14.6
+        "projectedRoi": 13.2
       },
       {
         "year": 2029,
@@ -2739,864 +3504,99 @@
       },
       {
         "year": 2030,
-        "projectedRoi": 19.2
-      }
-    ],
-    "investorCount": 30
-  },
-  {
-    "id": "deal-062",
-    "projectName": "Jaipur Neo Metro Project",
-    "company": "NextGen Infra",
-    "industry": "Metro",
-    "riskLevel": "Low",
-    "roi": 10.4,
-    "minInvestment": 115,
-    "maxInvestment": 1150,
-    "fundingTarget": 940,
-    "fundingRaised": 167,
-    "stage": "In Progress",
-    "location": "Ahmedabad, GJ",
-    "createdAt": "2025-12-22",
-    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1970,
-      "profitMargin": 21.6,
-      "growthRate": 14.5,
-      "debtEquityRatio": 1.3
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 6.6
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 8.5
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 10.7
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 12.2
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 14.9
-      }
-    ],
-    "investorCount": 29
-  },
-  {
-    "id": "deal-063",
-    "projectName": "Mumbai Metro Depot Development",
-    "company": "Deccan Constructions",
-    "industry": "Metro",
-    "riskLevel": "Medium",
-    "roi": 14,
-    "minInvestment": 165,
-    "maxInvestment": 1650,
-    "fundingTarget": 4520,
-    "fundingRaised": 2105,
-    "stage": "Approved",
-    "location": "Hyderabad, TS",
-    "createdAt": "2025-07-13",
-    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 152,
-      "profitMargin": 20.6,
-      "growthRate": 27.9,
-      "debtEquityRatio": 1
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 9.8
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 12.3
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 14.2
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 17.4
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 20
-      }
-    ],
-    "investorCount": 30
-  },
-  {
-    "id": "deal-064",
-    "projectName": "Lucknow Digital Infrastructure Hub",
-    "company": "Ashoka Devcon",
-    "industry": "Smart City",
-    "riskLevel": "Medium",
-    "roi": 15.4,
-    "minInvestment": 70,
-    "maxInvestment": 280,
-    "fundingTarget": 3500,
-    "fundingRaised": 2981,
-    "stage": "In Progress",
-    "location": "Hyderabad, TS",
-    "createdAt": "2025-10-15",
-    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1923,
-      "profitMargin": 20.5,
-      "growthRate": 22.2,
-      "debtEquityRatio": 1.4
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 11.1
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 13.5
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 15.6
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 17.9
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 20.7
-      }
-    ],
-    "investorCount": 12
-  },
-  {
-    "id": "deal-065",
-    "projectName": "Freight Corridor Chennai Section",
-    "company": "NextGen Infra",
-    "industry": "Railway",
-    "riskLevel": "High",
-    "roi": 18.5,
-    "minInvestment": 65,
-    "maxInvestment": 780,
-    "fundingTarget": 940,
-    "fundingRaised": 368,
-    "stage": "Expansion",
-    "location": "Bhubaneswar, OD",
-    "createdAt": "2025-02-08",
-    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 116,
-      "profitMargin": 16.2,
-      "growthRate": 27,
-      "debtEquityRatio": 0.8
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 11.4
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 16.3
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 19.2
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 22.4
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 26.4
-      }
-    ],
-    "investorCount": 12
-  },
-  {
-    "id": "deal-066",
-    "projectName": "Cable-Stayed Bridge Ahmedabad",
-    "company": "Peninsula Projects",
-    "industry": "Bridges",
-    "riskLevel": "High",
-    "roi": 23.2,
-    "minInvestment": 80,
-    "maxInvestment": 560,
-    "fundingTarget": 4260,
-    "fundingRaised": 621,
-    "stage": "Planning",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-01-02",
-    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1869,
-      "profitMargin": 24.3,
-      "growthRate": 28,
-      "debtEquityRatio": 1.7
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 15.7
-      },
-      {
-        "year": 2027,
         "projectedRoi": 18.7
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 23
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 26.5
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 31.6
-      }
-    ],
-    "investorCount": 40
-  },
-  {
-    "id": "deal-067",
-    "projectName": "Nagpur Digital Infrastructure Hub",
-    "company": "Peninsula Projects",
-    "industry": "Smart City",
-    "riskLevel": "High",
-    "roi": 28.8,
-    "minInvestment": 140,
-    "maxInvestment": 700,
-    "fundingTarget": 1300,
-    "fundingRaised": 959,
-    "stage": "Approved",
-    "location": "Bhubaneswar, OD",
-    "createdAt": "2025-05-08",
-    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1447,
-      "profitMargin": 20.6,
-      "growthRate": 20,
-      "debtEquityRatio": 0.9
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 19.2
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 22.9
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 29.6
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 33.3
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 38.5
-      }
-    ],
-    "investorCount": 39
-  },
-  {
-    "id": "deal-068",
-    "projectName": "Mumbai Expressway Corridor",
-    "company": "Sahyadri Projects",
-    "industry": "Roads",
-    "riskLevel": "Low",
-    "roi": 8.1,
-    "minInvestment": 150,
-    "maxInvestment": 900,
-    "fundingTarget": 820,
-    "fundingRaised": 607,
-    "stage": "Approved",
-    "location": "Hyderabad, TS",
-    "createdAt": "2025-03-10",
-    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1683,
-      "profitMargin": 11.4,
-      "growthRate": 30.2,
-      "debtEquityRatio": 1.6
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 6.4
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 8.2
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 8.8
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 9.6
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 11.4
-      }
-    ],
-    "investorCount": 8
-  },
-  {
-    "id": "deal-069",
-    "projectName": "Pune Metro Phase 1 Extension",
-    "company": "IndiaBuild Corp",
-    "industry": "Metro",
-    "riskLevel": "Medium",
-    "roi": 18.4,
-    "minInvestment": 210,
-    "maxInvestment": 1050,
-    "fundingTarget": 2950,
-    "fundingRaised": 838,
-    "stage": "Expansion",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-01-01",
-    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1259,
-      "profitMargin": 8.9,
-      "growthRate": 23.5,
-      "debtEquityRatio": 0.5
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 12.8
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 14.4
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 18.5
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 21.1
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 24.8
       }
     ],
     "investorCount": 31
   },
   {
-    "id": "deal-070",
-    "projectName": "Bengaluru Smart Water Grid",
-    "company": "IndiaBuild Corp",
-    "industry": "Smart City",
-    "riskLevel": "Medium",
-    "roi": 15.4,
-    "minInvestment": 195,
-    "maxInvestment": 1755,
-    "fundingTarget": 1080,
-    "fundingRaised": 455,
-    "stage": "Expansion",
-    "location": "Ahmedabad, GJ",
-    "createdAt": "2025-05-28",
-    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1179,
-      "profitMargin": 8.7,
-      "growthRate": 10.6,
-      "debtEquityRatio": 1.8
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 9.4
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 12.6
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 15.5
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 17.9
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 22
-      }
-    ],
-    "investorCount": 31
-  },
-  {
-    "id": "deal-071",
-    "projectName": "Ahmedabad Ring Road Phase 1",
-    "company": "IndiaBuild Corp",
-    "industry": "Roads",
-    "riskLevel": "Low",
-    "roi": 9.6,
-    "minInvestment": 135,
-    "maxInvestment": 1350,
-    "fundingTarget": 2270,
-    "fundingRaised": 144,
-    "stage": "Expansion",
-    "location": "Pune, MH",
-    "createdAt": "2025-06-19",
-    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1911,
-      "profitMargin": 19.3,
-      "growthRate": 6.5,
-      "debtEquityRatio": 0.5
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 6.9
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 7.5
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 9.4
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 11.7
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 13.3
-      }
-    ],
-    "investorCount": 4
-  },
-  {
-    "id": "deal-072",
-    "projectName": "Nagpur Ring Road Phase 3",
-    "company": "Vajra Engineering",
-    "industry": "Roads",
-    "riskLevel": "Medium",
-    "roi": 17.5,
-    "minInvestment": 165,
-    "maxInvestment": 1650,
-    "fundingTarget": 3600,
-    "fundingRaised": 1241,
-    "stage": "Planning",
-    "location": "Chennai, TN",
-    "createdAt": "2025-06-25",
-    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 123,
-      "profitMargin": 26.2,
-      "growthRate": 16.7,
-      "debtEquityRatio": 1
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 11.2
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 14.6
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 18.1
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 21.7
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 23.4
-      }
-    ],
-    "investorCount": 18
-  },
-  {
-    "id": "deal-073",
-    "projectName": "Lucknow Station Redevelopment",
-    "company": "Sahyadri Projects",
-    "industry": "Railway",
-    "riskLevel": "Low",
-    "roi": 8.7,
-    "minInvestment": 220,
-    "maxInvestment": 2200,
-    "fundingTarget": 680,
-    "fundingRaised": 292,
-    "stage": "In Progress",
-    "location": "Chennai, TN",
-    "createdAt": "2025-07-18",
-    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 899,
-      "profitMargin": 16.1,
-      "growthRate": 27.9,
-      "debtEquityRatio": 0.7
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 6.3
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 8.5
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 9
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 10.5
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 11.5
-      }
-    ],
-    "investorCount": 25
-  },
-  {
-    "id": "deal-074",
-    "projectName": "Pune Digital Infrastructure Hub",
-    "company": "BharatInfra Ltd",
-    "industry": "Smart City",
-    "riskLevel": "Medium",
-    "roi": 16.1,
-    "minInvestment": 210,
-    "maxInvestment": 2100,
-    "fundingTarget": 1210,
-    "fundingRaised": 509,
-    "stage": "Planning",
-    "location": "Mumbai, MH",
-    "createdAt": "2025-10-11",
-    "description": "Smart City infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1581,
-      "profitMargin": 17.9,
-      "growthRate": 24.2,
-      "debtEquityRatio": 1.6
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 11.6
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 14.4
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 16.4
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 19.1
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 21.5
-      }
-    ],
-    "investorCount": 17
-  },
-  {
-    "id": "deal-075",
-    "projectName": "Lucknow Metro Depot Development",
-    "company": "Deccan Constructions",
+    "id": "deal-079",
+    "projectName": "Pune Neo Metro Project",
+    "company": "NextGen Infra",
     "industry": "Metro",
-    "riskLevel": "High",
-    "roi": 25.3,
-    "minInvestment": 245,
-    "maxInvestment": 2695,
-    "fundingTarget": 4940,
-    "fundingRaised": 1307,
-    "stage": "In Progress",
+    "riskLevel": "Low",
+    "roi": 12.9,
+    "minInvestment": 105,
+    "maxInvestment": 1260,
+    "fundingTarget": 2530,
+    "fundingRaised": 732,
+    "stage": "Approved",
     "location": "Lucknow, UP",
-    "createdAt": "2025-11-25",
+    "createdAt": "2025-05-17",
     "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 1783,
-      "profitMargin": 9.2,
-      "growthRate": 21.6,
-      "debtEquityRatio": 0.4
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 16.4
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 19.9
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 26.3
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 30.2
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 35
-      }
-    ],
-    "investorCount": 28
-  },
-  {
-    "id": "deal-076",
-    "projectName": "Rooftop Solar Program Nagpur",
-    "company": "IndiaBuild Corp",
-    "industry": "Solar",
-    "riskLevel": "Medium",
-    "roi": 14.1,
-    "minInvestment": 205,
-    "maxInvestment": 2255,
-    "fundingTarget": 4270,
-    "fundingRaised": 3498,
-    "stage": "In Progress",
-    "location": "Pune, MH",
-    "createdAt": "2025-12-17",
-    "description": "Solar infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 412,
-      "profitMargin": 22.1,
-      "growthRate": 10.9,
-      "debtEquityRatio": 1.1
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 8.6
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 13
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 15
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 17.2
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 20
-      }
-    ],
-    "investorCount": 25
-  },
-  {
-    "id": "deal-077",
-    "projectName": "Bhubaneswar Metro Phase 4 Extension",
-    "company": "Trident Infrastructure",
-    "industry": "Metro",
-    "riskLevel": "High",
-    "roi": 22.8,
-    "minInvestment": 110,
-    "maxInvestment": 1100,
-    "fundingTarget": 4480,
-    "fundingRaised": 463,
-    "stage": "In Progress",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-02-10",
-    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 495,
-      "profitMargin": 24.9,
-      "growthRate": 26.2,
+      "revenue": 1406,
+      "profitMargin": 12,
+      "growthRate": 16.3,
       "debtEquityRatio": 0.2
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 13.9
+        "projectedRoi": 9.6
       },
       {
         "year": 2027,
-        "projectedRoi": 18.3
+        "projectedRoi": 11.1
       },
       {
         "year": 2028,
-        "projectedRoi": 23.5
+        "projectedRoi": 13.4
       },
       {
         "year": 2029,
-        "projectedRoi": 27.9
+        "projectedRoi": 16.5
       },
       {
         "year": 2030,
-        "projectedRoi": 31.5
+        "projectedRoi": 18
       }
     ],
     "investorCount": 9
   },
   {
-    "id": "deal-078",
-    "projectName": "Cable-Stayed Bridge Jaipur",
-    "company": "IndiaBuild Corp",
-    "industry": "Bridges",
-    "riskLevel": "Low",
-    "roi": 13.8,
-    "minInvestment": 220,
-    "maxInvestment": 1320,
-    "fundingTarget": 2130,
-    "fundingRaised": 1404,
+    "id": "deal-080",
+    "projectName": "Mumbai Metro Phase 4 Extension",
+    "company": "Sahyadri Projects",
+    "industry": "Metro",
+    "riskLevel": "High",
+    "roi": 30.7,
+    "minInvestment": 245,
+    "maxInvestment": 2940,
+    "fundingTarget": 2160,
+    "fundingRaised": 1838,
     "stage": "Approved",
     "location": "Hyderabad, TS",
-    "createdAt": "2025-01-23",
-    "description": "Bridges infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
+    "createdAt": "2025-01-06",
+    "description": "Metro infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
     "financials": {
-      "revenue": 1803,
-      "profitMargin": 22.2,
-      "growthRate": 14.7,
-      "debtEquityRatio": 1.1
+      "revenue": 181,
+      "profitMargin": 17.8,
+      "growthRate": 4.3,
+      "debtEquityRatio": 0.4
     },
     "roiProjections": [
       {
         "year": 2026,
-        "projectedRoi": 8.9
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 11
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 15.1
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 16.6
-      },
-      {
-        "year": 2030,
-        "projectedRoi": 18.7
-      }
-    ],
-    "investorCount": 15
-  },
-  {
-    "id": "deal-079",
-    "projectName": "Freight Corridor Pune Section",
-    "company": "Kaveri Structures",
-    "industry": "Railway",
-    "riskLevel": "Medium",
-    "roi": 14.3,
-    "minInvestment": 195,
-    "maxInvestment": 1365,
-    "fundingTarget": 1780,
-    "fundingRaised": 659,
-    "stage": "In Progress",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-06-14",
-    "description": "Railway infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 1360,
-      "profitMargin": 10.3,
-      "growthRate": 13.5,
-      "debtEquityRatio": 1
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 8.8
-      },
-      {
-        "year": 2027,
-        "projectedRoi": 11.3
-      },
-      {
-        "year": 2028,
-        "projectedRoi": 15.6
-      },
-      {
-        "year": 2029,
-        "projectedRoi": 17.7
-      },
-      {
-        "year": 2030,
         "projectedRoi": 19.1
-      }
-    ],
-    "investorCount": 20
-  },
-  {
-    "id": "deal-080",
-    "projectName": "NH-25 Widening Project",
-    "company": "IndiaBuild Corp",
-    "industry": "Roads",
-    "riskLevel": "Low",
-    "roi": 11.4,
-    "minInvestment": 140,
-    "maxInvestment": 560,
-    "fundingTarget": 3590,
-    "fundingRaised": 2865,
-    "stage": "Expansion",
-    "location": "Hyderabad, TS",
-    "createdAt": "2025-08-20",
-    "description": "Roads infrastructure project executed with 3D point cloud monitoring, drone-based progress tracking, and milestone-linked disbursement.",
-    "financials": {
-      "revenue": 243,
-      "profitMargin": 13.1,
-      "growthRate": 26.8,
-      "debtEquityRatio": 1.3
-    },
-    "roiProjections": [
-      {
-        "year": 2026,
-        "projectedRoi": 6.9
       },
       {
         "year": 2027,
-        "projectedRoi": 10.4
+        "projectedRoi": 25.7
       },
       {
         "year": 2028,
-        "projectedRoi": 11.5
+        "projectedRoi": 31.3
       },
       {
         "year": 2029,
-        "projectedRoi": 14
+        "projectedRoi": 35.7
       },
       {
         "year": 2030,
-        "projectedRoi": 15.2
+        "projectedRoi": 41.1
       }
     ],
-    "investorCount": 36
+    "investorCount": 35
   }
 ]
