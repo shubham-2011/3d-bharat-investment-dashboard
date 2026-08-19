@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 3D Bharat — Investor & Corporate Web Dashboard
 
-## Getting Started
+A full-stack infrastructure construction monitoring dashboard built with **Next.js 15 (App Router)**, **Redux Toolkit**, **Tailwind CSS**, **Recharts**, and an **Express 5 + MongoDB Backend API**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🏗️ System Architecture & Data Flow
+
+```
+┌──────────────────────────  NEXT.JS FRONTEND (Port 3000)  ──────────────────────────┐
+│                                                                                     │
+│  UI Components (`src/app/`, `src/components/`)                                       │
+│   • Institutional Zerodha/screener.in design standard (#1a56db, #fafaf9)            │
+│   • Tabular figures (`tnum`), zero AI emojis, clean density                         │
+│        │ dispatch(fetchDeals(params))          ▲ state updates                      │
+│        ▼                                       │                                    │
+│  Redux Store (`src/store/`)                                                         │
+│   • dealsSlice / interestsSlice / investorSlice                                     │
+│   • enums: idle → loading → succeeded → failed                                      │
+│        │ createAsyncThunk calls service        │ resolves payload                   │
+│        ▼                                       │                                    │
+│  Service Layer (`src/services/`)                                                    │
+│   • dealService.js, investorService.js                                              │
+│   • fetches REST API endpoints on http://localhost:5000/api                          │
+│                                                                                     │
+└───────────────────────────────────┬─────────────────────────────────────────────────┘
+                                    │ HTTP REST API Calls
+                                    ▼
+┌──────────────────────────  EXPRESS BACKEND (Port 5000)  ───────────────────────────┐
+│                                                                                     │
+│  Express 5 REST API Server (`3d-bharat-server/server.js`)                            │
+│   • Controllers: dealController, investorController, authController                 │
+│   • REST Query Params: search, industry, riskLevel, roiMin, sort, page, pageSize    │
+│   • JWT Authentication (`middleware/auth.js`)                                       │
+│        │ Mongoose Queries (`.find()`, `.aggregate()`)                               │
+│        ▼                                                                            │
+│  Database Layer (MongoDB / Mongoose)                                                │
+│   • Collections: `deals` (80 infrastructure deals), `investors` (15 profiles)      │
+│   • DB Indexes: `industry`, `riskLevel`, `roi`, `projectName`                       │
+│                                                                                     │
+└─────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🚀 Key Features & Pages
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Overview Dashboard (`/`)**:
+   - 4 thin metric strip cards with Bloomberg/Zerodha **Label ABOVE Value** formatting.
+   - 2/3 12-Month Portfolio Value Line Chart + 1/3 Sector Split Pie Chart.
+   - Full-width Risk vs. Return Scatter Matrix with risk-colored dots.
 
-## Learn More
+2. **Deal Explorer (`/deals`)**:
+   - Search bar with 400ms `useDebounce` hook.
+   - Single-row filter controls for Industry and Risk level.
+   - Dense Zerodha-style **Deal Table** (`DealTable.jsx`) with right-aligned numeric columns, dot+text risk indicators (`● Low`), match score badges, and bottom-right pager.
 
-To learn more about Next.js, take a look at the following resources:
+3. **Deal Details (`/deals/[id]`)**:
+   - Header with project metadata, company, location, and stage.
+   - Plain tabs (`Overview | Financials | ROI Projection`) featuring 5-year yield area chart.
+   - 1/3 sticky summary card with a thin 4px funding progress bar and AI match score breakdown.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Watchlist (`/investments`)**:
+   - Saved deals persisted locally in browser `localStorage` and synchronized via Redux `interestsSlice`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. **Corporate Analytics (`/corporate`)**:
+   - Corporate issuer metrics: Total Raised Capital, Registered Investor Count, Target Conversion Rate (%), and Monthly Funding Trend Bar Chart.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚙️ Setup & Running
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Frontend (Next.js)
+```bash
+cd 3d-bharat-dashboard
+npm install
+npm run dev
+# Dashboard live on http://localhost:3000
+```
+
+### Backend (Express 5 + MongoDB)
+```bash
+cd 3d-bharat-server
+npm install
+npm run seed  # Seed 80 deals and 15 investors into MongoDB
+npm start     # API server running on http://localhost:5000
+```

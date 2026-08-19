@@ -1,0 +1,939 @@
+[
+  {
+    "id": "inv-001",
+    "name": "Meera Nair",
+    "budget": 950,
+    "preferredIndustries": [
+      "Solar",
+      "Roads",
+      "Bridges"
+    ],
+    "riskAppetite": "Low",
+    "portfolioValue": 4202,
+    "activeDeals": 11,
+    "investmentGrowth": [
+      {
+        "month": "2025-01",
+        "value": 182
+      },
+      {
+        "month": "2025-02",
+        "value": 191
+      },
+      {
+        "month": "2025-03",
+        "value": 191
+      },
+      {
+        "month": "2025-04",
+        "value": 198
+      },
+      {
+        "month": "2025-05",
+        "value": 199
+      },
+      {
+        "month": "2025-06",
+        "value": 208
+      },
+      {
+        "month": "2025-07",
+        "value": 208
+      },
+      {
+        "month": "2025-08",
+        "value": 212
+      },
+      {
+        "month": "2025-09",
+        "value": 216
+      },
+      {
+        "month": "2025-10",
+        "value": 220
+      },
+      {
+        "month": "2025-11",
+        "value": 234
+      },
+      {
+        "month": "2025-12",
+        "value": 236
+      }
+    ]
+  },
+  {
+    "id": "inv-002",
+    "name": "Neha Joshi",
+    "budget": 1240,
+    "preferredIndustries": [
+      "Roads",
+      "Bridges"
+    ],
+    "riskAppetite": "Low",
+    "portfolioValue": 3085,
+    "activeDeals": 12,
+    "investmentGrowth": [
+      {
+        "month": "2025-01",
+        "value": 163
+      },
+      {
+        "month": "2025-02",
+        "value": 167
+      },
+      {
+        "month": "2025-03",
+        "value": 166
+      },
+      {
+        "month": "2025-04",
+        "value": 175
+      },
+      {
+        "month": "2025-05",
+        "value": 174
+      },
+      {
+        "month": "2025-06",
+        "value": 175
+      },
+      {
+        "month": "2025-07",
+        "value": 186
+      },
+      {
+        "month": "2025-08",
+        "value": 186
+      },
+      {
+        "month": "2025-09",
+        "value": 193
+      },
+      {
+        "month": "2025-10",
+        "value": 202
+      },
+      {
+        "month": "2025-11",
+        "value": 211
+      },
+      {
+        "month": "2025-12",
+        "value": 210
+      }
+    ]
+  },
+  {
+    "id": "inv-003",
+    "name": "Aditya Patel",
+    "budget": 270,
+    "preferredIndustries": [
+      "Smart City",
+      "Roads",
+      "Solar"
+    ],
+    "riskAppetite": "Medium",
+    "portfolioValue": 596,
+    "activeDeals": 5,
+    "investmentGrowth": [
+      {
+        "month": "2025-01",
+        "value": 171
+      },
+      {
+        "month": "2025-02",
+        "value": 169
+      },
+      {
+        "month": "2025-03",
+        "value": 173
+      },
+      {
+        "month": "2025-04",
+        "value": 176
+      },
+      {
+        "month": "2025-05",
+        "value": 182
+      },
+      {
+        "month": "2025-06",
+        "value": 190
+      },
+      {
+        "month": "2025-07",
+        "value": 196
+      },
+      {
+        "month": "2025-08",
+        "value": 195
+      },
+      {
+        "month": "2025-09",
+        "value": 201
+      },
+      {
+        "month": "2025-10",
+        "value": 206
+      },
+      {
+        "month": "2025-11",
+        "value": 214
+      },
+      {
+        "month": "2025-12",
+        "value": 220
+      }
+    ]
+  },
+  {
+    "id": "inv-004",
+    "name": "Meera Deshmukh",
+    "budget": 175,
+    "preferredIndustries": [
+      "Railway",
+      "Roads",
+      "Smart City"
+    ],
+    "riskAppetite": "Low",
+    "portfolioValue": 4234,
+    "activeDeals": 10,
+    "investmentGrowth": [
+      {
+        "month": "2025-01",
+        "value": 119
+      },
+      {
+        "month": "2025-02",
+        "value": 121
+      },
+      {
+        "month": "2025-03",
+        "value": 126
+      },
+      {
+        "month": "2025-04",
+        "value": 128
+      },
+      {
+        "month": "2025-05",
+        "value": 133
+      },
+      {
+        "month": "2025-06",
+        "value": 134
+      },
+      {
+        "month": "2025-07",
+        "value": 140
+      },
+      {
+        "month": "2025-08",
+        "value": 149
+      },
+      {
+        "month": "2025-09",
+        "value": 158
+      },
+      {
+        "month": "2025-10",
+        "value": 160
+      },
+      {
+        "month": "2025-11",
+        "value": 160
+      },
+      {
+        "month": "2025-12",
+        "value": 168
+      }
+    ]
+  },
+  {
+    "id": "inv-005",
+    "name": "Ishita Reddy",
+    "budget": 1980,
+    "preferredIndustries": [
+      "Roads",
+      "Railway"
+    ],
+    "riskAppetite": "High",
+    "portfolioValue": 2603,
+    "activeDeals": 10,
+    "investmentGrowth": [
+      {
+        "month": "2025-01",
+        "value": 82
+      },
+      {
+        "month": "2025-02",
+        "value": 81
+      },
+      {
+        "month": "2025-03",
+        "value": 84
+      },
+      {
+        "month": "2025-04",
+        "value": 84
+      },
+      {
+        "month": "2025-05",
+        "value": 90
+      },
+      {
+        "month": "2025-06",
+        "value": 93
+      },
+      {
+        "month": "2025-07",
+        "value": 93
+      },
+      {
+        "month": "2025-08",
+        "value": 95
+      },
+      {
+        "month": "2025-09",
+        "value": 97
+      },
+      {
+        "month": "2025-10",
+        "value": 100
+      },
+      {
+        "month": "2025-11",
+        "value": 105
+      },
+      {
+        "month": "2025-12",
+        "value": 107
+      }
+    ]
+  },
+  {
+    "id": "inv-006",
+    "name": "Sneha Sharma",
+    "budget": 765,
+    "preferredIndustries": [
+      "Solar",
+      "Bridges"
+    ],
+    "riskAppetite": "Medium",
+    "portfolioValue": 4988,
+    "activeDeals": 7,
+    "investmentGrowth": [
+      {
+        "month": "2025-01",
+        "value": 146
+      },
+      {
+        "month": "2025-02",
+        "value": 148
+      },
+      {
+        "month": "2025-03",
+        "value": 152
+      },
+      {
+        "month": "2025-04",
+        "value": 157
+      },
+      {
+        "month": "2025-05",
+        "value": 161
+      },
+      {
+        "month": "2025-06",
+        "value": 160
+      },
+      {
+        "month": "2025-07",
+        "value": 170
+      },
+      {
+        "month": "2025-08",
+        "value": 171
+      },
+      {
+        "month": "2025-09",
+        "value": 172
+      },
+      {
+        "month": "2025-10",
+        "value": 176
+      },
+      {
+        "month": "2025-11",
+        "value": 177
+      },
+      {
+        "month": "2025-12",
+        "value": 177
+      }
+    ]
+  },
+  {
+    "id": "inv-007",
+    "name": "Amit Joshi",
+    "budget": 780,
+    "preferredIndustries": [
+      "Solar",
+      "Metro",
+      "Railway"
+    ],
+    "riskAppetite": "Low",
+    "portfolioValue": 3575,
+    "activeDeals": 3,
+    "investmentGrowth": [
+      {
+        "month": "2025-01",
+        "value": 82
+      },
+      {
+        "month": "2025-02",
+        "value": 86
+      },
+      {
+        "month": "2025-03",
+        "value": 87
+      },
+      {
+        "month": "2025-04",
+        "value": 89
+      },
+      {
+        "month": "2025-05",
+        "value": 95
+      },
+      {
+        "month": "2025-06",
+        "value": 97
+      },
+      {
+        "month": "2025-07",
+        "value": 101
+      },
+      {
+        "month": "2025-08",
+        "value": 102
+      },
+      {
+        "month": "2025-09",
+        "value": 105
+      },
+      {
+        "month": "2025-10",
+        "value": 106
+      },
+      {
+        "month": "2025-11",
+        "value": 110
+      },
+      {
+        "month": "2025-12",
+        "value": 113
+      }
+    ]
+  },
+  {
+    "id": "inv-008",
+    "name": "Karan Kulkarni",
+    "budget": 555,
+    "preferredIndustries": [
+      "Metro",
+      "Smart City"
+    ],
+    "riskAppetite": "High",
+    "portfolioValue": 3881,
+    "activeDeals": 4,
+    "investmentGrowth": [
+      {
+        "month": "2025-01",
+        "value": 128
+      },
+      {
+        "month": "2025-02",
+        "value": 132
+      },
+      {
+        "month": "2025-03",
+        "value": 131
+      },
+      {
+        "month": "2025-04",
+        "value": 140
+      },
+      {
+        "month": "2025-05",
+        "value": 149
+      },
+      {
+        "month": "2025-06",
+        "value": 154
+      },
+      {
+        "month": "2025-07",
+        "value": 161
+      },
+      {
+        "month": "2025-08",
+        "value": 165
+      },
+      {
+        "month": "2025-09",
+        "value": 166
+      },
+      {
+        "month": "2025-10",
+        "value": 175
+      },
+      {
+        "month": "2025-11",
+        "value": 176
+      },
+      {
+        "month": "2025-12",
+        "value": 181
+      }
+    ]
+  },
+  {
+    "id": "inv-009",
+    "name": "Ananya Patel",
+    "budget": 1590,
+    "preferredIndustries": [
+      "Metro",
+      "Railway",
+      "Bridges"
+    ],
+    "riskAppetite": "Medium",
+    "portfolioValue": 1194,
+    "activeDeals": 5,
+    "investmentGrowth": [
+      {
+        "month": "2025-01",
+        "value": 160
+      },
+      {
+        "month": "2025-02",
+        "value": 168
+      },
+      {
+        "month": "2025-03",
+        "value": 177
+      },
+      {
+        "month": "2025-04",
+        "value": 187
+      },
+      {
+        "month": "2025-05",
+        "value": 186
+      },
+      {
+        "month": "2025-06",
+        "value": 188
+      },
+      {
+        "month": "2025-07",
+        "value": 199
+      },
+      {
+        "month": "2025-08",
+        "value": 200
+      },
+      {
+        "month": "2025-09",
+        "value": 208
+      },
+      {
+        "month": "2025-10",
+        "value": 219
+      },
+      {
+        "month": "2025-11",
+        "value": 232
+      },
+      {
+        "month": "2025-12",
+        "value": 234
+      }
+    ]
+  },
+  {
+    "id": "inv-010",
+    "name": "Aditya Joshi",
+    "budget": 565,
+    "preferredIndustries": [
+      "Metro",
+      "Railway"
+    ],
+    "riskAppetite": "High",
+    "portfolioValue": 3445,
+    "activeDeals": 3,
+    "investmentGrowth": [
+      {
+        "month": "2025-01",
+        "value": 179
+      },
+      {
+        "month": "2025-02",
+        "value": 183
+      },
+      {
+        "month": "2025-03",
+        "value": 181
+      },
+      {
+        "month": "2025-04",
+        "value": 192
+      },
+      {
+        "month": "2025-05",
+        "value": 192
+      },
+      {
+        "month": "2025-06",
+        "value": 196
+      },
+      {
+        "month": "2025-07",
+        "value": 198
+      },
+      {
+        "month": "2025-08",
+        "value": 197
+      },
+      {
+        "month": "2025-09",
+        "value": 195
+      },
+      {
+        "month": "2025-10",
+        "value": 204
+      },
+      {
+        "month": "2025-11",
+        "value": 210
+      },
+      {
+        "month": "2025-12",
+        "value": 215
+      }
+    ]
+  },
+  {
+    "id": "inv-011",
+    "name": "Sneha Chopra",
+    "budget": 1725,
+    "preferredIndustries": [
+      "Roads",
+      "Smart City"
+    ],
+    "riskAppetite": "Medium",
+    "portfolioValue": 885,
+    "activeDeals": 4,
+    "investmentGrowth": [
+      {
+        "month": "2025-01",
+        "value": 79
+      },
+      {
+        "month": "2025-02",
+        "value": 79
+      },
+      {
+        "month": "2025-03",
+        "value": 79
+      },
+      {
+        "month": "2025-04",
+        "value": 78
+      },
+      {
+        "month": "2025-05",
+        "value": 80
+      },
+      {
+        "month": "2025-06",
+        "value": 83
+      },
+      {
+        "month": "2025-07",
+        "value": 83
+      },
+      {
+        "month": "2025-08",
+        "value": 87
+      },
+      {
+        "month": "2025-09",
+        "value": 86
+      },
+      {
+        "month": "2025-10",
+        "value": 85
+      },
+      {
+        "month": "2025-11",
+        "value": 87
+      },
+      {
+        "month": "2025-12",
+        "value": 87
+      }
+    ]
+  },
+  {
+    "id": "inv-012",
+    "name": "Amit Mehta",
+    "budget": 1150,
+    "preferredIndustries": [
+      "Railway",
+      "Bridges",
+      "Solar"
+    ],
+    "riskAppetite": "High",
+    "portfolioValue": 3013,
+    "activeDeals": 1,
+    "investmentGrowth": [
+      {
+        "month": "2025-01",
+        "value": 175
+      },
+      {
+        "month": "2025-02",
+        "value": 179
+      },
+      {
+        "month": "2025-03",
+        "value": 188
+      },
+      {
+        "month": "2025-04",
+        "value": 187
+      },
+      {
+        "month": "2025-05",
+        "value": 186
+      },
+      {
+        "month": "2025-06",
+        "value": 193
+      },
+      {
+        "month": "2025-07",
+        "value": 196
+      },
+      {
+        "month": "2025-08",
+        "value": 205
+      },
+      {
+        "month": "2025-09",
+        "value": 219
+      },
+      {
+        "month": "2025-10",
+        "value": 232
+      },
+      {
+        "month": "2025-11",
+        "value": 240
+      },
+      {
+        "month": "2025-12",
+        "value": 251
+      }
+    ]
+  },
+  {
+    "id": "inv-013",
+    "name": "Rahul Nair",
+    "budget": 1790,
+    "preferredIndustries": [
+      "Roads",
+      "Metro"
+    ],
+    "riskAppetite": "High",
+    "portfolioValue": 1617,
+    "activeDeals": 9,
+    "investmentGrowth": [
+      {
+        "month": "2025-01",
+        "value": 101
+      },
+      {
+        "month": "2025-02",
+        "value": 104
+      },
+      {
+        "month": "2025-03",
+        "value": 110
+      },
+      {
+        "month": "2025-04",
+        "value": 114
+      },
+      {
+        "month": "2025-05",
+        "value": 116
+      },
+      {
+        "month": "2025-06",
+        "value": 121
+      },
+      {
+        "month": "2025-07",
+        "value": 121
+      },
+      {
+        "month": "2025-08",
+        "value": 122
+      },
+      {
+        "month": "2025-09",
+        "value": 125
+      },
+      {
+        "month": "2025-10",
+        "value": 132
+      },
+      {
+        "month": "2025-11",
+        "value": 139
+      },
+      {
+        "month": "2025-12",
+        "value": 138
+      }
+    ]
+  },
+  {
+    "id": "inv-014",
+    "name": "Aditya Kulkarni",
+    "budget": 1295,
+    "preferredIndustries": [
+      "Roads",
+      "Bridges"
+    ],
+    "riskAppetite": "Medium",
+    "portfolioValue": 1538,
+    "activeDeals": 10,
+    "investmentGrowth": [
+      {
+        "month": "2025-01",
+        "value": 140
+      },
+      {
+        "month": "2025-02",
+        "value": 149
+      },
+      {
+        "month": "2025-03",
+        "value": 151
+      },
+      {
+        "month": "2025-04",
+        "value": 156
+      },
+      {
+        "month": "2025-05",
+        "value": 160
+      },
+      {
+        "month": "2025-06",
+        "value": 163
+      },
+      {
+        "month": "2025-07",
+        "value": 162
+      },
+      {
+        "month": "2025-08",
+        "value": 169
+      },
+      {
+        "month": "2025-09",
+        "value": 180
+      },
+      {
+        "month": "2025-10",
+        "value": 192
+      },
+      {
+        "month": "2025-11",
+        "value": 197
+      },
+      {
+        "month": "2025-12",
+        "value": 196
+      }
+    ]
+  },
+  {
+    "id": "inv-015",
+    "name": "Neha Iyer",
+    "budget": 745,
+    "preferredIndustries": [
+      "Metro",
+      "Railway",
+      "Bridges"
+    ],
+    "riskAppetite": "High",
+    "portfolioValue": 4989,
+    "activeDeals": 3,
+    "investmentGrowth": [
+      {
+        "month": "2025-01",
+        "value": 136
+      },
+      {
+        "month": "2025-02",
+        "value": 144
+      },
+      {
+        "month": "2025-03",
+        "value": 152
+      },
+      {
+        "month": "2025-04",
+        "value": 161
+      },
+      {
+        "month": "2025-05",
+        "value": 163
+      },
+      {
+        "month": "2025-06",
+        "value": 173
+      },
+      {
+        "month": "2025-07",
+        "value": 179
+      },
+      {
+        "month": "2025-08",
+        "value": 184
+      },
+      {
+        "month": "2025-09",
+        "value": 182
+      },
+      {
+        "month": "2025-10",
+        "value": 182
+      },
+      {
+        "month": "2025-11",
+        "value": 194
+      },
+      {
+        "month": "2025-12",
+        "value": 195
+      }
+    ]
+  }
+]
