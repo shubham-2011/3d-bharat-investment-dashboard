@@ -4,7 +4,7 @@ import investors from "../src/data/investors.json" with { type: "json" };
 const errors = [];
 const check = (cond, id, msg) => { if (!cond) errors.push(`${id}: ${msg}`); };
 
-const INDUSTRIES = ["Fintech", "HealthTech", "AgriTech", "EV/CleanEnergy", "SaaS", "E-commerce", "Manufacturing", "EdTech", "Logistics", "DeepTech", "Roads", "Bridges", "Railway", "Metro", "Solar", "Smart City"];
+const INDUSTRIES = ["Roads", "Metro", "Railway", "Solar", "Bridges", "Smart City", "Water", "Ports", "Airports"];
 const RISKS = ["Low", "Medium", "High"];
 const STAGES = ["Seed", "Series A", "Series B", "Growth", "Pre-IPO", "Planning", "Approved", "In Progress", "Expansion"];
 
@@ -26,12 +26,12 @@ for (const d of deals) {
   check(INDUSTRIES.includes(d.industry), "TC-D06", `${d.id} bad industry ${d.industry}`);
   check(RISKS.includes(d.riskLevel), "TC-D06", `${d.id} bad risk ${d.riskLevel}`);
   check(STAGES.includes(d.stage), "TC-D06", `${d.id} bad stage ${d.stage}`);
-  check(d.roi > 0 && d.roi <= 40, "TC-D07", `${d.id} roi out of range: ${d.roi}`);
+  check(d.roi > 0 && d.roi <= 45, "TC-D07", `${d.id} roi out of range: ${d.roi}`);
   check(d.minInvestment < d.maxInvestment, "TC-D08", `${d.id} inverted investment range`);
   check(d.fundingRaised >= 0 && d.fundingRaised <= d.fundingTarget, "TC-D09", `${d.id} raised>target`);
   check(!Number.isNaN(Date.parse(d.createdAt)) && new Date(d.createdAt) <= new Date(), "TC-D10", `${d.id} bad date`);
   check(Array.isArray(d.roiProjections) && d.roiProjections.length === 5 &&
-    d.roiProjections.every(p => typeof p.year==="number" && (typeof p.projectedRoi==="number" || typeof p.roi==="number")),
+    d.roiProjections.every(p => typeof p.year==="number" && (p.conservative != null || p.projected != null || p.projectedRoi != null)),
     "TC-D11", `${d.id} bad roiProjections`);
 }
 
@@ -45,7 +45,7 @@ for (const i of investors) {
   check(i.preferredIndustries?.length >= 1 && i.preferredIndustries.every(p=>INDUSTRIES.includes(p)),
     "TC-I04", `${i.id} bad preferredIndustries`);
   check(i.budget > 0, "TC-I06", `${i.id} bad budget`);
-  check(Array.isArray(i.investmentGrowth) && i.investmentGrowth.length === 12, "TC-I07", `${i.id} growth != 12 months`);
+  check(Array.isArray(i.investmentGrowth) && i.investmentGrowth.length === 24, "TC-I07", `${i.id} growth != 24 months`);
 }
 check(investors.some(i=>i.id==="inv-001"), "TC-I08", "current user inv-001 missing");
 

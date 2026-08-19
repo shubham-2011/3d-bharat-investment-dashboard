@@ -6,7 +6,7 @@ describe("Scoring Recommendation Engine", () => {
   const investor = {
     id: "inv-001",
     name: "Shubham Kumar",
-    budget: 950,
+    budget: 9.5, // 9.5 Cr
     preferredIndustries: ["Solar", "Roads", "Bridges"],
     riskAppetite: "Low",
   };
@@ -16,8 +16,8 @@ describe("Scoring Recommendation Engine", () => {
     projectName: "Pune Solar Project",
     industry: "Solar",
     riskLevel: "Low",
-    minInvestment: 500,
-    maxInvestment: 1200,
+    minInvestment: 5.0,
+    maxInvestment: 12.0,
     roi: 20,
   };
 
@@ -26,8 +26,8 @@ describe("Scoring Recommendation Engine", () => {
     projectName: "High Risk Metro",
     industry: "Metro",
     riskLevel: "High",
-    minInvestment: 1500,
-    maxInvestment: 3000,
+    minInvestment: 15.0,
+    maxInvestment: 30.0,
     roi: 12,
   };
 
@@ -43,7 +43,7 @@ describe("Scoring Recommendation Engine", () => {
     const { total, breakdown } = scoreDeal(deal2, investor);
     assert.equal(breakdown.risk, 0); // Low vs High
     assert.equal(breakdown.industry, 0); // Metro not preferred
-    assert.equal(breakdown.budget, 0); // Budget 950 < min 1500
+    assert.equal(breakdown.budget, 0); // Budget 9.5 < min 15
     assert.equal(total < 30, true);
   });
 
