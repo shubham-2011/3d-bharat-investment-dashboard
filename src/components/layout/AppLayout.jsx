@@ -16,7 +16,10 @@ export default function AppLayout({ children }) {
           <Sidebar mobileOpen={mobileOpen} onClose={() => setMobileOpen(false)} />
 
           <div className="lg:pl-[220px] flex flex-col flex-1 min-w-0">
-            <Header onMenuClick={() => setMobileOpen(true)} />
+            <Header
+              mobileOpen={mobileOpen}
+              onMenuToggle={() => setMobileOpen((prev) => !prev)}
+            />
             <main className="flex-1 px-3 sm:px-6 py-4 lg:py-6 max-w-[1300px] w-full mx-auto space-y-5">
               {children}
             </main>

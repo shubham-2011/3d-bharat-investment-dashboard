@@ -451,9 +451,27 @@ function DealsContent() {
   );
 }
 
+function DealsPageSkeleton() {
+  return (
+    <div className="space-y-4">
+      <div className="flex items-center justify-between border-b border-stone-200 dark:border-stone-800 pb-3">
+        <div>
+          <h1 className="text-xl font-bold text-stone-900 dark:text-stone-100 tracking-tight">
+            Deals
+          </h1>
+          <p className="text-xs text-stone-500 dark:text-stone-400">
+            Live infrastructure assets seeking capital allocation
+          </p>
+        </div>
+      </div>
+      <DealTable deals={[]} isLoading={true} />
+    </div>
+  );
+}
+
 export default function DealsPage() {
   return (
-    <Suspense fallback={<div className="text-xs text-stone-400 p-4">Loading deals table...</div>}>
+    <Suspense fallback={<DealsPageSkeleton />}>
       <DealsContent />
     </Suspense>
   );
