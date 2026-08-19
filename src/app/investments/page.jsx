@@ -41,17 +41,17 @@ export default function WatchlistPage() {
             Watchlist
           </h1>
           <p className="text-xs text-stone-500 dark:text-stone-400">
-            {savedDeals.length} bookmarked opportunities
+            {savedDeals.length} watchlisted deals
           </p>
         </div>
       </div>
 
       {savedDeals.length > 0 && (
         <>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-            <StatCard label="Watchlist deals" value={savedDeals.length} subtext="Saved locally" />
-            <StatCard label="Total min entry" value={formatLakhs(totalMinEntry)} subtext="Min capital entry sum" />
-            <StatCard label="Avg target ROI" value={`${avgRoi}%`} subtext="Watchlist yield average" />
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <StatCard label="WATCHLISTED" value={savedDeals.length} />
+            <StatCard label="TOTAL MIN. ENTRY" value={formatLakhs(totalMinEntry)} />
+            <StatCard label="AVG. TARGET ROI" value={`${avgRoi}%`} />
           </div>
 
           <DealTable deals={savedDeals} />
@@ -59,11 +59,14 @@ export default function WatchlistPage() {
       )}
 
       {status !== "loading" && savedDeals.length === 0 && (
-        <div className="p-8 text-center text-xs text-stone-500 border border-stone-200 dark:border-stone-800 rounded-md bg-white dark:bg-stone-900">
-          Nothing watchlisted yet.{" "}
-          <Link href="/deals" className="text-blue-600 font-semibold hover:underline">
-            Browse deals →
-          </Link>
+        <div className="p-8 text-center text-xs text-stone-500 dark:text-stone-400 border border-stone-200 dark:border-stone-800 rounded-md bg-white dark:bg-stone-900 space-y-1">
+          <p className="font-medium text-stone-700 dark:text-stone-300">Nothing watchlisted yet.</p>
+          <p className="text-stone-500 dark:text-stone-400">
+            Star any deal to track it here.{" "}
+            <Link href="/deals" className="text-blue-600 dark:text-blue-400 font-semibold hover:underline">
+              Browse deals →
+            </Link>
+          </p>
         </div>
       )}
     </div>

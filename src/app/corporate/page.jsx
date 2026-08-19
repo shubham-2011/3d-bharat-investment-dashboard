@@ -23,9 +23,9 @@ export default function CorporatePage() {
   const CustomTooltip = ({ active, payload, label }) => {
     if (active && payload && payload.length) {
       return (
-        <div className="p-2.5 rounded-md bg-stone-900 text-white text-xs border border-stone-800 space-y-0.5">
+        <div className="p-2.5 rounded-md bg-stone-900 text-white text-xs border border-stone-800 space-y-0.5 font-mono">
           <p className="font-sans text-stone-400">{label}</p>
-          <p className="font-mono font-semibold text-blue-400">
+          <p className="font-semibold text-blue-400">
             {formatLakhs(payload[0].value)}
           </p>
         </div>
@@ -48,50 +48,54 @@ export default function CorporatePage() {
         </div>
       </div>
 
+      {/* Single-Source State Management: Error OR Skeletons OR Data */}
       {status === "failed" && (
-        <ErrorState title="Couldn't load corporate metrics" message={error} onRetry={handleRetry} />
+        <ErrorState message={error || "Couldn't load corporate metrics."} onRetry={handleRetry} />
       )}
 
-      {/* Thin Metric Strip */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-        <StatCard
-          label="Total Raised"
-          value={data ? formatLakhs(data.totalFundingRaised) : "—"}
-          subtext="Cumulative corporate capital"
-        />
-        <StatCard
-          label="Investors"
-          value={data ? data.investorCount : "—"}
-          subtext="Unique participating HNIs"
-        />
-        <StatCard
-          label="Conversion Rate"
-          value={data ? `${data.conversionRate}%` : "—"}
-          subtext="Target fulfillment ratio"
-        />
-      </div>
+      {status === "loading" && (
+        <div className="text-xs text-stone-400 p-4">Loading corporate metrics...</div>
+      )}
 
-      {/* One Bar Chart */}
       {status === "succeeded" && data && (
-        <div className="p-4 rounded-md border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 space-y-3">
-          <div className="border-b border-stone-100 dark:border-stone-800 pb-2">
-            <h3 className="text-xs font-semibold uppercase tracking-wider text-stone-600 dark:text-stone-300">
-              Monthly funding trend
-            </h3>
+        <>
+          {/* Thin Metric Strip */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <StatCard
+              label="TOTAL RAISED"
+              value={formatLakhs(data.totalFundingRaised)}
+            />
+            <StatCard
+              label="INVESTORS"
+              value={data.investorCount}
+            />
+            <StatCard
+              label="CONVERSION"
+              value={`${data.conversionRate}%`}
+            />
           </div>
 
-          <div className="h-64 w-full pt-1">
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={data.fundingTrend} margin={{ top: 10, right: 10, left: -15, bottom: 0 }}>
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#44403c" opacity={0.15} />
-                <XAxis dataKey="month" tick={{ fill: "#a8a29e", fontSize: 11 }} />
-                <YAxis tick={{ fill: "#a8a29e", fontSize: 11 }} tickFormatter={(v) => `₹${v}L`} />
-                <Tooltip content={<CustomTooltip />} />
-                <Bar dataKey="value" fill="#1a56db" radius={[3, 3, 0, 0]} />
-              </BarChart>
-            </ResponsiveContainer>
+          {/* Monthly Funding Trend Chart */}
+          <div className="p-4 rounded-md border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 space-y-3">
+            <div className="border-b border-stone-100 dark:border-stone-800 pb-2">
+              <h3 className="text-xs font-semibold uppercase tracking-wider text-stone-600 dark:text-stone-300">
+                Monthly funding trend
+              </h3>
+            </div>
+
+            <div className="h-64 w-full pt-1">
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart data={data.fundingTrend} margin={{ top: 10, right: 10, left: -15, bottom: 0 }}>
+                  <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#44403c" opacity={0.15} />
+                  <XAxis dataKey="month" tick={{ fill: "#a8a29e", fontSize: 11 }} />
+                  <YAxis tick={{ fill: "#a8a29e", fontSize: 11 }} tickFormatter={(v) => `₹${v}L`} />
+                  <Tooltip content={<CustomTooltip />} />
+                  <Bar dataKey="value" fill="#1a56db" radius={[3, 3, 0, 0]} />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
           </div>
-        </div>
+        </>
       )}
     </div>
   );

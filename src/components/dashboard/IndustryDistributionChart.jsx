@@ -4,13 +4,15 @@ import { ResponsiveContainer, PieChart, Pie, Cell, Tooltip } from "recharts";
 import { INDUSTRY_COLORS, formatLakhs } from "@/utils/formatters";
 
 export function IndustryDistributionChart({ data = [] }) {
+  const totalValue = data.reduce((s, d) => s + (d.value || 0), 0);
+
   const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {
       const item = payload[0].payload;
       return (
-        <div className="p-2.5 rounded-md bg-stone-900 text-white text-xs border border-stone-800 space-y-0.5">
+        <div className="p-2.5 rounded-md bg-stone-900 text-white text-xs border border-stone-800 space-y-0.5 font-mono">
           <p className="font-sans text-stone-300">{item.industry}</p>
-          <p className="font-mono font-semibold text-blue-400">
+          <p className="font-semibold text-blue-400">
             {formatLakhs(item.value)}
           </p>
         </div>
@@ -27,7 +29,7 @@ export function IndustryDistributionChart({ data = [] }) {
         </h3>
       </div>
 
-      <div className="h-48 w-full flex items-center justify-center">
+      <div className="h-48 w-full relative flex items-center justify-center">
         <ResponsiveContainer width="100%" height="100%">
           <PieChart>
             <Pie
@@ -51,6 +53,16 @@ export function IndustryDistributionChart({ data = [] }) {
             <Tooltip content={<CustomTooltip />} />
           </PieChart>
         </ResponsiveContainer>
+
+        {/* D13: Donut Center Value & Microlabel */}
+        <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
+          <span className="text-sm font-semibold font-mono text-stone-900 dark:text-stone-100">
+            {formatLakhs(totalValue)}
+          </span>
+          <span className="text-[9px] font-semibold uppercase tracking-wider text-stone-400 dark:text-stone-500">
+            TOTAL
+          </span>
+        </div>
       </div>
 
       <div className="grid grid-cols-2 gap-1.5 pt-2 border-t border-stone-100 dark:border-stone-800">

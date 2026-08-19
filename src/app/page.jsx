@@ -43,30 +43,26 @@ export default function OverviewPage() {
 
       {/* Error state */}
       {status === "failed" && (
-        <ErrorState title="Couldn't load overview" message={error} onRetry={handleRetry} />
+        <ErrorState message={error || "Couldn't load overview."} onRetry={handleRetry} />
       )}
 
       {/* Thin Metric Strip: 4 cards in one row, label ABOVE value */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
         <StatCard
-          label="Invested Capital"
+          label="PORTFOLIO VALUE"
           value={summary ? formatLakhs(summary.totalInvestment) : "—"}
-          subtext="Active infrastructure portfolio"
         />
         <StatCard
-          label="Active Deals"
+          label="ACTIVE DEALS"
           value={summary ? summary.activeDeals : "—"}
-          subtext="3D point cloud verified"
         />
         <StatCard
-          label="Avg. Target ROI"
+          label="AVG. TARGET ROI"
           value={summary ? `${summary.avgRoi}%` : "—"}
-          subtext="Weighted portfolio yield"
         />
         <StatCard
-          label="Watchlist Count"
+          label="WATCHLISTED"
           value={watchlistIds.length}
-          subtext="Saved deal opportunities"
         />
       </div>
 

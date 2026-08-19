@@ -11,7 +11,7 @@ import { rankDeals } from "@/utils/scoring";
 import { DealTable } from "@/components/deals/DealTable";
 import { ErrorState } from "@/components/ui/ErrorState";
 import { EmptyState } from "@/components/ui/EmptyState";
-import { Search, X, ChevronLeft, ChevronRight } from "lucide-react";
+import { Search, ChevronLeft, ChevronRight } from "lucide-react";
 
 const INDUSTRIES = ["Roads", "Bridges", "Railway", "Metro", "Solar", "Smart City"];
 const RISK_LEVELS = ["Low", "Medium", "High"];
@@ -31,6 +31,9 @@ function DealsContent() {
   const [filters, setFilters] = useState({
     industries: [],
     riskLevels: [],
+    roiMin: undefined,
+    investmentMin: undefined,
+    investmentMax: undefined,
   });
 
   const [sort, setSort] = useState("date-desc");
@@ -39,6 +42,11 @@ function DealsContent() {
   useEffect(() => {
     dispatch(fetchCurrentInvestor());
   }, [dispatch]);
+
+  // Reset page to 1 whenever search, filters, or sort changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [debouncedSearch, filters, sort]);
 
   useEffect(() => {
     dispatch(
@@ -61,7 +69,6 @@ function DealsContent() {
       ? filters.industries.filter((i) => i !== ind)
       : [...filters.industries, ind];
     setFilters({ ...filters, industries: updated });
-    setCurrentPage(1);
   };
 
   const toggleRisk = (risk) => {
@@ -69,14 +76,43 @@ function DealsContent() {
       ? filters.riskLevels.filter((r) => r !== risk)
       : [...filters.riskLevels, risk];
     setFilters({ ...filters, riskLevels: updated });
-    setCurrentPage(1);
+  };
+
+  const handleRoiSelect = (val) => {
+    setFilters({ ...filters, roiMin: val ? Number(val) : undefined });
+  };
+
+  const handleEntrySelect = (val) => {
+    if (!val) {
+      setFilters({ ...filters, investmentMin: undefined, investmentMax: undefined });
+    } else if (val === "lt1") {
+      setFilters({ ...filters, investmentMin: undefined, investmentMax: 100 });
+    } else if (val === "1to2") {
+      setFilters({ ...filters, investmentMin: 100, investmentMax: 200 });
+    } else if (val === "gt2") {
+      setFilters({ ...filters, investmentMin: 200, investmentMax: undefined });
+    }
   };
 
   const clearAllFilters = () => {
     setSearch("");
-    setFilters({ industries: [], riskLevels: [] });
+    setFilters({
+      industries: [],
+      riskLevels: [],
+      roiMin: undefined,
+      investmentMin: undefined,
+      investmentMax: undefined,
+    });
     setCurrentPage(1);
   };
+
+  const hasActiveFilters =
+    filters.industries.length > 0 ||
+    filters.riskLevels.length > 0 ||
+    filters.roiMin != null ||
+    filters.investmentMin != null ||
+    filters.investmentMax != null ||
+    search;
 
   return (
     <div className="space-y-4">
@@ -91,17 +127,14 @@ function DealsContent() {
           </p>
         </div>
 
-        {/* Search Left, Sort Right */}
+        {/* Page Search Left, Sort Right */}
         <div className="flex items-center gap-2">
           <div className="relative w-48 sm:w-64">
             <Search className="w-3.5 h-3.5 absolute left-2.5 top-1/2 -translate-y-1/2 text-stone-400" />
             <input
               type="text"
               value={search}
-              onChange={(e) => {
-                setSearch(e.target.value);
-                setCurrentPage(1);
-              }}
+              onChange={(e) => setSearch(e.target.value)}
               placeholder="Search by name, company..."
               className="w-full pl-8 pr-3 py-1 text-xs rounded bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 text-stone-900 dark:text-stone-100 focus:outline-none focus:border-blue-600"
             />
@@ -123,8 +156,9 @@ function DealsContent() {
 
       {/* Single Row Filter Controls */}
       <div className="flex items-center gap-2 flex-wrap text-xs py-1">
-        <span className="text-stone-400 text-[11px]">Filter:</span>
+        <span className="text-stone-400 text-[11px] font-medium">Filter:</span>
 
+        {/* Industry Filter Chips */}
         {INDUSTRIES.map((ind) => {
           const active = filters.industries.includes(ind);
           return (
@@ -133,8 +167,8 @@ function DealsContent() {
               onClick={() => toggleIndustry(ind)}
               className={`px-2 py-0.5 rounded border text-[11px] font-medium transition-colors cursor-pointer ${
                 active
-                  ? "bg-blue-600 text-white border-blue-600"
-                  : "bg-white dark:bg-stone-900 border-stone-200 dark:border-stone-800 text-stone-600 dark:text-stone-400 hover:border-stone-300"
+                  ? "border-blue-600 text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/50 font-semibold"
+                  : "border-stone-200 dark:border-stone-800 text-stone-600 dark:text-stone-400 bg-white dark:bg-stone-900 hover:border-stone-300 dark:hover:border-stone-700"
               }`}
             >
               {ind}
@@ -142,8 +176,7 @@ function DealsContent() {
           );
         })}
 
-        <span className="text-stone-300 dark:text-stone-700">|</span>
-
+        {/* Risk Level Filter Chips */}
         {RISK_LEVELS.map((risk) => {
           const active = filters.riskLevels.includes(risk);
           return (
@@ -152,8 +185,8 @@ function DealsContent() {
               onClick={() => toggleRisk(risk)}
               className={`px-2 py-0.5 rounded border text-[11px] font-medium transition-colors cursor-pointer ${
                 active
-                  ? "bg-blue-600 text-white border-blue-600"
-                  : "bg-white dark:bg-stone-900 border-stone-200 dark:border-stone-800 text-stone-600 dark:text-stone-400 hover:border-stone-300"
+                  ? "border-blue-600 text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/50 font-semibold"
+                  : "border-stone-200 dark:border-stone-800 text-stone-600 dark:text-stone-400 bg-white dark:bg-stone-900 hover:border-stone-300 dark:hover:border-stone-700"
               }`}
             >
               {risk} risk
@@ -161,10 +194,50 @@ function DealsContent() {
           );
         })}
 
-        {(filters.industries.length > 0 || filters.riskLevels.length > 0 || search) && (
+        {/* ROI Select Dropdown */}
+        <select
+          value={filters.roiMin || ""}
+          onChange={(e) => handleRoiSelect(e.target.value)}
+          className={`px-2 py-0.5 rounded border text-[11px] font-medium cursor-pointer transition-colors ${
+            filters.roiMin != null
+              ? "border-blue-600 text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/50 font-semibold"
+              : "border-stone-200 dark:border-stone-800 text-stone-600 dark:text-stone-400 bg-white dark:bg-stone-900"
+          }`}
+        >
+          <option value="">ROI: Any</option>
+          <option value="10">10%+</option>
+          <option value="15">15%+</option>
+          <option value="20">20%+</option>
+        </select>
+
+        {/* Entry Range Select Dropdown */}
+        <select
+          value={
+            filters.investmentMax === 100
+              ? "lt1"
+              : filters.investmentMin === 100 && filters.investmentMax === 200
+              ? "1to2"
+              : filters.investmentMin === 200
+              ? "gt2"
+              : ""
+          }
+          onChange={(e) => handleEntrySelect(e.target.value)}
+          className={`px-2 py-0.5 rounded border text-[11px] font-medium cursor-pointer transition-colors ${
+            filters.investmentMin != null || filters.investmentMax != null
+              ? "border-blue-600 text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/50 font-semibold"
+              : "border-stone-200 dark:border-stone-800 text-stone-600 dark:text-stone-400 bg-white dark:bg-stone-900"
+          }`}
+        >
+          <option value="">Entry: Any</option>
+          <option value="lt1">&lt;₹1 Cr</option>
+          <option value="1to2">₹1–2 Cr</option>
+          <option value="gt2">&gt;₹2 Cr</option>
+        </select>
+
+        {hasActiveFilters && (
           <button
             onClick={clearAllFilters}
-            className="text-rose-600 dark:text-rose-400 hover:underline text-[11px] ml-2 cursor-pointer"
+            className="text-rose-600 dark:text-rose-400 hover:underline text-[11px] ml-1 cursor-pointer"
           >
             Clear filters
           </button>
@@ -174,8 +247,7 @@ function DealsContent() {
       {/* Error state */}
       {status === "failed" && (
         <ErrorState
-          title="Couldn't load deals"
-          message={error}
+          message={error || "Couldn't load deals."}
           onRetry={() =>
             dispatch(
               fetchDeals({

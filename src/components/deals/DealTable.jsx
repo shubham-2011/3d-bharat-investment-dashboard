@@ -22,7 +22,9 @@ export function DealTable({ deals = [] }) {
             <th className="py-2.5 px-3 text-right">Target ROI</th>
             <th className="py-2.5 px-3 text-right">Raised</th>
             <th className="py-2.5 px-3 text-right">Match %</th>
-            <th className="py-2.5 px-3 text-center">Watch</th>
+            <th className="py-2.5 px-3 text-center">
+              <Star className="w-3.5 h-3.5 inline text-stone-400" />
+            </th>
           </tr>
         </thead>
         <tbody className="divide-y divide-stone-100 dark:divide-stone-800/60 font-mono">
@@ -57,7 +59,7 @@ function DealTableRow({ deal, onToggle }) {
       <td className="py-2 px-3 text-right font-medium text-stone-700 dark:text-stone-300">
         {formatLakhs(deal.minInvestment)}
       </td>
-      <td className="py-2 px-3 text-right font-semibold text-emerald-700 dark:text-emerald-400">
+      <td className="py-2 px-3 text-right font-medium text-stone-700 dark:text-stone-300">
         {deal.roi}%
       </td>
       <td className="py-2 px-3 text-right text-stone-700 dark:text-stone-300">
@@ -69,7 +71,7 @@ function DealTableRow({ deal, onToggle }) {
       <td className="py-2 px-3 text-center">
         <button
           onClick={onToggle}
-          className="text-stone-300 dark:text-stone-600 hover:text-amber-500 transition-colors cursor-pointer"
+          className="text-stone-400 dark:text-stone-500 hover:text-amber-500 transition-colors cursor-pointer p-1"
           title={isInterested ? "Remove from watchlist" : "Add to watchlist"}
         >
           <Star className={`w-4 h-4 inline ${isInterested ? "fill-amber-400 text-amber-400" : ""}`} />

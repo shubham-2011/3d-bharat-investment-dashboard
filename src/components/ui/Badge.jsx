@@ -16,17 +16,20 @@ export function RiskBadge({ level }) {
   );
 }
 
+/** Plain num text per D7 — zero pill background fills, zero borders, zero word "match" */
 export function MatchBadge({ score }) {
-  let textColor = "text-emerald-700 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 border-emerald-200 dark:border-emerald-900";
-  if (score < 70 && score >= 45) {
-    textColor = "text-amber-700 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/40 border-amber-200 dark:border-amber-900";
-  } else if (score < 45) {
-    textColor = "text-stone-600 dark:text-stone-400 bg-stone-100 dark:bg-stone-800 border-stone-200 dark:border-stone-700";
+  if (score == null) return <span className="text-stone-400">—</span>;
+
+  let colorClass = "text-emerald-700 dark:text-emerald-400 font-semibold";
+  if (score < 70 && score >= 40) {
+    colorClass = "text-stone-700 dark:text-stone-300 font-semibold";
+  } else if (score < 40) {
+    colorClass = "text-stone-400 dark:text-stone-500 font-medium";
   }
 
   return (
-    <span className={`inline-flex items-center px-1.5 py-0.5 rounded text-[11px] font-mono font-semibold border ${textColor}`}>
-      {score}% match
+    <span className={`font-mono text-xs ${colorClass}`}>
+      {score}%
     </span>
   );
 }

@@ -15,7 +15,7 @@ export function Sidebar({ mobileOpen, onClose }) {
   const pathname = usePathname();
 
   const content = (
-    <div className="flex flex-col h-full bg-white dark:bg-stone-900 border-r border-stone-200 dark:border-stone-800">
+    <div className="flex flex-col h-full bg-white dark:bg-stone-950 border-r border-stone-200 dark:border-stone-800">
       {/* Brand Header */}
       <div className="px-5 py-4 border-b border-stone-200 dark:border-stone-800 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
@@ -36,7 +36,7 @@ export function Sidebar({ mobileOpen, onClose }) {
 
       {/* Navigation List */}
       <nav className="flex-1 py-3">
-        <div className="px-5 pb-2 text-[10px] font-semibold uppercase tracking-wider text-stone-400">
+        <div className="px-5 pb-2 text-[10px] font-semibold uppercase tracking-wider text-stone-400 dark:text-stone-500">
           Menu
         </div>
         {NAV_ITEMS.map((item) => {
@@ -52,8 +52,8 @@ export function Sidebar({ mobileOpen, onClose }) {
               onClick={onClose}
               className={`flex items-center px-5 py-2 text-xs font-medium transition-colors border-l-2 ${
                 isActive
-                  ? "border-blue-600 text-blue-600 dark:text-blue-400 bg-stone-50 dark:bg-stone-800/60 font-semibold"
-                  : "border-transparent text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-50/60 dark:hover:bg-stone-800/30"
+                  ? "border-blue-600 text-blue-600 dark:text-blue-400 bg-stone-50 dark:bg-stone-900 font-semibold"
+                  : "border-transparent text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-50/60 dark:hover:bg-stone-900/50"
               }`}
             >
               {item.label}
@@ -63,7 +63,7 @@ export function Sidebar({ mobileOpen, onClose }) {
       </nav>
 
       {/* Footer Info */}
-      <div className="p-4 border-t border-stone-200 dark:border-stone-800 text-[11px] text-stone-400">
+      <div className="p-4 border-t border-stone-200 dark:border-stone-800 text-[11px] text-stone-400 dark:text-stone-500">
         <div className="flex items-center gap-1.5">
           <span className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
           <span>Monitoring active</span>
@@ -80,7 +80,7 @@ export function Sidebar({ mobileOpen, onClose }) {
 
       {mobileOpen && (
         <div
-          className="fixed inset-0 bg-stone-950/40 z-40 lg:hidden"
+          className="fixed inset-0 bg-stone-950/60 backdrop-blur-sm z-40 lg:hidden"
           onClick={onClose}
         />
       )}

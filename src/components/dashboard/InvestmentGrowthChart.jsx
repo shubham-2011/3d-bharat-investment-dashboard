@@ -11,13 +11,27 @@ import {
 } from "recharts";
 import { formatLakhs } from "@/utils/formatters";
 
+const MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+function formatMonthTick(tickItem) {
+  if (!tickItem) return "";
+  const parts = tickItem.split("-");
+  if (parts.length === 2) {
+    const m = parseInt(parts[1], 10);
+    if (!isNaN(m) && m >= 1 && m <= 12) {
+      return MONTH_NAMES[m - 1];
+    }
+  }
+  return tickItem;
+}
+
 export function InvestmentGrowthChart({ data = [] }) {
   const CustomTooltip = ({ active, payload, label }) => {
     if (active && payload && payload.length) {
       return (
-        <div className="p-2.5 rounded-md bg-stone-900 text-white text-xs border border-stone-800 space-y-0.5">
-          <p className="font-sans text-stone-400">{label}</p>
-          <p className="font-mono font-semibold text-blue-400">
+        <div className="p-2.5 rounded-md bg-stone-900 text-white text-xs border border-stone-800 space-y-0.5 font-mono">
+          <p className="font-sans text-stone-400">{formatMonthTick(label)}</p>
+          <p className="font-semibold text-blue-400">
             {formatLakhs(payload[0].value)}
           </p>
         </div>
@@ -37,13 +51,15 @@ export function InvestmentGrowthChart({ data = [] }) {
 
       <div className="h-64 w-full pt-1">
         <ResponsiveContainer width="100%" height="100%">
-          <LineChart data={data} margin={{ top: 10, right: 10, left: -15, bottom: 0 }}>
+          <LineChart data={data} margin={{ top: 10, right: 10, left: -10, bottom: 15 }}>
             <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#44403c" opacity={0.15} />
             <XAxis
               dataKey="month"
               tickLine={false}
               axisLine={false}
+              tickFormatter={formatMonthTick}
               tick={{ fill: "#a8a29e", fontSize: 11 }}
+              dy={5}
             />
             <YAxis
               tickLine={false}

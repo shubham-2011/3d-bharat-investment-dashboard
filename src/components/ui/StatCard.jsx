@@ -7,12 +7,12 @@ export function StatCard({ label, value, subtext }) {
         {label}
       </span>
 
-      <div className="flex items-baseline justify-between gap-2">
-        <span className="text-2xl font-semibold text-stone-900 dark:text-stone-100 font-mono tracking-tight">
+      <div className="flex items-baseline justify-between gap-2 overflow-hidden">
+        <span className="text-xl sm:text-2xl font-semibold text-stone-900 dark:text-stone-100 font-mono tracking-tight whitespace-nowrap truncate">
           {value}
         </span>
         {subtext && (
-          <span className="text-[11px] text-stone-500 dark:text-stone-400 truncate">
+          <span className="text-[11px] text-stone-500 dark:text-stone-400 whitespace-nowrap truncate">
             {subtext}
           </span>
         )}

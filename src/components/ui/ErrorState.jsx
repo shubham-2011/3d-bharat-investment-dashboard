@@ -1,26 +1,15 @@
 "use client";
 
-import { AlertTriangle, RefreshCw } from "lucide-react";
-
-export function ErrorState({ title = "Failed to load data", message, onRetry }) {
+export function ErrorState({ message = "Couldn't load metrics.", onRetry }) {
   return (
-    <div className="p-8 rounded-2xl border border-rose-200 dark:border-rose-900/40 bg-rose-50/50 dark:bg-rose-950/20 text-center max-w-lg mx-auto my-6 space-y-4 shadow-sm">
-      <div className="w-12 h-12 rounded-full bg-rose-100 dark:bg-rose-900/50 text-rose-600 dark:text-rose-400 flex items-center justify-center mx-auto">
-        <AlertTriangle className="w-6 h-6" />
-      </div>
-      <div>
-        <h3 className="text-lg font-bold text-slate-900 dark:text-slate-100">{title}</h3>
-        <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">
-          {message || "An unexpected network error occurred while fetching data."}
-        </p>
-      </div>
+    <div className="p-4 rounded-md border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 text-center max-w-md mx-auto my-4 space-y-3">
+      <p className="text-xs text-stone-600 dark:text-stone-400 font-sans">{message}</p>
       {onRetry && (
         <button
           onClick={onRetry}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-rose-600 hover:bg-rose-700 active:bg-rose-800 text-white font-medium text-sm transition-colors shadow-sm cursor-pointer"
+          className="px-3 py-1 text-xs border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800 hover:bg-stone-100 dark:hover:bg-stone-700 text-stone-700 dark:text-stone-300 rounded font-medium cursor-pointer transition-colors"
         >
-          <RefreshCw className="w-4 h-4" />
-          Retry Request
+          Retry
         </button>
       )}
     </div>
