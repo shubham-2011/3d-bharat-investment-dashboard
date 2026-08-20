@@ -1,8 +1,8 @@
 [
   {
     "id": "deal-001",
-    "projectName": "Larsen Expressway Corridor",
-    "company": "Larsen & Toubro Infra",
+    "projectName": "NH-4 Widening",
+    "company": "BharatInfra Ltd",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 31.5,
@@ -13,9 +13,9 @@
     "fundingTarget": 12,
     "fundingRaised": 5.4,
     "stage": "Planning",
-    "location": "Mumbai, MH",
-    "createdAt": "2025-01-05T08:00:00.000Z",
-    "description": "The Larsen Expressway Corridor project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Pune, MH",
+    "createdAt": "2025-01-05",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "declining",
     "financials": {
       "revenue3y": [
@@ -72,8 +72,8 @@
   },
   {
     "id": "deal-002",
-    "projectName": "GMR Metro Phase 2",
-    "company": "GMR Infrastructure",
+    "projectName": "Mumbai Ring Road Phase 2",
+    "company": "Deccan Constructions",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 8.2,
@@ -84,9 +84,9 @@
     "fundingTarget": 38.5,
     "fundingRaised": 19.8,
     "stage": "Approved",
-    "location": "Bengaluru, KA",
-    "createdAt": "2025-01-10T08:00:00.000Z",
-    "description": "The GMR Metro Phase 2 project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Mumbai, MH",
+    "createdAt": "2025-01-10",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -143,8 +143,8 @@
   },
   {
     "id": "deal-003",
-    "projectName": "Tata High-Speed Rail Link",
-    "company": "Tata Projects",
+    "projectName": "Nagpur Expressway Corridor",
+    "company": "Sahyadri Projects",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 8.5,
@@ -155,9 +155,9 @@
     "fundingTarget": 57,
     "fundingRaised": 27.4,
     "stage": "In Progress",
-    "location": "Delhi, DL",
-    "createdAt": "2025-01-15T08:00:00.000Z",
-    "description": "The Tata High-Speed Rail Link project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Nagpur, MH",
+    "createdAt": "2025-01-15",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -214,8 +214,8 @@
   },
   {
     "id": "deal-004",
-    "projectName": "Adani Solar Mega-Park",
-    "company": "Adani Ports & SEZ",
+    "projectName": "Outer Ring Road Hyderabad",
+    "company": "IndiaBuild Corp",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 8.7,
@@ -227,8 +227,8 @@
     "fundingRaised": 41.1,
     "stage": "Expansion",
     "location": "Hyderabad, TS",
-    "createdAt": "2025-01-20T08:00:00.000Z",
-    "description": "The Adani Solar Mega-Park project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "createdAt": "2025-01-20",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -285,8 +285,8 @@
   },
   {
     "id": "deal-005",
-    "projectName": "Dilip Cable-Stayed Bridge",
-    "company": "Dilip Buildcon",
+    "projectName": "NH-32 Widening",
+    "company": "Trident Infrastructure",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 9,
@@ -297,9 +297,9 @@
     "fundingTarget": 94,
     "fundingRaised": 47.9,
     "stage": "Planning",
-    "location": "Ahmedabad, GJ",
-    "createdAt": "2025-01-25T08:00:00.000Z",
-    "description": "The Dilip Cable-Stayed Bridge project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Bengaluru, KA",
+    "createdAt": "2025-01-25",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -356,8 +356,8 @@
   },
   {
     "id": "deal-006",
-    "projectName": "IRB Smart Grid Urban Core",
-    "company": "IRB Infrastructure",
+    "projectName": "Chennai Ring Road Phase 2",
+    "company": "Vajra Engineering",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 9.3,
@@ -369,8 +369,8 @@
     "fundingRaised": 13.1,
     "stage": "Approved",
     "location": "Chennai, TN",
-    "createdAt": "2025-01-30T08:00:00.000Z",
-    "description": "The IRB Smart Grid Urban Core project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "createdAt": "2025-01-30",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -427,8 +427,8 @@
   },
   {
     "id": "deal-007",
-    "projectName": "NCC Water Treatment Plant",
-    "company": "NCC Limited",
+    "projectName": "Ahmedabad Expressway Corridor",
+    "company": "NextGen Infra",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 9.6,
@@ -439,9 +439,9 @@
     "fundingTarget": 46,
     "fundingRaised": 24.8,
     "stage": "In Progress",
-    "location": "Pune, MH",
-    "createdAt": "2025-02-04T08:00:00.000Z",
-    "description": "The NCC Water Treatment Plant project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Ahmedabad, GJ",
+    "createdAt": "2025-02-04",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -498,8 +498,8 @@
   },
   {
     "id": "deal-008",
-    "projectName": "Afcons Deepwater Container Terminal",
-    "company": "Afcons Infrastructure",
+    "projectName": "Outer Ring Road Jaipur",
+    "company": "Ashoka Devcon",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 9.8,
@@ -510,9 +510,9 @@
     "fundingTarget": 54,
     "fundingRaised": 27.3,
     "stage": "Expansion",
-    "location": "Kolkata, WB",
-    "createdAt": "2025-02-09T08:00:00.000Z",
-    "description": "The Afcons Deepwater Container Terminal project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Jaipur, RJ",
+    "createdAt": "2025-02-09",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -569,8 +569,8 @@
   },
   {
     "id": "deal-009",
-    "projectName": "J. International Terminal 3",
-    "company": "J. Kumar Infraprojects",
+    "projectName": "NH-60 Widening",
+    "company": "Peninsula Projects",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 10.1,
@@ -581,9 +581,9 @@
     "fundingTarget": 72.5,
     "fundingRaised": 34.1,
     "stage": "Planning",
-    "location": "Jaipur, RJ",
-    "createdAt": "2025-02-14T08:00:00.000Z",
-    "description": "The J. International Terminal 3 project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Lucknow, UP",
+    "createdAt": "2025-02-14",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -640,8 +640,8 @@
   },
   {
     "id": "deal-010",
-    "projectName": "Ashoka Trans-Harbour Link",
-    "company": "Ashoka Buildcon",
+    "projectName": "Bhubaneswar Ring Road Phase 2",
+    "company": "Kaveri Structures",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 10.4,
@@ -652,9 +652,9 @@
     "fundingTarget": 91,
     "fundingRaised": 48.7,
     "stage": "Approved",
-    "location": "Surat, GJ",
-    "createdAt": "2025-02-19T08:00:00.000Z",
-    "description": "The Ashoka Trans-Harbour Link project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Bhubaneswar, OD",
+    "createdAt": "2025-02-19",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -711,8 +711,8 @@
   },
   {
     "id": "deal-011",
-    "projectName": "Gayatri Renewable Energy Grid",
-    "company": "Gayatri Projects",
+    "projectName": "Kolkata Expressway Corridor",
+    "company": "Aravali Buildwell",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 10.6,
@@ -723,9 +723,9 @@
     "fundingTarget": 24.5,
     "fundingRaised": 12.3,
     "stage": "In Progress",
-    "location": "Lucknow, UP",
-    "createdAt": "2025-02-24T08:00:00.000Z",
-    "description": "The Gayatri Renewable Energy Grid project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Kolkata, WB",
+    "createdAt": "2025-02-24",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -782,8 +782,8 @@
   },
   {
     "id": "deal-012",
-    "projectName": "Patel Elevated Metro Ring",
-    "company": "Patel Engineering",
+    "projectName": "Outer Ring Road Visakhapatnam",
+    "company": "Konkan Devworks",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 10.9,
@@ -794,9 +794,9 @@
     "fundingTarget": 43,
     "fundingRaised": 20,
     "stage": "Expansion",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-03-01T08:00:00.000Z",
-    "description": "The Patel Elevated Metro Ring project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Visakhapatnam, AP",
+    "createdAt": "2025-03-01",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -853,8 +853,8 @@
   },
   {
     "id": "deal-013",
-    "projectName": "KNR Freight Bypass Expressway",
-    "company": "KNR Constructions",
+    "projectName": "NH-23 Widening",
+    "company": "Vindhya Infratech",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 11.2,
@@ -865,9 +865,9 @@
     "fundingTarget": 61.5,
     "fundingRaised": 32.6,
     "stage": "Planning",
-    "location": "Bhopal, MP",
-    "createdAt": "2025-03-06T08:00:00.000Z",
-    "description": "The KNR Freight Bypass Expressway project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Surat, GJ",
+    "createdAt": "2025-03-06",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -924,8 +924,8 @@
   },
   {
     "id": "deal-014",
-    "projectName": "PNC Desalination Facility",
-    "company": "PNC Infratech",
+    "projectName": "Bhopal Ring Road Phase 2",
+    "company": "Satpura Projects",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 11.4,
@@ -936,9 +936,9 @@
     "fundingTarget": 80,
     "fundingRaised": 39.6,
     "stage": "Approved",
-    "location": "Visakhapatnam, AP",
-    "createdAt": "2025-03-11T08:00:00.000Z",
-    "description": "The PNC Desalination Facility project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Bhopal, MP",
+    "createdAt": "2025-03-11",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -995,8 +995,8 @@
   },
   {
     "id": "deal-015",
-    "projectName": "HG Integrated Logistics Park",
-    "company": "HG Infra Engineering",
+    "projectName": "Patna Expressway Corridor",
+    "company": "Malwa Constructions",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 11.7,
@@ -1008,8 +1008,8 @@
     "fundingRaised": 40.5,
     "stage": "In Progress",
     "location": "Patna, BR",
-    "createdAt": "2025-03-16T08:00:00.000Z",
-    "description": "The HG Integrated Logistics Park project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "createdAt": "2025-03-16",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -1066,8 +1066,8 @@
   },
   {
     "id": "deal-016",
-    "projectName": "Sadbhav Outer Ring Expressway",
-    "company": "Sadbhav Engineering",
+    "projectName": "Outer Ring Road Pune",
+    "company": "Larsen & Toubro Infra",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 12,
@@ -1078,9 +1078,9 @@
     "fundingTarget": 21.5,
     "fundingRaised": 11.3,
     "stage": "Expansion",
-    "location": "Mumbai, MH",
-    "createdAt": "2025-03-21T08:00:00.000Z",
-    "description": "The Sadbhav Outer Ring Expressway project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Pune, MH",
+    "createdAt": "2025-03-21",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -1137,8 +1137,8 @@
   },
   {
     "id": "deal-017",
-    "projectName": "Simplex Suburban Rail Modernization",
-    "company": "Simplex Infrastructures",
+    "projectName": "NH-51 Widening",
+    "company": "Tata Projects",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 12.3,
@@ -1149,9 +1149,9 @@
     "fundingTarget": 40,
     "fundingRaised": 19.6,
     "stage": "Planning",
-    "location": "Bengaluru, KA",
-    "createdAt": "2025-03-26T08:00:00.000Z",
-    "description": "The Simplex Suburban Rail Modernization project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Mumbai, MH",
+    "createdAt": "2025-03-26",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -1208,8 +1208,8 @@
   },
   {
     "id": "deal-018",
-    "projectName": "Megha Ultra-Mega Solar Complex",
-    "company": "Megha Engineering",
+    "projectName": "Nagpur Ring Road Phase 2",
+    "company": "GMR Infrastructure",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 12.5,
@@ -1220,9 +1220,9 @@
     "fundingTarget": 58.5,
     "fundingRaised": 26.6,
     "stage": "Approved",
-    "location": "Delhi, DL",
-    "createdAt": "2025-03-31T08:00:00.000Z",
-    "description": "The Megha Ultra-Mega Solar Complex project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Nagpur, MH",
+    "createdAt": "2025-03-31",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -1279,8 +1279,8 @@
   },
   {
     "id": "deal-019",
-    "projectName": "Hindustan River Bridge Span",
-    "company": "Hindustan Construction Co",
+    "projectName": "Hyderabad Expressway Corridor",
+    "company": "Dilip Buildcon",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 12.8,
@@ -1292,8 +1292,8 @@
     "fundingRaised": 40,
     "stage": "In Progress",
     "location": "Hyderabad, TS",
-    "createdAt": "2025-04-05T08:00:00.000Z",
-    "description": "The Hindustan River Bridge Span project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "createdAt": "2025-04-05",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -1350,8 +1350,8 @@
   },
   {
     "id": "deal-020",
-    "projectName": "Shapoorji Smart Drainage Network",
-    "company": "Shapoorji Pallonji Infra",
+    "projectName": "Outer Ring Road Bengaluru",
+    "company": "IRB Infrastructure",
     "industry": "Roads",
     "riskLevel": "Low",
     "roi": 13.1,
@@ -1362,9 +1362,9 @@
     "fundingTarget": 95.5,
     "fundingRaised": 46.3,
     "stage": "Expansion",
-    "location": "Ahmedabad, GJ",
-    "createdAt": "2025-04-10T08:00:00.000Z",
-    "description": "The Shapoorji Smart Drainage Network project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Bengaluru, KA",
+    "createdAt": "2025-04-10",
+    "description": "Roads infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -1421,8 +1421,8 @@
   },
   {
     "id": "deal-021",
-    "projectName": "Larsen Bulk Cargo Port Basin",
-    "company": "Larsen & Toubro Infra",
+    "projectName": "Chennai Metro Phase 1",
+    "company": "BharatInfra Ltd",
     "industry": "Metro",
     "riskLevel": "Low",
     "roi": 13.3,
@@ -1434,8 +1434,8 @@
     "fundingRaised": 13.1,
     "stage": "Planning",
     "location": "Chennai, TN",
-    "createdAt": "2025-04-15T08:00:00.000Z",
-    "description": "The Larsen Bulk Cargo Port Basin project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "createdAt": "2025-04-15",
+    "description": "Metro infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -1492,8 +1492,8 @@
   },
   {
     "id": "deal-022",
-    "projectName": "GMR Greenfield Aerodrome",
-    "company": "GMR Infrastructure",
+    "projectName": "Ahmedabad Metro Line 21",
+    "company": "Deccan Constructions",
     "industry": "Metro",
     "riskLevel": "Low",
     "roi": 13.6,
@@ -1504,9 +1504,9 @@
     "fundingTarget": 37,
     "fundingRaised": 19.1,
     "stage": "Approved",
-    "location": "Pune, MH",
-    "createdAt": "2025-04-20T08:00:00.000Z",
-    "description": "The GMR Greenfield Aerodrome project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Ahmedabad, GJ",
+    "createdAt": "2025-04-20",
+    "description": "Metro infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -1563,8 +1563,8 @@
   },
   {
     "id": "deal-023",
-    "projectName": "Tata Coastal Highway Extension",
-    "company": "Tata Projects",
+    "projectName": "Jaipur Neo Metro",
+    "company": "Sahyadri Projects",
     "industry": "Metro",
     "riskLevel": "Low",
     "roi": 13.9,
@@ -1575,9 +1575,9 @@
     "fundingTarget": 55.5,
     "fundingRaised": 26.6,
     "stage": "In Progress",
-    "location": "Kolkata, WB",
-    "createdAt": "2025-04-25T08:00:00.000Z",
-    "description": "The Tata Coastal Highway Extension project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Jaipur, RJ",
+    "createdAt": "2025-04-25",
+    "description": "Metro infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -1634,8 +1634,8 @@
   },
   {
     "id": "deal-024",
-    "projectName": "Adani Industrial Water Pipeline",
-    "company": "Adani Ports & SEZ",
+    "projectName": "Lucknow Elevated Metro Link",
+    "company": "IndiaBuild Corp",
     "industry": "Metro",
     "riskLevel": "Low",
     "roi": 14.2,
@@ -1646,9 +1646,9 @@
     "fundingTarget": 74,
     "fundingRaised": 40.3,
     "stage": "Expansion",
-    "location": "Jaipur, RJ",
-    "createdAt": "2025-04-30T08:00:00.000Z",
-    "description": "The Adani Industrial Water Pipeline project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Lucknow, UP",
+    "createdAt": "2025-04-30",
+    "description": "Metro infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -1705,8 +1705,8 @@
   },
   {
     "id": "deal-025",
-    "projectName": "Dilip Rapid Transit Flyover",
-    "company": "Dilip Buildcon",
+    "projectName": "Bhubaneswar Metro Phase 1",
+    "company": "Trident Infrastructure",
     "industry": "Metro",
     "riskLevel": "Low",
     "roi": 14.4,
@@ -1717,9 +1717,9 @@
     "fundingTarget": 92.5,
     "fundingRaised": 47.2,
     "stage": "Planning",
-    "location": "Surat, GJ",
-    "createdAt": "2025-05-05T08:00:00.000Z",
-    "description": "The Dilip Rapid Transit Flyover project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Bhubaneswar, OD",
+    "createdAt": "2025-05-05",
+    "description": "Metro infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -1776,8 +1776,8 @@
   },
   {
     "id": "deal-026",
-    "projectName": "IRB Solar-Wind Hybrid Farm",
-    "company": "IRB Infrastructure",
+    "projectName": "Kolkata Metro Line 49",
+    "company": "Vajra Engineering",
     "industry": "Metro",
     "riskLevel": "Medium",
     "roi": 8.5,
@@ -1788,9 +1788,9 @@
     "fundingTarget": 26,
     "fundingRaised": 12.4,
     "stage": "Approved",
-    "location": "Lucknow, UP",
-    "createdAt": "2025-05-10T08:00:00.000Z",
-    "description": "The IRB Solar-Wind Hybrid Farm project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Kolkata, WB",
+    "createdAt": "2025-05-10",
+    "description": "Metro infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "declining",
     "financials": {
       "revenue3y": [
@@ -1847,8 +1847,8 @@
   },
   {
     "id": "deal-027",
-    "projectName": "NCC Rail Overbridge Junction",
-    "company": "NCC Limited",
+    "projectName": "Visakhapatnam Neo Metro",
+    "company": "NextGen Infra",
     "industry": "Metro",
     "riskLevel": "Medium",
     "roi": 14.5,
@@ -1859,9 +1859,9 @@
     "fundingTarget": 44.5,
     "fundingRaised": 24,
     "stage": "In Progress",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-05-15T08:00:00.000Z",
-    "description": "The NCC Rail Overbridge Junction project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Visakhapatnam, AP",
+    "createdAt": "2025-05-15",
+    "description": "Metro infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "declining",
     "financials": {
       "revenue3y": [
@@ -1918,8 +1918,8 @@
   },
   {
     "id": "deal-028",
-    "projectName": "Afcons Intelligent Traffic Corridor",
-    "company": "Afcons Infrastructure",
+    "projectName": "Surat Elevated Metro Link",
+    "company": "Ashoka Devcon",
     "industry": "Metro",
     "riskLevel": "Medium",
     "roi": 14.9,
@@ -1930,9 +1930,9 @@
     "fundingTarget": 63,
     "fundingRaised": 31.8,
     "stage": "Expansion",
-    "location": "Bhopal, MP",
-    "createdAt": "2025-05-20T08:00:00.000Z",
-    "description": "The Afcons Intelligent Traffic Corridor project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Surat, GJ",
+    "createdAt": "2025-05-20",
+    "description": "Metro infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "declining",
     "financials": {
       "revenue3y": [
@@ -1989,8 +1989,8 @@
   },
   {
     "id": "deal-029",
-    "projectName": "J. Automated Port Yard",
-    "company": "J. Kumar Infraprojects",
+    "projectName": "Bhopal Metro Phase 1",
+    "company": "Peninsula Projects",
     "industry": "Metro",
     "riskLevel": "Medium",
     "roi": 15.3,
@@ -2001,9 +2001,9 @@
     "fundingTarget": 71,
     "fundingRaised": 33.4,
     "stage": "Planning",
-    "location": "Visakhapatnam, AP",
-    "createdAt": "2025-05-25T08:00:00.000Z",
-    "description": "The J. Automated Port Yard project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Bhopal, MP",
+    "createdAt": "2025-05-25",
+    "description": "Metro infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -2060,8 +2060,8 @@
   },
   {
     "id": "deal-030",
-    "projectName": "Ashoka Runway Expansion Project",
-    "company": "Ashoka Buildcon",
+    "projectName": "Patna Metro Line 12",
+    "company": "Kaveri Structures",
     "industry": "Metro",
     "riskLevel": "Medium",
     "roi": 15.6,
@@ -2073,8 +2073,8 @@
     "fundingRaised": 47.9,
     "stage": "Approved",
     "location": "Patna, BR",
-    "createdAt": "2025-05-30T08:00:00.000Z",
-    "description": "The Ashoka Runway Expansion Project project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "createdAt": "2025-05-30",
+    "description": "Metro infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -2131,8 +2131,8 @@
   },
   {
     "id": "deal-031",
-    "projectName": "Gayatri High-Density Highway Section",
-    "company": "Gayatri Projects",
+    "projectName": "Pune Neo Metro",
+    "company": "Aravali Buildwell",
     "industry": "Metro",
     "riskLevel": "Medium",
     "roi": 16,
@@ -2143,9 +2143,9 @@
     "fundingTarget": 23,
     "fundingRaised": 11.5,
     "stage": "In Progress",
-    "location": "Mumbai, MH",
-    "createdAt": "2025-06-04T08:00:00.000Z",
-    "description": "The Gayatri High-Density Highway Section project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Pune, MH",
+    "createdAt": "2025-06-04",
+    "description": "Metro infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -2202,8 +2202,8 @@
   },
   {
     "id": "deal-032",
-    "projectName": "Patel Monorail Feeder Route",
-    "company": "Patel Engineering",
+    "projectName": "Mumbai Elevated Metro Link",
+    "company": "Konkan Devworks",
     "industry": "Metro",
     "riskLevel": "Medium",
     "roi": 16.4,
@@ -2214,9 +2214,9 @@
     "fundingTarget": 41.5,
     "fundingRaised": 19.3,
     "stage": "Expansion",
-    "location": "Bengaluru, KA",
-    "createdAt": "2025-06-09T08:00:00.000Z",
-    "description": "The Patel Monorail Feeder Route project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Mumbai, MH",
+    "createdAt": "2025-06-09",
+    "description": "Metro infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -2273,8 +2273,8 @@
   },
   {
     "id": "deal-033",
-    "projectName": "KNR Dedicated Freight Corridor",
-    "company": "KNR Constructions",
+    "projectName": "Nagpur Metro Phase 1",
+    "company": "Vindhya Infratech",
     "industry": "Metro",
     "riskLevel": "Medium",
     "roi": 16.8,
@@ -2285,9 +2285,9 @@
     "fundingTarget": 60,
     "fundingRaised": 31.8,
     "stage": "Planning",
-    "location": "Delhi, DL",
-    "createdAt": "2025-06-14T08:00:00.000Z",
-    "description": "The KNR Dedicated Freight Corridor project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Nagpur, MH",
+    "createdAt": "2025-06-14",
+    "description": "Metro infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -2344,8 +2344,8 @@
   },
   {
     "id": "deal-034",
-    "projectName": "PNC Floating Solar Array",
-    "company": "PNC Infratech",
+    "projectName": "Hyderabad Metro Line 40",
+    "company": "Satpura Projects",
     "industry": "Metro",
     "riskLevel": "Medium",
     "roi": 17.2,
@@ -2357,8 +2357,8 @@
     "fundingRaised": 38.9,
     "stage": "Approved",
     "location": "Hyderabad, TS",
-    "createdAt": "2025-06-19T08:00:00.000Z",
-    "description": "The PNC Floating Solar Array project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "createdAt": "2025-06-19",
+    "description": "Metro infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -2415,8 +2415,8 @@
   },
   {
     "id": "deal-035",
-    "projectName": "HG Twin-Tube Tunnel Road",
-    "company": "HG Infra Engineering",
+    "projectName": "Bengaluru Neo Metro",
+    "company": "Malwa Constructions",
     "industry": "Metro",
     "riskLevel": "Medium",
     "roi": 17.6,
@@ -2427,9 +2427,9 @@
     "fundingTarget": 97,
     "fundingRaised": 44.6,
     "stage": "In Progress",
-    "location": "Ahmedabad, GJ",
-    "createdAt": "2025-06-24T08:00:00.000Z",
-    "description": "The HG Twin-Tube Tunnel Road project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Bengaluru, KA",
+    "createdAt": "2025-06-24",
+    "description": "Metro infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -2486,8 +2486,8 @@
   },
   {
     "id": "deal-036",
-    "projectName": "Sadbhav IoT Water Metering System",
-    "company": "Sadbhav Engineering",
+    "projectName": "Chennai Elevated Metro Link",
+    "company": "Larsen & Toubro Infra",
     "industry": "Metro",
     "riskLevel": "Medium",
     "roi": 17.9,
@@ -2499,8 +2499,8 @@
     "fundingRaised": 10.5,
     "stage": "Expansion",
     "location": "Chennai, TN",
-    "createdAt": "2025-06-29T08:00:00.000Z",
-    "description": "The Sadbhav IoT Water Metering System project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "createdAt": "2025-06-29",
+    "description": "Metro infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -2557,8 +2557,8 @@
   },
   {
     "id": "deal-037",
-    "projectName": "Simplex LNG Import Terminal",
-    "company": "Simplex Infrastructures",
+    "projectName": "Ahmedabad Rail Corridor Doubling",
+    "company": "Tata Projects",
     "industry": "Railway",
     "riskLevel": "Medium",
     "roi": 18.3,
@@ -2569,9 +2569,9 @@
     "fundingTarget": 38.5,
     "fundingRaised": 18.9,
     "stage": "Planning",
-    "location": "Pune, MH",
-    "createdAt": "2025-07-04T08:00:00.000Z",
-    "description": "The Simplex LNG Import Terminal project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Ahmedabad, GJ",
+    "createdAt": "2025-07-04",
+    "description": "Railway infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -2628,8 +2628,8 @@
   },
   {
     "id": "deal-038",
-    "projectName": "Megha Heliport Regional Hub",
-    "company": "Megha Engineering",
+    "projectName": "Freight Corridor Jaipur Section",
+    "company": "GMR Infrastructure",
     "industry": "Railway",
     "riskLevel": "Medium",
     "roi": 18.7,
@@ -2640,9 +2640,9 @@
     "fundingTarget": 57,
     "fundingRaised": 25.9,
     "stage": "Approved",
-    "location": "Kolkata, WB",
-    "createdAt": "2025-07-09T08:00:00.000Z",
-    "description": "The Megha Heliport Regional Hub project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Jaipur, RJ",
+    "createdAt": "2025-07-09",
+    "description": "Railway infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -2699,8 +2699,8 @@
   },
   {
     "id": "deal-039",
-    "projectName": "Hindustan Smart City Surveillance Hub",
-    "company": "Hindustan Construction Co",
+    "projectName": "Lucknow Station Redevelopment",
+    "company": "Dilip Buildcon",
     "industry": "Railway",
     "riskLevel": "Medium",
     "roi": 19.1,
@@ -2711,9 +2711,9 @@
     "fundingTarget": 75.5,
     "fundingRaised": 39.3,
     "stage": "In Progress",
-    "location": "Jaipur, RJ",
-    "createdAt": "2025-07-14T08:00:00.000Z",
-    "description": "The Hindustan Smart City Surveillance Hub project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Lucknow, UP",
+    "createdAt": "2025-07-14",
+    "description": "Railway infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -2770,8 +2770,8 @@
   },
   {
     "id": "deal-040",
-    "projectName": "Shapoorji Multi-Modal Transit Interchange",
-    "company": "Shapoorji Pallonji Infra",
+    "projectName": "High-Speed Rail Bhubaneswar Link",
+    "company": "IRB Infrastructure",
     "industry": "Railway",
     "riskLevel": "Medium",
     "roi": 19.5,
@@ -2782,9 +2782,9 @@
     "fundingTarget": 94,
     "fundingRaised": 45.6,
     "stage": "Expansion",
-    "location": "Surat, GJ",
-    "createdAt": "2025-07-19T08:00:00.000Z",
-    "description": "The Shapoorji Multi-Modal Transit Interchange project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Bhubaneswar, OD",
+    "createdAt": "2025-07-19",
+    "description": "Railway infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -2841,8 +2841,8 @@
   },
   {
     "id": "deal-041",
-    "projectName": "Larsen National Highway Widening",
-    "company": "Larsen & Toubro Infra",
+    "projectName": "Kolkata Rail Corridor Doubling",
+    "company": "BharatInfra Ltd",
     "industry": "Railway",
     "riskLevel": "Medium",
     "roi": 19.9,
@@ -2853,9 +2853,9 @@
     "fundingTarget": 27.5,
     "fundingRaised": 12.4,
     "stage": "Planning",
-    "location": "Lucknow, UP",
-    "createdAt": "2025-07-24T08:00:00.000Z",
-    "description": "The Larsen National Highway Widening project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Kolkata, WB",
+    "createdAt": "2025-07-24",
+    "description": "Railway infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -2912,8 +2912,8 @@
   },
   {
     "id": "deal-042",
-    "projectName": "GMR Underground Metro Reach",
-    "company": "GMR Infrastructure",
+    "projectName": "Freight Corridor Visakhapatnam Section",
+    "company": "Deccan Constructions",
     "industry": "Railway",
     "riskLevel": "Medium",
     "roi": 20.2,
@@ -2924,9 +2924,9 @@
     "fundingTarget": 46,
     "fundingRaised": 23.7,
     "stage": "Approved",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-07-29T08:00:00.000Z",
-    "description": "The GMR Underground Metro Reach project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Visakhapatnam, AP",
+    "createdAt": "2025-07-29",
+    "description": "Railway infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -2983,8 +2983,8 @@
   },
   {
     "id": "deal-043",
-    "projectName": "Tata Electrified Rail Corridor",
-    "company": "Tata Projects",
+    "projectName": "Surat Station Redevelopment",
+    "company": "Sahyadri Projects",
     "industry": "Railway",
     "riskLevel": "Medium",
     "roi": 20.6,
@@ -2995,9 +2995,9 @@
     "fundingTarget": 54,
     "fundingRaised": 25.9,
     "stage": "In Progress",
-    "location": "Bhopal, MP",
-    "createdAt": "2025-08-03T08:00:00.000Z",
-    "description": "The Tata Electrified Rail Corridor project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Surat, GJ",
+    "createdAt": "2025-08-03",
+    "description": "Railway infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -3054,8 +3054,8 @@
   },
   {
     "id": "deal-044",
-    "projectName": "Adani Rooftop Solar Cluster",
-    "company": "Adani Ports & SEZ",
+    "projectName": "High-Speed Rail Bhopal Link",
+    "company": "IndiaBuild Corp",
     "industry": "Railway",
     "riskLevel": "Medium",
     "roi": 21,
@@ -3066,9 +3066,9 @@
     "fundingTarget": 72.5,
     "fundingRaised": 39.5,
     "stage": "Expansion",
-    "location": "Visakhapatnam, AP",
-    "createdAt": "2025-08-08T08:00:00.000Z",
-    "description": "The Adani Rooftop Solar Cluster project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Bhopal, MP",
+    "createdAt": "2025-08-08",
+    "description": "Railway infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -3125,8 +3125,8 @@
   },
   {
     "id": "deal-045",
-    "projectName": "Dilip Suspension Bridge Overpass",
-    "company": "Dilip Buildcon",
+    "projectName": "Patna Rail Corridor Doubling",
+    "company": "Trident Infrastructure",
     "industry": "Railway",
     "riskLevel": "Medium",
     "roi": 21.4,
@@ -3138,8 +3138,8 @@
     "fundingRaised": 46.4,
     "stage": "Planning",
     "location": "Patna, BR",
-    "createdAt": "2025-08-13T08:00:00.000Z",
-    "description": "The Dilip Suspension Bridge Overpass project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "createdAt": "2025-08-13",
+    "description": "Railway infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -3196,8 +3196,8 @@
   },
   {
     "id": "deal-046",
-    "projectName": "IRB Urban Flood Mitigation",
-    "company": "IRB Infrastructure",
+    "projectName": "Freight Corridor Pune Section",
+    "company": "Vajra Engineering",
     "industry": "Railway",
     "riskLevel": "Medium",
     "roi": 21.8,
@@ -3208,9 +3208,9 @@
     "fundingTarget": 24.5,
     "fundingRaised": 11.6,
     "stage": "Approved",
-    "location": "Mumbai, MH",
-    "createdAt": "2025-08-18T08:00:00.000Z",
-    "description": "The IRB Urban Flood Mitigation project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Pune, MH",
+    "createdAt": "2025-08-18",
+    "description": "Railway infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -3267,8 +3267,8 @@
   },
   {
     "id": "deal-047",
-    "projectName": "NCC Container Freight Station",
-    "company": "NCC Limited",
+    "projectName": "Mumbai Floating Solar Plant",
+    "company": "NextGen Infra",
     "industry": "Solar",
     "riskLevel": "Medium",
     "roi": 22.1,
@@ -3279,9 +3279,9 @@
     "fundingTarget": 43,
     "fundingRaised": 23.2,
     "stage": "In Progress",
-    "location": "Bengaluru, KA",
-    "createdAt": "2025-08-23T08:00:00.000Z",
-    "description": "The NCC Container Freight Station project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Mumbai, MH",
+    "createdAt": "2025-08-23",
+    "description": "Solar infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -3338,8 +3338,8 @@
   },
   {
     "id": "deal-048",
-    "projectName": "Afcons Cargo Airport Apron",
-    "company": "Afcons Infrastructure",
+    "projectName": "Ultra-Mega Solar Complex Nagpur",
+    "company": "Ashoka Devcon",
     "industry": "Solar",
     "riskLevel": "Medium",
     "roi": 22.5,
@@ -3350,9 +3350,9 @@
     "fundingTarget": 61.5,
     "fundingRaised": 31.1,
     "stage": "Expansion",
-    "location": "Delhi, DL",
-    "createdAt": "2025-08-28T08:00:00.000Z",
-    "description": "The Afcons Cargo Airport Apron project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Nagpur, MH",
+    "createdAt": "2025-08-28",
+    "description": "Solar infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -3409,8 +3409,8 @@
   },
   {
     "id": "deal-049",
-    "projectName": "J. Smart Highway Tollway",
-    "company": "J. Kumar Infraprojects",
+    "projectName": "Hyderabad Solar Park 15MW",
+    "company": "Peninsula Projects",
     "industry": "Solar",
     "riskLevel": "Medium",
     "roi": 22.9,
@@ -3422,8 +3422,8 @@
     "fundingRaised": 37.6,
     "stage": "Planning",
     "location": "Hyderabad, TS",
-    "createdAt": "2025-09-02T08:00:00.000Z",
-    "description": "The J. Smart Highway Tollway project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "createdAt": "2025-09-02",
+    "description": "Solar infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -3480,8 +3480,8 @@
   },
   {
     "id": "deal-050",
-    "projectName": "Ashoka Metro Depot & Yard",
-    "company": "Ashoka Buildcon",
+    "projectName": "Rooftop Solar Program Bengaluru",
+    "company": "Kaveri Structures",
     "industry": "Solar",
     "riskLevel": "Medium",
     "roi": 23.3,
@@ -3492,9 +3492,9 @@
     "fundingTarget": 88,
     "fundingRaised": 47.1,
     "stage": "Approved",
-    "location": "Ahmedabad, GJ",
-    "createdAt": "2025-09-07T08:00:00.000Z",
-    "description": "The Ashoka Metro Depot & Yard project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Bengaluru, KA",
+    "createdAt": "2025-09-07",
+    "description": "Solar infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -3551,8 +3551,8 @@
   },
   {
     "id": "deal-051",
-    "projectName": "Gayatri Railway Station Redevelopment",
-    "company": "Gayatri Projects",
+    "projectName": "Chennai Floating Solar Plant",
+    "company": "Aravali Buildwell",
     "industry": "Solar",
     "riskLevel": "Medium",
     "roi": 23.7,
@@ -3564,8 +3564,8 @@
     "fundingRaised": 10.8,
     "stage": "In Progress",
     "location": "Chennai, TN",
-    "createdAt": "2025-09-12T08:00:00.000Z",
-    "description": "The Gayatri Railway Station Redevelopment project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "createdAt": "2025-09-12",
+    "description": "Solar infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -3622,8 +3622,8 @@
   },
   {
     "id": "deal-052",
-    "projectName": "Patel Agri-Solar Park Network",
-    "company": "Patel Engineering",
+    "projectName": "Ultra-Mega Solar Complex Ahmedabad",
+    "company": "Konkan Devworks",
     "industry": "Solar",
     "riskLevel": "Medium",
     "roi": 24.1,
@@ -3634,9 +3634,9 @@
     "fundingTarget": 40,
     "fundingRaised": 18.6,
     "stage": "Expansion",
-    "location": "Pune, MH",
-    "createdAt": "2025-09-17T08:00:00.000Z",
-    "description": "The Patel Agri-Solar Park Network project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Ahmedabad, GJ",
+    "createdAt": "2025-09-17",
+    "description": "Solar infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -3693,8 +3693,8 @@
   },
   {
     "id": "deal-053",
-    "projectName": "KNR Viaduct Roadway Extension",
-    "company": "KNR Constructions",
+    "projectName": "Jaipur Solar Park 43MW",
+    "company": "Vindhya Infratech",
     "industry": "Solar",
     "riskLevel": "Medium",
     "roi": 24.4,
@@ -3705,9 +3705,9 @@
     "fundingTarget": 58.5,
     "fundingRaised": 31,
     "stage": "Planning",
-    "location": "Kolkata, WB",
-    "createdAt": "2025-09-22T08:00:00.000Z",
-    "description": "The KNR Viaduct Roadway Extension project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Jaipur, RJ",
+    "createdAt": "2025-09-22",
+    "description": "Solar infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -3764,8 +3764,8 @@
   },
   {
     "id": "deal-054",
-    "projectName": "PNC Riverfront Promenade Infra",
-    "company": "PNC Infratech",
+    "projectName": "Rooftop Solar Program Lucknow",
+    "company": "Satpura Projects",
     "industry": "Solar",
     "riskLevel": "Medium",
     "roi": 24.8,
@@ -3776,9 +3776,9 @@
     "fundingTarget": 77,
     "fundingRaised": 38.1,
     "stage": "Approved",
-    "location": "Jaipur, RJ",
-    "createdAt": "2025-09-27T08:00:00.000Z",
-    "description": "The PNC Riverfront Promenade Infra project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Lucknow, UP",
+    "createdAt": "2025-09-27",
+    "description": "Solar infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -3835,8 +3835,8 @@
   },
   {
     "id": "deal-055",
-    "projectName": "HG Maritime Shipyard Basin",
-    "company": "HG Infra Engineering",
+    "projectName": "Bhubaneswar Floating Solar Plant",
+    "company": "Malwa Constructions",
     "industry": "Solar",
     "riskLevel": "Medium",
     "roi": 25.2,
@@ -3847,9 +3847,9 @@
     "fundingTarget": 95.5,
     "fundingRaised": 43.9,
     "stage": "In Progress",
-    "location": "Surat, GJ",
-    "createdAt": "2025-10-02T08:00:00.000Z",
-    "description": "The HG Maritime Shipyard Basin project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Bhubaneswar, OD",
+    "createdAt": "2025-10-02",
+    "description": "Solar infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -3906,8 +3906,8 @@
   },
   {
     "id": "deal-056",
-    "projectName": "Sadbhav Aerocity Commercial Transit",
-    "company": "Sadbhav Engineering",
+    "projectName": "Trans-Harbour Link Kolkata",
+    "company": "Larsen & Toubro Infra",
     "industry": "Bridges",
     "riskLevel": "Medium",
     "roi": 25.6,
@@ -3918,9 +3918,9 @@
     "fundingTarget": 29,
     "fundingRaised": 15.2,
     "stage": "Expansion",
-    "location": "Lucknow, UP",
-    "createdAt": "2025-10-07T08:00:00.000Z",
-    "description": "The Sadbhav Aerocity Commercial Transit project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Kolkata, WB",
+    "createdAt": "2025-10-07",
+    "description": "Bridges infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -3977,8 +3977,8 @@
   },
   {
     "id": "deal-057",
-    "projectName": "Simplex Expressway Bypass Section",
-    "company": "Simplex Infrastructures",
+    "projectName": "Mula-Mutha River Bridge",
+    "company": "Tata Projects",
     "industry": "Bridges",
     "riskLevel": "Medium",
     "roi": 26,
@@ -3989,9 +3989,9 @@
     "fundingTarget": 37,
     "fundingRaised": 18.1,
     "stage": "Planning",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-10-12T08:00:00.000Z",
-    "description": "The Simplex Expressway Bypass Section project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Visakhapatnam, AP",
+    "createdAt": "2025-10-12",
+    "description": "Bridges infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -4048,8 +4048,8 @@
   },
   {
     "id": "deal-058",
-    "projectName": "Megha Light Rail Transit Line",
-    "company": "Megha Engineering",
+    "projectName": "Surat Flyover Network",
+    "company": "GMR Infrastructure",
     "industry": "Bridges",
     "riskLevel": "Medium",
     "roi": 26.4,
@@ -4060,9 +4060,9 @@
     "fundingTarget": 55.5,
     "fundingRaised": 25.3,
     "stage": "Approved",
-    "location": "Bhopal, MP",
-    "createdAt": "2025-10-17T08:00:00.000Z",
-    "description": "The Megha Light Rail Transit Line project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Surat, GJ",
+    "createdAt": "2025-10-17",
+    "description": "Bridges infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -4119,8 +4119,8 @@
   },
   {
     "id": "deal-059",
-    "projectName": "Hindustan Signaling Modernization Project",
-    "company": "Hindustan Construction Co",
+    "projectName": "Cable-Stayed Bridge Bhopal",
+    "company": "Dilip Buildcon",
     "industry": "Bridges",
     "riskLevel": "Medium",
     "roi": 26.7,
@@ -4131,9 +4131,9 @@
     "fundingTarget": 74,
     "fundingRaised": 38.5,
     "stage": "In Progress",
-    "location": "Visakhapatnam, AP",
-    "createdAt": "2025-10-22T08:00:00.000Z",
-    "description": "The Hindustan Signaling Modernization Project project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Bhopal, MP",
+    "createdAt": "2025-10-22",
+    "description": "Bridges infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -4190,8 +4190,8 @@
   },
   {
     "id": "deal-060",
-    "projectName": "Shapoorji Canal-Top Solar Grid",
-    "company": "Shapoorji Pallonji Infra",
+    "projectName": "Trans-Harbour Link Patna",
+    "company": "IRB Infrastructure",
     "industry": "Bridges",
     "riskLevel": "Medium",
     "roi": 27.1,
@@ -4203,8 +4203,8 @@
     "fundingRaised": 44.9,
     "stage": "Expansion",
     "location": "Patna, BR",
-    "createdAt": "2025-10-27T08:00:00.000Z",
-    "description": "The Shapoorji Canal-Top Solar Grid project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "createdAt": "2025-10-27",
+    "description": "Bridges infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -4261,8 +4261,8 @@
   },
   {
     "id": "deal-061",
-    "projectName": "Larsen Arch Bridge Crossing",
-    "company": "Larsen & Toubro Infra",
+    "projectName": "Ganga River Bridge",
+    "company": "BharatInfra Ltd",
     "industry": "Bridges",
     "riskLevel": "High",
     "roi": 16.5,
@@ -4273,9 +4273,9 @@
     "fundingTarget": 26,
     "fundingRaised": 11.7,
     "stage": "Planning",
-    "location": "Mumbai, MH",
-    "createdAt": "2025-11-01T08:00:00.000Z",
-    "description": "The Larsen Arch Bridge Crossing project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Pune, MH",
+    "createdAt": "2025-11-01",
+    "description": "Bridges infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "declining",
     "financials": {
       "revenue3y": [
@@ -4332,8 +4332,8 @@
   },
   {
     "id": "deal-062",
-    "projectName": "GMR Smart Solid Waste Plant",
-    "company": "GMR Infrastructure",
+    "projectName": "Mumbai Flyover Network",
+    "company": "Deccan Constructions",
     "industry": "Bridges",
     "riskLevel": "High",
     "roi": 18,
@@ -4344,9 +4344,9 @@
     "fundingTarget": 44.5,
     "fundingRaised": 22.9,
     "stage": "Approved",
-    "location": "Bengaluru, KA",
-    "createdAt": "2025-11-06T08:00:00.000Z",
-    "description": "The GMR Smart Solid Waste Plant project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Mumbai, MH",
+    "createdAt": "2025-11-06",
+    "description": "Bridges infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "declining",
     "financials": {
       "revenue3y": [
@@ -4403,8 +4403,8 @@
   },
   {
     "id": "deal-063",
-    "projectName": "Tata Deep-Draft Port Berth",
-    "company": "Tata Projects",
+    "projectName": "Nagpur Smart Water Grid",
+    "company": "Sahyadri Projects",
     "industry": "Smart City",
     "riskLevel": "High",
     "roi": 25.5,
@@ -4415,9 +4415,9 @@
     "fundingTarget": 63,
     "fundingRaised": 30.2,
     "stage": "In Progress",
-    "location": "Delhi, DL",
-    "createdAt": "2025-11-11T08:00:00.000Z",
-    "description": "The Tata Deep-Draft Port Berth project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Nagpur, MH",
+    "createdAt": "2025-11-11",
+    "description": "Smart City infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "declining",
     "financials": {
       "revenue3y": [
@@ -4474,8 +4474,8 @@
   },
   {
     "id": "deal-064",
-    "projectName": "Adani Air Cargo Terminal Complex",
-    "company": "Adani Ports & SEZ",
+    "projectName": "Hyderabad Urban Surveillance Hub",
+    "company": "IndiaBuild Corp",
     "industry": "Smart City",
     "riskLevel": "High",
     "roi": 26.6,
@@ -4487,8 +4487,8 @@
     "fundingRaised": 38.7,
     "stage": "Expansion",
     "location": "Hyderabad, TS",
-    "createdAt": "2025-11-16T08:00:00.000Z",
-    "description": "The Adani Air Cargo Terminal Complex project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "createdAt": "2025-11-16",
+    "description": "Smart City infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "declining",
     "financials": {
       "revenue3y": [
@@ -4545,8 +4545,8 @@
   },
   {
     "id": "deal-065",
-    "projectName": "Dilip Industrial Corridor Highway",
-    "company": "Dilip Buildcon",
+    "projectName": "Bengaluru Smart Traffic System",
+    "company": "Trident Infrastructure",
     "industry": "Smart City",
     "riskLevel": "High",
     "roi": 27.6,
@@ -4557,9 +4557,9 @@
     "fundingTarget": 89.5,
     "fundingRaised": 45.6,
     "stage": "Planning",
-    "location": "Ahmedabad, GJ",
-    "createdAt": "2025-11-21T08:00:00.000Z",
-    "description": "The Dilip Industrial Corridor Highway project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Bengaluru, KA",
+    "createdAt": "2025-11-21",
+    "description": "Smart City infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "declining",
     "financials": {
       "revenue3y": [
@@ -4616,8 +4616,8 @@
   },
   {
     "id": "deal-066",
-    "projectName": "IRB Airport Express Metro",
-    "company": "IRB Infrastructure",
+    "projectName": "Chennai Command Centre",
+    "company": "Vajra Engineering",
     "industry": "Smart City",
     "riskLevel": "High",
     "roi": 28.7,
@@ -4629,8 +4629,8 @@
     "fundingRaised": 10.9,
     "stage": "Approved",
     "location": "Chennai, TN",
-    "createdAt": "2025-11-26T08:00:00.000Z",
-    "description": "The IRB Airport Express Metro project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "createdAt": "2025-11-26",
+    "description": "Smart City infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "declining",
     "financials": {
       "revenue3y": [
@@ -4687,8 +4687,8 @@
   },
   {
     "id": "deal-067",
-    "projectName": "NCC Intercity Track Quadrupling",
-    "company": "NCC Limited",
+    "projectName": "Ahmedabad Smart Water Grid",
+    "company": "NextGen Infra",
     "industry": "Smart City",
     "riskLevel": "High",
     "roi": 29.7,
@@ -4699,9 +4699,9 @@
     "fundingTarget": 41.5,
     "fundingRaised": 22.4,
     "stage": "In Progress",
-    "location": "Pune, MH",
-    "createdAt": "2025-12-01T08:00:00.000Z",
-    "description": "The NCC Intercity Track Quadrupling project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Ahmedabad, GJ",
+    "createdAt": "2025-12-01",
+    "description": "Smart City infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "declining",
     "financials": {
       "revenue3y": [
@@ -4758,8 +4758,8 @@
   },
   {
     "id": "deal-068",
-    "projectName": "Afcons Microgrid Solar Storage",
-    "company": "Afcons Infrastructure",
+    "projectName": "Jaipur Urban Surveillance Hub",
+    "company": "Ashoka Devcon",
     "industry": "Smart City",
     "riskLevel": "High",
     "roi": 30.8,
@@ -4770,9 +4770,9 @@
     "fundingTarget": 60,
     "fundingRaised": 30.3,
     "stage": "Expansion",
-    "location": "Kolkata, WB",
-    "createdAt": "2025-12-06T08:00:00.000Z",
-    "description": "The Afcons Microgrid Solar Storage project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Jaipur, RJ",
+    "createdAt": "2025-12-06",
+    "description": "Smart City infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "declining",
     "financials": {
       "revenue3y": [
@@ -4829,8 +4829,8 @@
   },
   {
     "id": "deal-069",
-    "projectName": "J. Steel Bridge Span",
-    "company": "J. Kumar Infraprojects",
+    "projectName": "Lucknow Water Supply Augmentation",
+    "company": "Peninsula Projects",
     "industry": "Water",
     "riskLevel": "High",
     "roi": 31.8,
@@ -4841,9 +4841,9 @@
     "fundingTarget": 78.5,
     "fundingRaised": 36.9,
     "stage": "Planning",
-    "location": "Jaipur, RJ",
-    "createdAt": "2025-12-11T08:00:00.000Z",
-    "description": "The J. Steel Bridge Span project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Lucknow, UP",
+    "createdAt": "2025-12-11",
+    "description": "Water infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -4900,8 +4900,8 @@
   },
   {
     "id": "deal-070",
-    "projectName": "Ashoka Smart Water Distribution",
-    "company": "Ashoka Buildcon",
+    "projectName": "Bhubaneswar Sewage Treatment Cluster",
+    "company": "Kaveri Structures",
     "industry": "Water",
     "riskLevel": "High",
     "roi": 32.9,
@@ -4912,9 +4912,9 @@
     "fundingTarget": 97,
     "fundingRaised": 51.9,
     "stage": "Approved",
-    "location": "Surat, GJ",
-    "createdAt": "2025-12-16T08:00:00.000Z",
-    "description": "The Ashoka Smart Water Distribution project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Bhubaneswar, OD",
+    "createdAt": "2025-12-16",
+    "description": "Water infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -4971,8 +4971,8 @@
   },
   {
     "id": "deal-071",
-    "projectName": "Gayatri Bulk Liquid Terminal",
-    "company": "Gayatri Projects",
+    "projectName": "Kolkata Canal Modernisation",
+    "company": "Aravali Buildwell",
     "industry": "Water",
     "riskLevel": "High",
     "roi": 33.9,
@@ -4983,9 +4983,9 @@
     "fundingTarget": 20,
     "fundingRaised": 10,
     "stage": "In Progress",
-    "location": "Lucknow, UP",
-    "createdAt": "2025-12-21T08:00:00.000Z",
-    "description": "The Gayatri Bulk Liquid Terminal project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Kolkata, WB",
+    "createdAt": "2025-12-21",
+    "description": "Water infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -5042,8 +5042,8 @@
   },
   {
     "id": "deal-072",
-    "projectName": "Patel Aviation Maintenance Hub",
-    "company": "Patel Engineering",
+    "projectName": "Desalination Facility Visakhapatnam",
+    "company": "Konkan Devworks",
     "industry": "Water",
     "riskLevel": "High",
     "roi": 35,
@@ -5054,9 +5054,9 @@
     "fundingTarget": 38.5,
     "fundingRaised": 17.9,
     "stage": "Expansion",
-    "location": "Nagpur, MH",
-    "createdAt": "2025-12-26T08:00:00.000Z",
-    "description": "The Patel Aviation Maintenance Hub project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Visakhapatnam, AP",
+    "createdAt": "2025-12-26",
+    "description": "Water infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "flat",
     "financials": {
       "revenue3y": [
@@ -5113,8 +5113,8 @@
   },
   {
     "id": "deal-073",
-    "projectName": "KNR Urban Expressway Tunnel",
-    "company": "KNR Constructions",
+    "projectName": "Surat Water Supply Augmentation",
+    "company": "Vindhya Infratech",
     "industry": "Water",
     "riskLevel": "High",
     "roi": 36.1,
@@ -5125,9 +5125,9 @@
     "fundingTarget": 57,
     "fundingRaised": 30.2,
     "stage": "Planning",
-    "location": "Bhopal, MP",
-    "createdAt": "2025-12-31T08:00:00.000Z",
-    "description": "The KNR Urban Expressway Tunnel project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Surat, GJ",
+    "createdAt": "2025-12-31",
+    "description": "Water infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -5184,8 +5184,8 @@
   },
   {
     "id": "deal-074",
-    "projectName": "PNC Metro Commuter Line",
-    "company": "PNC Infratech",
+    "projectName": "Bhopal Container Terminal 2",
+    "company": "Satpura Projects",
     "industry": "Ports",
     "riskLevel": "High",
     "roi": 37.1,
@@ -5196,9 +5196,9 @@
     "fundingTarget": 75.5,
     "fundingRaised": 37.4,
     "stage": "Approved",
-    "location": "Visakhapatnam, AP",
-    "createdAt": "2026-01-05T08:00:00.000Z",
-    "description": "The PNC Metro Commuter Line project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Bhopal, MP",
+    "createdAt": "2026-01-05",
+    "description": "Ports infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -5255,8 +5255,8 @@
   },
   {
     "id": "deal-075",
-    "projectName": "HG Automated Rail Freight Yard",
-    "company": "HG Infra Engineering",
+    "projectName": "Patna Coastal Logistics Hub",
+    "company": "Malwa Constructions",
     "industry": "Ports",
     "riskLevel": "High",
     "roi": 38.2,
@@ -5268,8 +5268,8 @@
     "fundingRaised": 43.2,
     "stage": "In Progress",
     "location": "Patna, BR",
-    "createdAt": "2026-01-10T08:00:00.000Z",
-    "description": "The HG Automated Rail Freight Yard project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "createdAt": "2026-01-10",
+    "description": "Ports infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -5326,8 +5326,8 @@
   },
   {
     "id": "deal-076",
-    "projectName": "Sadbhav Decentralized Solar Hub",
-    "company": "Sadbhav Engineering",
+    "projectName": "Deepwater Terminal Pune",
+    "company": "Larsen & Toubro Infra",
     "industry": "Ports",
     "riskLevel": "High",
     "roi": 39.2,
@@ -5338,9 +5338,9 @@
     "fundingTarget": 27.5,
     "fundingRaised": 14.4,
     "stage": "Expansion",
-    "location": "Mumbai, MH",
-    "createdAt": "2026-01-15T08:00:00.000Z",
-    "description": "The Sadbhav Decentralized Solar Hub project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Pune, MH",
+    "createdAt": "2026-01-15",
+    "description": "Ports infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -5397,8 +5397,8 @@
   },
   {
     "id": "deal-077",
-    "projectName": "Simplex Bascule Bridge Overpass",
-    "company": "Simplex Infrastructures",
+    "projectName": "Mumbai Port Berth Expansion",
+    "company": "Tata Projects",
     "industry": "Ports",
     "riskLevel": "High",
     "roi": 40.3,
@@ -5409,9 +5409,9 @@
     "fundingTarget": 46,
     "fundingRaised": 22.5,
     "stage": "Planning",
-    "location": "Bengaluru, KA",
-    "createdAt": "2026-01-20T08:00:00.000Z",
-    "description": "The Simplex Bascule Bridge Overpass project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Mumbai, MH",
+    "createdAt": "2026-01-20",
+    "description": "Ports infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -5468,8 +5468,8 @@
   },
   {
     "id": "deal-078",
-    "projectName": "Megha Smart City Command Center",
-    "company": "Megha Engineering",
+    "projectName": "Nagpur Greenfield Airstrip",
+    "company": "GMR Infrastructure",
     "industry": "Airports",
     "riskLevel": "High",
     "roi": 41.3,
@@ -5480,9 +5480,9 @@
     "fundingTarget": 54,
     "fundingRaised": 24.6,
     "stage": "Approved",
-    "location": "Delhi, DL",
-    "createdAt": "2026-01-25T08:00:00.000Z",
-    "description": "The Megha Smart City Command Center project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Nagpur, MH",
+    "createdAt": "2026-01-25",
+    "description": "Airports infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -5539,8 +5539,8 @@
   },
   {
     "id": "deal-079",
-    "projectName": "Hindustan Port Breakwater Extension",
-    "company": "Hindustan Construction Co",
+    "projectName": "Hyderabad Cargo Terminal",
+    "company": "Dilip Buildcon",
     "industry": "Airports",
     "riskLevel": "High",
     "roi": 42.4,
@@ -5552,8 +5552,8 @@
     "fundingRaised": 37.7,
     "stage": "In Progress",
     "location": "Hyderabad, TS",
-    "createdAt": "2026-01-30T08:00:00.000Z",
-    "description": "The Hindustan Port Breakwater Extension project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "createdAt": "2026-01-30",
+    "description": "Airports infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
@@ -5610,8 +5610,8 @@
   },
   {
     "id": "deal-080",
-    "projectName": "Shapoorji Aero Logistics Parkway",
-    "company": "Shapoorji Pallonji Infra",
+    "projectName": "International Terminal Bengaluru",
+    "company": "IRB Infrastructure",
     "industry": "Airports",
     "riskLevel": "High",
     "roi": 43.4,
@@ -5622,9 +5622,9 @@
     "fundingTarget": 120,
     "fundingRaised": 58.2,
     "stage": "Expansion",
-    "location": "Ahmedabad, GJ",
-    "createdAt": "2026-02-04T08:00:00.000Z",
-    "description": "The Shapoorji Aero Logistics Parkway project deploys state-of-the-art 3D point-cloud monitoring to ensure high-fidelity structural inspection and milestone tracking.",
+    "location": "Bengaluru, KA",
+    "createdAt": "2026-02-04",
+    "description": "Airports infrastructure project with 3D point-cloud monitoring and milestone-linked disbursement.",
     "revenuePattern": "growing",
     "financials": {
       "revenue3y": [
