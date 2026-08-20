@@ -2,2553 +2,1666 @@
   {
     "id": "inv-001",
     "name": "Shubham Kumar",
-    "type": "VC",
-    "avatarColor": "#1a56db",
-    "city": "Bengaluru",
-    "preferredIndustries": [
-      "Roads",
-      "Bridges",
-      "Solar",
-      "Water",
-      "Ports"
-    ],
-    "riskAppetite": "Low",
-    "budget": 5,
-    "budgetRange": {
-      "min": 0.5,
-      "max": 5
-    },
-    "preferredStages": [
-      "Seed"
-    ],
-    "totalInvested": 3.8,
-    "activeDeals": 3,
-    "avgROI": 18.5,
-    "portfolio": [
-      {
-        "dealId": "deal-001",
-        "amountInvested": 0.2,
-        "investedDate": "2025-02-15T10:00:00.000Z",
-        "currentROI": 8.9,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-002",
-        "amountInvested": 3.8,
-        "investedDate": "2025-03-15T10:00:00.000Z",
-        "currentROI": 18.6,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-003",
-        "amountInvested": 1,
-        "investedDate": "2025-04-15T10:00:00.000Z",
-        "currentROI": 30.1,
-        "status": "Exited"
-      }
-    ],
-    "investmentGrowth": [
-      {
-        "month": "2024-01",
-        "amount": 2.4,
-        "value": 2.4
-      },
-      {
-        "month": "2024-02",
-        "amount": 2.8,
-        "value": 2.8
-      },
-      {
-        "month": "2024-03",
-        "amount": 3.3,
-        "value": 3.3
-      },
-      {
-        "month": "2024-04",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-05",
-        "amount": 4.5,
-        "value": 4.5
-      },
-      {
-        "month": "2024-06",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-07",
-        "amount": 4.8,
-        "value": 4.8
-      },
-      {
-        "month": "2024-08",
-        "amount": 5.7,
-        "value": 5.7
-      },
-      {
-        "month": "2024-09",
-        "amount": 6.7,
-        "value": 6.7
-      },
-      {
-        "month": "2024-10",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2024-11",
-        "amount": 8.9,
-        "value": 8.9
-      },
-      {
-        "month": "2024-12",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2025-01",
-        "amount": 9.1,
-        "value": 9.1
-      },
-      {
-        "month": "2025-02",
-        "amount": 10.5,
-        "value": 10.5
-      },
-      {
-        "month": "2025-03",
-        "amount": 12,
-        "value": 12
-      },
-      {
-        "month": "2025-04",
-        "amount": 13.5,
-        "value": 13.5
-      },
-      {
-        "month": "2025-05",
-        "amount": 15.2,
-        "value": 15.2
-      },
-      {
-        "month": "2025-06",
-        "amount": 16.9,
-        "value": 16.9
-      },
-      {
-        "month": "2025-07",
-        "amount": 16.1,
-        "value": 16.1
-      },
-      {
-        "month": "2025-08",
-        "amount": 17.9,
-        "value": 17.9
-      },
-      {
-        "month": "2025-09",
-        "amount": 19.9,
-        "value": 19.9
-      },
-      {
-        "month": "2025-10",
-        "amount": 21.9,
-        "value": 21.9
-      },
-      {
-        "month": "2025-11",
-        "amount": 24,
-        "value": 24
-      },
-      {
-        "month": "2025-12",
-        "amount": 26.2,
-        "value": 26.2
-      }
-    ],
-    "joinedDate": "2023-01-10T08:00:00.000Z"
-  },
-  {
-    "id": "INV-002",
-    "name": "Ananya Sharma",
-    "type": "Angel",
-    "avatarColor": "#0f766e",
-    "city": "Mumbai",
-    "preferredIndustries": [
-      "Metro",
-      "Bridges",
-      "Ports"
-    ],
-    "riskAppetite": "Medium",
-    "budget": 7.5,
-    "budgetRange": {
-      "min": 0.5,
-      "max": 7.5
-    },
-    "preferredStages": [
-      "Series A"
-    ],
-    "totalInvested": 5.6,
-    "activeDeals": 3,
-    "avgROI": 18.5,
-    "portfolio": [
-      {
-        "dealId": "deal-004",
-        "amountInvested": 1.2,
-        "investedDate": "2025-05-15T10:00:00.000Z",
-        "currentROI": 11.6,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-005",
-        "amountInvested": 1.5,
-        "investedDate": "2025-06-15T10:00:00.000Z",
-        "currentROI": 22.5,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-006",
-        "amountInvested": 1.8,
-        "investedDate": "2025-07-15T10:00:00.000Z",
-        "currentROI": 35.2,
-        "status": "Exited"
-      }
-    ],
-    "investmentGrowth": [
-      {
-        "month": "2024-01",
-        "amount": 2.4,
-        "value": 2.4
-      },
-      {
-        "month": "2024-02",
-        "amount": 2.8,
-        "value": 2.8
-      },
-      {
-        "month": "2024-03",
-        "amount": 3.3,
-        "value": 3.3
-      },
-      {
-        "month": "2024-04",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-05",
-        "amount": 4.5,
-        "value": 4.5
-      },
-      {
-        "month": "2024-06",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-07",
-        "amount": 4.8,
-        "value": 4.8
-      },
-      {
-        "month": "2024-08",
-        "amount": 5.7,
-        "value": 5.7
-      },
-      {
-        "month": "2024-09",
-        "amount": 6.7,
-        "value": 6.7
-      },
-      {
-        "month": "2024-10",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2024-11",
-        "amount": 8.9,
-        "value": 8.9
-      },
-      {
-        "month": "2024-12",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2025-01",
-        "amount": 9.1,
-        "value": 9.1
-      },
-      {
-        "month": "2025-02",
-        "amount": 10.5,
-        "value": 10.5
-      },
-      {
-        "month": "2025-03",
-        "amount": 12,
-        "value": 12
-      },
-      {
-        "month": "2025-04",
-        "amount": 13.5,
-        "value": 13.5
-      },
-      {
-        "month": "2025-05",
-        "amount": 15.2,
-        "value": 15.2
-      },
-      {
-        "month": "2025-06",
-        "amount": 16.9,
-        "value": 16.9
-      },
-      {
-        "month": "2025-07",
-        "amount": 16.1,
-        "value": 16.1
-      },
-      {
-        "month": "2025-08",
-        "amount": 17.9,
-        "value": 17.9
-      },
-      {
-        "month": "2025-09",
-        "amount": 19.9,
-        "value": 19.9
-      },
-      {
-        "month": "2025-10",
-        "amount": 21.9,
-        "value": 21.9
-      },
-      {
-        "month": "2025-11",
-        "amount": 24,
-        "value": 24
-      },
-      {
-        "month": "2025-12",
-        "amount": 26.2,
-        "value": 26.2
-      }
-    ],
-    "joinedDate": "2023-01-10T08:00:00.000Z"
-  },
-  {
-    "id": "INV-003",
-    "name": "Rajesh Singhania",
-    "type": "VC",
-    "avatarColor": "#b45309",
-    "city": "Gurgaon",
-    "preferredIndustries": [
-      "Railway",
-      "Smart City",
-      "Airports"
-    ],
-    "riskAppetite": "High",
-    "budget": 10,
-    "budgetRange": {
-      "min": 0.5,
-      "max": 10
-    },
-    "preferredStages": [
-      "Series B"
-    ],
-    "totalInvested": 7.5,
-    "activeDeals": 3,
-    "avgROI": 18.5,
-    "portfolio": [
-      {
-        "dealId": "deal-007",
-        "amountInvested": 2.1,
-        "investedDate": "2025-08-15T10:00:00.000Z",
-        "currentROI": 14.3,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-008",
-        "amountInvested": 2.4,
-        "investedDate": "2025-09-15T10:00:00.000Z",
-        "currentROI": 18.4,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-009",
-        "amountInvested": 2.7,
-        "investedDate": "2025-10-15T10:00:00.000Z",
-        "currentROI": 40.3,
-        "status": "Exited"
-      }
-    ],
-    "investmentGrowth": [
-      {
-        "month": "2024-01",
-        "amount": 2.4,
-        "value": 2.4
-      },
-      {
-        "month": "2024-02",
-        "amount": 2.8,
-        "value": 2.8
-      },
-      {
-        "month": "2024-03",
-        "amount": 3.3,
-        "value": 3.3
-      },
-      {
-        "month": "2024-04",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-05",
-        "amount": 4.5,
-        "value": 4.5
-      },
-      {
-        "month": "2024-06",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-07",
-        "amount": 4.8,
-        "value": 4.8
-      },
-      {
-        "month": "2024-08",
-        "amount": 5.7,
-        "value": 5.7
-      },
-      {
-        "month": "2024-09",
-        "amount": 6.7,
-        "value": 6.7
-      },
-      {
-        "month": "2024-10",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2024-11",
-        "amount": 8.9,
-        "value": 8.9
-      },
-      {
-        "month": "2024-12",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2025-01",
-        "amount": 9.1,
-        "value": 9.1
-      },
-      {
-        "month": "2025-02",
-        "amount": 10.5,
-        "value": 10.5
-      },
-      {
-        "month": "2025-03",
-        "amount": 12,
-        "value": 12
-      },
-      {
-        "month": "2025-04",
-        "amount": 13.5,
-        "value": 13.5
-      },
-      {
-        "month": "2025-05",
-        "amount": 15.2,
-        "value": 15.2
-      },
-      {
-        "month": "2025-06",
-        "amount": 16.9,
-        "value": 16.9
-      },
-      {
-        "month": "2025-07",
-        "amount": 16.1,
-        "value": 16.1
-      },
-      {
-        "month": "2025-08",
-        "amount": 17.9,
-        "value": 17.9
-      },
-      {
-        "month": "2025-09",
-        "amount": 19.9,
-        "value": 19.9
-      },
-      {
-        "month": "2025-10",
-        "amount": 21.9,
-        "value": 21.9
-      },
-      {
-        "month": "2025-11",
-        "amount": 24,
-        "value": 24
-      },
-      {
-        "month": "2025-12",
-        "amount": 26.2,
-        "value": 26.2
-      }
-    ],
-    "joinedDate": "2023-01-10T08:00:00.000Z"
-  },
-  {
-    "id": "INV-004",
-    "name": "Nexus Bharat Ventures",
-    "type": "Angel",
-    "avatarColor": "#dc2626",
-    "city": "Hyderabad",
-    "preferredIndustries": [
-      "Solar",
-      "Water",
-      "Roads"
-    ],
-    "riskAppetite": "Low",
-    "budget": 12.5,
-    "budgetRange": {
-      "min": 0.5,
-      "max": 12.5
-    },
-    "preferredStages": [
-      "Growth"
-    ],
-    "totalInvested": 9.4,
-    "activeDeals": 3,
-    "avgROI": 18.5,
-    "portfolio": [
-      {
-        "dealId": "deal-010",
-        "amountInvested": 3,
-        "investedDate": "2025-11-15T10:00:00.000Z",
-        "currentROI": 10,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-011",
-        "amountInvested": 3.2,
-        "investedDate": "2025-12-15T10:00:00.000Z",
-        "currentROI": 22.3,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-012",
-        "amountInvested": 3.4,
-        "investedDate": "2025-01-15T10:00:00.000Z",
-        "currentROI": 27.4,
-        "status": "Exited"
-      }
-    ],
-    "investmentGrowth": [
-      {
-        "month": "2024-01",
-        "amount": 2.4,
-        "value": 2.4
-      },
-      {
-        "month": "2024-02",
-        "amount": 2.8,
-        "value": 2.8
-      },
-      {
-        "month": "2024-03",
-        "amount": 3.3,
-        "value": 3.3
-      },
-      {
-        "month": "2024-04",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-05",
-        "amount": 4.5,
-        "value": 4.5
-      },
-      {
-        "month": "2024-06",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-07",
-        "amount": 4.8,
-        "value": 4.8
-      },
-      {
-        "month": "2024-08",
-        "amount": 5.7,
-        "value": 5.7
-      },
-      {
-        "month": "2024-09",
-        "amount": 6.7,
-        "value": 6.7
-      },
-      {
-        "month": "2024-10",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2024-11",
-        "amount": 8.9,
-        "value": 8.9
-      },
-      {
-        "month": "2024-12",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2025-01",
-        "amount": 9.1,
-        "value": 9.1
-      },
-      {
-        "month": "2025-02",
-        "amount": 10.5,
-        "value": 10.5
-      },
-      {
-        "month": "2025-03",
-        "amount": 12,
-        "value": 12
-      },
-      {
-        "month": "2025-04",
-        "amount": 13.5,
-        "value": 13.5
-      },
-      {
-        "month": "2025-05",
-        "amount": 15.2,
-        "value": 15.2
-      },
-      {
-        "month": "2025-06",
-        "amount": 16.9,
-        "value": 16.9
-      },
-      {
-        "month": "2025-07",
-        "amount": 16.1,
-        "value": 16.1
-      },
-      {
-        "month": "2025-08",
-        "amount": 17.9,
-        "value": 17.9
-      },
-      {
-        "month": "2025-09",
-        "amount": 19.9,
-        "value": 19.9
-      },
-      {
-        "month": "2025-10",
-        "amount": 21.9,
-        "value": 21.9
-      },
-      {
-        "month": "2025-11",
-        "amount": 24,
-        "value": 24
-      },
-      {
-        "month": "2025-12",
-        "amount": 26.2,
-        "value": 26.2
-      }
-    ],
-    "joinedDate": "2023-01-10T08:00:00.000Z"
-  },
-  {
-    "id": "INV-005",
-    "name": "Vikas Malpani",
-    "type": "VC",
-    "avatarColor": "#7c3aed",
-    "city": "Pune",
-    "preferredIndustries": [
-      "Bridges",
-      "Ports",
-      "Metro"
-    ],
-    "riskAppetite": "Medium",
-    "budget": 15,
-    "budgetRange": {
-      "min": 0.5,
-      "max": 15
-    },
-    "preferredStages": [
-      "Pre-IPO"
-    ],
-    "totalInvested": 11.3,
-    "activeDeals": 3,
-    "avgROI": 18.5,
-    "portfolio": [
-      {
-        "dealId": "deal-013",
-        "amountInvested": 0.2,
-        "investedDate": "2025-02-15T10:00:00.000Z",
-        "currentROI": 12.7,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-014",
-        "amountInvested": 0.4,
-        "investedDate": "2025-03-15T10:00:00.000Z",
-        "currentROI": 18.2,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-015",
-        "amountInvested": 0.8,
-        "investedDate": "2025-04-15T10:00:00.000Z",
-        "currentROI": 32.5,
-        "status": "Exited"
-      }
-    ],
-    "investmentGrowth": [
-      {
-        "month": "2024-01",
-        "amount": 2.4,
-        "value": 2.4
-      },
-      {
-        "month": "2024-02",
-        "amount": 2.8,
-        "value": 2.8
-      },
-      {
-        "month": "2024-03",
-        "amount": 3.3,
-        "value": 3.3
-      },
-      {
-        "month": "2024-04",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-05",
-        "amount": 4.5,
-        "value": 4.5
-      },
-      {
-        "month": "2024-06",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-07",
-        "amount": 4.8,
-        "value": 4.8
-      },
-      {
-        "month": "2024-08",
-        "amount": 5.7,
-        "value": 5.7
-      },
-      {
-        "month": "2024-09",
-        "amount": 6.7,
-        "value": 6.7
-      },
-      {
-        "month": "2024-10",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2024-11",
-        "amount": 8.9,
-        "value": 8.9
-      },
-      {
-        "month": "2024-12",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2025-01",
-        "amount": 9.1,
-        "value": 9.1
-      },
-      {
-        "month": "2025-02",
-        "amount": 10.5,
-        "value": 10.5
-      },
-      {
-        "month": "2025-03",
-        "amount": 12,
-        "value": 12
-      },
-      {
-        "month": "2025-04",
-        "amount": 13.5,
-        "value": 13.5
-      },
-      {
-        "month": "2025-05",
-        "amount": 15.2,
-        "value": 15.2
-      },
-      {
-        "month": "2025-06",
-        "amount": 16.9,
-        "value": 16.9
-      },
-      {
-        "month": "2025-07",
-        "amount": 16.1,
-        "value": 16.1
-      },
-      {
-        "month": "2025-08",
-        "amount": 17.9,
-        "value": 17.9
-      },
-      {
-        "month": "2025-09",
-        "amount": 19.9,
-        "value": 19.9
-      },
-      {
-        "month": "2025-10",
-        "amount": 21.9,
-        "value": 21.9
-      },
-      {
-        "month": "2025-11",
-        "amount": 24,
-        "value": 24
-      },
-      {
-        "month": "2025-12",
-        "amount": 26.2,
-        "value": 26.2
-      }
-    ],
-    "joinedDate": "2023-01-10T08:00:00.000Z"
-  },
-  {
-    "id": "INV-006",
-    "name": "Kaveri Family Office",
-    "type": "Angel",
-    "avatarColor": "#0284c7",
-    "city": "Noida",
-    "preferredIndustries": [
-      "Smart City",
-      "Airports",
-      "Railway"
-    ],
-    "riskAppetite": "High",
-    "budget": 17.5,
-    "budgetRange": {
-      "min": 0.5,
-      "max": 17.5
-    },
-    "preferredStages": [
-      "Seed"
-    ],
-    "totalInvested": 13.1,
-    "activeDeals": 3,
-    "avgROI": 18.5,
-    "portfolio": [
-      {
-        "dealId": "deal-016",
-        "amountInvested": 1,
-        "investedDate": "2025-05-15T10:00:00.000Z",
-        "currentROI": 8.4,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-017",
-        "amountInvested": 1.2,
-        "investedDate": "2025-06-15T10:00:00.000Z",
-        "currentROI": 22.1,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-018",
-        "amountInvested": 1.5,
-        "investedDate": "2025-07-15T10:00:00.000Z",
-        "currentROI": 37.6,
-        "status": "Exited"
-      }
-    ],
-    "investmentGrowth": [
-      {
-        "month": "2024-01",
-        "amount": 2.4,
-        "value": 2.4
-      },
-      {
-        "month": "2024-02",
-        "amount": 2.8,
-        "value": 2.8
-      },
-      {
-        "month": "2024-03",
-        "amount": 3.3,
-        "value": 3.3
-      },
-      {
-        "month": "2024-04",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-05",
-        "amount": 4.5,
-        "value": 4.5
-      },
-      {
-        "month": "2024-06",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-07",
-        "amount": 4.8,
-        "value": 4.8
-      },
-      {
-        "month": "2024-08",
-        "amount": 5.7,
-        "value": 5.7
-      },
-      {
-        "month": "2024-09",
-        "amount": 6.7,
-        "value": 6.7
-      },
-      {
-        "month": "2024-10",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2024-11",
-        "amount": 8.9,
-        "value": 8.9
-      },
-      {
-        "month": "2024-12",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2025-01",
-        "amount": 9.1,
-        "value": 9.1
-      },
-      {
-        "month": "2025-02",
-        "amount": 10.5,
-        "value": 10.5
-      },
-      {
-        "month": "2025-03",
-        "amount": 12,
-        "value": 12
-      },
-      {
-        "month": "2025-04",
-        "amount": 13.5,
-        "value": 13.5
-      },
-      {
-        "month": "2025-05",
-        "amount": 15.2,
-        "value": 15.2
-      },
-      {
-        "month": "2025-06",
-        "amount": 16.9,
-        "value": 16.9
-      },
-      {
-        "month": "2025-07",
-        "amount": 16.1,
-        "value": 16.1
-      },
-      {
-        "month": "2025-08",
-        "amount": 17.9,
-        "value": 17.9
-      },
-      {
-        "month": "2025-09",
-        "amount": 19.9,
-        "value": 19.9
-      },
-      {
-        "month": "2025-10",
-        "amount": 21.9,
-        "value": 21.9
-      },
-      {
-        "month": "2025-11",
-        "amount": 24,
-        "value": 24
-      },
-      {
-        "month": "2025-12",
-        "amount": 26.2,
-        "value": 26.2
-      }
-    ],
-    "joinedDate": "2023-01-10T08:00:00.000Z"
-  },
-  {
-    "id": "INV-007",
-    "name": "Peak Capital India",
-    "type": "VC",
-    "avatarColor": "#d97706",
-    "city": "Chennai",
-    "preferredIndustries": [
-      "Water",
-      "Roads",
-      "Solar"
-    ],
-    "riskAppetite": "Low",
-    "budget": 20,
-    "budgetRange": {
-      "min": 0.5,
-      "max": 20
-    },
-    "preferredStages": [
-      "Series A"
-    ],
-    "totalInvested": 15,
-    "activeDeals": 3,
-    "avgROI": 18.5,
-    "portfolio": [
-      {
-        "dealId": "deal-019",
-        "amountInvested": 1.8,
-        "investedDate": "2025-08-15T10:00:00.000Z",
-        "currentROI": 11.1,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-020",
-        "amountInvested": 2.1,
-        "investedDate": "2025-09-15T10:00:00.000Z",
-        "currentROI": 18,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-021",
-        "amountInvested": 2.4,
-        "investedDate": "2025-10-15T10:00:00.000Z",
-        "currentROI": 42.7,
-        "status": "Exited"
-      }
-    ],
-    "investmentGrowth": [
-      {
-        "month": "2024-01",
-        "amount": 2.4,
-        "value": 2.4
-      },
-      {
-        "month": "2024-02",
-        "amount": 2.8,
-        "value": 2.8
-      },
-      {
-        "month": "2024-03",
-        "amount": 3.3,
-        "value": 3.3
-      },
-      {
-        "month": "2024-04",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-05",
-        "amount": 4.5,
-        "value": 4.5
-      },
-      {
-        "month": "2024-06",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-07",
-        "amount": 4.8,
-        "value": 4.8
-      },
-      {
-        "month": "2024-08",
-        "amount": 5.7,
-        "value": 5.7
-      },
-      {
-        "month": "2024-09",
-        "amount": 6.7,
-        "value": 6.7
-      },
-      {
-        "month": "2024-10",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2024-11",
-        "amount": 8.9,
-        "value": 8.9
-      },
-      {
-        "month": "2024-12",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2025-01",
-        "amount": 9.1,
-        "value": 9.1
-      },
-      {
-        "month": "2025-02",
-        "amount": 10.5,
-        "value": 10.5
-      },
-      {
-        "month": "2025-03",
-        "amount": 12,
-        "value": 12
-      },
-      {
-        "month": "2025-04",
-        "amount": 13.5,
-        "value": 13.5
-      },
-      {
-        "month": "2025-05",
-        "amount": 15.2,
-        "value": 15.2
-      },
-      {
-        "month": "2025-06",
-        "amount": 16.9,
-        "value": 16.9
-      },
-      {
-        "month": "2025-07",
-        "amount": 16.1,
-        "value": 16.1
-      },
-      {
-        "month": "2025-08",
-        "amount": 17.9,
-        "value": 17.9
-      },
-      {
-        "month": "2025-09",
-        "amount": 19.9,
-        "value": 19.9
-      },
-      {
-        "month": "2025-10",
-        "amount": 21.9,
-        "value": 21.9
-      },
-      {
-        "month": "2025-11",
-        "amount": 24,
-        "value": 24
-      },
-      {
-        "month": "2025-12",
-        "amount": 26.2,
-        "value": 26.2
-      }
-    ],
-    "joinedDate": "2023-01-10T08:00:00.000Z"
-  },
-  {
-    "id": "INV-008",
-    "name": "Sunil Munjal",
-    "type": "Angel",
-    "avatarColor": "#059669",
-    "city": "Ahmedabad",
-    "preferredIndustries": [
-      "Ports",
-      "Metro",
-      "Bridges"
-    ],
-    "riskAppetite": "Medium",
-    "budget": 22.5,
-    "budgetRange": {
-      "min": 0.5,
-      "max": 22.5
-    },
-    "preferredStages": [
-      "Series B"
-    ],
-    "totalInvested": 16.9,
-    "activeDeals": 3,
-    "avgROI": 18.5,
-    "portfolio": [
-      {
-        "dealId": "deal-022",
-        "amountInvested": 2.7,
-        "investedDate": "2025-11-15T10:00:00.000Z",
-        "currentROI": 13.8,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-023",
-        "amountInvested": 3,
-        "investedDate": "2025-12-15T10:00:00.000Z",
-        "currentROI": 21.9,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-024",
-        "amountInvested": 3.2,
-        "investedDate": "2025-01-15T10:00:00.000Z",
-        "currentROI": 29.8,
-        "status": "Exited"
-      }
-    ],
-    "investmentGrowth": [
-      {
-        "month": "2024-01",
-        "amount": 2.4,
-        "value": 2.4
-      },
-      {
-        "month": "2024-02",
-        "amount": 2.8,
-        "value": 2.8
-      },
-      {
-        "month": "2024-03",
-        "amount": 3.3,
-        "value": 3.3
-      },
-      {
-        "month": "2024-04",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-05",
-        "amount": 4.5,
-        "value": 4.5
-      },
-      {
-        "month": "2024-06",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-07",
-        "amount": 4.8,
-        "value": 4.8
-      },
-      {
-        "month": "2024-08",
-        "amount": 5.7,
-        "value": 5.7
-      },
-      {
-        "month": "2024-09",
-        "amount": 6.7,
-        "value": 6.7
-      },
-      {
-        "month": "2024-10",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2024-11",
-        "amount": 8.9,
-        "value": 8.9
-      },
-      {
-        "month": "2024-12",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2025-01",
-        "amount": 9.1,
-        "value": 9.1
-      },
-      {
-        "month": "2025-02",
-        "amount": 10.5,
-        "value": 10.5
-      },
-      {
-        "month": "2025-03",
-        "amount": 12,
-        "value": 12
-      },
-      {
-        "month": "2025-04",
-        "amount": 13.5,
-        "value": 13.5
-      },
-      {
-        "month": "2025-05",
-        "amount": 15.2,
-        "value": 15.2
-      },
-      {
-        "month": "2025-06",
-        "amount": 16.9,
-        "value": 16.9
-      },
-      {
-        "month": "2025-07",
-        "amount": 16.1,
-        "value": 16.1
-      },
-      {
-        "month": "2025-08",
-        "amount": 17.9,
-        "value": 17.9
-      },
-      {
-        "month": "2025-09",
-        "amount": 19.9,
-        "value": 19.9
-      },
-      {
-        "month": "2025-10",
-        "amount": 21.9,
-        "value": 21.9
-      },
-      {
-        "month": "2025-11",
-        "amount": 24,
-        "value": 24
-      },
-      {
-        "month": "2025-12",
-        "amount": 26.2,
-        "value": 26.2
-      }
-    ],
-    "joinedDate": "2023-01-10T08:00:00.000Z"
-  },
-  {
-    "id": "INV-009",
-    "name": "Rohan Mehta",
-    "type": "VC",
-    "avatarColor": "#1a56db",
-    "city": "Jaipur",
-    "preferredIndustries": [
-      "Airports",
-      "Railway",
-      "Smart City"
-    ],
-    "riskAppetite": "High",
     "budget": 25,
-    "budgetRange": {
-      "min": 0.5,
-      "max": 25
-    },
-    "preferredStages": [
-      "Growth"
-    ],
-    "totalInvested": 18.8,
-    "activeDeals": 3,
-    "avgROI": 18.5,
-    "portfolio": [
-      {
-        "dealId": "deal-025",
-        "amountInvested": 3.4,
-        "investedDate": "2025-02-15T10:00:00.000Z",
-        "currentROI": 9.5,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-026",
-        "amountInvested": 0.2,
-        "investedDate": "2025-03-15T10:00:00.000Z",
-        "currentROI": 17.8,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-027",
-        "amountInvested": 0.4,
-        "investedDate": "2025-04-15T10:00:00.000Z",
-        "currentROI": 34.9,
-        "status": "Exited"
-      }
-    ],
-    "investmentGrowth": [
-      {
-        "month": "2024-01",
-        "amount": 2.4,
-        "value": 2.4
-      },
-      {
-        "month": "2024-02",
-        "amount": 2.8,
-        "value": 2.8
-      },
-      {
-        "month": "2024-03",
-        "amount": 3.3,
-        "value": 3.3
-      },
-      {
-        "month": "2024-04",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-05",
-        "amount": 4.5,
-        "value": 4.5
-      },
-      {
-        "month": "2024-06",
-        "amount": 3.9,
-        "value": 3.9
-      },
-      {
-        "month": "2024-07",
-        "amount": 4.8,
-        "value": 4.8
-      },
-      {
-        "month": "2024-08",
-        "amount": 5.7,
-        "value": 5.7
-      },
-      {
-        "month": "2024-09",
-        "amount": 6.7,
-        "value": 6.7
-      },
-      {
-        "month": "2024-10",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2024-11",
-        "amount": 8.9,
-        "value": 8.9
-      },
-      {
-        "month": "2024-12",
-        "amount": 7.8,
-        "value": 7.8
-      },
-      {
-        "month": "2025-01",
-        "amount": 9.1,
-        "value": 9.1
-      },
-      {
-        "month": "2025-02",
-        "amount": 10.5,
-        "value": 10.5
-      },
-      {
-        "month": "2025-03",
-        "amount": 12,
-        "value": 12
-      },
-      {
-        "month": "2025-04",
-        "amount": 13.5,
-        "value": 13.5
-      },
-      {
-        "month": "2025-05",
-        "amount": 15.2,
-        "value": 15.2
-      },
-      {
-        "month": "2025-06",
-        "amount": 16.9,
-        "value": 16.9
-      },
-      {
-        "month": "2025-07",
-        "amount": 16.1,
-        "value": 16.1
-      },
-      {
-        "month": "2025-08",
-        "amount": 17.9,
-        "value": 17.9
-      },
-      {
-        "month": "2025-09",
-        "amount": 19.9,
-        "value": 19.9
-      },
-      {
-        "month": "2025-10",
-        "amount": 21.9,
-        "value": 21.9
-      },
-      {
-        "month": "2025-11",
-        "amount": 24,
-        "value": 24
-      },
-      {
-        "month": "2025-12",
-        "amount": 26.2,
-        "value": 26.2
-      }
-    ],
-    "joinedDate": "2023-01-10T08:00:00.000Z"
-  },
-  {
-    "id": "INV-010",
-    "name": "Matrix India Partners",
-    "type": "Angel",
-    "avatarColor": "#0f766e",
-    "city": "Bengaluru",
     "preferredIndustries": [
       "Roads",
       "Solar",
       "Water"
     ],
     "riskAppetite": "Low",
-    "budget": 27.5,
-    "budgetRange": {
-      "min": 0.5,
-      "max": 27.5
-    },
-    "preferredStages": [
-      "Pre-IPO"
-    ],
-    "totalInvested": 20.6,
+    "portfolioValue": 21.3,
     "activeDeals": 3,
-    "avgROI": 18.5,
-    "portfolio": [
-      {
-        "dealId": "deal-028",
-        "amountInvested": 0.8,
-        "investedDate": "2025-05-15T10:00:00.000Z",
-        "currentROI": 12.2,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-029",
-        "amountInvested": 1,
-        "investedDate": "2025-06-15T10:00:00.000Z",
-        "currentROI": 21.7,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-030",
-        "amountInvested": 1.4,
-        "investedDate": "2025-07-15T10:00:00.000Z",
-        "currentROI": 40,
-        "status": "Exited"
-      }
-    ],
     "investmentGrowth": [
       {
         "month": "2024-01",
-        "amount": 2.4,
-        "value": 2.4
+        "value": 2.52
       },
       {
         "month": "2024-02",
-        "amount": 2.8,
-        "value": 2.8
+        "value": 2.82
       },
       {
         "month": "2024-03",
-        "amount": 3.3,
-        "value": 3.3
+        "value": 3.15
       },
       {
         "month": "2024-04",
-        "amount": 3.9,
-        "value": 3.9
+        "value": 3.47
       },
       {
         "month": "2024-05",
-        "amount": 4.5,
-        "value": 4.5
+        "value": 2.98
       },
       {
         "month": "2024-06",
-        "amount": 3.9,
-        "value": 3.9
+        "value": 3.53
       },
       {
         "month": "2024-07",
-        "amount": 4.8,
-        "value": 4.8
+        "value": 3.95
       },
       {
         "month": "2024-08",
-        "amount": 5.7,
-        "value": 5.7
+        "value": 4.42
       },
       {
         "month": "2024-09",
-        "amount": 6.7,
-        "value": 6.7
+        "value": 4.95
       },
       {
         "month": "2024-10",
-        "amount": 7.8,
-        "value": 7.8
+        "value": 5.54
       },
       {
         "month": "2024-11",
-        "amount": 8.9,
-        "value": 8.9
+        "value": 6.2
       },
       {
         "month": "2024-12",
-        "amount": 7.8,
-        "value": 7.8
+        "value": 5.32
       },
       {
         "month": "2025-01",
-        "amount": 9.1,
-        "value": 9.1
+        "value": 6.23
       },
       {
         "month": "2025-02",
-        "amount": 10.5,
-        "value": 10.5
+        "value": 6.96
       },
       {
         "month": "2025-03",
-        "amount": 12,
-        "value": 12
+        "value": 7.66
       },
       {
         "month": "2025-04",
-        "amount": 13.5,
-        "value": 13.5
+        "value": 8.54
       },
       {
         "month": "2025-05",
-        "amount": 15.2,
-        "value": 15.2
+        "value": 9.53
       },
       {
         "month": "2025-06",
-        "amount": 16.9,
-        "value": 16.9
+        "value": 10.67
       },
       {
         "month": "2025-07",
-        "amount": 16.1,
-        "value": 16.1
+        "value": 9.14
       },
       {
         "month": "2025-08",
-        "amount": 17.9,
-        "value": 17.9
+        "value": 10.74
       },
       {
         "month": "2025-09",
-        "amount": 19.9,
-        "value": 19.9
+        "value": 11.81
       },
       {
         "month": "2025-10",
-        "amount": 21.9,
-        "value": 21.9
+        "value": 13.2
       },
       {
         "month": "2025-11",
-        "amount": 24,
-        "value": 24
+        "value": 14.75
       },
       {
         "month": "2025-12",
-        "amount": 26.2,
-        "value": 26.2
+        "value": 16.52
       }
-    ],
-    "joinedDate": "2023-01-10T08:00:00.000Z"
+    ]
   },
   {
-    "id": "INV-011",
-    "name": "Pooja Agarwal",
-    "type": "VC",
-    "avatarColor": "#b45309",
-    "city": "Mumbai",
+    "id": "inv-002",
+    "name": "Ananya Sharma",
+    "budget": 13.5,
     "preferredIndustries": [
       "Metro",
       "Bridges",
       "Ports"
     ],
     "riskAppetite": "Medium",
-    "budget": 30,
-    "budgetRange": {
-      "min": 0.5,
-      "max": 30
-    },
-    "preferredStages": [
-      "Seed"
-    ],
-    "totalInvested": 22.5,
-    "activeDeals": 3,
-    "avgROI": 18.5,
-    "portfolio": [
-      {
-        "dealId": "deal-031",
-        "amountInvested": 1.5,
-        "investedDate": "2025-08-15T10:00:00.000Z",
-        "currentROI": 14.9,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-032",
-        "amountInvested": 1.8,
-        "investedDate": "2025-09-15T10:00:00.000Z",
-        "currentROI": 17.6,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-033",
-        "amountInvested": 2.1,
-        "investedDate": "2025-10-15T10:00:00.000Z",
-        "currentROI": 27.1,
-        "status": "Exited"
-      }
-    ],
+    "portfolioValue": 11.5,
+    "activeDeals": 4,
     "investmentGrowth": [
       {
         "month": "2024-01",
-        "amount": 2.4,
-        "value": 2.4
+        "value": 1.25
       },
       {
         "month": "2024-02",
-        "amount": 2.8,
-        "value": 2.8
+        "value": 1.4
       },
       {
         "month": "2024-03",
-        "amount": 3.3,
-        "value": 3.3
+        "value": 1.2
       },
       {
         "month": "2024-04",
-        "amount": 3.9,
-        "value": 3.9
+        "value": 1.43
       },
       {
         "month": "2024-05",
-        "amount": 4.5,
-        "value": 4.5
+        "value": 1.6
       },
       {
         "month": "2024-06",
-        "amount": 3.9,
-        "value": 3.9
+        "value": 1.79
       },
       {
         "month": "2024-07",
-        "amount": 4.8,
-        "value": 4.8
+        "value": 2
       },
       {
         "month": "2024-08",
-        "amount": 5.7,
-        "value": 5.7
+        "value": 2.22
       },
       {
         "month": "2024-09",
-        "amount": 6.7,
-        "value": 6.7
+        "value": 2.47
       },
       {
         "month": "2024-10",
-        "amount": 7.8,
-        "value": 7.8
+        "value": 2.08
       },
       {
         "month": "2024-11",
-        "amount": 8.9,
-        "value": 8.9
+        "value": 2.47
       },
       {
         "month": "2024-12",
-        "amount": 7.8,
-        "value": 7.8
+        "value": 2.76
       },
       {
         "month": "2025-01",
-        "amount": 9.1,
-        "value": 9.1
+        "value": 3.09
       },
       {
         "month": "2025-02",
-        "amount": 10.5,
-        "value": 10.5
+        "value": 3.45
       },
       {
         "month": "2025-03",
-        "amount": 12,
-        "value": 12
+        "value": 3.85
       },
       {
         "month": "2025-04",
-        "amount": 13.5,
-        "value": 13.5
+        "value": 4.31
       },
       {
         "month": "2025-05",
-        "amount": 15.2,
-        "value": 15.2
+        "value": 4.8
       },
       {
         "month": "2025-06",
-        "amount": 16.9,
-        "value": 16.9
+        "value": 4.03
       },
       {
         "month": "2025-07",
-        "amount": 16.1,
-        "value": 16.1
+        "value": 4.79
       },
       {
         "month": "2025-08",
-        "amount": 17.9,
-        "value": 17.9
+        "value": 5.36
       },
       {
         "month": "2025-09",
-        "amount": 19.9,
-        "value": 19.9
+        "value": 5.99
       },
       {
         "month": "2025-10",
-        "amount": 21.9,
-        "value": 21.9
+        "value": 6.68
       },
       {
         "month": "2025-11",
-        "amount": 24,
-        "value": 24
+        "value": 7.44
       },
       {
         "month": "2025-12",
-        "amount": 26.2,
-        "value": 26.2
+        "value": 8.31
       }
-    ],
-    "joinedDate": "2023-01-10T08:00:00.000Z"
+    ]
   },
   {
-    "id": "INV-012",
-    "name": "Arjun Deshmukh",
-    "type": "Angel",
-    "avatarColor": "#dc2626",
-    "city": "Gurgaon",
+    "id": "inv-003",
+    "name": "Rajesh Singhania",
+    "budget": 17,
     "preferredIndustries": [
       "Railway",
       "Smart City",
       "Airports"
     ],
     "riskAppetite": "High",
-    "budget": 32.5,
-    "budgetRange": {
-      "min": 0.5,
-      "max": 32.5
-    },
-    "preferredStages": [
-      "Series A"
-    ],
-    "totalInvested": 24.4,
-    "activeDeals": 3,
-    "avgROI": 18.5,
-    "portfolio": [
-      {
-        "dealId": "deal-034",
-        "amountInvested": 2.4,
-        "investedDate": "2025-11-15T10:00:00.000Z",
-        "currentROI": 10.6,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-035",
-        "amountInvested": 2.7,
-        "investedDate": "2025-12-15T10:00:00.000Z",
-        "currentROI": 21.5,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-036",
-        "amountInvested": 3,
-        "investedDate": "2025-01-15T10:00:00.000Z",
-        "currentROI": 32.2,
-        "status": "Exited"
-      }
-    ],
+    "portfolioValue": 14.4,
+    "activeDeals": 5,
     "investmentGrowth": [
       {
         "month": "2024-01",
-        "amount": 2.4,
-        "value": 2.4
+        "value": 1.86
       },
       {
         "month": "2024-02",
-        "amount": 2.8,
-        "value": 2.8
+        "value": 2.08
       },
       {
         "month": "2024-03",
-        "amount": 3.3,
-        "value": 3.3
+        "value": 2.31
       },
       {
         "month": "2024-04",
-        "amount": 3.9,
-        "value": 3.9
+        "value": 1.98
       },
       {
         "month": "2024-05",
-        "amount": 4.5,
-        "value": 4.5
+        "value": 2.34
       },
       {
         "month": "2024-06",
-        "amount": 3.9,
-        "value": 3.9
+        "value": 2.61
       },
       {
         "month": "2024-07",
-        "amount": 4.8,
-        "value": 4.8
+        "value": 2.92
       },
       {
         "month": "2024-08",
-        "amount": 5.7,
-        "value": 5.7
+        "value": 3.27
       },
       {
         "month": "2024-09",
-        "amount": 6.7,
-        "value": 6.7
+        "value": 3.65
       },
       {
         "month": "2024-10",
-        "amount": 7.8,
-        "value": 7.8
+        "value": 4.08
       },
       {
         "month": "2024-11",
-        "amount": 8.9,
-        "value": 8.9
+        "value": 3.48
       },
       {
         "month": "2024-12",
-        "amount": 7.8,
-        "value": 7.8
+        "value": 4.12
       },
       {
         "month": "2025-01",
-        "amount": 9.1,
-        "value": 9.1
+        "value": 4.59
       },
       {
         "month": "2025-02",
-        "amount": 10.5,
-        "value": 10.5
+        "value": 5.11
       },
       {
         "month": "2025-03",
-        "amount": 12,
-        "value": 12
+        "value": 5.72
       },
       {
         "month": "2025-04",
-        "amount": 13.5,
-        "value": 13.5
+        "value": 6.4
       },
       {
         "month": "2025-05",
-        "amount": 15.2,
-        "value": 15.2
+        "value": 7.12
       },
       {
         "month": "2025-06",
-        "amount": 16.9,
-        "value": 16.9
+        "value": 7.91
       },
       {
         "month": "2025-07",
-        "amount": 16.1,
-        "value": 16.1
+        "value": 8.85
       },
       {
         "month": "2025-08",
-        "amount": 17.9,
-        "value": 17.9
+        "value": 7.55
       },
       {
         "month": "2025-09",
-        "amount": 19.9,
-        "value": 19.9
+        "value": 8.86
       },
       {
         "month": "2025-10",
-        "amount": 21.9,
-        "value": 21.9
+        "value": 9.88
       },
       {
         "month": "2025-11",
-        "amount": 24,
-        "value": 24
+        "value": 10.98
       },
       {
         "month": "2025-12",
-        "amount": 26.2,
-        "value": 26.2
+        "value": 12.29
       }
-    ],
-    "joinedDate": "2023-01-10T08:00:00.000Z"
+    ]
   },
   {
-    "id": "INV-013",
-    "name": "Zenith Corporate Fund",
-    "type": "VC",
-    "avatarColor": "#7c3aed",
-    "city": "Hyderabad",
+    "id": "inv-004",
+    "name": "Nexus Bharat Ventures",
+    "budget": 20.5,
     "preferredIndustries": [
       "Solar",
       "Water",
       "Roads"
     ],
     "riskAppetite": "Low",
-    "budget": 35,
-    "budgetRange": {
-      "min": 0.5,
-      "max": 35
-    },
-    "preferredStages": [
-      "Series B"
-    ],
-    "totalInvested": 26.3,
-    "activeDeals": 3,
-    "avgROI": 18.5,
-    "portfolio": [
-      {
-        "dealId": "deal-037",
-        "amountInvested": 3.2,
-        "investedDate": "2025-02-15T10:00:00.000Z",
-        "currentROI": 13.3,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-038",
-        "amountInvested": 3.4,
-        "investedDate": "2025-03-15T10:00:00.000Z",
-        "currentROI": 17.4,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-039",
-        "amountInvested": 0.2,
-        "investedDate": "2025-04-15T10:00:00.000Z",
-        "currentROI": 37.3,
-        "status": "Exited"
-      }
-    ],
+    "portfolioValue": 17.4,
+    "activeDeals": 6,
     "investmentGrowth": [
       {
         "month": "2024-01",
-        "amount": 2.4,
-        "value": 2.4
+        "value": 2.73
       },
       {
         "month": "2024-02",
-        "amount": 2.8,
-        "value": 2.8
+        "value": 3.05
       },
       {
         "month": "2024-03",
-        "amount": 3.3,
-        "value": 3.3
+        "value": 3.4
       },
       {
         "month": "2024-04",
-        "amount": 3.9,
-        "value": 3.9
+        "value": 3.79
       },
       {
         "month": "2024-05",
-        "amount": 4.5,
-        "value": 4.5
+        "value": 4.22
       },
       {
         "month": "2024-06",
-        "amount": 3.9,
-        "value": 3.9
+        "value": 3.59
       },
       {
         "month": "2024-07",
-        "amount": 4.8,
-        "value": 4.8
+        "value": 4.24
       },
       {
         "month": "2024-08",
-        "amount": 5.7,
-        "value": 5.7
+        "value": 4.73
       },
       {
         "month": "2024-09",
-        "amount": 6.7,
-        "value": 6.7
+        "value": 5.28
       },
       {
         "month": "2024-10",
-        "amount": 7.8,
-        "value": 7.8
+        "value": 5.88
       },
       {
         "month": "2024-11",
-        "amount": 8.9,
-        "value": 8.9
+        "value": 6.58
       },
       {
         "month": "2024-12",
-        "amount": 7.8,
-        "value": 7.8
+        "value": 7.35
       },
       {
         "month": "2025-01",
-        "amount": 9.1,
-        "value": 9.1
+        "value": 6.27
       },
       {
         "month": "2025-02",
-        "amount": 10.5,
-        "value": 10.5
+        "value": 7.41
       },
       {
         "month": "2025-03",
-        "amount": 12,
-        "value": 12
+        "value": 8.28
       },
       {
         "month": "2025-04",
-        "amount": 13.5,
-        "value": 13.5
+        "value": 9.24
       },
       {
         "month": "2025-05",
-        "amount": 15.2,
-        "value": 15.2
+        "value": 10.34
       },
       {
         "month": "2025-06",
-        "amount": 16.9,
-        "value": 16.9
+        "value": 8.71
       },
       {
         "month": "2025-07",
-        "amount": 16.1,
-        "value": 16.1
+        "value": 10.28
       },
       {
         "month": "2025-08",
-        "amount": 17.9,
-        "value": 17.9
+        "value": 11.49
       },
       {
         "month": "2025-09",
-        "amount": 19.9,
-        "value": 19.9
+        "value": 12.82
       },
       {
         "month": "2025-10",
-        "amount": 21.9,
-        "value": 21.9
+        "value": 14.34
       },
       {
         "month": "2025-11",
-        "amount": 24,
-        "value": 24
+        "value": 15.99
       },
       {
         "month": "2025-12",
-        "amount": 26.2,
-        "value": 26.2
+        "value": 17.81
       }
-    ],
-    "joinedDate": "2023-01-10T08:00:00.000Z"
+    ]
   },
   {
-    "id": "INV-014",
-    "name": "Kabir Capital",
-    "type": "Angel",
-    "avatarColor": "#0284c7",
-    "city": "Pune",
+    "id": "inv-005",
+    "name": "Vikas Malpani",
+    "budget": 24,
     "preferredIndustries": [
       "Bridges",
       "Ports",
       "Metro"
     ],
     "riskAppetite": "Medium",
-    "budget": 37.5,
-    "budgetRange": {
-      "min": 0.5,
-      "max": 37.5
-    },
-    "preferredStages": [
-      "Growth"
-    ],
-    "totalInvested": 28.1,
-    "activeDeals": 3,
-    "avgROI": 18.5,
-    "portfolio": [
-      {
-        "dealId": "deal-040",
-        "amountInvested": 0.4,
-        "investedDate": "2025-05-15T10:00:00.000Z",
-        "currentROI": 9,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-041",
-        "amountInvested": 0.8,
-        "investedDate": "2024-06-15T10:00:00.000Z",
-        "currentROI": 21.3,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-042",
-        "amountInvested": 1,
-        "investedDate": "2024-07-15T10:00:00.000Z",
-        "currentROI": 42.4,
-        "status": "Exited"
-      }
-    ],
+    "portfolioValue": 20.4,
+    "activeDeals": 7,
     "investmentGrowth": [
       {
         "month": "2024-01",
-        "amount": 2.4,
-        "value": 2.4
+        "value": 3.67
       },
       {
         "month": "2024-02",
-        "amount": 2.8,
-        "value": 2.8
+        "value": 4.1
       },
       {
         "month": "2024-03",
-        "amount": 3.3,
-        "value": 3.3
+        "value": 4.57
       },
       {
         "month": "2024-04",
-        "amount": 3.9,
-        "value": 3.9
+        "value": 5.1
       },
       {
         "month": "2024-05",
-        "amount": 4.5,
-        "value": 4.5
+        "value": 5.69
       },
       {
         "month": "2024-06",
-        "amount": 3.9,
-        "value": 3.9
+        "value": 6.33
       },
       {
         "month": "2024-07",
-        "amount": 4.8,
-        "value": 4.8
+        "value": 5.37
       },
       {
         "month": "2024-08",
-        "amount": 5.7,
-        "value": 5.7
+        "value": 6.29
       },
       {
         "month": "2024-09",
-        "amount": 6.7,
-        "value": 6.7
+        "value": 7
       },
       {
         "month": "2024-10",
-        "amount": 7.8,
-        "value": 7.8
+        "value": 7.79
       },
       {
         "month": "2024-11",
-        "amount": 8.9,
-        "value": 8.9
+        "value": 8.66
       },
       {
         "month": "2024-12",
-        "amount": 7.8,
-        "value": 7.8
+        "value": 9.64
       },
       {
         "month": "2025-01",
-        "amount": 9.1,
-        "value": 9.1
+        "value": 10.77
       },
       {
         "month": "2025-02",
-        "amount": 10.5,
-        "value": 10.5
+        "value": 9.26
       },
       {
         "month": "2025-03",
-        "amount": 12,
-        "value": 12
+        "value": 10.84
       },
       {
         "month": "2025-04",
-        "amount": 13.5,
-        "value": 13.5
+        "value": 12.02
       },
       {
         "month": "2025-05",
-        "amount": 15.2,
-        "value": 15.2
+        "value": 13.4
       },
       {
         "month": "2025-06",
-        "amount": 16.9,
-        "value": 16.9
+        "value": 14.94
       },
       {
         "month": "2025-07",
-        "amount": 16.1,
-        "value": 16.1
+        "value": 16.69
       },
       {
         "month": "2025-08",
-        "amount": 17.9,
-        "value": 17.9
+        "value": 18.55
       },
       {
         "month": "2025-09",
-        "amount": 19.9,
-        "value": 19.9
+        "value": 15.89
       },
       {
         "month": "2025-10",
-        "amount": 21.9,
-        "value": 21.9
+        "value": 18.82
       },
       {
         "month": "2025-11",
-        "amount": 24,
-        "value": 24
+        "value": 21.01
       },
       {
         "month": "2025-12",
-        "amount": 26.2,
-        "value": 26.2
+        "value": 23.43
       }
-    ],
-    "joinedDate": "2023-01-10T08:00:00.000Z"
+    ]
   },
   {
-    "id": "INV-015",
-    "name": "Vikramaditya Rao",
-    "type": "VC",
-    "avatarColor": "#d97706",
-    "city": "Noida",
+    "id": "inv-006",
+    "name": "Kaveri Family Office",
+    "budget": 27.5,
     "preferredIndustries": [
       "Smart City",
       "Airports",
       "Railway"
     ],
     "riskAppetite": "High",
-    "budget": 40,
-    "budgetRange": {
-      "min": 0.5,
-      "max": 40
-    },
-    "preferredStages": [
-      "Pre-IPO"
-    ],
-    "totalInvested": 30,
-    "activeDeals": 3,
-    "avgROI": 18.5,
-    "portfolio": [
-      {
-        "dealId": "deal-043",
-        "amountInvested": 1.4,
-        "investedDate": "2024-08-15T10:00:00.000Z",
-        "currentROI": 11.7,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-044",
-        "amountInvested": 1.5,
-        "investedDate": "2024-09-15T10:00:00.000Z",
-        "currentROI": 17.2,
-        "status": "Active"
-      },
-      {
-        "dealId": "deal-045",
-        "amountInvested": 1.8,
-        "investedDate": "2024-10-15T10:00:00.000Z",
-        "currentROI": 29.5,
-        "status": "Exited"
-      }
-    ],
+    "portfolioValue": 23.4,
+    "activeDeals": 8,
     "investmentGrowth": [
       {
         "month": "2024-01",
-        "amount": 2.4,
-        "value": 2.4
+        "value": 4.3
       },
       {
         "month": "2024-02",
-        "amount": 2.8,
-        "value": 2.8
+        "value": 3.69
       },
       {
         "month": "2024-03",
-        "amount": 3.3,
-        "value": 3.3
+        "value": 4.37
       },
       {
         "month": "2024-04",
-        "amount": 3.9,
-        "value": 3.9
+        "value": 4.86
       },
       {
         "month": "2024-05",
-        "amount": 4.5,
-        "value": 4.5
+        "value": 5.41
       },
       {
         "month": "2024-06",
-        "amount": 3.9,
-        "value": 3.9
+        "value": 6.01
       },
       {
         "month": "2024-07",
-        "amount": 4.8,
-        "value": 4.8
-      },
-      {
-        "month": "2024-08",
-        "amount": 5.7,
-        "value": 5.7
-      },
-      {
-        "month": "2024-09",
-        "amount": 6.7,
         "value": 6.7
       },
       {
+        "month": "2024-08",
+        "value": 7.47
+      },
+      {
+        "month": "2024-09",
+        "value": 6.4
+      },
+      {
         "month": "2024-10",
-        "amount": 7.8,
-        "value": 7.8
+        "value": 7.52
       },
       {
         "month": "2024-11",
-        "amount": 8.9,
-        "value": 8.9
+        "value": 8.38
       },
       {
         "month": "2024-12",
-        "amount": 7.8,
-        "value": 7.8
+        "value": 9.28
       },
       {
         "month": "2025-01",
-        "amount": 9.1,
-        "value": 9.1
+        "value": 10.29
       },
       {
         "month": "2025-02",
-        "amount": 10.5,
-        "value": 10.5
+        "value": 11.43
       },
       {
         "month": "2025-03",
-        "amount": 12,
-        "value": 12
+        "value": 12.69
       },
       {
         "month": "2025-04",
-        "amount": 13.5,
-        "value": 13.5
+        "value": 14.11
       },
       {
         "month": "2025-05",
-        "amount": 15.2,
-        "value": 15.2
+        "value": 15.76
       },
       {
         "month": "2025-06",
-        "amount": 16.9,
-        "value": 16.9
+        "value": 17.56
       },
       {
         "month": "2025-07",
-        "amount": 16.1,
-        "value": 16.1
+        "value": 19.56
       },
       {
         "month": "2025-08",
-        "amount": 17.9,
-        "value": 17.9
+        "value": 21.75
       },
       {
         "month": "2025-09",
-        "amount": 19.9,
-        "value": 19.9
+        "value": 24.2
       },
       {
         "month": "2025-10",
-        "amount": 21.9,
-        "value": 21.9
+        "value": 20.64
       },
       {
         "month": "2025-11",
-        "amount": 24,
-        "value": 24
+        "value": 24.47
       },
       {
         "month": "2025-12",
-        "amount": 26.2,
-        "value": 26.2
+        "value": 27.32
       }
+    ]
+  },
+  {
+    "id": "inv-007",
+    "name": "Peak Capital India",
+    "budget": 31,
+    "preferredIndustries": [
+      "Water",
+      "Roads",
+      "Solar"
     ],
-    "joinedDate": "2023-01-10T08:00:00.000Z"
+    "riskAppetite": "Low",
+    "portfolioValue": 26.3,
+    "activeDeals": 9,
+    "investmentGrowth": [
+      {
+        "month": "2024-01",
+        "value": 0.93
+      },
+      {
+        "month": "2024-02",
+        "value": 1.04
+      },
+      {
+        "month": "2024-03",
+        "value": 1.16
+      },
+      {
+        "month": "2024-04",
+        "value": 0.99
+      },
+      {
+        "month": "2024-05",
+        "value": 1.17
+      },
+      {
+        "month": "2024-06",
+        "value": 1.31
+      },
+      {
+        "month": "2024-07",
+        "value": 1.44
+      },
+      {
+        "month": "2024-08",
+        "value": 1.61
+      },
+      {
+        "month": "2024-09",
+        "value": 1.8
+      },
+      {
+        "month": "2024-10",
+        "value": 2.01
+      },
+      {
+        "month": "2024-11",
+        "value": 2.25
+      },
+      {
+        "month": "2024-12",
+        "value": 2.51
+      },
+      {
+        "month": "2025-01",
+        "value": 2.8
+      },
+      {
+        "month": "2025-02",
+        "value": 3.08
+      },
+      {
+        "month": "2025-03",
+        "value": 2.64
+      },
+      {
+        "month": "2025-04",
+        "value": 3.12
+      },
+      {
+        "month": "2025-05",
+        "value": 3.49
+      },
+      {
+        "month": "2025-06",
+        "value": 2.98
+      },
+      {
+        "month": "2025-07",
+        "value": 3.54
+      },
+      {
+        "month": "2025-08",
+        "value": 3.95
+      },
+      {
+        "month": "2025-09",
+        "value": 4.41
+      },
+      {
+        "month": "2025-10",
+        "value": 4.93
+      },
+      {
+        "month": "2025-11",
+        "value": 5.52
+      },
+      {
+        "month": "2025-12",
+        "value": 6.18
+      }
+    ]
+  },
+  {
+    "id": "inv-008",
+    "name": "Sunil Munjal",
+    "budget": 34.5,
+    "preferredIndustries": [
+      "Ports",
+      "Metro",
+      "Bridges"
+    ],
+    "riskAppetite": "Medium",
+    "portfolioValue": 29.3,
+    "activeDeals": 3,
+    "investmentGrowth": [
+      {
+        "month": "2024-01",
+        "value": 1.47
+      },
+      {
+        "month": "2024-02",
+        "value": 1.64
+      },
+      {
+        "month": "2024-03",
+        "value": 1.82
+      },
+      {
+        "month": "2024-04",
+        "value": 2.03
+      },
+      {
+        "month": "2024-05",
+        "value": 1.71
+      },
+      {
+        "month": "2024-06",
+        "value": 2.03
+      },
+      {
+        "month": "2024-07",
+        "value": 2.27
+      },
+      {
+        "month": "2024-08",
+        "value": 2.54
+      },
+      {
+        "month": "2024-09",
+        "value": 2.84
+      },
+      {
+        "month": "2024-10",
+        "value": 2.41
+      },
+      {
+        "month": "2024-11",
+        "value": 2.82
+      },
+      {
+        "month": "2024-12",
+        "value": 3.13
+      },
+      {
+        "month": "2025-01",
+        "value": 3.49
+      },
+      {
+        "month": "2025-02",
+        "value": 3.89
+      },
+      {
+        "month": "2025-03",
+        "value": 4.35
+      },
+      {
+        "month": "2025-04",
+        "value": 4.84
+      },
+      {
+        "month": "2025-05",
+        "value": 5.41
+      },
+      {
+        "month": "2025-06",
+        "value": 6.05
+      },
+      {
+        "month": "2025-07",
+        "value": 6.74
+      },
+      {
+        "month": "2025-08",
+        "value": 7.51
+      },
+      {
+        "month": "2025-09",
+        "value": 8.34
+      },
+      {
+        "month": "2025-10",
+        "value": 9.31
+      },
+      {
+        "month": "2025-11",
+        "value": 8
+      },
+      {
+        "month": "2025-12",
+        "value": 9.51
+      }
+    ]
+  },
+  {
+    "id": "inv-009",
+    "name": "Rohan Mehta",
+    "budget": 38,
+    "preferredIndustries": [
+      "Airports",
+      "Railway",
+      "Smart City"
+    ],
+    "riskAppetite": "High",
+    "portfolioValue": 32.3,
+    "activeDeals": 4,
+    "investmentGrowth": [
+      {
+        "month": "2024-01",
+        "value": 2.25
+      },
+      {
+        "month": "2024-02",
+        "value": 2.51
+      },
+      {
+        "month": "2024-03",
+        "value": 2.13
+      },
+      {
+        "month": "2024-04",
+        "value": 2.51
+      },
+      {
+        "month": "2024-05",
+        "value": 2.78
+      },
+      {
+        "month": "2024-06",
+        "value": 3.09
+      },
+      {
+        "month": "2024-07",
+        "value": 3.42
+      },
+      {
+        "month": "2024-08",
+        "value": 3.79
+      },
+      {
+        "month": "2024-09",
+        "value": 4.19
+      },
+      {
+        "month": "2024-10",
+        "value": 4.67
+      },
+      {
+        "month": "2024-11",
+        "value": 5.19
+      },
+      {
+        "month": "2024-12",
+        "value": 5.77
+      },
+      {
+        "month": "2025-01",
+        "value": 4.93
+      },
+      {
+        "month": "2025-02",
+        "value": 5.77
+      },
+      {
+        "month": "2025-03",
+        "value": 6.44
+      },
+      {
+        "month": "2025-04",
+        "value": 7.13
+      },
+      {
+        "month": "2025-05",
+        "value": 7.96
+      },
+      {
+        "month": "2025-06",
+        "value": 8.87
+      },
+      {
+        "month": "2025-07",
+        "value": 7.59
+      },
+      {
+        "month": "2025-08",
+        "value": 9.02
+      },
+      {
+        "month": "2025-09",
+        "value": 9.99
+      },
+      {
+        "month": "2025-10",
+        "value": 11.1
+      },
+      {
+        "month": "2025-11",
+        "value": 12.38
+      },
+      {
+        "month": "2025-12",
+        "value": 13.78
+      }
+    ]
+  },
+  {
+    "id": "inv-010",
+    "name": "Matrix India Partners",
+    "budget": 41.5,
+    "preferredIndustries": [
+      "Roads",
+      "Solar",
+      "Water"
+    ],
+    "riskAppetite": "Low",
+    "portfolioValue": 35.3,
+    "activeDeals": 5,
+    "investmentGrowth": [
+      {
+        "month": "2024-01",
+        "value": 2.88
+      },
+      {
+        "month": "2024-02",
+        "value": 3.2
+      },
+      {
+        "month": "2024-03",
+        "value": 3.55
+      },
+      {
+        "month": "2024-04",
+        "value": 3.96
+      },
+      {
+        "month": "2024-05",
+        "value": 4.42
+      },
+      {
+        "month": "2024-06",
+        "value": 3.73
+      },
+      {
+        "month": "2024-07",
+        "value": 4.4
+      },
+      {
+        "month": "2024-08",
+        "value": 4.91
+      },
+      {
+        "month": "2024-09",
+        "value": 5.48
+      },
+      {
+        "month": "2024-10",
+        "value": 6.12
+      },
+      {
+        "month": "2024-11",
+        "value": 5.26
+      },
+      {
+        "month": "2024-12",
+        "value": 6.22
+      },
+      {
+        "month": "2025-01",
+        "value": 6.94
+      },
+      {
+        "month": "2025-02",
+        "value": 7.7
+      },
+      {
+        "month": "2025-03",
+        "value": 8.61
+      },
+      {
+        "month": "2025-04",
+        "value": 9.62
+      },
+      {
+        "month": "2025-05",
+        "value": 10.69
+      },
+      {
+        "month": "2025-06",
+        "value": 11.87
+      },
+      {
+        "month": "2025-07",
+        "value": 13.2
+      },
+      {
+        "month": "2025-08",
+        "value": 11.31
+      },
+      {
+        "month": "2025-09",
+        "value": 13.43
+      },
+      {
+        "month": "2025-10",
+        "value": 14.92
+      },
+      {
+        "month": "2025-11",
+        "value": 16.57
+      },
+      {
+        "month": "2025-12",
+        "value": 18.53
+      }
+    ]
+  },
+  {
+    "id": "inv-011",
+    "name": "Pooja Agarwal",
+    "budget": 45,
+    "preferredIndustries": [
+      "Metro",
+      "Bridges",
+      "Ports"
+    ],
+    "riskAppetite": "Medium",
+    "portfolioValue": 38.3,
+    "activeDeals": 6,
+    "investmentGrowth": [
+      {
+        "month": "2024-01",
+        "value": 3.86
+      },
+      {
+        "month": "2024-02",
+        "value": 4.32
+      },
+      {
+        "month": "2024-03",
+        "value": 4.81
+      },
+      {
+        "month": "2024-04",
+        "value": 5.37
+      },
+      {
+        "month": "2024-05",
+        "value": 6.01
+      },
+      {
+        "month": "2024-06",
+        "value": 6.73
+      },
+      {
+        "month": "2024-07",
+        "value": 5.67
+      },
+      {
+        "month": "2024-08",
+        "value": 6.71
+      },
+      {
+        "month": "2024-09",
+        "value": 7.48
+      },
+      {
+        "month": "2024-10",
+        "value": 8.31
+      },
+      {
+        "month": "2024-11",
+        "value": 9.25
+      },
+      {
+        "month": "2024-12",
+        "value": 10.29
+      },
+      {
+        "month": "2025-01",
+        "value": 11.48
+      },
+      {
+        "month": "2025-02",
+        "value": 9.74
+      },
+      {
+        "month": "2025-03",
+        "value": 11.49
+      },
+      {
+        "month": "2025-04",
+        "value": 12.77
+      },
+      {
+        "month": "2025-05",
+        "value": 10.93
+      },
+      {
+        "month": "2025-06",
+        "value": 12.92
+      },
+      {
+        "month": "2025-07",
+        "value": 14.38
+      },
+      {
+        "month": "2025-08",
+        "value": 16.08
+      },
+      {
+        "month": "2025-09",
+        "value": 17.97
+      },
+      {
+        "month": "2025-10",
+        "value": 20.06
+      },
+      {
+        "month": "2025-11",
+        "value": 22.36
+      },
+      {
+        "month": "2025-12",
+        "value": 24.84
+      }
+    ]
+  },
+  {
+    "id": "inv-012",
+    "name": "Arjun Deshmukh",
+    "budget": 48.5,
+    "preferredIndustries": [
+      "Railway",
+      "Smart City",
+      "Airports"
+    ],
+    "riskAppetite": "High",
+    "portfolioValue": 41.2,
+    "activeDeals": 7,
+    "investmentGrowth": [
+      {
+        "month": "2024-01",
+        "value": 4.67
+      },
+      {
+        "month": "2024-02",
+        "value": 3.99
+      },
+      {
+        "month": "2024-03",
+        "value": 4.71
+      },
+      {
+        "month": "2024-04",
+        "value": 5.25
+      },
+      {
+        "month": "2024-05",
+        "value": 5.86
+      },
+      {
+        "month": "2024-06",
+        "value": 6.51
+      },
+      {
+        "month": "2024-07",
+        "value": 7.23
+      },
+      {
+        "month": "2024-08",
+        "value": 8.04
+      },
+      {
+        "month": "2024-09",
+        "value": 8.96
+      },
+      {
+        "month": "2024-10",
+        "value": 10.01
+      },
+      {
+        "month": "2024-11",
+        "value": 11.15
+      },
+      {
+        "month": "2024-12",
+        "value": 9.56
+      },
+      {
+        "month": "2025-01",
+        "value": 11.36
+      },
+      {
+        "month": "2025-02",
+        "value": 12.65
+      },
+      {
+        "month": "2025-03",
+        "value": 14.02
+      },
+      {
+        "month": "2025-04",
+        "value": 15.55
+      },
+      {
+        "month": "2025-05",
+        "value": 17.32
+      },
+      {
+        "month": "2025-06",
+        "value": 19.22
+      },
+      {
+        "month": "2025-07",
+        "value": 21.38
+      },
+      {
+        "month": "2025-08",
+        "value": 23.78
+      },
+      {
+        "month": "2025-09",
+        "value": 20.4
+      },
+      {
+        "month": "2025-10",
+        "value": 24.26
+      },
+      {
+        "month": "2025-11",
+        "value": 26.89
+      },
+      {
+        "month": "2025-12",
+        "value": 29.94
+      }
+    ]
+  },
+  {
+    "id": "inv-013",
+    "name": "Zenith Corporate Fund",
+    "budget": 52,
+    "preferredIndustries": [
+      "Solar",
+      "Water",
+      "Roads"
+    ],
+    "riskAppetite": "Low",
+    "portfolioValue": 44.2,
+    "activeDeals": 8,
+    "investmentGrowth": [
+      {
+        "month": "2024-01",
+        "value": 1.05
+      },
+      {
+        "month": "2024-02",
+        "value": 1.17
+      },
+      {
+        "month": "2024-03",
+        "value": 1.31
+      },
+      {
+        "month": "2024-04",
+        "value": 1.11
+      },
+      {
+        "month": "2024-05",
+        "value": 1.3
+      },
+      {
+        "month": "2024-06",
+        "value": 1.45
+      },
+      {
+        "month": "2024-07",
+        "value": 1.62
+      },
+      {
+        "month": "2024-08",
+        "value": 1.81
+      },
+      {
+        "month": "2024-09",
+        "value": 1.53
+      },
+      {
+        "month": "2024-10",
+        "value": 1.81
+      },
+      {
+        "month": "2024-11",
+        "value": 2.02
+      },
+      {
+        "month": "2024-12",
+        "value": 2.25
+      },
+      {
+        "month": "2025-01",
+        "value": 2.51
+      },
+      {
+        "month": "2025-02",
+        "value": 2.81
+      },
+      {
+        "month": "2025-03",
+        "value": 3.09
+      },
+      {
+        "month": "2025-04",
+        "value": 3.46
+      },
+      {
+        "month": "2025-05",
+        "value": 3.86
+      },
+      {
+        "month": "2025-06",
+        "value": 4.32
+      },
+      {
+        "month": "2025-07",
+        "value": 4.83
+      },
+      {
+        "month": "2025-08",
+        "value": 5.4
+      },
+      {
+        "month": "2025-09",
+        "value": 6.04
+      },
+      {
+        "month": "2025-10",
+        "value": 5.17
+      },
+      {
+        "month": "2025-11",
+        "value": 6.09
+      },
+      {
+        "month": "2025-12",
+        "value": 6.81
+      }
+    ]
+  },
+  {
+    "id": "inv-014",
+    "name": "Kabir Capital",
+    "budget": 55.5,
+    "preferredIndustries": [
+      "Bridges",
+      "Ports",
+      "Metro"
+    ],
+    "riskAppetite": "Medium",
+    "portfolioValue": 47.2,
+    "activeDeals": 9,
+    "investmentGrowth": [
+      {
+        "month": "2024-01",
+        "value": 2.43
+      },
+      {
+        "month": "2024-02",
+        "value": 2.71
+      },
+      {
+        "month": "2024-03",
+        "value": 3.03
+      },
+      {
+        "month": "2024-04",
+        "value": 3.38
+      },
+      {
+        "month": "2024-05",
+        "value": 2.84
+      },
+      {
+        "month": "2024-06",
+        "value": 3.37
+      },
+      {
+        "month": "2024-07",
+        "value": 3.76
+      },
+      {
+        "month": "2024-08",
+        "value": 4.18
+      },
+      {
+        "month": "2024-09",
+        "value": 4.67
+      },
+      {
+        "month": "2024-10",
+        "value": 5.21
+      },
+      {
+        "month": "2024-11",
+        "value": 5.79
+      },
+      {
+        "month": "2024-12",
+        "value": 6.47
+      },
+      {
+        "month": "2025-01",
+        "value": 7.19
+      },
+      {
+        "month": "2025-02",
+        "value": 6.17
+      },
+      {
+        "month": "2025-03",
+        "value": 7.24
+      },
+      {
+        "month": "2025-04",
+        "value": 8.09
+      },
+      {
+        "month": "2025-05",
+        "value": 8.98
+      },
+      {
+        "month": "2025-06",
+        "value": 7.71
+      },
+      {
+        "month": "2025-07",
+        "value": 9.16
+      },
+      {
+        "month": "2025-08",
+        "value": 10.16
+      },
+      {
+        "month": "2025-09",
+        "value": 11.35
+      },
+      {
+        "month": "2025-10",
+        "value": 12.68
+      },
+      {
+        "month": "2025-11",
+        "value": 14.15
+      },
+      {
+        "month": "2025-12",
+        "value": 15.76
+      }
+    ]
+  },
+  {
+    "id": "inv-015",
+    "name": "Vikramaditya Rao",
+    "budget": 59,
+    "preferredIndustries": [
+      "Smart City",
+      "Airports",
+      "Railway"
+    ],
+    "riskAppetite": "High",
+    "portfolioValue": 50.1,
+    "activeDeals": 3,
+    "investmentGrowth": [
+      {
+        "month": "2024-01",
+        "value": 3.35
+      },
+      {
+        "month": "2024-02",
+        "value": 3.74
+      },
+      {
+        "month": "2024-03",
+        "value": 3.15
+      },
+      {
+        "month": "2024-04",
+        "value": 3.74
+      },
+      {
+        "month": "2024-05",
+        "value": 4.18
+      },
+      {
+        "month": "2024-06",
+        "value": 4.65
+      },
+      {
+        "month": "2024-07",
+        "value": 5.19
+      },
+      {
+        "month": "2024-08",
+        "value": 5.76
+      },
+      {
+        "month": "2024-09",
+        "value": 6.4
+      },
+      {
+        "month": "2024-10",
+        "value": 7.15
+      },
+      {
+        "month": "2024-11",
+        "value": 7.95
+      },
+      {
+        "month": "2024-12",
+        "value": 8.88
+      },
+      {
+        "month": "2025-01",
+        "value": 9.88
+      },
+      {
+        "month": "2025-02",
+        "value": 10.99
+      },
+      {
+        "month": "2025-03",
+        "value": 9.43
+      },
+      {
+        "month": "2025-04",
+        "value": 11.21
+      },
+      {
+        "month": "2025-05",
+        "value": 12.43
+      },
+      {
+        "month": "2025-06",
+        "value": 13.8
+      },
+      {
+        "month": "2025-07",
+        "value": 15.44
+      },
+      {
+        "month": "2025-08",
+        "value": 17.26
+      },
+      {
+        "month": "2025-09",
+        "value": 19.17
+      },
+      {
+        "month": "2025-10",
+        "value": 21.38
+      },
+      {
+        "month": "2025-11",
+        "value": 18.24
+      },
+      {
+        "month": "2025-12",
+        "value": 21.45
+      }
+    ]
   }
 ]

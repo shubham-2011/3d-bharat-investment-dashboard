@@ -1,80 +1,91 @@
 {
-  "totalFundingRaised": 1132.8,
-  "investorCount": 461,
-  "avgConversionRate": 53.7,
-  "conversionRate": 53.7,
+  "totalFundingRaised": 2341,
+  "investorCount": 1250,
+  "avgConversionRate": 8.9,
   "monthlyTrends": [
     {
       "month": "2025-01",
-      "fundingRaised": 35,
-      "investorInquiries": 45,
-      "dealsConverted": 3
+      "fundingRaised": 45,
+      "investorInquiries": 84,
+      "dealsConverted": 8,
+      "conversionRate": 9.5
     },
     {
       "month": "2025-02",
-      "fundingRaised": 43.5,
-      "investorInquiries": 53,
-      "dealsConverted": 5
+      "fundingRaised": 47,
+      "investorInquiries": 108,
+      "dealsConverted": 9,
+      "conversionRate": 8.3
     },
     {
       "month": "2025-03",
-      "fundingRaised": 52,
-      "investorInquiries": 61,
-      "dealsConverted": 7
+      "fundingRaised": 49.1,
+      "investorInquiries": 115,
+      "dealsConverted": 10,
+      "conversionRate": 8.7
     },
     {
       "month": "2025-04",
-      "fundingRaised": 60.5,
-      "investorInquiries": 69,
-      "dealsConverted": 3
+      "fundingRaised": 51.4,
+      "investorInquiries": 121,
+      "dealsConverted": 11,
+      "conversionRate": 9.1
     },
     {
       "month": "2025-05",
-      "fundingRaised": 69,
-      "investorInquiries": 77,
-      "dealsConverted": 5
+      "fundingRaised": 53.7,
+      "investorInquiries": 126,
+      "dealsConverted": 12,
+      "conversionRate": 9.5
     },
     {
       "month": "2025-06",
-      "fundingRaised": 77.5,
-      "investorInquiries": 85,
-      "dealsConverted": 7
+      "fundingRaised": 56.1,
+      "investorInquiries": 156,
+      "dealsConverted": 13,
+      "conversionRate": 8.3
     },
     {
       "month": "2025-07",
-      "fundingRaised": 86,
-      "investorInquiries": 93,
-      "dealsConverted": 3
+      "fundingRaised": 58.6,
+      "investorInquiries": 92,
+      "dealsConverted": 8,
+      "conversionRate": 8.7
     },
     {
       "month": "2025-08",
-      "fundingRaised": 94.5,
-      "investorInquiries": 101,
-      "dealsConverted": 5
+      "fundingRaised": 61.2,
+      "investorInquiries": 99,
+      "dealsConverted": 9,
+      "conversionRate": 9.1
     },
     {
       "month": "2025-09",
-      "fundingRaised": 103,
-      "investorInquiries": 109,
-      "dealsConverted": 7
+      "fundingRaised": 64,
+      "investorInquiries": 105,
+      "dealsConverted": 10,
+      "conversionRate": 9.5
     },
     {
       "month": "2025-10",
-      "fundingRaised": 111.5,
-      "investorInquiries": 117,
-      "dealsConverted": 3
+      "fundingRaised": 93.6,
+      "investorInquiries": 132,
+      "dealsConverted": 11,
+      "conversionRate": 8.3
     },
     {
       "month": "2025-11",
-      "fundingRaised": 120,
-      "investorInquiries": 125,
-      "dealsConverted": 5
+      "fundingRaised": 97.8,
+      "investorInquiries": 138,
+      "dealsConverted": 12,
+      "conversionRate": 8.7
     },
     {
       "month": "2025-12",
-      "fundingRaised": 128.5,
-      "investorInquiries": 133,
-      "dealsConverted": 7
+      "fundingRaised": 102.2,
+      "investorInquiries": 143,
+      "dealsConverted": 13,
+      "conversionRate": 9.1
     }
   ]
 }
